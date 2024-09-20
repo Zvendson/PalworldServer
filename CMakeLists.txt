@@ -117,8 +117,13 @@ target_link_libraries(PalServerAPI PUBLIC
 # Set linker options
 target_link_options(PalServerAPI PUBLIC
     "/SUBSYSTEM:WINDOWS"
-    /W3
     /SAFESEH:NO
+)
+
+
+# Set compiler options
+target_compile_options(PalServerAPI PUBLIC  
+    /W3
 )
 
 
