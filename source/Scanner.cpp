@@ -5,6 +5,44 @@
 
 
 
+namespace
+{
+    size_t ToPattern(const char* combo, uint8_t* out_bytes, char* out_mask)
+    {
+        char lastChar = ' ';
+        uint32_t bytesLength = 0;
+
+        for (unsigned int i = 0; i < strlen(combo); i++)
+        {
+            if ((combo[i] == '?' || combo[i] == '*' || combo[i] == '_') &&
+                (lastChar != '?' && lastChar != '*' && lastChar != '_'))
+            {
+                out_bytes[bytesLength] = '\0';
+                out_mask[bytesLength] = '?';
+                bytesLength++;
+            }
+
+            else if (isspace(lastChar))
+            {
+                char repr = static_cast<uint8_t>(strtol(&combo[i], 0, 16));
+
+                out_bytes[bytesLength] = repr;
+                out_mask[bytesLength] = 'x';
+
+                bytesLength++;
+            }
+
+            lastChar = combo[i];
+        }
+
+        out_bytes[bytesLength] = '\0';
+        out_mask[bytesLength]  = '\0';
+
+        return bytesLength;
+    }
+}
+
+
 namespace PalServer
 {
 
@@ -65,6 +103,17 @@ namespace PalServer
 
             section_header++;
         }
+    }
+
+
+
+    uint8_t* Scanner::IFind(const char* combo, uint8_t* start, uint8_t* end)
+    {
+        uint8_t pattern[256];
+        char    mask[256];
+        ToPattern(combo, pattern, mask);
+
+        return IFind(pattern, mask, start, end);
     }
 
 

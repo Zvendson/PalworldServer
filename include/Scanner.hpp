@@ -27,81 +27,6 @@ namespace PalServer
     };
 
 
-    /* 
-    Converts a Combo Pattern to a byte array and mask in compile time.
-    Wildcards need to be single chars of either '?', '_' or '*'.
-    */
-    template<size_t N>
-    class Pattern 
-    {
-    public:
-
-        constexpr Pattern(const char (&arr)[N]) 
-        {
-            char combo[N];
-            size_t n = 0;
-
-            // cut off spaces
-            for (size_t i = 0; i < N; i++)
-            {
-                if (arr[i] == '\0')
-                    break;
-
-                if (arr[i] == ' ')
-                    continue;
-
-                combo[n++] = arr[i];
-            }
-            combo[n] = '\0';
-
-            // construct byte array and mask
-            for (size_t i = 0; i < n; i++) 
-            {
-                if (combo[i] == '?' || combo[i] == '*' || combo[i] == '_') 
-                {
-                    m_Bytes[m_Size]  = 0;
-                    m_Mask[m_Size++] = '?';
-                    continue;
-                } 
-
-                m_Bytes[m_Size]  = (hex_char_to_int(combo[i]) << 4) | hex_char_to_int(combo[++i]);
-                m_Mask[m_Size++] = 'x';
-            }
-
-            m_Bytes[m_Size] = 0;
-            m_Mask[m_Size] = '\0';
-        }
-
-        /* Returns the byte array of the pattern. */
-        inline constexpr const uint8_t* Bytes() const { return m_Bytes; }
-
-        /* Returns the mask of the pattern. */
-        inline constexpr const char* Mask() const { return m_Mask; }
-
-        /* Returns the length/size of the pattern. */
-        inline constexpr size_t Size() const { return m_Size; }
-
-    private:
-        uint8_t m_Bytes[N] = {};
-        char    m_Mask[N]  = {};
-        size_t  m_Size     = 0;
-
-        static constexpr uint8_t hex_char_to_int(const char hex) 
-        {
-            if (hex >= '0' && hex <= '9')
-                return hex - '0';
-
-            if (hex >= 'a' && hex <= 'f')
-                return hex - 'a' + 10;
-
-            if (hex >= 'A' && hex <= 'F')
-                return hex - 'A' + 10;
-
-            return 0;
-        }
-    };
-
-
     class Scanner
     {
     public:
@@ -117,41 +42,60 @@ namespace PalServer
         */
         uint8_t* DereferencePointer(uint8_t* address);
 
+        /*
+        !!Spaces are required that the combo-pattern will work!!
+
+        Find a specicifc combo-pattern in the desired module's section. Combo-pattern allow spaces and wildcards.
+        Examples: 
+          1. "55 48 89 E5 48 C7 05 ? ? ? ? 69 00 00 00 48 89 EC C3"
+          2. "55 48 89 E5 48 C7 05 * * * * 69 00 00 00 48 89 EC C3"
+          3. "55 48 89 E5 48 C7 05 _ _ _ _ 69 00 00 00 48 89 EC C3"
+          4. "55 48 89 E5 48 C7 05 ?? ?? ?? ?? 69 00 00 00 48 89 EC C3"
+          5. "55 48 89 E5 48 C7 05 ** ** ** ** 69 00 00 00 48 89 EC C3"
+          6. "55 48 89 E5 48 C7 05 __ __ __ __ 69 00 00 00 48 89 EC C3"
+          7. "55 48 89 E5 48 C7 05 ?? ** __ ?* 69 00 00 00 48 89 EC C3"  // Not recommended but technical possible.
+        */
+        template<class T>
+        T Find(const char* combo, ScanSection section, ScanCallback scan_cb)
+        {
+            uint8_t* address = IFind(combo, m_Sections[section].Start, m_Sections[section].End);
+            return (T)(scan_cb ? scan_cb(address) : address);
+        }
+
         /* 
         Find a specific pattern between a start and end address. If start address is bigger than its end address, 
         it will scan backwards.
         */
-        template<class T, size_t N>
-        T Find(const Pattern<N>& combo, uint8_t* start, uint8_t* end, ScanCallback scan_cb)
+        template<class T>
+        T Find(const char* combo, uint8_t* start, uint8_t* end, ScanCallback scan_cb)
         {
-            uint8_t* address = IFind(
-                combo.Bytes(), 
-                combo.Mask(), 
-                start, 
-                end
-            );
-
+            uint8_t* address = IFind(combo, start, end);
             return (T)(scan_cb ? scan_cb(address) : address);
         }
 
         /*
-        Find a specicifc pattern in the desired module section.
+        Find a specicifc pattern in the desired module's section.
         */
-        template<class T, size_t N>
-        T Find(const Pattern<N>& combo, ScanSection section, ScanCallback scan_cb)
+        template<class T>
+        T Find(const uint8_t* pattern, const char* mask, ScanSection section, ScanCallback scan_cb)
         {
-            uint8_t* address = IFind(
-                combo.Bytes(), 
-                combo.Mask(), 
-                m_Sections[section].Start, 
-                m_Sections[section].End
-            );
-
+            uint8_t* address = IFind(pattern, mask, m_Sections[section].Start, m_Sections[section].End);
             return (T)(scan_cb ? scan_cb(address) : address);
         }
 
+        /* 
+        Find a specific pattern between a start and end address. If start address is bigger than its end address, 
+        it will scan backwards.
+        */
+        template<class T>
+        T Find(const uint8_t* pattern, const char* mask, uint8_t* start, uint8_t* end, ScanCallback scan_cb)
+        {
+            uint8_t* address = IFind(pattern, mask, start, end);
+            return (T)(scan_cb ? scan_cb(address) : address);
+        }
 
     protected: /* (I)nternal functions */
+        uint8_t* IFind(const char* combo, uint8_t* start, uint8_t* end);
         uint8_t* IFind(const uint8_t* pattern, const char* mask, uint8_t* start, uint8_t* end);
 
 
