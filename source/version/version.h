@@ -12,7 +12,7 @@
 
 
 HINSTANCE m_hinst_dll = nullptr;
-extern "C" UINT_PTR mProcs[17]{ 0 };
+extern "C" UINT_PTR mProcs[17] { 0 };
 
 
 
@@ -47,6 +47,8 @@ void setupWrappers()
     sprintf_s(buffer, "%s\\version.dll", sys_dir);
 
     m_hinst_dll = LoadLibraryA(buffer);
+    if (!m_hinst_dll)
+        return;
 
     for (int i = 0; i < 17; i++) 
     {
