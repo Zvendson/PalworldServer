@@ -1,0 +1,170 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_ActionReturnOtomoPal_classes.hpp"
+#include "PalServer/BP_ActionReturnOtomoPal_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_ActionReturnOtomoPal.BP_ActionReturnOtomoPal_C.AttachBallModel
+// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+
+void UBP_ActionReturnOtomoPal_C::AttachBallModel()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionReturnOtomoPal_C", "AttachBallModel");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_ActionReturnOtomoPal.BP_ActionReturnOtomoPal_C.CompleteDeactivateOtomo
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void UBP_ActionReturnOtomoPal_C::CompleteDeactivateOtomo()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionReturnOtomoPal_C", "CompleteDeactivateOtomo");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_ActionReturnOtomoPal.BP_ActionReturnOtomoPal_C.DeactivateOtomo
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void UBP_ActionReturnOtomoPal_C::DeactivateOtomo()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionReturnOtomoPal_C", "DeactivateOtomo");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_ActionReturnOtomoPal.BP_ActionReturnOtomoPal_C.DeleteBallModel
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void UBP_ActionReturnOtomoPal_C::DeleteBallModel()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionReturnOtomoPal_C", "DeleteBallModel");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_ActionReturnOtomoPal.BP_ActionReturnOtomoPal_C.ExecuteUbergraph_BP_ActionReturnOtomoPal
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_ActionReturnOtomoPal_C::ExecuteUbergraph_BP_ActionReturnOtomoPal(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionReturnOtomoPal_C", "ExecuteUbergraph_BP_ActionReturnOtomoPal");
+
+	Params::BP_ActionReturnOtomoPal_C_ExecuteUbergraph_BP_ActionReturnOtomoPal Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_ActionReturnOtomoPal.BP_ActionReturnOtomoPal_C.OnBeginAction
+// (Event, Public, BlueprintEvent)
+
+void UBP_ActionReturnOtomoPal_C::OnBeginAction()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionReturnOtomoPal_C", "OnBeginAction");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_ActionReturnOtomoPal.BP_ActionReturnOtomoPal_C.OnEndAction
+// (Event, Public, BlueprintEvent)
+
+void UBP_ActionReturnOtomoPal_C::OnEndAction()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionReturnOtomoPal_C", "OnEndAction");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_ActionReturnOtomoPal.BP_ActionReturnOtomoPal_C.SetFlags
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// bool                                    Disable                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// double                                  Speed                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_ActionReturnOtomoPal_C::SetFlags(bool Disable, double Speed)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionReturnOtomoPal_C", "SetFlags");
+
+	Params::BP_ActionReturnOtomoPal_C_SetFlags Parms{};
+
+	Parms.Disable = Disable;
+	Parms.Speed = Speed;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_ActionReturnOtomoPal.BP_ActionReturnOtomoPal_C.SetupToOtomoDirection
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void UBP_ActionReturnOtomoPal_C::SetupToOtomoDirection()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionReturnOtomoPal_C", "SetupToOtomoDirection");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_ActionReturnOtomoPal.BP_ActionReturnOtomoPal_C.TickAction
+// (Event, Public, BlueprintEvent)
+// Parameters:
+// float                                   DeltaTime                                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_ActionReturnOtomoPal_C::TickAction(float DeltaTime)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionReturnOtomoPal_C", "TickAction");
+
+	Params::BP_ActionReturnOtomoPal_C_TickAction Parms{};
+
+	Parms.DeltaTime = DeltaTime;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+}
+

@@ -1,0 +1,98 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_ActionReturnToBaseCamp_classes.hpp"
+#include "PalServer/BP_ActionReturnToBaseCamp_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_ActionReturnToBaseCamp.BP_ActionReturnToBaseCamp_C.ExecuteUbergraph_BP_ActionReturnToBaseCamp
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_ActionReturnToBaseCamp_C::ExecuteUbergraph_BP_ActionReturnToBaseCamp(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionReturnToBaseCamp_C", "ExecuteUbergraph_BP_ActionReturnToBaseCamp");
+
+	Params::BP_ActionReturnToBaseCamp_C_ExecuteUbergraph_BP_ActionReturnToBaseCamp Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_ActionReturnToBaseCamp.BP_ActionReturnToBaseCamp_C.OnBeginAction
+// (Event, Public, BlueprintEvent)
+
+void UBP_ActionReturnToBaseCamp_C::OnBeginAction()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionReturnToBaseCamp_C", "OnBeginAction");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_ActionReturnToBaseCamp.BP_ActionReturnToBaseCamp_C.OnEndAction
+// (Event, Public, BlueprintEvent)
+
+void UBP_ActionReturnToBaseCamp_C::OnEndAction()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionReturnToBaseCamp_C", "OnEndAction");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_ActionReturnToBaseCamp.BP_ActionReturnToBaseCamp_C.OnNotifyBegin
+// (BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class FName                             NotifyName                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_ActionReturnToBaseCamp_C::OnNotifyBegin(class FName NotifyName)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionReturnToBaseCamp_C", "OnNotifyBegin");
+
+	Params::BP_ActionReturnToBaseCamp_C_OnNotifyBegin Parms{};
+
+	Parms.NotifyName = NotifyName;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_ActionReturnToBaseCamp.BP_ActionReturnToBaseCamp_C.TickAction
+// (Event, Public, BlueprintEvent)
+// Parameters:
+// float                                   DeltaTime                                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_ActionReturnToBaseCamp_C::TickAction(float DeltaTime)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionReturnToBaseCamp_C", "TickAction");
+
+	Params::BP_ActionReturnToBaseCamp_C_TickAction Parms{};
+
+	Parms.DeltaTime = DeltaTime;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+}
+

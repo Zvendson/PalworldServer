@@ -1,0 +1,22 @@
+#pragma once
+
+#include "Basic.hpp"
+
+
+namespace PalServer
+{
+
+// UserDefinedEnum EWarningPalAIMoveType.EWarningPalAIMoveType
+// NumValues: 0x0006
+enum class EWarningPalAIMoveType : uint8
+{
+	NewEnumerator0                           = 0,
+	NewEnumerator1                           = 1,
+	NewEnumerator2                           = 2,
+	NewEnumerator3                           = 3,
+	NewEnumerator4                           = 4,
+	EWarningPalAIMoveType_MAX                = 5,
+};
+
+}
+

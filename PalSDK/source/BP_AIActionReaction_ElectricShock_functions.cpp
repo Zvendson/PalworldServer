@@ -1,0 +1,50 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_AIActionReaction_ElectricShock_classes.hpp"
+#include "PalServer/BP_AIActionReaction_ElectricShock_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_AIActionReaction_ElectricShock.BP_AIActionReaction_ElectricShock_C.ActionStart
+// (Event, Public, BlueprintEvent)
+// Parameters:
+// class APawn*                            ControlledPawn                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+
+void UBP_AIActionReaction_ElectricShock_C::ActionStart(class APawn* ControlledPawn)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_AIActionReaction_ElectricShock_C", "ActionStart");
+
+	Params::BP_AIActionReaction_ElectricShock_C_ActionStart Parms{};
+
+	Parms.ControlledPawn = ControlledPawn;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_AIActionReaction_ElectricShock.BP_AIActionReaction_ElectricShock_C.ExecuteUbergraph_BP_AIActionReaction_ElectricShock
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_AIActionReaction_ElectricShock_C::ExecuteUbergraph_BP_AIActionReaction_ElectricShock(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_AIActionReaction_ElectricShock_C", "ExecuteUbergraph_BP_AIActionReaction_ElectricShock");
+
+	Params::BP_AIActionReaction_ElectricShock_C_ExecuteUbergraph_BP_AIActionReaction_ElectricShock Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+}
+

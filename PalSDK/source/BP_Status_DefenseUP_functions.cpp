@@ -1,0 +1,78 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_Status_DefenseUP_classes.hpp"
+#include "PalServer/BP_Status_DefenseUP_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_Status_DefenseUP.BP_Status_DefenseUP_C.ExecuteUbergraph_BP_Status_DefenseUP
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_Status_DefenseUP_C::ExecuteUbergraph_BP_Status_DefenseUP(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Status_DefenseUP_C", "ExecuteUbergraph_BP_Status_DefenseUP");
+
+	Params::BP_Status_DefenseUP_C_ExecuteUbergraph_BP_Status_DefenseUP Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_Status_DefenseUP.BP_Status_DefenseUP_C.OnBeginStatus
+// (Event, Public, BlueprintEvent)
+
+void UBP_Status_DefenseUP_C::OnBeginStatus()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Status_DefenseUP_C", "OnBeginStatus");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_Status_DefenseUP.BP_Status_DefenseUP_C.OnEndStatus
+// (Event, Public, BlueprintEvent)
+
+void UBP_Status_DefenseUP_C::OnEndStatus()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Status_DefenseUP_C", "OnEndStatus");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_Status_DefenseUP.BP_Status_DefenseUP_C.OnLoaded_A2F777004366F513ABBD72ACA012C04D
+// (BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class UObject*                          Loaded                                                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+
+void UBP_Status_DefenseUP_C::OnLoaded_A2F777004366F513ABBD72ACA012C04D(class UObject* Loaded)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Status_DefenseUP_C", "OnLoaded_A2F777004366F513ABBD72ACA012C04D");
+
+	Params::BP_Status_DefenseUP_C_OnLoaded_A2F777004366F513ABBD72ACA012C04D Parms{};
+
+	Parms.Loaded = Loaded;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+}
+

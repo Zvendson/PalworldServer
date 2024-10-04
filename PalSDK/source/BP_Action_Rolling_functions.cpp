@@ -1,0 +1,72 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_Action_Rolling_classes.hpp"
+#include "PalServer/BP_Action_Rolling_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_Action_Rolling.BP_Action_Rolling_C.ExecuteUbergraph_BP_Action_Rolling
+// (Final, UbergraphFunction, HasDefaults)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_Action_Rolling_C::ExecuteUbergraph_BP_Action_Rolling(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Action_Rolling_C", "ExecuteUbergraph_BP_Action_Rolling");
+
+	Params::BP_Action_Rolling_C_ExecuteUbergraph_BP_Action_Rolling Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_Action_Rolling.BP_Action_Rolling_C.OnBreakAction
+// (Event, Public, BlueprintEvent)
+
+void UBP_Action_Rolling_C::OnBreakAction()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Action_Rolling_C", "OnBreakAction");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_Action_Rolling.BP_Action_Rolling_C.EndStep
+// (BlueprintCallable, BlueprintEvent)
+
+void UBP_Action_Rolling_C::EndStep()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Action_Rolling_C", "EndStep");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_Action_Rolling.BP_Action_Rolling_C.OnBeginAction
+// (Event, Public, BlueprintEvent)
+
+void UBP_Action_Rolling_C::OnBeginAction()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Action_Rolling_C", "OnBeginAction");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+}
+

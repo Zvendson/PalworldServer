@@ -1,0 +1,72 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_PalBossBattleManager_classes.hpp"
+#include "PalServer/BP_PalBossBattleManager_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_PalBossBattleManager.BP_PalBossBattleManager_C.DisableSky
+// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// bool                                    Activce                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// class APPSkyCreator*                    Sky                                                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+
+void UBP_PalBossBattleManager_C::DisableSky(bool Activce, class APPSkyCreator* Sky)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PalBossBattleManager_C", "DisableSky");
+
+	Params::BP_PalBossBattleManager_C_DisableSky Parms{};
+
+	Parms.Activce = Activce;
+	Parms.Sky = Sky;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_PalBossBattleManager.BP_PalBossBattleManager_C.DisableSkyCreator
+// (Event, Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// bool                                    Disable                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_PalBossBattleManager_C::DisableSkyCreator(bool Disable)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PalBossBattleManager_C", "DisableSkyCreator");
+
+	Params::BP_PalBossBattleManager_C_DisableSkyCreator Parms{};
+
+	Parms.Disable = Disable;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_PalBossBattleManager.BP_PalBossBattleManager_C.ExecuteUbergraph_BP_PalBossBattleManager
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_PalBossBattleManager_C::ExecuteUbergraph_BP_PalBossBattleManager(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PalBossBattleManager_C", "ExecuteUbergraph_BP_PalBossBattleManager");
+
+	Params::BP_PalBossBattleManager_C_ExecuteUbergraph_BP_PalBossBattleManager Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+}
+

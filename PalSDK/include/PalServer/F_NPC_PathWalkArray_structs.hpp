@@ -1,0 +1,23 @@
+#pragma once
+
+#include "Basic.hpp"
+
+#include "F_NPC_PathWalkPoint_structs.hpp"
+
+
+namespace PalServer
+{
+
+// UserDefinedStruct F_NPC_PathWalkArray.F_NPC_PathWalkArray
+// 0x0010 (0x0010 - 0x0000)
+struct FF_NPC_PathWalkArray final
+{
+public:
+	TArray<struct FF_NPC_PathWalkPoint>           PathArray_4_171707EE45A65918B612D79E9CD5CA68;      // 0x0000(0x0010)(Edit, BlueprintVisible)
+};
+static_assert(alignof(FF_NPC_PathWalkArray) == 0x000008, "Wrong alignment on FF_NPC_PathWalkArray");
+static_assert(sizeof(FF_NPC_PathWalkArray) == 0x000010, "Wrong size on FF_NPC_PathWalkArray");
+static_assert(offsetof(FF_NPC_PathWalkArray, PathArray_4_171707EE45A65918B612D79E9CD5CA68) == 0x000000, "Member 'FF_NPC_PathWalkArray::PathArray_4_171707EE45A65918B612D79E9CD5CA68' has a wrong offset!");
+
+}
+

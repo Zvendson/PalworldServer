@@ -1,0 +1,98 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_HumanCryComponent_classes.hpp"
+#include "PalServer/BP_HumanCryComponent_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_HumanCryComponent.BP_HumanCryComponent_C.BP_HumanCryComponent_AutoGenFunc
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class UPalActionBase*                   Action                                                 (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+
+void UBP_HumanCryComponent_C::BP_HumanCryComponent_AutoGenFunc(const class UPalActionBase* Action)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_HumanCryComponent_C", "BP_HumanCryComponent_AutoGenFunc");
+
+	Params::BP_HumanCryComponent_C_BP_HumanCryComponent_AutoGenFunc Parms{};
+
+	Parms.Action = Action;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_HumanCryComponent.BP_HumanCryComponent_C.ExecuteUbergraph_BP_HumanCryComponent
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_HumanCryComponent_C::ExecuteUbergraph_BP_HumanCryComponent(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_HumanCryComponent_C", "ExecuteUbergraph_BP_HumanCryComponent");
+
+	Params::BP_HumanCryComponent_C_ExecuteUbergraph_BP_HumanCryComponent Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_HumanCryComponent.BP_HumanCryComponent_C.Initialize
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void UBP_HumanCryComponent_C::Initialize()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_HumanCryComponent_C", "Initialize");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_HumanCryComponent.BP_HumanCryComponent_C.PlayCry
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class UAkAudioEvent*                    AkEvent                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+
+void UBP_HumanCryComponent_C::PlayCry(class UAkAudioEvent* AkEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_HumanCryComponent_C", "PlayCry");
+
+	Params::BP_HumanCryComponent_C_PlayCry Parms{};
+
+	Parms.AkEvent = AkEvent;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_HumanCryComponent.BP_HumanCryComponent_C.ReceiveBeginPlay
+// (Event, Public, BlueprintEvent)
+
+void UBP_HumanCryComponent_C::ReceiveBeginPlay()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_HumanCryComponent_C", "ReceiveBeginPlay");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+}
+

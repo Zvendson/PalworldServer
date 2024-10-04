@@ -1,0 +1,33 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_WorldSecurityLaw_TheftItem_classes.hpp"
+#include "PalServer/BP_WorldSecurityLaw_TheftItem_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_WorldSecurityLaw_TheftItem.BP_WorldSecurityLaw_TheftItem_C.Condition
+// (Event, Protected, HasOutParams, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// struct FPalItemOperationInfo_Move       EventInfo                                              (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+bool UBP_WorldSecurityLaw_TheftItem_C::Condition(const struct FPalItemOperationInfo_Move& EventInfo)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_WorldSecurityLaw_TheftItem_C", "Condition");
+
+	Params::BP_WorldSecurityLaw_TheftItem_C_Condition Parms{};
+
+	Parms.EventInfo = std::move(EventInfo);
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	return Parms.ReturnValue;
+}
+
+}
+

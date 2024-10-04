@@ -1,0 +1,72 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_PettingCamera_classes.hpp"
+#include "PalServer/BP_PettingCamera_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_PettingCamera.BP_PettingCamera_C.EndPettingCamera
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class APlayerController*                PlayerController                                       (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+
+void ABP_PettingCamera_C::EndPettingCamera(class APlayerController* PlayerController)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PettingCamera_C", "EndPettingCamera");
+
+	Params::BP_PettingCamera_C_EndPettingCamera Parms{};
+
+	Parms.PlayerController = PlayerController;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_PettingCamera.BP_PettingCamera_C.StartPettingCamera
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class APlayerController*                PlayerController                                       (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+
+void ABP_PettingCamera_C::StartPettingCamera(class APlayerController* PlayerController)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PettingCamera_C", "StartPettingCamera");
+
+	Params::BP_PettingCamera_C_StartPettingCamera Parms{};
+
+	Parms.PlayerController = PlayerController;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_PettingCamera.BP_PettingCamera_C.UpdatePettingCameraOffset
+// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class APlayerController*                PlayerController                                       (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+// class AActor*                           TargetPal                                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+
+void ABP_PettingCamera_C::UpdatePettingCameraOffset(class APlayerController* PlayerController, class AActor* TargetPal)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PettingCamera_C", "UpdatePettingCameraOffset");
+
+	Params::BP_PettingCamera_C_UpdatePettingCameraOffset Parms{};
+
+	Parms.PlayerController = PlayerController;
+	Parms.TargetPal = TargetPal;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+}
+

@@ -1,0 +1,37 @@
+#pragma once
+
+#include "Basic.hpp"
+
+#include "Engine_classes.hpp"
+
+
+namespace PalServer
+{
+
+// Class HttpBlueprint.HttpBlueprintFunctionLibrary
+// 0x0000 (0x0028 - 0x0028)
+class UHttpBlueprintFunctionLibrary final : public UBlueprintFunctionLibrary
+{
+public:
+	static void AddHeader(struct FHttpHeader& HeaderObject, const class FString& NewHeader, const class FString& NewHeaderValue);
+	static TArray<class FString> GetAllHeaders(const struct FHttpHeader& HeaderObject);
+	static TMap<class FString, class FString> GetAllHeaders_Map(const struct FHttpHeader& HeaderObject);
+	static bool GetHeaderValue(const struct FHttpHeader& HeaderObject, const class FString& HeaderName, class FString* OutHeaderValue);
+	static void MakeRequestHeader(const TMap<class FString, class FString>& Headers, struct FHttpHeader* OutHeader);
+	static bool RemoveHeader(struct FHttpHeader& HeaderObject, const class FString& HeaderToRemove);
+
+public:
+	static class UClass* StaticClass()
+	{
+		return StaticClassImpl<"HttpBlueprintFunctionLibrary">();
+	}
+	static class UHttpBlueprintFunctionLibrary* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<UHttpBlueprintFunctionLibrary>();
+	}
+};
+static_assert(alignof(UHttpBlueprintFunctionLibrary) == 0x000008, "Wrong alignment on UHttpBlueprintFunctionLibrary");
+static_assert(sizeof(UHttpBlueprintFunctionLibrary) == 0x000028, "Wrong size on UHttpBlueprintFunctionLibrary");
+
+}
+

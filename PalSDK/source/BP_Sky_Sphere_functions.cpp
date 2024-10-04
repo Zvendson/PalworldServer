@@ -1,0 +1,52 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_Sky_Sphere_classes.hpp"
+#include "PalServer/BP_Sky_Sphere_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_Sky_Sphere.BP_Sky_Sphere_C.RefreshMaterial
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void ABP_Sky_Sphere_C::RefreshMaterial()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Sky_Sphere_C", "RefreshMaterial");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_Sky_Sphere.BP_Sky_Sphere_C.UpdateSunDirection
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void ABP_Sky_Sphere_C::UpdateSunDirection()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Sky_Sphere_C", "UpdateSunDirection");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_Sky_Sphere.BP_Sky_Sphere_C.UserConstructionScript
+// (Event, Public, BlueprintCallable, BlueprintEvent)
+
+void ABP_Sky_Sphere_C::UserConstructionScript()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Sky_Sphere_C", "UserConstructionScript");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+}
+

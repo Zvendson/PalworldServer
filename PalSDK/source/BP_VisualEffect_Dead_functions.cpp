@@ -1,0 +1,58 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_VisualEffect_Dead_classes.hpp"
+#include "PalServer/BP_VisualEffect_Dead_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_VisualEffect_Dead.BP_VisualEffect_Dead_C.ExecuteUbergraph_BP_VisualEffect_Dead
+// (Final, UbergraphFunction, HasDefaults)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_VisualEffect_Dead_C::ExecuteUbergraph_BP_VisualEffect_Dead(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_VisualEffect_Dead_C", "ExecuteUbergraph_BP_VisualEffect_Dead");
+
+	Params::BP_VisualEffect_Dead_C_ExecuteUbergraph_BP_VisualEffect_Dead Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_VisualEffect_Dead.BP_VisualEffect_Dead_C.OnBeginVisualEffect
+// (Event, Public, BlueprintEvent)
+
+void UBP_VisualEffect_Dead_C::OnBeginVisualEffect()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_VisualEffect_Dead_C", "OnBeginVisualEffect");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_VisualEffect_Dead.BP_VisualEffect_Dead_C.OnEndVisualEffect
+// (Event, Public, BlueprintEvent)
+
+void UBP_VisualEffect_Dead_C::OnEndVisualEffect()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_VisualEffect_Dead_C", "OnEndVisualEffect");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+}
+

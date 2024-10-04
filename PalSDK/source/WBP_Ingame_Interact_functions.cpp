@@ -1,0 +1,336 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/WBP_Ingame_Interact_classes.hpp"
+#include "PalServer/WBP_Ingame_Interact_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function WBP_Ingame_Interact.WBP_Ingame_Interact_C.AnmEven_Press
+// (BlueprintCallable, BlueprintEvent)
+
+void UWBP_Ingame_Interact_C::AnmEven_Press()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_Ingame_Interact_C", "AnmEven_Press");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function WBP_Ingame_Interact.WBP_Ingame_Interact_C.AnmEvent_Button_End
+// (BlueprintCallable, BlueprintEvent)
+// Parameters:
+// EPalInteractiveObjectButtonType         buttonType                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UWBP_Ingame_Interact_C::AnmEvent_Button_End(EPalInteractiveObjectButtonType buttonType)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_Ingame_Interact_C", "AnmEvent_Button_End");
+
+	Params::WBP_Ingame_Interact_C_AnmEvent_Button_End Parms{};
+
+	Parms.buttonType = buttonType;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function WBP_Ingame_Interact.WBP_Ingame_Interact_C.AnmEvent_Button_Start
+// (BlueprintCallable, BlueprintEvent)
+// Parameters:
+// EPalInteractiveObjectButtonType         buttonType                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// double                                  Time                                                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UWBP_Ingame_Interact_C::AnmEvent_Button_Start(EPalInteractiveObjectButtonType buttonType, double Time)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_Ingame_Interact_C", "AnmEvent_Button_Start");
+
+	Params::WBP_Ingame_Interact_C_AnmEvent_Button_Start Parms{};
+
+	Parms.buttonType = buttonType;
+	Parms.Time = Time;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function WBP_Ingame_Interact.WBP_Ingame_Interact_C.AnmEvent_Close
+// (BlueprintCallable, BlueprintEvent)
+
+void UWBP_Ingame_Interact_C::AnmEvent_Close()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_Ingame_Interact_C", "AnmEvent_Close");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function WBP_Ingame_Interact.WBP_Ingame_Interact_C.AnmEvent_LongPush_WithoutGauge
+// (BlueprintCallable, BlueprintEvent)
+
+void UWBP_Ingame_Interact_C::AnmEvent_LongPush_WithoutGauge()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_Ingame_Interact_C", "AnmEvent_LongPush_WithoutGauge");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function WBP_Ingame_Interact.WBP_Ingame_Interact_C.AnmEvent_Open
+// (BlueprintCallable, BlueprintEvent)
+
+void UWBP_Ingame_Interact_C::AnmEvent_Open()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_Ingame_Interact_C", "AnmEvent_Open");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function WBP_Ingame_Interact.WBP_Ingame_Interact_C.AnmEvent_Reset_ForClose
+// (BlueprintCallable, BlueprintEvent)
+
+void UWBP_Ingame_Interact_C::AnmEvent_Reset_ForClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_Ingame_Interact_C", "AnmEvent_Reset_ForClose");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function WBP_Ingame_Interact.WBP_Ingame_Interact_C.AnmEvent_Reset_ForOpen
+// (BlueprintCallable, BlueprintEvent)
+
+void UWBP_Ingame_Interact_C::AnmEvent_Reset_ForOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_Ingame_Interact_C", "AnmEvent_Reset_ForOpen");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function WBP_Ingame_Interact.WBP_Ingame_Interact_C.AnmEvernt_LongPush_withGauge
+// (BlueprintCallable, BlueprintEvent)
+// Parameters:
+// double                                  Time                                                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UWBP_Ingame_Interact_C::AnmEvernt_LongPush_withGauge(double Time)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_Ingame_Interact_C", "AnmEvernt_LongPush_withGauge");
+
+	Params::WBP_Ingame_Interact_C_AnmEvernt_LongPush_withGauge Parms{};
+
+	Parms.Time = Time;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function WBP_Ingame_Interact.WBP_Ingame_Interact_C.ExecuteUbergraph_WBP_Ingame_Interact
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UWBP_Ingame_Interact_C::ExecuteUbergraph_WBP_Ingame_Interact(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_Ingame_Interact_C", "ExecuteUbergraph_WBP_Ingame_Interact");
+
+	Params::WBP_Ingame_Interact_C_ExecuteUbergraph_WBP_Ingame_Interact Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function WBP_Ingame_Interact.WBP_Ingame_Interact_C.FitImageSize
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void UWBP_Ingame_Interact_C::FitImageSize()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_Ingame_Interact_C", "FitImageSize");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function WBP_Ingame_Interact.WBP_Ingame_Interact_C.GetPartsSize
+// (Private, HasOutParams, BlueprintCallable, BlueprintEvent, BlueprintPure)
+// Parameters:
+// class UWidget*                          TargetWidget                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+// struct FVector2D                        Size                                                   (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UWBP_Ingame_Interact_C::GetPartsSize(class UWidget* TargetWidget, struct FVector2D* Size)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_Ingame_Interact_C", "GetPartsSize");
+
+	Params::WBP_Ingame_Interact_C_GetPartsSize Parms{};
+
+	Parms.TargetWidget = TargetWidget;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (Size != nullptr)
+		*Size = std::move(Parms.Size);
+}
+
+
+// Function WBP_Ingame_Interact.WBP_Ingame_Interact_C.SetActionType
+// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// EPalInteractiveObjectActionType         ActionType                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UWBP_Ingame_Interact_C::SetActionType(EPalInteractiveObjectActionType ActionType)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_Ingame_Interact_C", "SetActionType");
+
+	Params::WBP_Ingame_Interact_C_SetActionType Parms{};
+
+	Parms.ActionType = ActionType;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function WBP_Ingame_Interact.WBP_Ingame_Interact_C.SetInteractable
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// bool                                    IsInteractable_0                                       (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UWBP_Ingame_Interact_C::SetInteractable(bool IsInteractable_0)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_Ingame_Interact_C", "SetInteractable");
+
+	Params::WBP_Ingame_Interact_C_SetInteractable Parms{};
+
+	Parms.IsInteractable_0 = IsInteractable_0;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function WBP_Ingame_Interact.WBP_Ingame_Interact_C.SetInteractText
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class FText                             Text                                                   (BlueprintVisible, BlueprintReadOnly, Parm)
+
+void UWBP_Ingame_Interact_C::SetInteractText(const class FText& Text)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_Ingame_Interact_C", "SetInteractText");
+
+	Params::WBP_Ingame_Interact_C_SetInteractText Parms{};
+
+	Parms.Text = std::move(Text);
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function WBP_Ingame_Interact.WBP_Ingame_Interact_C.SetIsValidInteract
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// bool                                    IsValidFlag                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UWBP_Ingame_Interact_C::SetIsValidInteract(bool IsValidFlag)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_Ingame_Interact_C", "SetIsValidInteract");
+
+	Params::WBP_Ingame_Interact_C_SetIsValidInteract Parms{};
+
+	Parms.IsValidFlag = IsValidFlag;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function WBP_Ingame_Interact.WBP_Ingame_Interact_C.SetPartsSize
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class UWidget*                          TargetWidget                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+// struct FVector2D                        InSize                                                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UWBP_Ingame_Interact_C::SetPartsSize(class UWidget* TargetWidget, const struct FVector2D& InSize)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_Ingame_Interact_C", "SetPartsSize");
+
+	Params::WBP_Ingame_Interact_C_SetPartsSize Parms{};
+
+	Parms.TargetWidget = TargetWidget;
+	Parms.InSize = std::move(InSize);
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function WBP_Ingame_Interact.WBP_Ingame_Interact_C.SetVisibilityLongPushParts
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// ESlateVisibility                        NewVisibility                                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UWBP_Ingame_Interact_C::SetVisibilityLongPushParts(ESlateVisibility NewVisibility)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_Ingame_Interact_C", "SetVisibilityLongPushParts");
+
+	Params::WBP_Ingame_Interact_C_SetVisibilityLongPushParts Parms{};
+
+	Parms.NewVisibility = NewVisibility;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+}
+

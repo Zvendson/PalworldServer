@@ -1,0 +1,118 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/WBP_MainMenu_Pal_WorkIcon_classes.hpp"
+#include "PalServer/WBP_MainMenu_Pal_WorkIcon_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function WBP_MainMenu_Pal_WorkIcon.WBP_MainMenu_Pal_WorkIcon_C.ExecuteUbergraph_WBP_MainMenu_Pal_WorkIcon
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UWBP_MainMenu_Pal_WorkIcon_C::ExecuteUbergraph_WBP_MainMenu_Pal_WorkIcon(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_MainMenu_Pal_WorkIcon_C", "ExecuteUbergraph_WBP_MainMenu_Pal_WorkIcon");
+
+	Params::WBP_MainMenu_Pal_WorkIcon_C_ExecuteUbergraph_WBP_MainMenu_Pal_WorkIcon Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function WBP_MainMenu_Pal_WorkIcon.WBP_MainMenu_Pal_WorkIcon_C.IconOff
+// (BlueprintCallable, BlueprintEvent)
+
+void UWBP_MainMenu_Pal_WorkIcon_C::IconOff()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_MainMenu_Pal_WorkIcon_C", "IconOff");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function WBP_MainMenu_Pal_WorkIcon.WBP_MainMenu_Pal_WorkIcon_C.IconOn
+// (BlueprintCallable, BlueprintEvent)
+
+void UWBP_MainMenu_Pal_WorkIcon_C::IconOn()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_MainMenu_Pal_WorkIcon_C", "IconOn");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function WBP_MainMenu_Pal_WorkIcon.WBP_MainMenu_Pal_WorkIcon_C.SetRank
+// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// int32                                   Rank                                                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UWBP_MainMenu_Pal_WorkIcon_C::SetRank(int32 Rank)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_MainMenu_Pal_WorkIcon_C", "SetRank");
+
+	Params::WBP_MainMenu_Pal_WorkIcon_C_SetRank Parms{};
+
+	Parms.Rank = Rank;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function WBP_MainMenu_Pal_WorkIcon.WBP_MainMenu_Pal_WorkIcon_C.SetRankup
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// bool                                    Enable                                                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UWBP_MainMenu_Pal_WorkIcon_C::SetRankup(bool Enable)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_MainMenu_Pal_WorkIcon_C", "SetRankup");
+
+	Params::WBP_MainMenu_Pal_WorkIcon_C_SetRankup Parms{};
+
+	Parms.Enable = Enable;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function WBP_MainMenu_Pal_WorkIcon.WBP_MainMenu_Pal_WorkIcon_C.SetSuitability
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// EPalWorkSuitability                     WorkSuitability                                        (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UWBP_MainMenu_Pal_WorkIcon_C::SetSuitability(EPalWorkSuitability WorkSuitability)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_MainMenu_Pal_WorkIcon_C", "SetSuitability");
+
+	Params::WBP_MainMenu_Pal_WorkIcon_C_SetSuitability Parms{};
+
+	Parms.WorkSuitability = WorkSuitability;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+}
+

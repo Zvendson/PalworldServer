@@ -1,0 +1,154 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_ActionInteractBase_classes.hpp"
+#include "PalServer/BP_ActionInteractBase_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_ActionInteractBase.BP_ActionInteractBase_C.BindDelegates
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void UBP_ActionInteractBase_C::BindDelegates()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionInteractBase_C", "BindDelegates");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_ActionInteractBase.BP_ActionInteractBase_C.CancelInteract
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void UBP_ActionInteractBase_C::CancelInteract()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionInteractBase_C", "CancelInteract");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_ActionInteractBase.BP_ActionInteractBase_C.EnableMove
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void UBP_ActionInteractBase_C::EnableMove()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionInteractBase_C", "EnableMove");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_ActionInteractBase.BP_ActionInteractBase_C.ExecuteUbergraph_BP_ActionInteractBase
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_ActionInteractBase_C::ExecuteUbergraph_BP_ActionInteractBase(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionInteractBase_C", "ExecuteUbergraph_BP_ActionInteractBase");
+
+	Params::BP_ActionInteractBase_C_ExecuteUbergraph_BP_ActionInteractBase Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_ActionInteractBase.BP_ActionInteractBase_C.OnBeginAction
+// (Event, Public, BlueprintEvent)
+
+void UBP_ActionInteractBase_C::OnBeginAction()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionInteractBase_C", "OnBeginAction");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_ActionInteractBase.BP_ActionInteractBase_C.OnEndAction
+// (Event, Public, BlueprintEvent)
+
+void UBP_ActionInteractBase_C::OnEndAction()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionInteractBase_C", "OnEndAction");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_ActionInteractBase.BP_ActionInteractBase_C.OnJumpDelegate
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class UPalCharacterMovementComponent*   Component                                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+
+void UBP_ActionInteractBase_C::OnJumpDelegate(class UPalCharacterMovementComponent* Component)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionInteractBase_C", "OnJumpDelegate");
+
+	Params::BP_ActionInteractBase_C_OnJumpDelegate Parms{};
+
+	Parms.Component = Component;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_ActionInteractBase.BP_ActionInteractBase_C.SetPlayerFlags
+// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// bool                                    IsDisable                                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_ActionInteractBase_C::SetPlayerFlags(bool IsDisable)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionInteractBase_C", "SetPlayerFlags");
+
+	Params::BP_ActionInteractBase_C_SetPlayerFlags Parms{};
+
+	Parms.IsDisable = IsDisable;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_ActionInteractBase.BP_ActionInteractBase_C.UnbindDelegates
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void UBP_ActionInteractBase_C::UnbindDelegates()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionInteractBase_C", "UnbindDelegates");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+}
+

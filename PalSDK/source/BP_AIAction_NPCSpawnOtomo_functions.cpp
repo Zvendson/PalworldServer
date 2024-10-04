@@ -1,0 +1,72 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_AIAction_NPCSpawnOtomo_classes.hpp"
+#include "PalServer/BP_AIAction_NPCSpawnOtomo_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_AIAction_NPCSpawnOtomo.BP_AIAction_NPCSpawnOtomo_C.ActionStart
+// (Event, Public, BlueprintEvent)
+// Parameters:
+// class APawn*                            ControlledPawn                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+
+void UBP_AIAction_NPCSpawnOtomo_C::ActionStart(class APawn* ControlledPawn)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_AIAction_NPCSpawnOtomo_C", "ActionStart");
+
+	Params::BP_AIAction_NPCSpawnOtomo_C_ActionStart Parms{};
+
+	Parms.ControlledPawn = ControlledPawn;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_AIAction_NPCSpawnOtomo.BP_AIAction_NPCSpawnOtomo_C.ActionTick
+// (Event, Public, BlueprintEvent)
+// Parameters:
+// class APawn*                            ControlledPawn                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+// float                                   DeltaSeconds                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_AIAction_NPCSpawnOtomo_C::ActionTick(class APawn* ControlledPawn, float DeltaSeconds)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_AIAction_NPCSpawnOtomo_C", "ActionTick");
+
+	Params::BP_AIAction_NPCSpawnOtomo_C_ActionTick Parms{};
+
+	Parms.ControlledPawn = ControlledPawn;
+	Parms.DeltaSeconds = DeltaSeconds;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_AIAction_NPCSpawnOtomo.BP_AIAction_NPCSpawnOtomo_C.ExecuteUbergraph_BP_AIAction_NPCSpawnOtomo
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_AIAction_NPCSpawnOtomo_C::ExecuteUbergraph_BP_AIAction_NPCSpawnOtomo(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_AIAction_NPCSpawnOtomo_C", "ExecuteUbergraph_BP_AIAction_NPCSpawnOtomo");
+
+	Params::BP_AIAction_NPCSpawnOtomo_C_ExecuteUbergraph_BP_AIAction_NPCSpawnOtomo Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+}
+

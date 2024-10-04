@@ -46,6 +46,8 @@ include(spdlog)
 include(minhook)
 include(json)
 
+add_subdirectory(PalSDK)
+
 
 ################
 # PalServerAPI #
@@ -65,11 +67,12 @@ set_target_properties(PalServerAPI PROPERTIES OUTPUT_NAME "version")
 
 
 # preprocessor definitions
-target_compile_definitions(PalServerAPI PRIVATE
+add_compile_definitions(
     "NOMINMAX"
     "WIN32_LEAN_AND_MEAN"
     "UNICODE"
     "_UNICODE"
+    "SPDLOG_WCHAR_TO_UTF8_SUPPORT"
 )
 
 
@@ -111,6 +114,7 @@ target_link_libraries(PalServerAPI PUBLIC
     spdlog
     minhook    
     dbghelp.lib
+    PalSDK
 )
 
 

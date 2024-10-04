@@ -1,0 +1,58 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_Status_IvyCling_classes.hpp"
+#include "PalServer/BP_Status_IvyCling_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_Status_IvyCling.BP_Status_IvyCling_C.ExecuteUbergraph_BP_Status_IvyCling
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_Status_IvyCling_C::ExecuteUbergraph_BP_Status_IvyCling(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Status_IvyCling_C", "ExecuteUbergraph_BP_Status_IvyCling");
+
+	Params::BP_Status_IvyCling_C_ExecuteUbergraph_BP_Status_IvyCling Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_Status_IvyCling.BP_Status_IvyCling_C.OnBeginStatus
+// (Event, Public, BlueprintEvent)
+
+void UBP_Status_IvyCling_C::OnBeginStatus()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Status_IvyCling_C", "OnBeginStatus");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_Status_IvyCling.BP_Status_IvyCling_C.OnEndStatus
+// (Event, Public, BlueprintEvent)
+
+void UBP_Status_IvyCling_C::OnEndStatus()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Status_IvyCling_C", "OnEndStatus");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+}
+

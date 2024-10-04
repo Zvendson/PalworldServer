@@ -1,0 +1,138 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_VisualEffect_PalBattleOutline_classes.hpp"
+#include "PalServer/BP_VisualEffect_PalBattleOutline_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_VisualEffect_PalBattleOutline.BP_VisualEffect_PalBattleOutline_C.ExecuteUbergraph_BP_VisualEffect_PalBattleOutline
+// (Final, UbergraphFunction, HasDefaults)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_VisualEffect_PalBattleOutline_C::ExecuteUbergraph_BP_VisualEffect_PalBattleOutline(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_VisualEffect_PalBattleOutline_C", "ExecuteUbergraph_BP_VisualEffect_PalBattleOutline");
+
+	Params::BP_VisualEffect_PalBattleOutline_C_ExecuteUbergraph_BP_VisualEffect_PalBattleOutline Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_VisualEffect_PalBattleOutline.BP_VisualEffect_PalBattleOutline_C.OnBeginVisualEffect
+// (Event, Public, BlueprintEvent)
+
+void UBP_VisualEffect_PalBattleOutline_C::OnBeginVisualEffect()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_VisualEffect_PalBattleOutline_C", "OnBeginVisualEffect");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_VisualEffect_PalBattleOutline.BP_VisualEffect_PalBattleOutline_C.OnBreakVisualEffect
+// (Event, Public, BlueprintEvent)
+// Parameters:
+// bool                                    bByConflict                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_VisualEffect_PalBattleOutline_C::OnBreakVisualEffect(bool bByConflict)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_VisualEffect_PalBattleOutline_C", "OnBreakVisualEffect");
+
+	Params::BP_VisualEffect_PalBattleOutline_C_OnBreakVisualEffect Parms{};
+
+	Parms.bByConflict = bByConflict;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_VisualEffect_PalBattleOutline.BP_VisualEffect_PalBattleOutline_C.OnEndVisualEffect
+// (Event, Public, BlueprintEvent)
+
+void UBP_VisualEffect_PalBattleOutline_C::OnEndVisualEffect()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_VisualEffect_PalBattleOutline_C", "OnEndVisualEffect");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_VisualEffect_PalBattleOutline.BP_VisualEffect_PalBattleOutline_C.SetFadeAlpha
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// double                                  Alpha_0                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_VisualEffect_PalBattleOutline_C::SetFadeAlpha(double Alpha_0)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_VisualEffect_PalBattleOutline_C", "SetFadeAlpha");
+
+	Params::BP_VisualEffect_PalBattleOutline_C_SetFadeAlpha Parms{};
+
+	Parms.Alpha_0 = Alpha_0;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_VisualEffect_PalBattleOutline.BP_VisualEffect_PalBattleOutline_C.TerminatingTickVisualEffect
+// (Event, Public, BlueprintEvent)
+// Parameters:
+// float                                   DeltaTime                                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_VisualEffect_PalBattleOutline_C::TerminatingTickVisualEffect(float DeltaTime)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_VisualEffect_PalBattleOutline_C", "TerminatingTickVisualEffect");
+
+	Params::BP_VisualEffect_PalBattleOutline_C_TerminatingTickVisualEffect Parms{};
+
+	Parms.DeltaTime = DeltaTime;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_VisualEffect_PalBattleOutline.BP_VisualEffect_PalBattleOutline_C.TickVisualEffect
+// (Event, Public, BlueprintEvent)
+// Parameters:
+// float                                   DeltaTime                                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_VisualEffect_PalBattleOutline_C::TickVisualEffect(float DeltaTime)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_VisualEffect_PalBattleOutline_C", "TickVisualEffect");
+
+	Params::BP_VisualEffect_PalBattleOutline_C_TickVisualEffect Parms{};
+
+	Parms.DeltaTime = DeltaTime;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+}
+

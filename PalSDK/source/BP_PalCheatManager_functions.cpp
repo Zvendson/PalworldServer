@@ -1,0 +1,142 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_PalCheatManager_classes.hpp"
+#include "PalServer/BP_PalCheatManager_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_PalCheatManager.BP_PalCheatManager_C.ExecuteUbergraph_BP_PalCheatManager
+// (Final, UbergraphFunction, HasDefaults)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_PalCheatManager_C::ExecuteUbergraph_BP_PalCheatManager(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PalCheatManager_C", "ExecuteUbergraph_BP_PalCheatManager");
+
+	Params::BP_PalCheatManager_C_ExecuteUbergraph_BP_PalCheatManager Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_PalCheatManager.BP_PalCheatManager_C.HideTutorialQuest_BP
+// (Event, Protected, BlueprintEvent)
+
+void UBP_PalCheatManager_C::HideTutorialQuest_BP()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PalCheatManager_C", "HideTutorialQuest_BP");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_PalCheatManager.BP_PalCheatManager_C.OpenMultiBattleMapForBP
+// (Event, Protected, BlueprintEvent)
+
+void UBP_PalCheatManager_C::OpenMultiBattleMapForBP()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PalCheatManager_C", "OpenMultiBattleMapForBP");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_PalCheatManager.BP_PalCheatManager_C.OpenPrivateServerForBP
+// (Event, Protected, BlueprintEvent)
+
+void UBP_PalCheatManager_C::OpenPrivateServerForBP()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PalCheatManager_C", "OpenPrivateServerForBP");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_PalCheatManager.BP_PalCheatManager_C.SpectatorOnForBP
+// (Event, Protected, BlueprintEvent)
+
+void UBP_PalCheatManager_C::SpectatorOnForBP()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PalCheatManager_C", "SpectatorOnForBP");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_PalCheatManager.BP_PalCheatManager_C.StartWildPalCombat
+// (Event, Protected, BlueprintEvent)
+
+void UBP_PalCheatManager_C::StartWildPalCombat()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PalCheatManager_C", "StartWildPalCombat");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_PalCheatManager.BP_PalCheatManager_C.TimeStopForBP
+// (Event, Protected, BlueprintEvent)
+
+void UBP_PalCheatManager_C::TimeStopForBP()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PalCheatManager_C", "TimeStopForBP");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_PalCheatManager.BP_PalCheatManager_C.ToggleAllDebugInfo
+// (Exec, Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+
+void UBP_PalCheatManager_C::ToggleAllDebugInfo()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PalCheatManager_C", "ToggleAllDebugInfo");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_PalCheatManager.BP_PalCheatManager_C.ToggleRevision_BP
+// (Event, Protected, BlueprintEvent)
+
+void UBP_PalCheatManager_C::ToggleRevision_BP()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PalCheatManager_C", "ToggleRevision_BP");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+}
+

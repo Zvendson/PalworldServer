@@ -1,0 +1,58 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_ActionEncount_classes.hpp"
+#include "PalServer/BP_ActionEncount_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_ActionEncount.BP_ActionEncount_C.ExecuteUbergraph_BP_ActionEncount
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_ActionEncount_C::ExecuteUbergraph_BP_ActionEncount(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionEncount_C", "ExecuteUbergraph_BP_ActionEncount");
+
+	Params::BP_ActionEncount_C_ExecuteUbergraph_BP_ActionEncount Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_ActionEncount.BP_ActionEncount_C.OnBeginAction
+// (Event, Public, BlueprintEvent)
+
+void UBP_ActionEncount_C::OnBeginAction()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionEncount_C", "OnBeginAction");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_ActionEncount.BP_ActionEncount_C.OnEndAction
+// (Event, Public, BlueprintEvent)
+
+void UBP_ActionEncount_C::OnEndAction()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionEncount_C", "OnEndAction");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+}
+

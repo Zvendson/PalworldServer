@@ -1,0 +1,50 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_PalTimeManager_classes.hpp"
+#include "PalServer/BP_PalTimeManager_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_PalTimeManager.BP_PalTimeManager_C.ExecuteUbergraph_BP_PalTimeManager
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_PalTimeManager_C::ExecuteUbergraph_BP_PalTimeManager(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PalTimeManager_C", "ExecuteUbergraph_BP_PalTimeManager");
+
+	Params::BP_PalTimeManager_C_ExecuteUbergraph_BP_PalTimeManager Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_PalTimeManager.BP_PalTimeManager_C.Tick_BP
+// (Event, Protected, BlueprintEvent)
+// Parameters:
+// float                                   DeltaTime                                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_PalTimeManager_C::Tick_BP(float DeltaTime)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PalTimeManager_C", "Tick_BP");
+
+	Params::BP_PalTimeManager_C_Tick_BP Parms{};
+
+	Parms.DeltaTime = DeltaTime;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+}
+

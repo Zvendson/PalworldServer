@@ -1,0 +1,22 @@
+#pragma once
+
+#include "Basic.hpp"
+
+
+namespace PalServer
+{
+
+// Enum FSR2MovieRenderPipeline.EFSR2MoviePipelineQuality
+// NumValues: 0x0006
+enum class EFSR2MoviePipelineQuality : uint8
+{
+	Unused                                   = 0,
+	Quality                                  = 1,
+	Balanced                                 = 2,
+	Performance                              = 3,
+	UltraPerformance                         = 4,
+	EFSR2MoviePipelineQuality_MAX            = 5,
+};
+
+}
+

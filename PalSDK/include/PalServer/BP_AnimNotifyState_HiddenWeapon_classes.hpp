@@ -1,0 +1,34 @@
+#pragma once
+
+#include "Basic.hpp"
+
+#include "Engine_classes.hpp"
+
+
+namespace PalServer
+{
+
+// BlueprintGeneratedClass BP_AnimNotifyState_HiddenWeapon.BP_AnimNotifyState_HiddenWeapon_C
+// 0x0000 (0x0030 - 0x0030)
+class UBP_AnimNotifyState_HiddenWeapon_C final : public UAnimNotifyState
+{
+public:
+	class FString GetNotifyName() const;
+	bool Received_NotifyBegin(class USkeletalMeshComponent* MeshComp, class UAnimSequenceBase* Animation, float TotalDuration, const struct FAnimNotifyEventReference& EventReference) const;
+	bool Received_NotifyEnd(class USkeletalMeshComponent* MeshComp, class UAnimSequenceBase* Animation, const struct FAnimNotifyEventReference& EventReference) const;
+
+public:
+	static class UClass* StaticClass()
+	{
+		return StaticBPGeneratedClassImpl<"BP_AnimNotifyState_HiddenWeapon_C">();
+	}
+	static class UBP_AnimNotifyState_HiddenWeapon_C* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<UBP_AnimNotifyState_HiddenWeapon_C>();
+	}
+};
+static_assert(alignof(UBP_AnimNotifyState_HiddenWeapon_C) == 0x000008, "Wrong alignment on UBP_AnimNotifyState_HiddenWeapon_C");
+static_assert(sizeof(UBP_AnimNotifyState_HiddenWeapon_C) == 0x000030, "Wrong size on UBP_AnimNotifyState_HiddenWeapon_C");
+
+}
+

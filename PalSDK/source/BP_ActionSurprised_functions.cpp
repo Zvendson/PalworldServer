@@ -1,0 +1,98 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_ActionSurprised_classes.hpp"
+#include "PalServer/BP_ActionSurprised_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_ActionSurprised.BP_ActionSurprised_C.ChangeFace
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// bool                                    Angry                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_ActionSurprised_C::ChangeFace(bool Angry)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionSurprised_C", "ChangeFace");
+
+	Params::BP_ActionSurprised_C_ChangeFace Parms{};
+
+	Parms.Angry = Angry;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_ActionSurprised.BP_ActionSurprised_C.ExecuteUbergraph_BP_ActionSurprised
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_ActionSurprised_C::ExecuteUbergraph_BP_ActionSurprised(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionSurprised_C", "ExecuteUbergraph_BP_ActionSurprised");
+
+	Params::BP_ActionSurprised_C_ExecuteUbergraph_BP_ActionSurprised Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_ActionSurprised.BP_ActionSurprised_C.OnBeginAction
+// (Event, Public, BlueprintEvent)
+
+void UBP_ActionSurprised_C::OnBeginAction()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionSurprised_C", "OnBeginAction");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_ActionSurprised.BP_ActionSurprised_C.OnEndAction
+// (Event, Public, BlueprintEvent)
+
+void UBP_ActionSurprised_C::OnEndAction()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionSurprised_C", "OnEndAction");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_ActionSurprised.BP_ActionSurprised_C.TickAction
+// (Event, Public, BlueprintEvent)
+// Parameters:
+// float                                   DeltaTime                                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_ActionSurprised_C::TickAction(float DeltaTime)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionSurprised_C", "TickAction");
+
+	Params::BP_ActionSurprised_C_TickAction Parms{};
+
+	Parms.DeltaTime = DeltaTime;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+}
+

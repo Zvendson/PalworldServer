@@ -1,0 +1,78 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_VisualEffect_Status_Flamed_classes.hpp"
+#include "PalServer/BP_VisualEffect_Status_Flamed_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_VisualEffect_Status_Flamed.BP_VisualEffect_Status_Flamed_C.ExecuteUbergraph_BP_VisualEffect_Status_Flamed
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_VisualEffect_Status_Flamed_C::ExecuteUbergraph_BP_VisualEffect_Status_Flamed(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_VisualEffect_Status_Flamed_C", "ExecuteUbergraph_BP_VisualEffect_Status_Flamed");
+
+	Params::BP_VisualEffect_Status_Flamed_C_ExecuteUbergraph_BP_VisualEffect_Status_Flamed Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_VisualEffect_Status_Flamed.BP_VisualEffect_Status_Flamed_C.OnBeginVisualEffect
+// (Event, Public, BlueprintEvent)
+
+void UBP_VisualEffect_Status_Flamed_C::OnBeginVisualEffect()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_VisualEffect_Status_Flamed_C", "OnBeginVisualEffect");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_VisualEffect_Status_Flamed.BP_VisualEffect_Status_Flamed_C.OnEndVisualEffect
+// (Event, Public, BlueprintEvent)
+
+void UBP_VisualEffect_Status_Flamed_C::OnEndVisualEffect()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_VisualEffect_Status_Flamed_C", "OnEndVisualEffect");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_VisualEffect_Status_Flamed.BP_VisualEffect_Status_Flamed_C.TickVisualEffect
+// (Event, Public, BlueprintEvent)
+// Parameters:
+// float                                   DeltaTime                                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_VisualEffect_Status_Flamed_C::TickVisualEffect(float DeltaTime)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_VisualEffect_Status_Flamed_C", "TickVisualEffect");
+
+	Params::BP_VisualEffect_Status_Flamed_C_TickVisualEffect Parms{};
+
+	Parms.DeltaTime = DeltaTime;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+}
+

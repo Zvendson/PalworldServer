@@ -1,0 +1,58 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_ActionDeath_SelfDestruct_classes.hpp"
+#include "PalServer/BP_ActionDeath_SelfDestruct_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_ActionDeath_SelfDestruct.BP_ActionDeath_SelfDestruct_C.ExecuteUbergraph_BP_ActionDeath_SelfDestruct
+// (Final, UbergraphFunction, HasDefaults)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_ActionDeath_SelfDestruct_C::ExecuteUbergraph_BP_ActionDeath_SelfDestruct(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionDeath_SelfDestruct_C", "ExecuteUbergraph_BP_ActionDeath_SelfDestruct");
+
+	Params::BP_ActionDeath_SelfDestruct_C_ExecuteUbergraph_BP_ActionDeath_SelfDestruct Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_ActionDeath_SelfDestruct.BP_ActionDeath_SelfDestruct_C.GetExClass
+// (Private, BlueprintCallable, BlueprintEvent, BlueprintPure)
+
+void UBP_ActionDeath_SelfDestruct_C::GetExClass()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionDeath_SelfDestruct_C", "GetExClass");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_ActionDeath_SelfDestruct.BP_ActionDeath_SelfDestruct_C.OnBeginAction
+// (Event, Public, BlueprintEvent)
+
+void UBP_ActionDeath_SelfDestruct_C::OnBeginAction()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_ActionDeath_SelfDestruct_C", "OnBeginAction");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+}
+

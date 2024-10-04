@@ -1,0 +1,156 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_Status_Drown_classes.hpp"
+#include "PalServer/BP_Status_Drown_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_Status_Drown.BP_Status_Drown_C.ExecuteUbergraph_BP_Status_Drown
+// (Final, UbergraphFunction, HasDefaults)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_Status_Drown_C::ExecuteUbergraph_BP_Status_Drown(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Status_Drown_C", "ExecuteUbergraph_BP_Status_Drown");
+
+	Params::BP_Status_Drown_C_ExecuteUbergraph_BP_Status_Drown Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_Status_Drown.BP_Status_Drown_C.GetOwnerHP
+// (Public, HasOutParams, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
+// Parameters:
+// int64                                   OwnerHP                                                (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_Status_Drown_C::GetOwnerHP(int64* OwnerHP)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Status_Drown_C", "GetOwnerHP");
+
+	Params::BP_Status_Drown_C_GetOwnerHP Parms{};
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (OwnerHP != nullptr)
+		*OwnerHP = Parms.OwnerHP;
+}
+
+
+// Function BP_Status_Drown.BP_Status_Drown_C.GetSlipDamage
+// (Public, HasOutParams, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
+// Parameters:
+// int32                                   Damage                                                 (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_Status_Drown_C::GetSlipDamage(int32* Damage)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Status_Drown_C", "GetSlipDamage");
+
+	Params::BP_Status_Drown_C_GetSlipDamage Parms{};
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (Damage != nullptr)
+		*Damage = Parms.Damage;
+}
+
+
+// Function BP_Status_Drown.BP_Status_Drown_C.IsDrown
+// (Public, HasOutParams, BlueprintCallable, BlueprintEvent, BlueprintPure)
+// Parameters:
+// bool                                    IsDrawning                                             (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_Status_Drown_C::IsDrown(bool* IsDrawning)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Status_Drown_C", "IsDrown");
+
+	Params::BP_Status_Drown_C_IsDrown Parms{};
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (IsDrawning != nullptr)
+		*IsDrawning = Parms.IsDrawning;
+}
+
+
+// Function BP_Status_Drown.BP_Status_Drown_C.IsDrownInWater
+// (Public, HasOutParams, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
+// Parameters:
+// bool                                    IsDrawningInWater                                      (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_Status_Drown_C::IsDrownInWater(bool* IsDrawningInWater)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Status_Drown_C", "IsDrownInWater");
+
+	Params::BP_Status_Drown_C_IsDrownInWater Parms{};
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (IsDrawningInWater != nullptr)
+		*IsDrawningInWater = Parms.IsDrawningInWater;
+}
+
+
+// Function BP_Status_Drown.BP_Status_Drown_C.OnBeginStatus
+// (Event, Public, BlueprintEvent)
+
+void UBP_Status_Drown_C::OnBeginStatus()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Status_Drown_C", "OnBeginStatus");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_Status_Drown.BP_Status_Drown_C.OnEndStatus
+// (Event, Public, BlueprintEvent)
+
+void UBP_Status_Drown_C::OnEndStatus()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Status_Drown_C", "OnEndStatus");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_Status_Drown.BP_Status_Drown_C.カスタムイベント_SlipDamage
+// (BlueprintCallable, BlueprintEvent)
+
+void UBP_Status_Drown_C::_________________________SlipDamage()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Status_Drown_C", "カスタムイベント_SlipDamage");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+}
+

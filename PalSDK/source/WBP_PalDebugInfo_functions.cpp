@@ -1,0 +1,58 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/WBP_PalDebugInfo_classes.hpp"
+#include "PalServer/WBP_PalDebugInfo_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function WBP_PalDebugInfo.WBP_PalDebugInfo_C.Construct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+
+void UWBP_PalDebugInfo_C::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_PalDebugInfo_C", "Construct");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function WBP_PalDebugInfo.WBP_PalDebugInfo_C.ExecuteUbergraph_WBP_PalDebugInfo
+// (Final, UbergraphFunction, HasDefaults)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UWBP_PalDebugInfo_C::ExecuteUbergraph_WBP_PalDebugInfo(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_PalDebugInfo_C", "ExecuteUbergraph_WBP_PalDebugInfo");
+
+	Params::WBP_PalDebugInfo_C_ExecuteUbergraph_WBP_PalDebugInfo Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function WBP_PalDebugInfo.WBP_PalDebugInfo_C.OnSetup
+// (Event, Protected, BlueprintCallable, BlueprintEvent)
+
+void UWBP_PalDebugInfo_C::OnSetup()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_PalDebugInfo_C", "OnSetup");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+}
+

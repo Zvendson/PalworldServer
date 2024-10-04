@@ -1,0 +1,98 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_Status_LifeSteal_classes.hpp"
+#include "PalServer/BP_Status_LifeSteal_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_Status_LifeSteal.BP_Status_LifeSteal_C.ExecuteUbergraph_BP_Status_LifeSteal
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_Status_LifeSteal_C::ExecuteUbergraph_BP_Status_LifeSteal(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Status_LifeSteal_C", "ExecuteUbergraph_BP_Status_LifeSteal");
+
+	Params::BP_Status_LifeSteal_C_ExecuteUbergraph_BP_Status_LifeSteal Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_Status_LifeSteal.BP_Status_LifeSteal_C.OnBeginStatus
+// (Event, Public, BlueprintEvent)
+
+void UBP_Status_LifeSteal_C::OnBeginStatus()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Status_LifeSteal_C", "OnBeginStatus");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_Status_LifeSteal.BP_Status_LifeSteal_C.OnEndStatus
+// (Event, Public, BlueprintEvent)
+
+void UBP_Status_LifeSteal_C::OnEndStatus()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Status_LifeSteal_C", "OnEndStatus");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_Status_LifeSteal.BP_Status_LifeSteal_C.OnLifeSteal
+// (Event, Public, BlueprintEvent)
+// Parameters:
+// int32                                   Damage                                                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_Status_LifeSteal_C::OnLifeSteal(int32 Damage)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Status_LifeSteal_C", "OnLifeSteal");
+
+	Params::BP_Status_LifeSteal_C_OnLifeSteal Parms{};
+
+	Parms.Damage = Damage;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_Status_LifeSteal.BP_Status_LifeSteal_C.TickStatus
+// (Event, Public, BlueprintEvent)
+// Parameters:
+// float                                   DeltaTime                                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_Status_LifeSteal_C::TickStatus(float DeltaTime)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Status_LifeSteal_C", "TickStatus");
+
+	Params::BP_Status_LifeSteal_C_TickStatus Parms{};
+
+	Parms.DeltaTime = DeltaTime;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+}
+

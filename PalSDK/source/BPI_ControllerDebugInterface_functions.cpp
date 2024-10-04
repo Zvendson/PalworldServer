@@ -1,0 +1,30 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BPI_ControllerDebugInterface_classes.hpp"
+#include "PalServer/BPI_ControllerDebugInterface_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BPI_ControllerDebugInterface.BPI_ControllerDebugInterface_C.DebugBattleStart
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class AActor*                           Player                                                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+
+void IBPI_ControllerDebugInterface_C::DebugBattleStart(class AActor* Player)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BPI_ControllerDebugInterface_C", "DebugBattleStart");
+
+	Params::BPI_ControllerDebugInterface_C_DebugBattleStart Parms{};
+
+	Parms.Player = Player;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+}
+

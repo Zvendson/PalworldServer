@@ -1,0 +1,50 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_FoliageModelChunk_classes.hpp"
+#include "PalServer/BP_FoliageModelChunk_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_FoliageModelChunk.BP_FoliageModelChunk_C.ExecuteUbergraph_BP_FoliageModelChunk
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ABP_FoliageModelChunk_C::ExecuteUbergraph_BP_FoliageModelChunk(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FoliageModelChunk_C", "ExecuteUbergraph_BP_FoliageModelChunk");
+
+	Params::BP_FoliageModelChunk_C_ExecuteUbergraph_BP_FoliageModelChunk Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_FoliageModelChunk.BP_FoliageModelChunk_C.OnReceivedChunkGridSize
+// (Event, Protected, BlueprintEvent)
+// Parameters:
+// int32                                   NewChunkGridSize                                       (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ABP_FoliageModelChunk_C::OnReceivedChunkGridSize(const int32 NewChunkGridSize)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_FoliageModelChunk_C", "OnReceivedChunkGridSize");
+
+	Params::BP_FoliageModelChunk_C_OnReceivedChunkGridSize Parms{};
+
+	Parms.NewChunkGridSize = NewChunkGridSize;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+}
+

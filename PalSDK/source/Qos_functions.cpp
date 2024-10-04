@@ -1,0 +1,60 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/Qos_classes.hpp"
+#include "PalServer/Qos_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function Qos.QosBeaconClient.ClientQosResponse
+// (Net, NetReliable, Native, Event, Protected, NetClient)
+// Parameters:
+// EQosResponseType                        Response                                               (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+void AQosBeaconClient::ClientQosResponse(EQosResponseType Response)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("QosBeaconClient", "ClientQosResponse");
+
+	Params::QosBeaconClient_ClientQosResponse Parms{};
+
+	Parms.Response = Response;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// Function Qos.QosBeaconClient.ServerQosRequest
+// (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
+// Parameters:
+// class FString                           InSessionId                                            (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+void AQosBeaconClient::ServerQosRequest(const class FString& InSessionId)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("QosBeaconClient", "ServerQosRequest");
+
+	Params::QosBeaconClient_ServerQosRequest Parms{};
+
+	Parms.InSessionId = std::move(InSessionId);
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+}
+
+}
+

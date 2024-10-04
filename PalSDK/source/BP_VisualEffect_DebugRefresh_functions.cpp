@@ -1,0 +1,44 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_VisualEffect_DebugRefresh_classes.hpp"
+#include "PalServer/BP_VisualEffect_DebugRefresh_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_VisualEffect_DebugRefresh.BP_VisualEffect_DebugRefresh_C.ExecuteUbergraph_BP_VisualEffect_DebugRefresh
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_VisualEffect_DebugRefresh_C::ExecuteUbergraph_BP_VisualEffect_DebugRefresh(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_VisualEffect_DebugRefresh_C", "ExecuteUbergraph_BP_VisualEffect_DebugRefresh");
+
+	Params::BP_VisualEffect_DebugRefresh_C_ExecuteUbergraph_BP_VisualEffect_DebugRefresh Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_VisualEffect_DebugRefresh.BP_VisualEffect_DebugRefresh_C.OnBeginVisualEffect
+// (Event, Public, BlueprintEvent)
+
+void UBP_VisualEffect_DebugRefresh_C::OnBeginVisualEffect()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_VisualEffect_DebugRefresh_C", "OnBeginVisualEffect");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+}
+

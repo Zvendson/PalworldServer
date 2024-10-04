@@ -1,0 +1,51 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_AIAction_NPC_Relax_SalesPerson_classes.hpp"
+#include "PalServer/BP_AIAction_NPC_Relax_SalesPerson_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_AIAction_NPC_Relax_SalesPerson.BP_AIAction_NPC_Relax_SalesPerson_C.GetTransitionableJudgementType
+// (Event, Public, HasOutParams, HasDefaults, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// TArray<EPalAISightJudgementType>        JudgeTypeList                                          (Parm, OutParm)
+
+void UBP_AIAction_NPC_Relax_SalesPerson_C::GetTransitionableJudgementType(TArray<EPalAISightJudgementType>* JudgeTypeList)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_AIAction_NPC_Relax_SalesPerson_C", "GetTransitionableJudgementType");
+
+	Params::BP_AIAction_NPC_Relax_SalesPerson_C_GetTransitionableJudgementType Parms{};
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (JudgeTypeList != nullptr)
+		*JudgeTypeList = std::move(Parms.JudgeTypeList);
+}
+
+
+// Function BP_AIAction_NPC_Relax_SalesPerson.BP_AIAction_NPC_Relax_SalesPerson_C.SoundEvent
+// (Protected, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// struct FVector                          EmitLocation                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_AIAction_NPC_Relax_SalesPerson_C::SoundEvent(const struct FVector& EmitLocation)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_AIAction_NPC_Relax_SalesPerson_C", "SoundEvent");
+
+	Params::BP_AIAction_NPC_Relax_SalesPerson_C_SoundEvent Parms{};
+
+	Parms.EmitLocation = std::move(EmitLocation);
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+}
+

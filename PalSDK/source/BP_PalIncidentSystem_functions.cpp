@@ -1,0 +1,108 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_PalIncidentSystem_classes.hpp"
+#include "PalServer/BP_PalIncidentSystem_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_PalIncidentSystem.BP_PalIncidentSystem_C.ExecuteUbergraph_BP_PalIncidentSystem
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_PalIncidentSystem_C::ExecuteUbergraph_BP_PalIncidentSystem(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PalIncidentSystem_C", "ExecuteUbergraph_BP_PalIncidentSystem");
+
+	Params::BP_PalIncidentSystem_C_ExecuteUbergraph_BP_PalIncidentSystem Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_PalIncidentSystem.BP_PalIncidentSystem_C.TalkCustomFunction_AttackToPlayer
+// (Event, Protected, BlueprintEvent)
+// Parameters:
+// class APalPlayerCharacter*              TalkPlayer                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+// class APalCharacter*                    TargetNPC                                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+// class UDataTable*                       CunstomFuncParam                                       (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+
+void UBP_PalIncidentSystem_C::TalkCustomFunction_AttackToPlayer(class APalPlayerCharacter* TalkPlayer, class APalCharacter* TargetNPC, const class UDataTable* CunstomFuncParam)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PalIncidentSystem_C", "TalkCustomFunction_AttackToPlayer");
+
+	Params::BP_PalIncidentSystem_C_TalkCustomFunction_AttackToPlayer Parms{};
+
+	Parms.TalkPlayer = TalkPlayer;
+	Parms.TargetNPC = TargetNPC;
+	Parms.CunstomFuncParam = CunstomFuncParam;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_PalIncidentSystem.BP_PalIncidentSystem_C.Lottery Index by Weights
+// (Private, HasOutParams, BlueprintCallable, BlueprintEvent, Const)
+// Parameters:
+// TArray<double>                          Weights                                                (BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm)
+// int32                                   Index_0                                                (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_PalIncidentSystem_C::Lottery_Index_by_Weights(TArray<double>& Weights, int32* Index_0) const
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PalIncidentSystem_C", "Lottery Index by Weights");
+
+	Params::BP_PalIncidentSystem_C_Lottery_Index_by_Weights Parms{};
+
+	Parms.Weights = std::move(Weights);
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Weights = std::move(Parms.Weights);
+
+	if (Index_0 != nullptr)
+		*Index_0 = Parms.Index_0;
+}
+
+
+// Function BP_PalIncidentSystem.BP_PalIncidentSystem_C.LotteryItemAndNum
+// (Event, Public, HasOutParams, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
+// Parameters:
+// class UDataTable*                       PresentLotteryDataTable                                (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+// class FName                             OutItemName                                            (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// int32                                   OutNum                                                 (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_PalIncidentSystem_C::LotteryItemAndNum(const class UDataTable* PresentLotteryDataTable, class FName* OutItemName, int32* OutNum) const
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PalIncidentSystem_C", "LotteryItemAndNum");
+
+	Params::BP_PalIncidentSystem_C_LotteryItemAndNum Parms{};
+
+	Parms.PresentLotteryDataTable = PresentLotteryDataTable;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (OutItemName != nullptr)
+		*OutItemName = Parms.OutItemName;
+
+	if (OutNum != nullptr)
+		*OutNum = Parms.OutNum;
+}
+
+}
+

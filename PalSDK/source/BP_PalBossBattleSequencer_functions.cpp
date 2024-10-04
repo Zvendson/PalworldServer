@@ -1,0 +1,50 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_PalBossBattleSequencer_classes.hpp"
+#include "PalServer/BP_PalBossBattleSequencer_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_PalBossBattleSequencer.BP_PalBossBattleSequencer_C.ExecuteUbergraph_BP_PalBossBattleSequencer
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_PalBossBattleSequencer_C::ExecuteUbergraph_BP_PalBossBattleSequencer(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PalBossBattleSequencer_C", "ExecuteUbergraph_BP_PalBossBattleSequencer");
+
+	Params::BP_PalBossBattleSequencer_C_ExecuteUbergraph_BP_PalBossBattleSequencer Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_PalBossBattleSequencer.BP_PalBossBattleSequencer_C.Tick_ForBP
+// (Event, Protected, BlueprintEvent)
+// Parameters:
+// float                                   DeltaTime                                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_PalBossBattleSequencer_C::Tick_ForBP(float DeltaTime)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PalBossBattleSequencer_C", "Tick_ForBP");
+
+	Params::BP_PalBossBattleSequencer_C_Tick_ForBP Parms{};
+
+	Parms.DeltaTime = DeltaTime;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+}
+

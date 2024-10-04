@@ -1,0 +1,114 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_VisualEffect_SpawnFromBallEmissive_classes.hpp"
+#include "PalServer/BP_VisualEffect_SpawnFromBallEmissive_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_VisualEffect_SpawnFromBallEmissive.BP_VisualEffect_SpawnFromBallEmissive_C.ExecuteUbergraph_BP_VisualEffect_SpawnFromBallEmissive
+// (Final, UbergraphFunction, HasDefaults)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_VisualEffect_SpawnFromBallEmissive_C::ExecuteUbergraph_BP_VisualEffect_SpawnFromBallEmissive(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_VisualEffect_SpawnFromBallEmissive_C", "ExecuteUbergraph_BP_VisualEffect_SpawnFromBallEmissive");
+
+	Params::BP_VisualEffect_SpawnFromBallEmissive_C_ExecuteUbergraph_BP_VisualEffect_SpawnFromBallEmissive Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_VisualEffect_SpawnFromBallEmissive.BP_VisualEffect_SpawnFromBallEmissive_C.ModifyEffectBySize
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class UNiagaraComponent*                Effect                                                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+// EPalSizeType                            Size                                                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_VisualEffect_SpawnFromBallEmissive_C::ModifyEffectBySize(class UNiagaraComponent* Effect, EPalSizeType Size)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_VisualEffect_SpawnFromBallEmissive_C", "ModifyEffectBySize");
+
+	Params::BP_VisualEffect_SpawnFromBallEmissive_C_ModifyEffectBySize Parms{};
+
+	Parms.Effect = Effect;
+	Parms.Size = Size;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_VisualEffect_SpawnFromBallEmissive.BP_VisualEffect_SpawnFromBallEmissive_C.OnBeginVisualEffect
+// (Event, Public, BlueprintEvent)
+
+void UBP_VisualEffect_SpawnFromBallEmissive_C::OnBeginVisualEffect()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_VisualEffect_SpawnFromBallEmissive_C", "OnBeginVisualEffect");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_VisualEffect_SpawnFromBallEmissive.BP_VisualEffect_SpawnFromBallEmissive_C.OnEndVisualEffect
+// (Event, Public, BlueprintEvent)
+
+void UBP_VisualEffect_SpawnFromBallEmissive_C::OnEndVisualEffect()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_VisualEffect_SpawnFromBallEmissive_C", "OnEndVisualEffect");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_VisualEffect_SpawnFromBallEmissive.BP_VisualEffect_SpawnFromBallEmissive_C.SetScale
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// double                                  Value                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_VisualEffect_SpawnFromBallEmissive_C::SetScale(double Value)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_VisualEffect_SpawnFromBallEmissive_C", "SetScale");
+
+	Params::BP_VisualEffect_SpawnFromBallEmissive_C_SetScale Parms{};
+
+	Parms.Value = Value;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_VisualEffect_SpawnFromBallEmissive.BP_VisualEffect_SpawnFromBallEmissive_C.カスタムイベントUpdate
+// (BlueprintCallable, BlueprintEvent)
+
+void UBP_VisualEffect_SpawnFromBallEmissive_C::________________________Update()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_VisualEffect_SpawnFromBallEmissive_C", "カスタムイベントUpdate");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+}
+

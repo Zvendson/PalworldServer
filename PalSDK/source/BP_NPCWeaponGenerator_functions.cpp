@@ -1,0 +1,50 @@
+#include "PalServer/Basic.hpp"
+
+#include "PalServer/BP_NPCWeaponGenerator_classes.hpp"
+#include "PalServer/BP_NPCWeaponGenerator_parameters.hpp"
+
+
+namespace PalServer
+{
+
+// Function BP_NPCWeaponGenerator.BP_NPCWeaponGenerator_C.ExecuteUbergraph_BP_NPCWeaponGenerator
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_NPCWeaponGenerator_C::ExecuteUbergraph_BP_NPCWeaponGenerator(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_NPCWeaponGenerator_C", "ExecuteUbergraph_BP_NPCWeaponGenerator");
+
+	Params::BP_NPCWeaponGenerator_C_ExecuteUbergraph_BP_NPCWeaponGenerator Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_NPCWeaponGenerator.BP_NPCWeaponGenerator_C.OnSpawnEvent
+// (Event, Protected, BlueprintEvent)
+// Parameters:
+// class APalWeaponBase*                   WeaponActor                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+
+void UBP_NPCWeaponGenerator_C::OnSpawnEvent(class APalWeaponBase* WeaponActor)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_NPCWeaponGenerator_C", "OnSpawnEvent");
+
+	Params::BP_NPCWeaponGenerator_C_OnSpawnEvent Parms{};
+
+	Parms.WeaponActor = WeaponActor;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+}
+
