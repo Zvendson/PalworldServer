@@ -29,7 +29,7 @@ set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
 # Adding the cmake folder to the cmake path files. It allows us to include(<filename>) them.
 list(APPEND CMAKE_MODULE_PATH 
-    "${PROJECT_SOURCE_DIR}/cmake"
+    "${PROJECT_SOURCE_DIR}/Dependencies/cmake"
 )
 
 
