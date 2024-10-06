@@ -1,5 +1,4 @@
-#include <Scanner.hpp>
-#include <PalServer.hpp>
+#include "version.h"
 
 
 
@@ -9,7 +8,7 @@ BOOL APIENTRY DllMain(HINSTANCE hinstDLL, DWORD  fdwReason, LPVOID)
     if (fdwReason == DLL_PROCESS_ATTACH)
     {
         printf("PID = %d\n", GetCurrentProcessId());
-        PalServer::StartUp(hinstDLL);
+        setupWrappers();
     }
 
     return TRUE;

@@ -17,13 +17,13 @@ add_compile_definitions(
 
 
 # Setting project source files
-file(GLOB_RECURSE SOURCES
+file(GLOB_RECURSE PalServerSDK_SOURCES
     "include/*.hpp"
     "include/*.inl"
     "source/*.cpp"
 )
-source_group(TREE "${CMAKE_CURRENT_SOURCE_DIR}" FILES ${SOURCES})
-target_sources(PalServerSDK PUBLIC ${SOURCES})
+source_group(TREE "${CMAKE_CURRENT_SOURCE_DIR}" FILES ${PalServerSDK_SOURCES})
+target_sources(PalServerSDK PUBLIC ${PalServerSDK_SOURCES})
 
 
 # include paths

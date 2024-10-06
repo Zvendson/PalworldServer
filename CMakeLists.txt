@@ -14,7 +14,7 @@ set(CMAKE_SHARED_LINKER_FLAGS_RELEASE "${CMAKE_SHARED_LINKER_FLAGS_RELEASE} /DEB
 
 
 # Creating the sln
-project(Palworld)
+project(PalworldServer)
 
 
 # Making sure the project will be set to x64
@@ -46,24 +46,17 @@ include(spdlog)
 include(minhook)
 include(json)
 
+add_subdirectory(Dependencies/versiondll)
 add_subdirectory(Dependencies/PalSDK)
 
 
-################
-# PalServerAPI #
-################
-
-
-# enable MASM support to compile .asm files
-enable_language(ASM_MASM)
+##############
+# PalManager #
+##############
 
 
 # Creating the dll project
-add_library(PalServerAPI SHARED)
-
-
-# Rename output dll to "version.dll", because PalServer.exe will auto load it.
-set_target_properties(PalServerAPI PROPERTIES OUTPUT_NAME "version")
+add_library(PalManager SHARED)
 
 
 # preprocessor definitions
@@ -77,40 +70,27 @@ add_compile_definitions(
 
 
 # Setting project source files
-file(GLOB_RECURSE SOURCES
+file(GLOB_RECURSE PalManager_SOURCES
     "include/*.hpp"
     "source/*.hpp"
     "source/*.cpp"
-    "source/version/version.def"
-    "source/version/version.h"
-    "source/version/version.asm"
 )
-source_group(TREE "${CMAKE_CURRENT_SOURCE_DIR}" FILES ${SOURCES})
-target_sources(PalServerAPI PUBLIC ${SOURCES})
-
-
-# we need to link the .def file for the assembly
-set_target_properties(PalServerAPI PROPERTIES LINK_FLAGS "/DEF:${CMAKE_CURRENT_SOURCE_DIR}/source/version/version.def")
-set_source_files_properties(version.def PROPERTIES HEADER_FILE_ONLY TRUE)
-
-
-# Setting .asm properties to compile it actually 
-set_source_files_properties(
-    "source/version/version.asm"
-    PROPERTIES COMPILE_FLAGS "/Zi /W3 /errorReport:prompt"
-)
+source_group(TREE "${CMAKE_CURRENT_SOURCE_DIR}" FILES ${PalManager_SOURCES})
+target_sources(PalManager PUBLIC ${PalManager_SOURCES})
 
 
 # include paths
-target_include_directories(PalServerAPI PUBLIC
+target_include_directories(PalManager PUBLIC
     "${CMAKE_CURRENT_SOURCE_DIR}/include"
-    "${CMAKE_CURRENT_SOURCE_DIR}/source"
     "${json_SOURCE_DIR}/single_include/"
 )
 
 
-# Link dependencies
-target_link_libraries(PalServerAPI PUBLIC
+# dependencies
+add_dependencies(PalManager
+    versiondll
+)
+target_link_libraries(PalManager PUBLIC
     spdlog
     minhook    
     dbghelp.lib
@@ -119,17 +99,17 @@ target_link_libraries(PalServerAPI PUBLIC
 
 
 # Set linker options
-target_link_options(PalServerAPI PUBLIC
+target_link_options(PalManager PUBLIC
     "/SUBSYSTEM:WINDOWS"
     /SAFESEH:NO
 )
 
 
 # Set compiler options
-target_compile_options(PalServerAPI PUBLIC  
+target_compile_options(PalManager PUBLIC  
     /W3
 )
 
 
-# set PalServerAPI as startup project // TODO: Create a PalServer.exe wrapper and set it as startup project
-set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT PalServerAPI)
+# set PalManager as startup project // TODO: Create a PalServer.exe wrapper and set it as startup project
+set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT PalManager)

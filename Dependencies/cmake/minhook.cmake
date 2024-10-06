@@ -27,8 +27,8 @@ FetchContent_Populate(minhook)
 add_library(minhook)
 
 
-# grouping files into a variable which can be used as "${SOURCES}"
-file(GLOB_RECURSE SOURCES
+# grouping files into a variable which can be used as "${minhook_SOURCES}"
+file(GLOB_RECURSE minhook_SOURCES
     "${minhook_SOURCE_DIR}/include/*.h"
     "${minhook_SOURCE_DIR}/src/*.h"
     "${minhook_SOURCE_DIR}/src/*.c"
@@ -36,11 +36,11 @@ file(GLOB_RECURSE SOURCES
 
 
 # let them preview as a tree and put them into a filter called "source"
-source_group(TREE "${minhook_SOURCE_DIR}" FILES ${SOURCES})
+source_group(TREE "${minhook_SOURCE_DIR}" FILES ${minhook_SOURCES})
 
 
 # setting the source files that are needed to build minhook
-target_sources(minhook PRIVATE ${SOURCES})
+target_sources(minhook PRIVATE ${minhook_SOURCES})
 
 
 # include the dirs where minhook can find the source files
