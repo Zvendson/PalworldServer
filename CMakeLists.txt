@@ -46,7 +46,7 @@ include(spdlog)
 include(minhook)
 include(json)
 
-add_subdirectory(PalSDK)
+add_subdirectory(Dependencies/PalSDK)
 
 
 ################
