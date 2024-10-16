@@ -164,7 +164,11 @@ namespace Pal
 
                 auto rotatingSink = std::make_shared<spdlog::sinks::rotating_file_sink_mt>(oss.str(), 10 * 1024 * 1024, 3);
                 rotatingSink->set_formatter(std::move(fileFormatter));
+#if _DEBUG
                 rotatingSink->set_level(spdlog::level::level_enum::debug);
+#else
+                rotatingSink->set_level(spdlog::level::level_enum::info);
+#endif
                 sinks.push_back(rotatingSink);
 
 

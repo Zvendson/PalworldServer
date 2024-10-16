@@ -1,5 +1,11 @@
 #include <PalManager.hpp>
+#include <wtypes.h>
 
+namespace Pal
+{
+    bool StartUp(HMODULE hInstance);
+    bool Shutdown();
+}
 
 
 BOOL APIENTRY DllMain(HINSTANCE hinstDLL, DWORD  fdwReason, LPVOID)

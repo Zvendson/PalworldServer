@@ -1,13 +1,13 @@
-#include <wtypes.h>
+#pragma once
 
-#ifdef PALMANAGER_EXPORTS
-#define PALMANAGER_API __declspec(dllexport)
-#else
-#define PALMANAGER_API __declspec(dllimport)
-#endif
+#include "PalManager/Macros.hpp"
 
 namespace Pal
 {
-    bool StartUp(HMODULE hInstance);
-    bool Shutdown();
+    class PALAPI PalManager
+    {
+    public:
+
+    private:
+    };
 }
