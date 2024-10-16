@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalRichTextDecorator_CharacterName_classes.hpp"
-#include "PalServer/BP_PalRichTextDecorator_CharacterName_parameters.hpp"
+#include "PalSDK/BP_PalRichTextDecorator_CharacterName_classes.hpp"
+#include "PalSDK/BP_PalRichTextDecorator_CharacterName_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalRichTextDecorator_CharacterName.BP_PalRichTextDecorator_CharacterName_C.GetTagName

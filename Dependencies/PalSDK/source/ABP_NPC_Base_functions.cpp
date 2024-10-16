@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ABP_NPC_Base_classes.hpp"
-#include "PalServer/ABP_NPC_Base_parameters.hpp"
+#include "PalSDK/ABP_NPC_Base_classes.hpp"
+#include "PalSDK/ABP_NPC_Base_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ABP_NPC_Base.ABP_NPC_Base_C.AnimGraph

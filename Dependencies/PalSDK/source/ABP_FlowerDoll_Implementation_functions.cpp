@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ABP_FlowerDoll_Implementation_classes.hpp"
-#include "PalServer/ABP_FlowerDoll_Implementation_parameters.hpp"
+#include "PalSDK/ABP_FlowerDoll_Implementation_classes.hpp"
+#include "PalSDK/ABP_FlowerDoll_Implementation_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ABP_FlowerDoll_Implementation.ABP_FlowerDoll_Implementation_C.UpperOverride

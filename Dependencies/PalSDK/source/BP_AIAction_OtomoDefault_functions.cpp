@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AIAction_OtomoDefault_classes.hpp"
-#include "PalServer/BP_AIAction_OtomoDefault_parameters.hpp"
+#include "PalSDK/BP_AIAction_OtomoDefault_classes.hpp"
+#include "PalSDK/BP_AIAction_OtomoDefault_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AIAction_OtomoDefault.BP_AIAction_OtomoDefault_C.ExecuteUbergraph_BP_AIAction_OtomoDefault

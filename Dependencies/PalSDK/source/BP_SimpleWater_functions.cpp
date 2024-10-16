@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_SimpleWater_classes.hpp"
-#include "PalServer/BP_SimpleWater_parameters.hpp"
+#include "PalSDK/BP_SimpleWater_classes.hpp"
+#include "PalSDK/BP_SimpleWater_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_SimpleWater.BP_SimpleWater_C.BndEvt__BP_SimpleWater_SwimmingVolume_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature

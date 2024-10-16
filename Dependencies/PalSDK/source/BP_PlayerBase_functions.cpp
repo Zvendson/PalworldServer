@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PlayerBase_classes.hpp"
-#include "PalServer/BP_PlayerBase_parameters.hpp"
+#include "PalSDK/BP_PlayerBase_classes.hpp"
+#include "PalSDK/BP_PlayerBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PlayerBase.BP_PlayerBase_C.BndEvt__BP_PlayerBase_CapsuleComponent_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature

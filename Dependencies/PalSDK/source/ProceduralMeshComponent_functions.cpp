@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ProceduralMeshComponent_classes.hpp"
-#include "PalServer/ProceduralMeshComponent_parameters.hpp"
+#include "PalSDK/ProceduralMeshComponent_classes.hpp"
+#include "PalSDK/ProceduralMeshComponent_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ProceduralMeshComponent.ProceduralMeshComponent.AddCollisionConvexMesh

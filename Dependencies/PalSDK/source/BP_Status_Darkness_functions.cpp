@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_Status_Darkness_classes.hpp"
-#include "PalServer/BP_Status_Darkness_parameters.hpp"
+#include "PalSDK/BP_Status_Darkness_classes.hpp"
+#include "PalSDK/BP_Status_Darkness_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_Status_Darkness.BP_Status_Darkness_C.DisableDebugSetting

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_RepairAllWindow_classes.hpp"
-#include "PalServer/WBP_RepairAllWindow_parameters.hpp"
+#include "PalSDK/WBP_RepairAllWindow_classes.hpp"
+#include "PalSDK/WBP_RepairAllWindow_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_RepairAllWindow.WBP_RepairAllWindow_C.BndEvt__WBP_RepairAllWindow_WBP_IngameMenu_RepairAll_K2Node_ComponentBoundEvent_0_OnClickedButton__DelegateSignature

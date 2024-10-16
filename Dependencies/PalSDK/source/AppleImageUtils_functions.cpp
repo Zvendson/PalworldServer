@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/AppleImageUtils_classes.hpp"
-#include "PalServer/AppleImageUtils_parameters.hpp"
+#include "PalSDK/AppleImageUtils_classes.hpp"
+#include "PalSDK/AppleImageUtils_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function AppleImageUtils.AppleImageUtilsBaseAsyncTaskBlueprintProxy.CreateProxyObjectForConvertToHEIF

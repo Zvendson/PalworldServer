@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_Map_IconPlayer_classes.hpp"
-#include "PalServer/WBP_Map_IconPlayer_parameters.hpp"
+#include "PalSDK/WBP_Map_IconPlayer_classes.hpp"
+#include "PalSDK/WBP_Map_IconPlayer_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_Map_IconPlayer.WBP_Map_IconPlayer_C.BndEvt__WBP_Map_IconPlayer_WBP_PalCommonButton_K2Node_ComponentBoundEvent_0_CommonButtonBaseClicked__DelegateSignature

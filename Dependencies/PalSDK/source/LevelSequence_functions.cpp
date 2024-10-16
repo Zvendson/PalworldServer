@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/LevelSequence_classes.hpp"
-#include "PalServer/LevelSequence_parameters.hpp"
+#include "PalSDK/LevelSequence_classes.hpp"
+#include "PalSDK/LevelSequence_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function LevelSequence.LevelSequence.CopyMetaData

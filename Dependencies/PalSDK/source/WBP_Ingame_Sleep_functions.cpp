@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_Ingame_Sleep_classes.hpp"
-#include "PalServer/WBP_Ingame_Sleep_parameters.hpp"
+#include "PalSDK/WBP_Ingame_Sleep_classes.hpp"
+#include "PalSDK/WBP_Ingame_Sleep_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_Ingame_Sleep.WBP_Ingame_Sleep_C.CloseMenu

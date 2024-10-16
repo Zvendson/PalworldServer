@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalWorkerInfo_classes.hpp"
-#include "PalServer/WBP_PalWorkerInfo_parameters.hpp"
+#include "PalSDK/WBP_PalWorkerInfo_classes.hpp"
+#include "PalSDK/WBP_PalWorkerInfo_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalWorkerInfo.WBP_PalWorkerInfo_C.AnmEvent_Close

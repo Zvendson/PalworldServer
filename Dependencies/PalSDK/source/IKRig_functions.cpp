@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/IKRig_classes.hpp"
-#include "PalServer/IKRig_parameters.hpp"
+#include "PalSDK/IKRig_classes.hpp"
+#include "PalSDK/IKRig_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function IKRig.IKGoalCreatorInterface.AddIKGoals

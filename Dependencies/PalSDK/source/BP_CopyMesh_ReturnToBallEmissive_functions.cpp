@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_CopyMesh_ReturnToBallEmissive_classes.hpp"
-#include "PalServer/BP_CopyMesh_ReturnToBallEmissive_parameters.hpp"
+#include "PalSDK/BP_CopyMesh_ReturnToBallEmissive_classes.hpp"
+#include "PalSDK/BP_CopyMesh_ReturnToBallEmissive_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_CopyMesh_ReturnToBallEmissive.BP_CopyMesh_ReturnToBallEmissive_C.End

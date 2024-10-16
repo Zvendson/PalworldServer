@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_NPCSpawnPointComponent_classes.hpp"
-#include "PalServer/BP_NPCSpawnPointComponent_parameters.hpp"
+#include "PalSDK/BP_NPCSpawnPointComponent_classes.hpp"
+#include "PalSDK/BP_NPCSpawnPointComponent_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_NPCSpawnPointComponent.BP_NPCSpawnPointComponent_C.ExecuteUbergraph_BP_NPCSpawnPointComponent

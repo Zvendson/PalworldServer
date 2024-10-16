@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_Ingame_TimeZone_classes.hpp"
-#include "PalServer/WBP_Ingame_TimeZone_parameters.hpp"
+#include "PalSDK/WBP_Ingame_TimeZone_classes.hpp"
+#include "PalSDK/WBP_Ingame_TimeZone_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_Ingame_TimeZone.WBP_Ingame_TimeZone_C.ExecuteUbergraph_WBP_Ingame_TimeZone

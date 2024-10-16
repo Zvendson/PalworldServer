@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalTextBlock_classes.hpp"
-#include "PalServer/BP_PalTextBlock_parameters.hpp"
+#include "PalSDK/BP_PalTextBlock_classes.hpp"
+#include "PalSDK/BP_PalTextBlock_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalTextBlock.BP_PalTextBlock_C.BP_ReflectText

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_IngameMenuConstruction_InfoItem_classes.hpp"
-#include "PalServer/WBP_IngameMenuConstruction_InfoItem_parameters.hpp"
+#include "PalSDK/WBP_IngameMenuConstruction_InfoItem_classes.hpp"
+#include "PalSDK/WBP_IngameMenuConstruction_InfoItem_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_IngameMenuConstruction_InfoItem.WBP_IngameMenuConstruction_InfoItem_C.Setup

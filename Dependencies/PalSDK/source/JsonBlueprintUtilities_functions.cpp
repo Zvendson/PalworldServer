@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/JsonBlueprintUtilities_classes.hpp"
-#include "PalServer/JsonBlueprintUtilities_parameters.hpp"
+#include "PalSDK/JsonBlueprintUtilities_classes.hpp"
+#include "PalSDK/JsonBlueprintUtilities_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function JsonBlueprintUtilities.JsonBlueprintFunctionLibrary.FromFile

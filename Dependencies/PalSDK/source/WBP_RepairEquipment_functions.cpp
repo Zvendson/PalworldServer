@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_RepairEquipment_classes.hpp"
-#include "PalServer/WBP_RepairEquipment_parameters.hpp"
+#include "PalSDK/WBP_RepairEquipment_classes.hpp"
+#include "PalSDK/WBP_RepairEquipment_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_RepairEquipment.WBP_RepairEquipment_C.BndEvt__WBP_RepairEquipment_WBP_IngameMenu_Repair_K2Node_ComponentBoundEvent_0_OnClickedCloseButton__DelegateSignature

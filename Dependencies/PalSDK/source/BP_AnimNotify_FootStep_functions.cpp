@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AnimNotify_FootStep_classes.hpp"
-#include "PalServer/BP_AnimNotify_FootStep_parameters.hpp"
+#include "PalSDK/BP_AnimNotify_FootStep_classes.hpp"
+#include "PalSDK/BP_AnimNotify_FootStep_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AnimNotify_FootStep.BP_AnimNotify_FootStep_C.Create Foot Step Effect

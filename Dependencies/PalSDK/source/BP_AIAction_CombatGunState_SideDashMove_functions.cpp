@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AIAction_CombatGunState_SideDashMove_classes.hpp"
-#include "PalServer/BP_AIAction_CombatGunState_SideDashMove_parameters.hpp"
+#include "PalSDK/BP_AIAction_CombatGunState_SideDashMove_classes.hpp"
+#include "PalSDK/BP_AIAction_CombatGunState_SideDashMove_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AIAction_CombatGunState_SideDashMove.BP_AIAction_CombatGunState_SideDashMove_C.ExecuteUbergraph_BP_AIAction_CombatGunState_SideDashMove

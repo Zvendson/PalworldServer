@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_Status_AttackUP_classes.hpp"
-#include "PalServer/BP_Status_AttackUP_parameters.hpp"
+#include "PalSDK/BP_Status_AttackUP_classes.hpp"
+#include "PalSDK/BP_Status_AttackUP_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_Status_AttackUP.BP_Status_AttackUP_C.ExecuteUbergraph_BP_Status_AttackUP

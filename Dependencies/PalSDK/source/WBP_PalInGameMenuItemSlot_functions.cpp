@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalInGameMenuItemSlot_classes.hpp"
-#include "PalServer/WBP_PalInGameMenuItemSlot_parameters.hpp"
+#include "PalSDK/WBP_PalInGameMenuItemSlot_classes.hpp"
+#include "PalSDK/WBP_PalInGameMenuItemSlot_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalInGameMenuItemSlot.WBP_PalInGameMenuItemSlot_C.EmptySlotEvent

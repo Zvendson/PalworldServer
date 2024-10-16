@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PettingCamera_classes.hpp"
-#include "PalServer/BP_PettingCamera_parameters.hpp"
+#include "PalSDK/BP_PettingCamera_classes.hpp"
+#include "PalSDK/BP_PettingCamera_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PettingCamera.BP_PettingCamera_C.EndPettingCamera

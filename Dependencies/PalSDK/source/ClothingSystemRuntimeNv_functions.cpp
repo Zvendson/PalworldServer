@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ClothingSystemRuntimeNv_classes.hpp"
-#include "PalServer/ClothingSystemRuntimeNv_parameters.hpp"
+#include "PalSDK/ClothingSystemRuntimeNv_classes.hpp"
+#include "PalSDK/ClothingSystemRuntimeNv_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ClothingSystemRuntimeNv.ClothingSimulationInteractorNv.SetAnimDriveDamperStiffness

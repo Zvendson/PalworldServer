@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalCommonScrollList_classes.hpp"
-#include "PalServer/WBP_PalCommonScrollList_parameters.hpp"
+#include "PalSDK/WBP_PalCommonScrollList_classes.hpp"
+#include "PalSDK/WBP_PalCommonScrollList_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalCommonScrollList.WBP_PalCommonScrollList_C.AddScrollOffset

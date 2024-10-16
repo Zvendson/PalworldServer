@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_HitCalculator_MyLocation_classes.hpp"
-#include "PalServer/BP_HitCalculator_MyLocation_parameters.hpp"
+#include "PalSDK/BP_HitCalculator_MyLocation_classes.hpp"
+#include "PalSDK/BP_HitCalculator_MyLocation_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_HitCalculator_MyLocation.BP_HitCalculator_MyLocation_C.CalcLocation

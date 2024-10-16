@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_TreasureBoxVisual_OilrigGoal_classes.hpp"
-#include "PalServer/BP_TreasureBoxVisual_OilrigGoal_parameters.hpp"
+#include "PalSDK/BP_TreasureBoxVisual_OilrigGoal_classes.hpp"
+#include "PalSDK/BP_TreasureBoxVisual_OilrigGoal_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_TreasureBoxVisual_OilrigGoal.BP_TreasureBoxVisual_OilrigGoal_C.ExecuteUbergraph_BP_TreasureBoxVisual_OilrigGoal

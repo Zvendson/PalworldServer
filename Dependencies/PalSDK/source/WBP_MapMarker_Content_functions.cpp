@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_MapMarker_Content_classes.hpp"
-#include "PalServer/WBP_MapMarker_Content_parameters.hpp"
+#include "PalSDK/WBP_MapMarker_Content_classes.hpp"
+#include "PalSDK/WBP_MapMarker_Content_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_MapMarker_Content.WBP_MapMarker_Content_C.BndEvt__WBP_MapMarker_Content_WBP_PalInvisibleButton_K2Node_ComponentBoundEvent_0_CommonButtonBaseClicked__DelegateSignature

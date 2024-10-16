@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_BuildObjectFactoryConveyorComponent_classes.hpp"
-#include "PalServer/BP_BuildObjectFactoryConveyorComponent_parameters.hpp"
+#include "PalSDK/BP_BuildObjectFactoryConveyorComponent_classes.hpp"
+#include "PalSDK/BP_BuildObjectFactoryConveyorComponent_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_BuildObjectFactoryConveyorComponent.BP_BuildObjectFactoryConveyorComponent_C.OnReadyOwnerEnergyModule

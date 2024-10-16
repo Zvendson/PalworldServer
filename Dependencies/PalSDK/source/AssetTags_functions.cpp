@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/AssetTags_classes.hpp"
-#include "PalServer/AssetTags_parameters.hpp"
+#include "PalSDK/AssetTags_classes.hpp"
+#include "PalSDK/AssetTags_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function AssetTags.AssetTagsSubsystem.CollectionExists

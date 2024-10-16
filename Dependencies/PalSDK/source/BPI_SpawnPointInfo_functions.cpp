@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BPI_SpawnPointInfo_classes.hpp"
-#include "PalServer/BPI_SpawnPointInfo_parameters.hpp"
+#include "PalSDK/BPI_SpawnPointInfo_classes.hpp"
+#include "PalSDK/BPI_SpawnPointInfo_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BPI_SpawnPointInfo.BPI_SpawnPointInfo_C.GetOneSpawnInfo

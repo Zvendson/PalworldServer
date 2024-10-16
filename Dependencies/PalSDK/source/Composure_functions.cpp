@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/Composure_classes.hpp"
-#include "PalServer/Composure_parameters.hpp"
+#include "PalSDK/Composure_classes.hpp"
+#include "PalSDK/Composure_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function Composure.ComposurePipelineBaseActor.EnqueueRendering

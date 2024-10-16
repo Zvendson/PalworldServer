@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_FunnelCharacter_classes.hpp"
-#include "PalServer/BP_FunnelCharacter_parameters.hpp"
+#include "PalSDK/BP_FunnelCharacter_classes.hpp"
+#include "PalSDK/BP_FunnelCharacter_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_FunnelCharacter.BP_FunnelCharacter_C.ExecuteUbergraph_BP_FunnelCharacter

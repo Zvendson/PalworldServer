@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalCommonCharacterSlot_classes.hpp"
-#include "PalServer/WBP_PalCommonCharacterSlot_parameters.hpp"
+#include "PalSDK/WBP_PalCommonCharacterSlot_classes.hpp"
+#include "PalSDK/WBP_PalCommonCharacterSlot_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalCommonCharacterSlot.WBP_PalCommonCharacterSlot_C.AnmEvent_BeginEat

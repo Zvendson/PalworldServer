@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/DatasmithContent_classes.hpp"
-#include "PalServer/DatasmithContent_parameters.hpp"
+#include "PalSDK/DatasmithContent_classes.hpp"
+#include "PalSDK/DatasmithContent_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function DatasmithContent.DatasmithContentBlueprintLibrary.GetDatasmithUserData

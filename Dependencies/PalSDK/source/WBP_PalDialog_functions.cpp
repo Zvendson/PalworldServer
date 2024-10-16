@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalDialog_classes.hpp"
-#include "PalServer/WBP_PalDialog_parameters.hpp"
+#include "PalSDK/WBP_PalDialog_classes.hpp"
+#include "PalSDK/WBP_PalDialog_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalDialog.WBP_PalDialog_C.BndEvt__WBP_PalDialog_WBP_CommonPopupWindow_K2Node_ComponentBoundEvent_2_OnClickedLeftButton__DelegateSignature

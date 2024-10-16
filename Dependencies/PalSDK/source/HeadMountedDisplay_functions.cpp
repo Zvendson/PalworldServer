@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/HeadMountedDisplay_classes.hpp"
-#include "PalServer/HeadMountedDisplay_parameters.hpp"
+#include "PalSDK/HeadMountedDisplay_classes.hpp"
+#include "PalSDK/HeadMountedDisplay_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function HeadMountedDisplay.HandKeypointConversion.Conv_HandKeypointToInt32

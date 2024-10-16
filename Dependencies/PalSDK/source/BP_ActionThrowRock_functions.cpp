@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionThrowRock_classes.hpp"
-#include "PalServer/BP_ActionThrowRock_parameters.hpp"
+#include "PalSDK/BP_ActionThrowRock_classes.hpp"
+#include "PalSDK/BP_ActionThrowRock_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionThrowRock.BP_ActionThrowRock_C.ExecuteUbergraph_BP_ActionThrowRock

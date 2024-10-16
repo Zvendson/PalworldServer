@@ -1,0 +1,29 @@
+#pragma once
+
+#include "Basic.hpp"
+
+#include "Pal_classes.hpp"
+
+
+namespace PalSDK
+{
+
+// BlueprintGeneratedClass BP_PalPlayerInput.BP_PalPlayerInput_C
+// 0x0000 (0x0548 - 0x0548)
+class UBP_PalPlayerInput_C final : public UPalPlayerInput
+{
+public:
+	static class UClass* StaticClass()
+	{
+		return StaticBPGeneratedClassImpl<"BP_PalPlayerInput_C">();
+	}
+	static class UBP_PalPlayerInput_C* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<UBP_PalPlayerInput_C>();
+	}
+};
+static_assert(alignof(UBP_PalPlayerInput_C) == 0x000008, "Wrong alignment on UBP_PalPlayerInput_C");
+static_assert(sizeof(UBP_PalPlayerInput_C) == 0x000548, "Wrong size on UBP_PalPlayerInput_C");
+
+}
+

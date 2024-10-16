@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_InventoryEquipment_PalIcon_classes.hpp"
-#include "PalServer/WBP_InventoryEquipment_PalIcon_parameters.hpp"
+#include "PalSDK/WBP_InventoryEquipment_PalIcon_classes.hpp"
+#include "PalSDK/WBP_InventoryEquipment_PalIcon_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_InventoryEquipment_PalIcon.WBP_InventoryEquipment_PalIcon_C.ExecuteUbergraph_WBP_InventoryEquipment_PalIcon

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalCryComponent_classes.hpp"
-#include "PalServer/BP_PalCryComponent_parameters.hpp"
+#include "PalSDK/BP_PalCryComponent_classes.hpp"
+#include "PalSDK/BP_PalCryComponent_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalCryComponent.BP_PalCryComponent_C.CheckAction

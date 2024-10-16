@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_IngameHungerGauge_classes.hpp"
-#include "PalServer/WBP_IngameHungerGauge_parameters.hpp"
+#include "PalSDK/WBP_IngameHungerGauge_classes.hpp"
+#include "PalSDK/WBP_IngameHungerGauge_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_IngameHungerGauge.WBP_IngameHungerGauge_C.AnmEvent_Debuff

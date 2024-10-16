@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalStorageMenu_ForSkinChanger_classes.hpp"
-#include "PalServer/WBP_PalStorageMenu_ForSkinChanger_parameters.hpp"
+#include "PalSDK/WBP_PalStorageMenu_ForSkinChanger_classes.hpp"
+#include "PalSDK/WBP_PalStorageMenu_ForSkinChanger_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalStorageMenu_ForSkinChanger.WBP_PalStorageMenu_ForSkinChanger_C.DisableNoSkinCharacterButton

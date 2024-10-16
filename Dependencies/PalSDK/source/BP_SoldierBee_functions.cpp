@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_SoldierBee_classes.hpp"
-#include "PalServer/BP_SoldierBee_parameters.hpp"
+#include "PalSDK/BP_SoldierBee_classes.hpp"
+#include "PalSDK/BP_SoldierBee_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_SoldierBee.BP_SoldierBee_C.GetHandAttachMesh

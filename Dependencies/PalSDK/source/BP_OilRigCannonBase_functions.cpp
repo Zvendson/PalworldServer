@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_OilRigCannonBase_classes.hpp"
-#include "PalServer/BP_OilRigCannonBase_parameters.hpp"
+#include "PalSDK/BP_OilRigCannonBase_classes.hpp"
+#include "PalSDK/BP_OilRigCannonBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_OilRigCannonBase.BP_OilRigCannonBase_C.Stop Animation

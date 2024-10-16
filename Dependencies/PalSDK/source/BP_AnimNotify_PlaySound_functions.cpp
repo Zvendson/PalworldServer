@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AnimNotify_PlaySound_classes.hpp"
-#include "PalServer/BP_AnimNotify_PlaySound_parameters.hpp"
+#include "PalSDK/BP_AnimNotify_PlaySound_classes.hpp"
+#include "PalSDK/BP_AnimNotify_PlaySound_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AnimNotify_PlaySound.BP_AnimNotify_PlaySound_C.Received_Notify

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_VisualEffect_Swimming_classes.hpp"
-#include "PalServer/BP_VisualEffect_Swimming_parameters.hpp"
+#include "PalSDK/BP_VisualEffect_Swimming_classes.hpp"
+#include "PalSDK/BP_VisualEffect_Swimming_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_VisualEffect_Swimming.BP_VisualEffect_Swimming_C.Create NS Dive

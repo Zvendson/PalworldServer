@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/GeometryFramework_classes.hpp"
-#include "PalServer/GeometryFramework_parameters.hpp"
+#include "PalSDK/GeometryFramework_classes.hpp"
+#include "PalSDK/GeometryFramework_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function GeometryFramework.BaseDynamicMeshComponent.ClearOverrideRenderMaterial

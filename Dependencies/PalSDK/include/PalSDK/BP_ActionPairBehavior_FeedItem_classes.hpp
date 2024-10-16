@@ -1,0 +1,42 @@
+#pragma once
+
+#include "Basic.hpp"
+
+#include "Engine_structs.hpp"
+#include "BP_ActionPairBehaviorBase_classes.hpp"
+#include "Pal_structs.hpp"
+
+
+namespace PalSDK
+{
+
+// BlueprintGeneratedClass BP_ActionPairBehavior_FeedItem.BP_ActionPairBehavior_FeedItem_C
+// 0x0000 (0x0260 - 0x0260)
+class UBP_ActionPairBehavior_FeedItem_C final : public UBP_ActionPairBehaviorBase_C
+{
+public:
+	uint8                                         Pad_251[0x7];                                      // 0x0251(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
+	struct FPointerToUberGraphFrame               UberGraphFrame_BP_ActionPairBehavior_FeedItem_C;   // 0x0258(0x0008)(ZeroConstructor, Transient, DuplicateTransient)
+
+public:
+	void ExecuteUbergraph_BP_ActionPairBehavior_FeedItem(int32 EntryPoint);
+	void GetHumanAnime(class UAnimMontage** Montage);
+	void OnBeginAction();
+	void OnCompleted(class AActor* Human, class AActor* Monster);
+
+public:
+	static class UClass* StaticClass()
+	{
+		return StaticBPGeneratedClassImpl<"BP_ActionPairBehavior_FeedItem_C">();
+	}
+	static class UBP_ActionPairBehavior_FeedItem_C* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<UBP_ActionPairBehavior_FeedItem_C>();
+	}
+};
+static_assert(alignof(UBP_ActionPairBehavior_FeedItem_C) == 0x000010, "Wrong alignment on UBP_ActionPairBehavior_FeedItem_C");
+static_assert(sizeof(UBP_ActionPairBehavior_FeedItem_C) == 0x000260, "Wrong size on UBP_ActionPairBehavior_FeedItem_C");
+static_assert(offsetof(UBP_ActionPairBehavior_FeedItem_C, UberGraphFrame_BP_ActionPairBehavior_FeedItem_C) == 0x000258, "Member 'UBP_ActionPairBehavior_FeedItem_C::UberGraphFrame_BP_ActionPairBehavior_FeedItem_C' has a wrong offset!");
+
+}
+

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalSupplyIncidentSpawnerBase_classes.hpp"
-#include "PalServer/BP_PalSupplyIncidentSpawnerBase_parameters.hpp"
+#include "PalSDK/BP_PalSupplyIncidentSpawnerBase_classes.hpp"
+#include "PalSDK/BP_PalSupplyIncidentSpawnerBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalSupplyIncidentSpawnerBase.BP_PalSupplyIncidentSpawnerBase_C.ExecuteUbergraph_BP_PalSupplyIncidentSpawnerBase

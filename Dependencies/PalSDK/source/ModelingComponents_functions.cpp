@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ModelingComponents_classes.hpp"
-#include "PalServer/ModelingComponents_parameters.hpp"
+#include "PalSDK/ModelingComponents_classes.hpp"
+#include "PalSDK/ModelingComponents_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ModelingComponents.OctreeDynamicMeshComponent.SetDynamicMesh

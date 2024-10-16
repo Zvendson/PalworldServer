@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_CharaCre_ScrollBoxContentBase_classes.hpp"
-#include "PalServer/WBP_CharaCre_ScrollBoxContentBase_parameters.hpp"
+#include "PalSDK/WBP_CharaCre_ScrollBoxContentBase_classes.hpp"
+#include "PalSDK/WBP_CharaCre_ScrollBoxContentBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_CharaCre_ScrollBoxContentBase.WBP_CharaCre_ScrollBoxContentBase_C.ApplyMakeInfo

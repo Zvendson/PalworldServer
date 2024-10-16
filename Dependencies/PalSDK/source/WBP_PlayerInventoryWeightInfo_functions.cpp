@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PlayerInventoryWeightInfo_classes.hpp"
-#include "PalServer/WBP_PlayerInventoryWeightInfo_parameters.hpp"
+#include "PalSDK/WBP_PlayerInventoryWeightInfo_classes.hpp"
+#include "PalSDK/WBP_PlayerInventoryWeightInfo_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PlayerInventoryWeightInfo.WBP_PlayerInventoryWeightInfo_C.AnmEvent_ForceFull

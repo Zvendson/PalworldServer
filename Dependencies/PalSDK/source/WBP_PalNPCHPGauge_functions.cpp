@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalNPCHPGauge_classes.hpp"
-#include "PalServer/WBP_PalNPCHPGauge_parameters.hpp"
+#include "PalSDK/WBP_PalNPCHPGauge_classes.hpp"
+#include "PalSDK/WBP_PalNPCHPGauge_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalNPCHPGauge.WBP_PalNPCHPGauge_C.BindFromHandle

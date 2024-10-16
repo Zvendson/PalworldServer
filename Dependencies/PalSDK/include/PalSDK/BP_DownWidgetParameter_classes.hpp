@@ -1,0 +1,33 @@
+#pragma once
+
+#include "Basic.hpp"
+
+#include "Pal_classes.hpp"
+
+
+namespace PalSDK
+{
+
+// BlueprintGeneratedClass BP_DownWidgetParameter.BP_DownWidgetParameter_C
+// 0x0008 (0x0040 - 0x0038)
+class UBP_DownWidgetParameter_C final : public UPalHUDDispatchParameterBase
+{
+public:
+	class UBP_Status_Dying_C*                     DysingStatus;                                      // 0x0038(0x0008)(Edit, BlueprintVisible, ZeroConstructor, Transient, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash)
+
+public:
+	static class UClass* StaticClass()
+	{
+		return StaticBPGeneratedClassImpl<"BP_DownWidgetParameter_C">();
+	}
+	static class UBP_DownWidgetParameter_C* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<UBP_DownWidgetParameter_C>();
+	}
+};
+static_assert(alignof(UBP_DownWidgetParameter_C) == 0x000008, "Wrong alignment on UBP_DownWidgetParameter_C");
+static_assert(sizeof(UBP_DownWidgetParameter_C) == 0x000040, "Wrong size on UBP_DownWidgetParameter_C");
+static_assert(offsetof(UBP_DownWidgetParameter_C, DysingStatus) == 0x000038, "Member 'UBP_DownWidgetParameter_C::DysingStatus' has a wrong offset!");
+
+}
+

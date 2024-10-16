@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_IngameCompass_Supply_classes.hpp"
-#include "PalServer/WBP_IngameCompass_Supply_parameters.hpp"
+#include "PalSDK/WBP_IngameCompass_Supply_classes.hpp"
+#include "PalSDK/WBP_IngameCompass_Supply_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_IngameCompass_Supply.WBP_IngameCompass_Supply_C.SetDistanceText

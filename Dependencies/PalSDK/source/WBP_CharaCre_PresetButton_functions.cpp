@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_CharaCre_PresetButton_classes.hpp"
-#include "PalServer/WBP_CharaCre_PresetButton_parameters.hpp"
+#include "PalSDK/WBP_CharaCre_PresetButton_classes.hpp"
+#include "PalSDK/WBP_CharaCre_PresetButton_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_CharaCre_PresetButton.WBP_CharaCre_PresetButton_C.AnmEvent_Hover

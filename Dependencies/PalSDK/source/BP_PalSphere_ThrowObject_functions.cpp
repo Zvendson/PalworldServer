@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalSphere_ThrowObject_classes.hpp"
-#include "PalServer/BP_PalSphere_ThrowObject_parameters.hpp"
+#include "PalSDK/BP_PalSphere_ThrowObject_classes.hpp"
+#include "PalSDK/BP_PalSphere_ThrowObject_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalSphere_ThrowObject.BP_PalSphere_ThrowObject_C.BndEvt__BP_CaptureDrone_Sphere_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature

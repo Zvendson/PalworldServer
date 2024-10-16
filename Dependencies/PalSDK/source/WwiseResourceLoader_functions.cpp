@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WwiseResourceLoader_classes.hpp"
-#include "PalServer/WwiseResourceLoader_parameters.hpp"
+#include "PalSDK/WwiseResourceLoader_classes.hpp"
+#include "PalSDK/WwiseResourceLoader_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WwiseResourceLoader.WwiseEventInfoLibrary.BreakStruct

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_FluidController_classes.hpp"
-#include "PalServer/BP_FluidController_parameters.hpp"
+#include "PalSDK/BP_FluidController_classes.hpp"
+#include "PalSDK/BP_FluidController_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_FluidController.BP_FluidController_C.ClearRenderTargets

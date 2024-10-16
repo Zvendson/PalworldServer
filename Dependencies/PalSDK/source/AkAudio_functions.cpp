@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/AkAudio_classes.hpp"
-#include "PalServer/AkAudio_parameters.hpp"
+#include "PalSDK/AkAudio_classes.hpp"
+#include "PalSDK/AkAudio_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function AkAudio.AkAcousticPortal.DisablePortal

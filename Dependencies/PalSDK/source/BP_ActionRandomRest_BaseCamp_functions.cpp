@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionRandomRest_BaseCamp_classes.hpp"
-#include "PalServer/BP_ActionRandomRest_BaseCamp_parameters.hpp"
+#include "PalSDK/BP_ActionRandomRest_BaseCamp_classes.hpp"
+#include "PalSDK/BP_ActionRandomRest_BaseCamp_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionRandomRest_BaseCamp.BP_ActionRandomRest_BaseCamp_C.GetRandomRestInfo

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_IngameMenu_RepairAll_classes.hpp"
-#include "PalServer/WBP_IngameMenu_RepairAll_parameters.hpp"
+#include "PalSDK/WBP_IngameMenu_RepairAll_classes.hpp"
+#include "PalSDK/WBP_IngameMenu_RepairAll_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_IngameMenu_RepairAll.WBP_IngameMenu_RepairAll_C.BndEvt__WBP_IngameMenu_RepairAll_WBP_CommonButton_1_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature

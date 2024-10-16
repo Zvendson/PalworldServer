@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalWindController_classes.hpp"
-#include "PalServer/BP_PalWindController_parameters.hpp"
+#include "PalSDK/BP_PalWindController_classes.hpp"
+#include "PalSDK/BP_PalWindController_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalWindController.BP_PalWindController_C.ExecuteUbergraph_BP_PalWindController

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/TimeManagement_classes.hpp"
-#include "PalServer/TimeManagement_parameters.hpp"
+#include "PalSDK/TimeManagement_classes.hpp"
+#include "PalSDK/TimeManagement_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function TimeManagement.TimeManagementBlueprintLibrary.Add_FrameNumberFrameNumber

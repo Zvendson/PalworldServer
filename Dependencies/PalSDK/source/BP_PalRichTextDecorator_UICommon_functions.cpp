@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalRichTextDecorator_UICommon_classes.hpp"
-#include "PalServer/BP_PalRichTextDecorator_UICommon_parameters.hpp"
+#include "PalSDK/BP_PalRichTextDecorator_UICommon_classes.hpp"
+#include "PalSDK/BP_PalRichTextDecorator_UICommon_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalRichTextDecorator_UICommon.BP_PalRichTextDecorator_UICommon_C.GetTagName

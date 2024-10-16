@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_MainMenu_Pal_WorkIcon_classes.hpp"
-#include "PalServer/WBP_MainMenu_Pal_WorkIcon_parameters.hpp"
+#include "PalSDK/WBP_MainMenu_Pal_WorkIcon_classes.hpp"
+#include "PalSDK/WBP_MainMenu_Pal_WorkIcon_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_MainMenu_Pal_WorkIcon.WBP_MainMenu_Pal_WorkIcon_C.ExecuteUbergraph_WBP_MainMenu_Pal_WorkIcon

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ThrowWeapon_Dummy_classes.hpp"
-#include "PalServer/BP_ThrowWeapon_Dummy_parameters.hpp"
+#include "PalSDK/BP_ThrowWeapon_Dummy_classes.hpp"
+#include "PalSDK/BP_ThrowWeapon_Dummy_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ThrowWeapon_Dummy.BP_ThrowWeapon_Dummy_C.ExecuteUbergraph_BP_ThrowWeapon_Dummy

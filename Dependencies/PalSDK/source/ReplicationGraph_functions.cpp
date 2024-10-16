@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ReplicationGraph_classes.hpp"
-#include "PalServer/ReplicationGraph_parameters.hpp"
+#include "PalSDK/ReplicationGraph_classes.hpp"
+#include "PalSDK/ReplicationGraph_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ReplicationGraph.ReplicationGraphDebugActor.ClientCellInfo

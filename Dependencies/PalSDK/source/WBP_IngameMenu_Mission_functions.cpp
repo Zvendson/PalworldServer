@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_IngameMenu_Mission_classes.hpp"
-#include "PalServer/WBP_IngameMenu_Mission_parameters.hpp"
+#include "PalSDK/WBP_IngameMenu_Mission_classes.hpp"
+#include "PalSDK/WBP_IngameMenu_Mission_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_IngameMenu_Mission.WBP_IngameMenu_Mission_C.BndEvt__WBP_IngameMenu_Mission_WBP_CommonButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature

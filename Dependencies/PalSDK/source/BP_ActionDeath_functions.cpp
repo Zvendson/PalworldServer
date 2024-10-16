@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionDeath_classes.hpp"
-#include "PalServer/BP_ActionDeath_parameters.hpp"
+#include "PalSDK/BP_ActionDeath_classes.hpp"
+#include "PalSDK/BP_ActionDeath_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionDeath.BP_ActionDeath_C.BlowCharacter

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalAim_classes.hpp"
-#include "PalServer/WBP_PalAim_parameters.hpp"
+#include "PalSDK/WBP_PalAim_classes.hpp"
+#include "PalSDK/WBP_PalAim_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalAim.WBP_PalAim_C.DisplayOutlineTarget

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/CableComponent_classes.hpp"
-#include "PalServer/CableComponent_parameters.hpp"
+#include "PalSDK/CableComponent_classes.hpp"
+#include "PalSDK/CableComponent_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function CableComponent.CableComponent.SetAttachEndTo

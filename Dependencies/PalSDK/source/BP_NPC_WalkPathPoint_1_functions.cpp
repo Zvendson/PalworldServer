@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_NPC_WalkPathPoint_1_classes.hpp"
-#include "PalServer/BP_NPC_WalkPathPoint_1_parameters.hpp"
+#include "PalSDK/BP_NPC_WalkPathPoint_1_classes.hpp"
+#include "PalSDK/BP_NPC_WalkPathPoint_1_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_NPC_WalkPathPoint_1.BP_NPC_WalkPathPoint_1_C.ExecuteUbergraph_BP_NPC_WalkPathPoint_1

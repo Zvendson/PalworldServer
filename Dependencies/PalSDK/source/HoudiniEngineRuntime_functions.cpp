@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/HoudiniEngineRuntime_classes.hpp"
-#include "PalServer/HoudiniEngineRuntime_parameters.hpp"
+#include "PalSDK/HoudiniEngineRuntime_classes.hpp"
+#include "PalSDK/HoudiniEngineRuntime_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function HoudiniEngineRuntime.HoudiniAssetBlueprintComponent.HasParameter

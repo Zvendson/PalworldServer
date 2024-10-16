@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_DungeonInfo_FixedDungeon_classes.hpp"
-#include "PalServer/WBP_DungeonInfo_FixedDungeon_parameters.hpp"
+#include "PalSDK/WBP_DungeonInfo_FixedDungeon_classes.hpp"
+#include "PalSDK/WBP_DungeonInfo_FixedDungeon_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_DungeonInfo_FixedDungeon.WBP_DungeonInfo_FixedDungeon_C.ExecuteUbergraph_WBP_DungeonInfo_FixedDungeon

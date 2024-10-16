@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_SkillEffect_GeneralWork_classes.hpp"
-#include "PalServer/BP_SkillEffect_GeneralWork_parameters.hpp"
+#include "PalSDK/BP_SkillEffect_GeneralWork_classes.hpp"
+#include "PalSDK/BP_SkillEffect_GeneralWork_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_SkillEffect_GeneralWork.BP_SkillEffect_GeneralWork_C.EnableCollision

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/AudioWidgets_classes.hpp"
-#include "PalServer/AudioWidgets_parameters.hpp"
+#include "PalSDK/AudioWidgets_classes.hpp"
+#include "PalSDK/AudioWidgets_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // DelegateFunction AudioWidgets.AudioMeter.GetMeterChannelInfo__DelegateSignature

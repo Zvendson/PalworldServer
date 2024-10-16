@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/AnimNotify_AkEvent_classes.hpp"
-#include "PalServer/AnimNotify_AkEvent_parameters.hpp"
+#include "PalSDK/AnimNotify_AkEvent_classes.hpp"
+#include "PalSDK/AnimNotify_AkEvent_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function AnimNotify_AkEvent.AnimNotify_AkEvent_C.Received_Notify

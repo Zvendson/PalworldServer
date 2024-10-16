@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_VolcanicMonster_classes.hpp"
-#include "PalServer/BP_VolcanicMonster_parameters.hpp"
+#include "PalSDK/BP_VolcanicMonster_classes.hpp"
+#include "PalSDK/BP_VolcanicMonster_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_VolcanicMonster.BP_VolcanicMonster_C.GetVisual_ExceptMainMesh_SyncAnyway

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AINPC_CombatGunState_Reload_classes.hpp"
-#include "PalServer/BP_AINPC_CombatGunState_Reload_parameters.hpp"
+#include "PalSDK/BP_AINPC_CombatGunState_Reload_classes.hpp"
+#include "PalSDK/BP_AINPC_CombatGunState_Reload_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AINPC_CombatGunState_Reload.BP_AINPC_CombatGunState_Reload_C.ExecuteUbergraph_BP_AINPC_CombatGunState_Reload

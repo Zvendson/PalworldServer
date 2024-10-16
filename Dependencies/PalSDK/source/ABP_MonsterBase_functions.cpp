@@ -1,11 +1,396 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ABP_MonsterBase_classes.hpp"
-#include "PalServer/ABP_MonsterBase_parameters.hpp"
+#include "PalSDK/ABP_MonsterBase_classes.hpp"
+#include "PalSDK/ABP_MonsterBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
+
+// Function ABP_MonsterBase.ABP_MonsterBase_C.UpperOverride
+// (HasOutParams, BlueprintCallable)
+// Parameters:
+// struct FPoseLink                        NativePose                                             (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
+// struct FPoseLink                        ActionPose                                             (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
+// struct FPoseLink                        UpperOverride_0                                        (Parm, OutParm, NoDestructor)
+
+void UABP_MonsterBase_C::UpperOverride(const struct FPoseLink& NativePose, const struct FPoseLink& ActionPose, struct FPoseLink* UpperOverride_0)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("ABP_MonsterBase_C", "UpperOverride");
+
+	Params::ABP_MonsterBase_C_UpperOverride Parms{};
+
+	Parms.NativePose = std::move(NativePose);
+	Parms.ActionPose = std::move(ActionPose);
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (UpperOverride_0 != nullptr)
+		*UpperOverride_0 = std::move(Parms.UpperOverride_0);
+}
+
+
+// Function ABP_MonsterBase.ABP_MonsterBase_C.UpdateShooterParameter
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void UABP_MonsterBase_C::UpdateShooterParameter()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("ABP_MonsterBase_C", "UpdateShooterParameter");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function ABP_MonsterBase.ABP_MonsterBase_C.UpdateRidingParameter
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void UABP_MonsterBase_C::UpdateRidingParameter()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("ABP_MonsterBase_C", "UpdateRidingParameter");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function ABP_MonsterBase.ABP_MonsterBase_C.UpdateDashEffect_AnyThread
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void UABP_MonsterBase_C::UpdateDashEffect_AnyThread()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("ABP_MonsterBase_C", "UpdateDashEffect_AnyThread");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function ABP_MonsterBase.ABP_MonsterBase_C.UpdateBasicParameter
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void UABP_MonsterBase_C::UpdateBasicParameter()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("ABP_MonsterBase_C", "UpdateBasicParameter");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function ABP_MonsterBase.ABP_MonsterBase_C.Update Look at Parameter
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void UABP_MonsterBase_C::Update_Look_at_Parameter()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("ABP_MonsterBase_C", "Update Look at Parameter");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function ABP_MonsterBase.ABP_MonsterBase_C.StopFootStepEffect
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void UABP_MonsterBase_C::StopFootStepEffect()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("ABP_MonsterBase_C", "StopFootStepEffect");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function ABP_MonsterBase.ABP_MonsterBase_C.StartFootStepEffect
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void UABP_MonsterBase_C::StartFootStepEffect()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("ABP_MonsterBase_C", "StartFootStepEffect");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function ABP_MonsterBase.ABP_MonsterBase_C.PostUpdateDashEffect
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void UABP_MonsterBase_C::PostUpdateDashEffect()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("ABP_MonsterBase_C", "PostUpdateDashEffect");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function ABP_MonsterBase.ABP_MonsterBase_C.PlaySound
+// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class FName                             SoundId                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UABP_MonsterBase_C::PlaySound(class FName SoundId)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("ABP_MonsterBase_C", "PlaySound");
+
+	Params::ABP_MonsterBase_C_PlaySound Parms{};
+
+	Parms.SoundId = SoundId;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function ABP_MonsterBase.ABP_MonsterBase_C.PlayLandingSound
+// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+
+void UABP_MonsterBase_C::PlayLandingSound()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("ABP_MonsterBase_C", "PlayLandingSound");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function ABP_MonsterBase.ABP_MonsterBase_C.MonsterPhysics
+// (HasOutParams, BlueprintCallable)
+// Parameters:
+// struct FPoseLink                        InPose                                                 (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
+// struct FPoseLink                        MonsterPhysics_0                                       (Parm, OutParm, NoDestructor)
+
+void UABP_MonsterBase_C::MonsterPhysics(const struct FPoseLink& InPose, struct FPoseLink* MonsterPhysics_0)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("ABP_MonsterBase_C", "MonsterPhysics");
+
+	Params::ABP_MonsterBase_C_MonsterPhysics Parms{};
+
+	Parms.InPose = std::move(InPose);
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (MonsterPhysics_0 != nullptr)
+		*MonsterPhysics_0 = std::move(Parms.MonsterPhysics_0);
+}
+
+
+// Function ABP_MonsterBase.ABP_MonsterBase_C.MakeSwitchStatePalSize
+// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class APalMonsterCharacter*             Pal                                                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+// class FString                           PalSize                                                (Parm, OutParm, ZeroConstructor, HasGetValueTypeHash)
+
+void UABP_MonsterBase_C::MakeSwitchStatePalSize(class APalMonsterCharacter* Pal, class FString* PalSize)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("ABP_MonsterBase_C", "MakeSwitchStatePalSize");
+
+	Params::ABP_MonsterBase_C_MakeSwitchStatePalSize Parms{};
+
+	Parms.Pal = Pal;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (PalSize != nullptr)
+		*PalSize = std::move(Parms.PalSize);
+}
+
+
+// Function ABP_MonsterBase.ABP_MonsterBase_C.LookAtOverride
+// (HasOutParams, BlueprintCallable)
+// Parameters:
+// struct FPoseLink                        InPose                                                 (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
+// struct FVector                          LookAtWorldLocation                                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// struct FPoseLink                        LookAtOverride_0                                       (Parm, OutParm, NoDestructor)
+
+void UABP_MonsterBase_C::LookAtOverride(const struct FPoseLink& InPose, const struct FVector& LookAtWorldLocation, struct FPoseLink* LookAtOverride_0)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("ABP_MonsterBase_C", "LookAtOverride");
+
+	Params::ABP_MonsterBase_C_LookAtOverride Parms{};
+
+	Parms.InPose = std::move(InPose);
+	Parms.LookAtWorldLocation = std::move(LookAtWorldLocation);
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (LookAtOverride_0 != nullptr)
+		*LookAtOverride_0 = std::move(Parms.LookAtOverride_0);
+}
+
+
+// Function ABP_MonsterBase.ABP_MonsterBase_C.IsFloatingPal
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void UABP_MonsterBase_C::IsFloatingPal()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("ABP_MonsterBase_C", "IsFloatingPal");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function ABP_MonsterBase.ABP_MonsterBase_C.GetSprint
+// (Public, HasOutParams, BlueprintCallable, BlueprintEvent, BlueprintPure)
+// Parameters:
+// bool                                    IsSprint                                               (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UABP_MonsterBase_C::GetSprint(bool* IsSprint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("ABP_MonsterBase_C", "GetSprint");
+
+	Params::ABP_MonsterBase_C_GetSprint Parms{};
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (IsSprint != nullptr)
+		*IsSprint = Parms.IsSprint;
+}
+
+
+// Function ABP_MonsterBase.ABP_MonsterBase_C.GetFootStepEffectScale
+// (Public, HasOutParams, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
+// Parameters:
+// double                                  Scale                                                  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UABP_MonsterBase_C::GetFootStepEffectScale(double* Scale)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("ABP_MonsterBase_C", "GetFootStepEffectScale");
+
+	Params::ABP_MonsterBase_C_GetFootStepEffectScale Parms{};
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (Scale != nullptr)
+		*Scale = Parms.Scale;
+}
+
+
+// Function ABP_MonsterBase.ABP_MonsterBase_C.GetFootStepCharacterSpeed
+// (Public, HasOutParams, BlueprintCallable, BlueprintEvent, BlueprintPure)
+// Parameters:
+// double                                  CharacterSpeed                                         (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UABP_MonsterBase_C::GetFootStepCharacterSpeed(double* CharacterSpeed)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("ABP_MonsterBase_C", "GetFootStepCharacterSpeed");
+
+	Params::ABP_MonsterBase_C_GetFootStepCharacterSpeed Parms{};
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (CharacterSpeed != nullptr)
+		*CharacterSpeed = Parms.CharacterSpeed;
+}
+
+
+// Function ABP_MonsterBase.ABP_MonsterBase_C.ExecuteUbergraph_ABP_MonsterBase
+// (Final, UbergraphFunction)
+// Parameters:
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UABP_MonsterBase_C::ExecuteUbergraph_ABP_MonsterBase(int32 EntryPoint)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("ABP_MonsterBase_C", "ExecuteUbergraph_ABP_MonsterBase");
+
+	Params::ABP_MonsterBase_C_ExecuteUbergraph_ABP_MonsterBase Parms{};
+
+	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function ABP_MonsterBase.ABP_MonsterBase_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_MonsterBase_AnimGraphNode_TransitionResult_F96787034784DF12FF90028A34BB8B39
+// (BlueprintEvent)
+
+void UABP_MonsterBase_C::EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_MonsterBase_AnimGraphNode_TransitionResult_F96787034784DF12FF90028A34BB8B39()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("ABP_MonsterBase_C", "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_MonsterBase_AnimGraphNode_TransitionResult_F96787034784DF12FF90028A34BB8B39");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function ABP_MonsterBase.ABP_MonsterBase_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_MonsterBase_AnimGraphNode_TransitionResult_F48506EF4272DE0D9403FC8091658CC2
+// (BlueprintEvent)
+
+void UABP_MonsterBase_C::EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_MonsterBase_AnimGraphNode_TransitionResult_F48506EF4272DE0D9403FC8091658CC2()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("ABP_MonsterBase_C", "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_MonsterBase_AnimGraphNode_TransitionResult_F48506EF4272DE0D9403FC8091658CC2");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function ABP_MonsterBase.ABP_MonsterBase_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_MonsterBase_AnimGraphNode_TransitionResult_F0D464AD4B31CE2D2A7A7EA95C239B70
+// (BlueprintEvent)
+
+void UABP_MonsterBase_C::EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_MonsterBase_AnimGraphNode_TransitionResult_F0D464AD4B31CE2D2A7A7EA95C239B70()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("ABP_MonsterBase_C", "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_MonsterBase_AnimGraphNode_TransitionResult_F0D464AD4B31CE2D2A7A7EA95C239B70");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
 
 // Function ABP_MonsterBase.ABP_MonsterBase_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_MonsterBase_AnimGraphNode_TransitionResult_EE0E56854535C9DCA7F729A194F159F1
 // (BlueprintEvent)
@@ -448,391 +833,6 @@ void UABP_MonsterBase_C::AimingOverride(const struct FPoseLink& DefaultPose, con
 
 	if (AimingOverride_0 != nullptr)
 		*AimingOverride_0 = std::move(Parms.AimingOverride_0);
-}
-
-
-// Function ABP_MonsterBase.ABP_MonsterBase_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_MonsterBase_AnimGraphNode_TransitionResult_F0D464AD4B31CE2D2A7A7EA95C239B70
-// (BlueprintEvent)
-
-void UABP_MonsterBase_C::EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_MonsterBase_AnimGraphNode_TransitionResult_F0D464AD4B31CE2D2A7A7EA95C239B70()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_MonsterBase_C", "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_MonsterBase_AnimGraphNode_TransitionResult_F0D464AD4B31CE2D2A7A7EA95C239B70");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function ABP_MonsterBase.ABP_MonsterBase_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_MonsterBase_AnimGraphNode_TransitionResult_F48506EF4272DE0D9403FC8091658CC2
-// (BlueprintEvent)
-
-void UABP_MonsterBase_C::EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_MonsterBase_AnimGraphNode_TransitionResult_F48506EF4272DE0D9403FC8091658CC2()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_MonsterBase_C", "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_MonsterBase_AnimGraphNode_TransitionResult_F48506EF4272DE0D9403FC8091658CC2");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function ABP_MonsterBase.ABP_MonsterBase_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_MonsterBase_AnimGraphNode_TransitionResult_F96787034784DF12FF90028A34BB8B39
-// (BlueprintEvent)
-
-void UABP_MonsterBase_C::EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_MonsterBase_AnimGraphNode_TransitionResult_F96787034784DF12FF90028A34BB8B39()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_MonsterBase_C", "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_MonsterBase_AnimGraphNode_TransitionResult_F96787034784DF12FF90028A34BB8B39");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function ABP_MonsterBase.ABP_MonsterBase_C.ExecuteUbergraph_ABP_MonsterBase
-// (Final, UbergraphFunction)
-// Parameters:
-// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void UABP_MonsterBase_C::ExecuteUbergraph_ABP_MonsterBase(int32 EntryPoint)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_MonsterBase_C", "ExecuteUbergraph_ABP_MonsterBase");
-
-	Params::ABP_MonsterBase_C_ExecuteUbergraph_ABP_MonsterBase Parms{};
-
-	Parms.EntryPoint = EntryPoint;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function ABP_MonsterBase.ABP_MonsterBase_C.GetFootStepCharacterSpeed
-// (Public, HasOutParams, BlueprintCallable, BlueprintEvent, BlueprintPure)
-// Parameters:
-// double                                  CharacterSpeed                                         (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void UABP_MonsterBase_C::GetFootStepCharacterSpeed(double* CharacterSpeed)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_MonsterBase_C", "GetFootStepCharacterSpeed");
-
-	Params::ABP_MonsterBase_C_GetFootStepCharacterSpeed Parms{};
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	if (CharacterSpeed != nullptr)
-		*CharacterSpeed = Parms.CharacterSpeed;
-}
-
-
-// Function ABP_MonsterBase.ABP_MonsterBase_C.GetFootStepEffectScale
-// (Public, HasOutParams, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
-// Parameters:
-// double                                  Scale                                                  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void UABP_MonsterBase_C::GetFootStepEffectScale(double* Scale)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_MonsterBase_C", "GetFootStepEffectScale");
-
-	Params::ABP_MonsterBase_C_GetFootStepEffectScale Parms{};
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	if (Scale != nullptr)
-		*Scale = Parms.Scale;
-}
-
-
-// Function ABP_MonsterBase.ABP_MonsterBase_C.GetSprint
-// (Public, HasOutParams, BlueprintCallable, BlueprintEvent, BlueprintPure)
-// Parameters:
-// bool                                    IsSprint                                               (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void UABP_MonsterBase_C::GetSprint(bool* IsSprint)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_MonsterBase_C", "GetSprint");
-
-	Params::ABP_MonsterBase_C_GetSprint Parms{};
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	if (IsSprint != nullptr)
-		*IsSprint = Parms.IsSprint;
-}
-
-
-// Function ABP_MonsterBase.ABP_MonsterBase_C.IsFloatingPal
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void UABP_MonsterBase_C::IsFloatingPal()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_MonsterBase_C", "IsFloatingPal");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function ABP_MonsterBase.ABP_MonsterBase_C.LookAtOverride
-// (HasOutParams, BlueprintCallable)
-// Parameters:
-// struct FPoseLink                        InPose                                                 (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
-// struct FVector                          LookAtWorldLocation                                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-// struct FPoseLink                        LookAtOverride_0                                       (Parm, OutParm, NoDestructor)
-
-void UABP_MonsterBase_C::LookAtOverride(const struct FPoseLink& InPose, const struct FVector& LookAtWorldLocation, struct FPoseLink* LookAtOverride_0)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_MonsterBase_C", "LookAtOverride");
-
-	Params::ABP_MonsterBase_C_LookAtOverride Parms{};
-
-	Parms.InPose = std::move(InPose);
-	Parms.LookAtWorldLocation = std::move(LookAtWorldLocation);
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	if (LookAtOverride_0 != nullptr)
-		*LookAtOverride_0 = std::move(Parms.LookAtOverride_0);
-}
-
-
-// Function ABP_MonsterBase.ABP_MonsterBase_C.MakeSwitchStatePalSize
-// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// class APalMonsterCharacter*             Pal                                                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-// class FString                           PalSize                                                (Parm, OutParm, ZeroConstructor, HasGetValueTypeHash)
-
-void UABP_MonsterBase_C::MakeSwitchStatePalSize(class APalMonsterCharacter* Pal, class FString* PalSize)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_MonsterBase_C", "MakeSwitchStatePalSize");
-
-	Params::ABP_MonsterBase_C_MakeSwitchStatePalSize Parms{};
-
-	Parms.Pal = Pal;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	if (PalSize != nullptr)
-		*PalSize = std::move(Parms.PalSize);
-}
-
-
-// Function ABP_MonsterBase.ABP_MonsterBase_C.MonsterPhysics
-// (HasOutParams, BlueprintCallable)
-// Parameters:
-// struct FPoseLink                        InPose                                                 (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
-// struct FPoseLink                        MonsterPhysics_0                                       (Parm, OutParm, NoDestructor)
-
-void UABP_MonsterBase_C::MonsterPhysics(const struct FPoseLink& InPose, struct FPoseLink* MonsterPhysics_0)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_MonsterBase_C", "MonsterPhysics");
-
-	Params::ABP_MonsterBase_C_MonsterPhysics Parms{};
-
-	Parms.InPose = std::move(InPose);
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	if (MonsterPhysics_0 != nullptr)
-		*MonsterPhysics_0 = std::move(Parms.MonsterPhysics_0);
-}
-
-
-// Function ABP_MonsterBase.ABP_MonsterBase_C.PlayLandingSound
-// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
-
-void UABP_MonsterBase_C::PlayLandingSound()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_MonsterBase_C", "PlayLandingSound");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function ABP_MonsterBase.ABP_MonsterBase_C.PlaySound
-// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// class FName                             SoundId                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void UABP_MonsterBase_C::PlaySound(class FName SoundId)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_MonsterBase_C", "PlaySound");
-
-	Params::ABP_MonsterBase_C_PlaySound Parms{};
-
-	Parms.SoundId = SoundId;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function ABP_MonsterBase.ABP_MonsterBase_C.PostUpdateDashEffect
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void UABP_MonsterBase_C::PostUpdateDashEffect()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_MonsterBase_C", "PostUpdateDashEffect");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function ABP_MonsterBase.ABP_MonsterBase_C.StartFootStepEffect
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void UABP_MonsterBase_C::StartFootStepEffect()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_MonsterBase_C", "StartFootStepEffect");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function ABP_MonsterBase.ABP_MonsterBase_C.StopFootStepEffect
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void UABP_MonsterBase_C::StopFootStepEffect()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_MonsterBase_C", "StopFootStepEffect");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function ABP_MonsterBase.ABP_MonsterBase_C.Update Look at Parameter
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void UABP_MonsterBase_C::Update_Look_at_Parameter()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_MonsterBase_C", "Update Look at Parameter");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function ABP_MonsterBase.ABP_MonsterBase_C.UpdateBasicParameter
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void UABP_MonsterBase_C::UpdateBasicParameter()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_MonsterBase_C", "UpdateBasicParameter");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function ABP_MonsterBase.ABP_MonsterBase_C.UpdateDashEffect_AnyThread
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void UABP_MonsterBase_C::UpdateDashEffect_AnyThread()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_MonsterBase_C", "UpdateDashEffect_AnyThread");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function ABP_MonsterBase.ABP_MonsterBase_C.UpdateRidingParameter
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void UABP_MonsterBase_C::UpdateRidingParameter()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_MonsterBase_C", "UpdateRidingParameter");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function ABP_MonsterBase.ABP_MonsterBase_C.UpdateShooterParameter
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void UABP_MonsterBase_C::UpdateShooterParameter()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_MonsterBase_C", "UpdateShooterParameter");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function ABP_MonsterBase.ABP_MonsterBase_C.UpperOverride
-// (HasOutParams, BlueprintCallable)
-// Parameters:
-// struct FPoseLink                        NativePose                                             (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
-// struct FPoseLink                        ActionPose                                             (BlueprintVisible, BlueprintReadOnly, Parm, NoDestructor)
-// struct FPoseLink                        UpperOverride_0                                        (Parm, OutParm, NoDestructor)
-
-void UABP_MonsterBase_C::UpperOverride(const struct FPoseLink& NativePose, const struct FPoseLink& ActionPose, struct FPoseLink* UpperOverride_0)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("ABP_MonsterBase_C", "UpperOverride");
-
-	Params::ABP_MonsterBase_C_UpperOverride Parms{};
-
-	Parms.NativePose = std::move(NativePose);
-	Parms.ActionPose = std::move(ActionPose);
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	if (UpperOverride_0 != nullptr)
-		*UpperOverride_0 = std::move(Parms.UpperOverride_0);
 }
 
 }

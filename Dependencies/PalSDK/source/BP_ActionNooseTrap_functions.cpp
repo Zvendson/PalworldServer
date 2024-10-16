@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionNooseTrap_classes.hpp"
-#include "PalServer/BP_ActionNooseTrap_parameters.hpp"
+#include "PalSDK/BP_ActionNooseTrap_classes.hpp"
+#include "PalSDK/BP_ActionNooseTrap_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionNooseTrap.BP_ActionNooseTrap_C.CalcAngleVelocity

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ResonanceAudio_classes.hpp"
-#include "PalServer/ResonanceAudio_parameters.hpp"
+#include "PalSDK/ResonanceAudio_classes.hpp"
+#include "PalSDK/ResonanceAudio_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ResonanceAudio.ResonanceAudioSpatializationSourceSettings.SetSoundSourceDirectivity

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_Crime_Scene_classes.hpp"
-#include "PalServer/WBP_Crime_Scene_parameters.hpp"
+#include "PalSDK/WBP_Crime_Scene_classes.hpp"
+#include "PalSDK/WBP_Crime_Scene_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_Crime_Scene.WBP_Crime_Scene_C.ExecuteUbergraph_WBP_Crime_Scene

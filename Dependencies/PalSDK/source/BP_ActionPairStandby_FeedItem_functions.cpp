@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionPairStandby_FeedItem_classes.hpp"
-#include "PalServer/BP_ActionPairStandby_FeedItem_parameters.hpp"
+#include "PalSDK/BP_ActionPairStandby_FeedItem_classes.hpp"
+#include "PalSDK/BP_ActionPairStandby_FeedItem_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionPairStandby_FeedItem.BP_ActionPairStandby_FeedItem_C.OnSetCallAIAction

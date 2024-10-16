@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalRichTextDecorator_ActiveSkillName_classes.hpp"
-#include "PalServer/BP_PalRichTextDecorator_ActiveSkillName_parameters.hpp"
+#include "PalSDK/BP_PalRichTextDecorator_ActiveSkillName_classes.hpp"
+#include "PalSDK/BP_PalRichTextDecorator_ActiveSkillName_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalRichTextDecorator_ActiveSkillName.BP_PalRichTextDecorator_ActiveSkillName_C.GetTagName

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/OnlineSubsystemUtils_classes.hpp"
-#include "PalServer/OnlineSubsystemUtils_parameters.hpp"
+#include "PalSDK/OnlineSubsystemUtils_classes.hpp"
+#include "PalSDK/OnlineSubsystemUtils_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function OnlineSubsystemUtils.EndMatchCallbackProxy.EndMatch

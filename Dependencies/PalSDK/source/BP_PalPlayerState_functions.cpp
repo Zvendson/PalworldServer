@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalPlayerState_classes.hpp"
-#include "PalServer/BP_PalPlayerState_parameters.hpp"
+#include "PalSDK/BP_PalPlayerState_classes.hpp"
+#include "PalSDK/BP_PalPlayerState_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalPlayerState.BP_PalPlayerState_C.ExecuteUbergraph_BP_PalPlayerState

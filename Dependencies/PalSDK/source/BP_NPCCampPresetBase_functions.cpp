@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_NPCCampPresetBase_classes.hpp"
-#include "PalServer/BP_NPCCampPresetBase_parameters.hpp"
+#include "PalSDK/BP_NPCCampPresetBase_classes.hpp"
+#include "PalSDK/BP_NPCCampPresetBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_NPCCampPresetBase.BP_NPCCampPresetBase_C.DeleteChildActor

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_DungeonAreaVolume_classes.hpp"
-#include "PalServer/BP_DungeonAreaVolume_parameters.hpp"
+#include "PalSDK/BP_DungeonAreaVolume_classes.hpp"
+#include "PalSDK/BP_DungeonAreaVolume_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_DungeonAreaVolume.BP_DungeonAreaVolume_C.BndEvt__BP_DungeonAreaVolume_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature

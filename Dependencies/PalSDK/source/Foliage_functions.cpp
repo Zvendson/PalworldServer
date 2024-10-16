@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/Foliage_classes.hpp"
-#include "PalServer/Foliage_parameters.hpp"
+#include "PalSDK/Foliage_classes.hpp"
+#include "PalSDK/Foliage_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function Foliage.FoliageStatistics.FoliageOverlappingBoxCount

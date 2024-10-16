@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionSandTornado_classes.hpp"
-#include "PalServer/BP_ActionSandTornado_parameters.hpp"
+#include "PalSDK/BP_ActionSandTornado_classes.hpp"
+#include "PalSDK/BP_ActionSandTornado_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionSandTornado.BP_ActionSandTornado_C.OnStartProcessAnimation

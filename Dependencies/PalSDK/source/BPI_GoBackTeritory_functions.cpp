@@ -1,9 +1,9 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BPI_GoBackTeritory_classes.hpp"
+#include "PalSDK/BPI_GoBackTeritory_classes.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BPI_GoBackTeritory.BPI_GoBackTeritory_C.GoBack_Teritory

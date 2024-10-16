@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/AudioAnalyzer_classes.hpp"
-#include "PalServer/AudioAnalyzer_parameters.hpp"
+#include "PalSDK/AudioAnalyzer_classes.hpp"
+#include "PalSDK/AudioAnalyzer_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function AudioAnalyzer.AudioAnalyzer.StartAnalyzing

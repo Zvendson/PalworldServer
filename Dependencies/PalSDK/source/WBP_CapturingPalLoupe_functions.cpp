@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_CapturingPalLoupe_classes.hpp"
-#include "PalServer/WBP_CapturingPalLoupe_parameters.hpp"
+#include "PalSDK/WBP_CapturingPalLoupe_classes.hpp"
+#include "PalSDK/WBP_CapturingPalLoupe_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_CapturingPalLoupe.WBP_CapturingPalLoupe_C.CalcScreenPosition

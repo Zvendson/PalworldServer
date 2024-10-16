@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalStorageSortSettingWindow_classes.hpp"
-#include "PalServer/WBP_PalStorageSortSettingWindow_parameters.hpp"
+#include "PalSDK/WBP_PalStorageSortSettingWindow_classes.hpp"
+#include "PalSDK/WBP_PalStorageSortSettingWindow_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalStorageSortSettingWindow.WBP_PalStorageSortSettingWindow_C.ApplyCachedSortInfo

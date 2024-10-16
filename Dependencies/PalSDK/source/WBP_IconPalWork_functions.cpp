@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_IconPalWork_classes.hpp"
-#include "PalServer/WBP_IconPalWork_parameters.hpp"
+#include "PalSDK/WBP_IconPalWork_classes.hpp"
+#include "PalSDK/WBP_IconPalWork_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_IconPalWork.WBP_IconPalWork_C.SetSuitability

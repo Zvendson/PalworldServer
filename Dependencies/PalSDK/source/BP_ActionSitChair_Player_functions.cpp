@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionSitChair_Player_classes.hpp"
-#include "PalServer/BP_ActionSitChair_Player_parameters.hpp"
+#include "PalSDK/BP_ActionSitChair_Player_classes.hpp"
+#include "PalSDK/BP_ActionSitChair_Player_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionSitChair_Player.BP_ActionSitChair_Player_C.ExecuteUbergraph_BP_ActionSitChair_Player

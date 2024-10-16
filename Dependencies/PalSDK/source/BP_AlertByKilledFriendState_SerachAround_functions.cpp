@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AlertByKilledFriendState_SerachAround_classes.hpp"
-#include "PalServer/BP_AlertByKilledFriendState_SerachAround_parameters.hpp"
+#include "PalSDK/BP_AlertByKilledFriendState_SerachAround_classes.hpp"
+#include "PalSDK/BP_AlertByKilledFriendState_SerachAround_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AlertByKilledFriendState_SerachAround.BP_AlertByKilledFriendState_SerachAround_C.ExecuteUbergraph_BP_AlertByKilledFriendState_SerachAround

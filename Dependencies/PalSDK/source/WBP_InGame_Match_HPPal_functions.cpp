@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_InGame_Match_HPPal_classes.hpp"
-#include "PalServer/WBP_InGame_Match_HPPal_parameters.hpp"
+#include "PalSDK/WBP_InGame_Match_HPPal_classes.hpp"
+#include "PalSDK/WBP_InGame_Match_HPPal_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_InGame_Match_HPPal.WBP_InGame_Match_HPPal_C.BindFromHandle

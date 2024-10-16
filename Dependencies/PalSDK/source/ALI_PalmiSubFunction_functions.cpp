@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ALI_PalmiSubFunction_classes.hpp"
-#include "PalServer/ALI_PalmiSubFunction_parameters.hpp"
+#include "PalSDK/ALI_PalmiSubFunction_classes.hpp"
+#include "PalSDK/ALI_PalmiSubFunction_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ALI_PalmiSubFunction.ALI_PalmiSubFunction_C.LeftHandAttach

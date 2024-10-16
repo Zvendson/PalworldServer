@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionSlowWalkBackward_classes.hpp"
-#include "PalServer/BP_ActionSlowWalkBackward_parameters.hpp"
+#include "PalSDK/BP_ActionSlowWalkBackward_classes.hpp"
+#include "PalSDK/BP_ActionSlowWalkBackward_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionSlowWalkBackward.BP_ActionSlowWalkBackward_C.ExecuteUbergraph_BP_ActionSlowWalkBackward

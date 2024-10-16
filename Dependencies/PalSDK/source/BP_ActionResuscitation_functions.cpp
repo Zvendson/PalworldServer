@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionResuscitation_classes.hpp"
-#include "PalServer/BP_ActionResuscitation_parameters.hpp"
+#include "PalSDK/BP_ActionResuscitation_classes.hpp"
+#include "PalSDK/BP_ActionResuscitation_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionResuscitation.BP_ActionResuscitation_C.ExecuteUbergraph_BP_ActionResuscitation

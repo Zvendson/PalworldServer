@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ChaosSolverEngine_classes.hpp"
-#include "PalServer/ChaosSolverEngine_parameters.hpp"
+#include "PalSDK/ChaosSolverEngine_classes.hpp"
+#include "PalSDK/ChaosSolverEngine_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ChaosSolverEngine.ChaosSolverEngineBlueprintLibrary.ConvertPhysicsCollisionToHitResult

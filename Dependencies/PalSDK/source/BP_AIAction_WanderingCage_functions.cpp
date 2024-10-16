@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AIAction_WanderingCage_classes.hpp"
-#include "PalServer/BP_AIAction_WanderingCage_parameters.hpp"
+#include "PalSDK/BP_AIAction_WanderingCage_classes.hpp"
+#include "PalSDK/BP_AIAction_WanderingCage_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AIAction_WanderingCage.BP_AIAction_WanderingCage_C.ActionFinished

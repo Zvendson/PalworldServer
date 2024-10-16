@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_Ingame_PlayerGauge_Separated_classes.hpp"
-#include "PalServer/WBP_Ingame_PlayerGauge_Separated_parameters.hpp"
+#include "PalSDK/WBP_Ingame_PlayerGauge_Separated_classes.hpp"
+#include "PalSDK/WBP_Ingame_PlayerGauge_Separated_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_Ingame_PlayerGauge_Separated.WBP_Ingame_PlayerGauge_Separated_C.AnmEvent_ShowHideLeft

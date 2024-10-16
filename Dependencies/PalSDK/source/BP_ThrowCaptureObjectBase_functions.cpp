@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ThrowCaptureObjectBase_classes.hpp"
-#include "PalServer/BP_ThrowCaptureObjectBase_parameters.hpp"
+#include "PalSDK/BP_ThrowCaptureObjectBase_classes.hpp"
+#include "PalSDK/BP_ThrowCaptureObjectBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ThrowCaptureObjectBase.BP_ThrowCaptureObjectBase_C.GetBodyClass

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionReaction_ElectricShock_classes.hpp"
-#include "PalServer/BP_ActionReaction_ElectricShock_parameters.hpp"
+#include "PalSDK/BP_ActionReaction_ElectricShock_classes.hpp"
+#include "PalSDK/BP_ActionReaction_ElectricShock_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionReaction_ElectricShock.BP_ActionReaction_ElectricShock_C.ChangeFacial

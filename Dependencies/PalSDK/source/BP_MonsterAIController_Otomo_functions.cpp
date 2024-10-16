@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_MonsterAIController_Otomo_classes.hpp"
-#include "PalServer/BP_MonsterAIController_Otomo_parameters.hpp"
+#include "PalSDK/BP_MonsterAIController_Otomo_classes.hpp"
+#include "PalSDK/BP_MonsterAIController_Otomo_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_MonsterAIController_Otomo.BP_MonsterAIController_Otomo_C.Attack For Enemy With Parameter

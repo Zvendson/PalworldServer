@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_Paldex_Task_classes.hpp"
-#include "PalServer/WBP_Paldex_Task_parameters.hpp"
+#include "PalSDK/WBP_Paldex_Task_classes.hpp"
+#include "PalSDK/WBP_Paldex_Task_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_Paldex_Task.WBP_Paldex_Task_C.AnmEvent_Activate

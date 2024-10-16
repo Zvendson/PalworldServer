@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_Lamp_classes.hpp"
-#include "PalServer/BP_Lamp_parameters.hpp"
+#include "PalSDK/BP_Lamp_classes.hpp"
+#include "PalSDK/BP_Lamp_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_Lamp.BP_Lamp_C.CheckLightEnable

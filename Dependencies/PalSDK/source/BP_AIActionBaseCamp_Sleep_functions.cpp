@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AIActionBaseCamp_Sleep_classes.hpp"
-#include "PalServer/BP_AIActionBaseCamp_Sleep_parameters.hpp"
+#include "PalSDK/BP_AIActionBaseCamp_Sleep_classes.hpp"
+#include "PalSDK/BP_AIActionBaseCamp_Sleep_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AIActionBaseCamp_Sleep.BP_AIActionBaseCamp_Sleep_C.ActionFinished

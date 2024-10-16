@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalCharacterMaterialVolume_classes.hpp"
-#include "PalServer/BP_PalCharacterMaterialVolume_parameters.hpp"
+#include "PalSDK/BP_PalCharacterMaterialVolume_classes.hpp"
+#include "PalSDK/BP_PalCharacterMaterialVolume_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalCharacterMaterialVolume.BP_PalCharacterMaterialVolume_C.ExecuteUbergraph_BP_PalCharacterMaterialVolume

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/PalBossBattleSequence_Ending_classes.hpp"
-#include "PalServer/PalBossBattleSequence_Ending_parameters.hpp"
+#include "PalSDK/PalBossBattleSequence_Ending_classes.hpp"
+#include "PalSDK/PalBossBattleSequence_Ending_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function PalBossBattleSequence_Ending.PalBossBattleSequence_Ending_C.ExecuteUbergraph_PalBossBattleSequence_Ending

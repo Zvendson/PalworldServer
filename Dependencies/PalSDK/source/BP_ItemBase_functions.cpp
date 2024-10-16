@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ItemBase_classes.hpp"
-#include "PalServer/BP_ItemBase_parameters.hpp"
+#include "PalSDK/BP_ItemBase_classes.hpp"
+#include "PalSDK/BP_ItemBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ItemBase.BP_ItemBase_C.ExecuteUbergraph_BP_ItemBase

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_CaptureReticle_classes.hpp"
-#include "PalServer/WBP_CaptureReticle_parameters.hpp"
+#include "PalSDK/WBP_CaptureReticle_classes.hpp"
+#include "PalSDK/WBP_CaptureReticle_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_CaptureReticle.WBP_CaptureReticle_C.CalcCaptureSuccessRate

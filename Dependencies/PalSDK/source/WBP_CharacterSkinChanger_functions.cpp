@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_CharacterSkinChanger_classes.hpp"
-#include "PalServer/WBP_CharacterSkinChanger_parameters.hpp"
+#include "PalSDK/WBP_CharacterSkinChanger_classes.hpp"
+#include "PalSDK/WBP_CharacterSkinChanger_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_CharacterSkinChanger.WBP_CharacterSkinChanger_C.BndEvt__WBP_CharacterSkinChanger_WBP_Menu_btn_1_K2Node_ComponentBoundEvent_1_OnButtonClicked__DelegateSignature

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AIActionPairCall_Petting_classes.hpp"
-#include "PalServer/BP_AIActionPairCall_Petting_parameters.hpp"
+#include "PalSDK/BP_AIActionPairCall_Petting_classes.hpp"
+#include "PalSDK/BP_AIActionPairCall_Petting_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AIActionPairCall_Petting.BP_AIActionPairCall_Petting_C.ActionAbort

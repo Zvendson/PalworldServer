@@ -1,9 +1,9 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_VisualEffect_ChangeElement_Water_classes.hpp"
+#include "PalSDK/BP_VisualEffect_ChangeElement_Water_classes.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_VisualEffect_ChangeElement_Water.BP_VisualEffect_ChangeElement_Water_C.新規関数_0

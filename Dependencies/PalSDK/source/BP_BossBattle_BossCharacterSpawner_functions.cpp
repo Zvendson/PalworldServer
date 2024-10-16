@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_BossBattle_BossCharacterSpawner_classes.hpp"
-#include "PalServer/BP_BossBattle_BossCharacterSpawner_parameters.hpp"
+#include "PalSDK/BP_BossBattle_BossCharacterSpawner_classes.hpp"
+#include "PalSDK/BP_BossBattle_BossCharacterSpawner_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_BossBattle_BossCharacterSpawner.BP_BossBattle_BossCharacterSpawner_C.GetDebugNo

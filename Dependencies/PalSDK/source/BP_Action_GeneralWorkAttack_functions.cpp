@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_Action_GeneralWorkAttack_classes.hpp"
-#include "PalServer/BP_Action_GeneralWorkAttack_parameters.hpp"
+#include "PalSDK/BP_Action_GeneralWorkAttack_classes.hpp"
+#include "PalSDK/BP_Action_GeneralWorkAttack_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_Action_GeneralWorkAttack.BP_Action_GeneralWorkAttack_C.OnSpawnEffect

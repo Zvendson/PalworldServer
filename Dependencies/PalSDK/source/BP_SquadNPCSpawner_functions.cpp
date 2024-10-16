@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_SquadNPCSpawner_classes.hpp"
-#include "PalServer/BP_SquadNPCSpawner_parameters.hpp"
+#include "PalSDK/BP_SquadNPCSpawner_classes.hpp"
+#include "PalSDK/BP_SquadNPCSpawner_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_SquadNPCSpawner.BP_SquadNPCSpawner_C.BlueprintTick

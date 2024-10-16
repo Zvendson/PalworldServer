@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalDamageText_classes.hpp"
-#include "PalServer/WBP_PalDamageText_parameters.hpp"
+#include "PalSDK/WBP_PalDamageText_classes.hpp"
+#include "PalSDK/WBP_PalDamageText_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalDamageText.WBP_PalDamageText_C.ExecuteUbergraph_WBP_PalDamageText

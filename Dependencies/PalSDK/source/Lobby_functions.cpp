@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/Lobby_classes.hpp"
-#include "PalServer/Lobby_parameters.hpp"
+#include "PalSDK/Lobby_classes.hpp"
+#include "PalSDK/Lobby_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function Lobby.LobbyBeaconClient.ClientAckJoiningServer

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalIncidentNPCTalk_classes.hpp"
-#include "PalServer/BP_PalIncidentNPCTalk_parameters.hpp"
+#include "PalSDK/BP_PalIncidentNPCTalk_classes.hpp"
+#include "PalSDK/BP_PalIncidentNPCTalk_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalIncidentNPCTalk.BP_PalIncidentNPCTalk_C.AddItemToInventory

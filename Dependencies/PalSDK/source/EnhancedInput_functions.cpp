@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/EnhancedInput_classes.hpp"
-#include "PalServer/EnhancedInput_parameters.hpp"
+#include "PalSDK/EnhancedInput_classes.hpp"
+#include "PalSDK/EnhancedInput_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function EnhancedInput.EnhancedInputSubsystemInterface.AddMappingContext

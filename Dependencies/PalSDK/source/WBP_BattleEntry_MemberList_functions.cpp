@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_BattleEntry_MemberList_classes.hpp"
-#include "PalServer/WBP_BattleEntry_MemberList_parameters.hpp"
+#include "PalSDK/WBP_BattleEntry_MemberList_classes.hpp"
+#include "PalSDK/WBP_BattleEntry_MemberList_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_BattleEntry_MemberList.WBP_BattleEntry_MemberList_C.Construct

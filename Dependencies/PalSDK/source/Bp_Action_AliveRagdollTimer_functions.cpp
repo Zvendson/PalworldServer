@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/Bp_Action_AliveRagdollTimer_classes.hpp"
-#include "PalServer/Bp_Action_AliveRagdollTimer_parameters.hpp"
+#include "PalSDK/Bp_Action_AliveRagdollTimer_classes.hpp"
+#include "PalSDK/Bp_Action_AliveRagdollTimer_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function Bp_Action_AliveRagdollTimer.Bp_Action_AliveRagdollTimer_C.ExecuteUbergraph_Bp_Action_AliveRagdollTimer

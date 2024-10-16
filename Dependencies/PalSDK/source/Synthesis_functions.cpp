@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/Synthesis_classes.hpp"
-#include "PalServer/Synthesis_parameters.hpp"
+#include "PalSDK/Synthesis_classes.hpp"
+#include "PalSDK/Synthesis_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function Synthesis.SourceEffectDynamicsProcessorPreset.SetSettings

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PlayerInputGuard_classes.hpp"
-#include "PalServer/WBP_PlayerInputGuard_parameters.hpp"
+#include "PalSDK/WBP_PlayerInputGuard_classes.hpp"
+#include "PalSDK/WBP_PlayerInputGuard_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PlayerInputGuard.WBP_PlayerInputGuard_C.ExecuteUbergraph_WBP_PlayerInputGuard

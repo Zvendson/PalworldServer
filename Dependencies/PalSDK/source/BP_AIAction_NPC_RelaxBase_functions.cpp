@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AIAction_NPC_RelaxBase_classes.hpp"
-#include "PalServer/BP_AIAction_NPC_RelaxBase_parameters.hpp"
+#include "PalSDK/BP_AIAction_NPC_RelaxBase_classes.hpp"
+#include "PalSDK/BP_AIAction_NPC_RelaxBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AIAction_NPC_RelaxBase.BP_AIAction_NPC_RelaxBase_C.ActionAbort

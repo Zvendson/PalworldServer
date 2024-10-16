@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalBossBattleSequencer_classes.hpp"
-#include "PalServer/BP_PalBossBattleSequencer_parameters.hpp"
+#include "PalSDK/BP_PalBossBattleSequencer_classes.hpp"
+#include "PalSDK/BP_PalBossBattleSequencer_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalBossBattleSequencer.BP_PalBossBattleSequencer_C.ExecuteUbergraph_BP_PalBossBattleSequencer

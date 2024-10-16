@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionPairBehaviorBase_classes.hpp"
-#include "PalServer/BP_ActionPairBehaviorBase_parameters.hpp"
+#include "PalSDK/BP_ActionPairBehaviorBase_classes.hpp"
+#include "PalSDK/BP_ActionPairBehaviorBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionPairBehaviorBase.BP_ActionPairBehaviorBase_C.ExecuteUbergraph_BP_ActionPairBehaviorBase

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalSpawner_Standard_classes.hpp"
-#include "PalServer/BP_PalSpawner_Standard_parameters.hpp"
+#include "PalSDK/BP_PalSpawner_Standard_classes.hpp"
+#include "PalSDK/BP_PalSpawner_Standard_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalSpawner_Standard.BP_PalSpawner_Standard_C.BlueprintTick_Despawning

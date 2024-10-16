@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_SkyCreatorLightingVolume_classes.hpp"
-#include "PalServer/BP_SkyCreatorLightingVolume_parameters.hpp"
+#include "PalSDK/BP_SkyCreatorLightingVolume_classes.hpp"
+#include "PalSDK/BP_SkyCreatorLightingVolume_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_SkyCreatorLightingVolume.BP_SkyCreatorLightingVolume_C.ExecuteUbergraph_BP_SkyCreatorLightingVolume

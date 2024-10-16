@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_LowHomingModifier_classes.hpp"
-#include "PalServer/BP_LowHomingModifier_parameters.hpp"
+#include "PalSDK/BP_LowHomingModifier_classes.hpp"
+#include "PalSDK/BP_LowHomingModifier_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_LowHomingModifier.BP_LowHomingModifier_C.ExecuteUbergraph_BP_LowHomingModifier

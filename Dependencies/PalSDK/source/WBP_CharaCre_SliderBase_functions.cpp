@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_CharaCre_SliderBase_classes.hpp"
-#include "PalServer/WBP_CharaCre_SliderBase_parameters.hpp"
+#include "PalSDK/WBP_CharaCre_SliderBase_classes.hpp"
+#include "PalSDK/WBP_CharaCre_SliderBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_CharaCre_SliderBase.WBP_CharaCre_SliderBase_C.ExecuteUbergraph_WBP_CharaCre_SliderBase

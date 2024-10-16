@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_WorldMap_IconBase_NoDesign_classes.hpp"
-#include "PalServer/WBP_WorldMap_IconBase_NoDesign_parameters.hpp"
+#include "PalSDK/WBP_WorldMap_IconBase_NoDesign_classes.hpp"
+#include "PalSDK/WBP_WorldMap_IconBase_NoDesign_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_WorldMap_IconBase_NoDesign.WBP_WorldMap_IconBase_NoDesign_C.ClickEvent

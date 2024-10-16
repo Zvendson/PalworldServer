@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_FluidImplementation_classes.hpp"
-#include "PalServer/BP_FluidImplementation_parameters.hpp"
+#include "PalSDK/BP_FluidImplementation_classes.hpp"
+#include "PalSDK/BP_FluidImplementation_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_FluidImplementation.BP_FluidImplementation_C.ExecuteUbergraph_BP_FluidImplementation

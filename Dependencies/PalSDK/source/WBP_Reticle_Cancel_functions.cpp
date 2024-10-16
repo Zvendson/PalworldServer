@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_Reticle_Cancel_classes.hpp"
-#include "PalServer/WBP_Reticle_Cancel_parameters.hpp"
+#include "PalSDK/WBP_Reticle_Cancel_classes.hpp"
+#include "PalSDK/WBP_Reticle_Cancel_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_Reticle_Cancel.WBP_Reticle_Cancel_C.ExecuteUbergraph_WBP_Reticle_Cancel

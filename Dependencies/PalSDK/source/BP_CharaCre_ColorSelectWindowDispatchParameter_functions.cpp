@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_CharaCre_ColorSelectWindowDispatchParameter_classes.hpp"
-#include "PalServer/BP_CharaCre_ColorSelectWindowDispatchParameter_parameters.hpp"
+#include "PalSDK/BP_CharaCre_ColorSelectWindowDispatchParameter_classes.hpp"
+#include "PalSDK/BP_CharaCre_ColorSelectWindowDispatchParameter_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_CharaCre_ColorSelectWindowDispatchParameter.BP_CharaCre_ColorSelectWindowDispatchParameter_C.OnChangedColor__DelegateSignature

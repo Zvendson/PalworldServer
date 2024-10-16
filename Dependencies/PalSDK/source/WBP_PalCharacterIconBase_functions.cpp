@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalCharacterIconBase_classes.hpp"
-#include "PalServer/WBP_PalCharacterIconBase_parameters.hpp"
+#include "PalSDK/WBP_PalCharacterIconBase_classes.hpp"
+#include "PalSDK/WBP_PalCharacterIconBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalCharacterIconBase.WBP_PalCharacterIconBase_C.Destruct

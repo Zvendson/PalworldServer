@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_CrimeList_list_classes.hpp"
-#include "PalServer/WBP_CrimeList_list_parameters.hpp"
+#include "PalSDK/WBP_CrimeList_list_classes.hpp"
+#include "PalSDK/WBP_CrimeList_list_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_CrimeList_list.WBP_CrimeList_list_C.SetCrime

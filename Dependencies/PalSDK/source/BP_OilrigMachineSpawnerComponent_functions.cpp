@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_OilrigMachineSpawnerComponent_classes.hpp"
-#include "PalServer/BP_OilrigMachineSpawnerComponent_parameters.hpp"
+#include "PalSDK/BP_OilrigMachineSpawnerComponent_classes.hpp"
+#include "PalSDK/BP_OilrigMachineSpawnerComponent_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_OilrigMachineSpawnerComponent.BP_OilrigMachineSpawnerComponent_C.Despawn Delegate

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_DungeonInfo_classes.hpp"
-#include "PalServer/WBP_DungeonInfo_parameters.hpp"
+#include "PalSDK/WBP_DungeonInfo_classes.hpp"
+#include "PalSDK/WBP_DungeonInfo_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_DungeonInfo.WBP_DungeonInfo_C.ExecuteUbergraph_WBP_DungeonInfo

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/MetasoundEngine_classes.hpp"
-#include "PalServer/MetasoundEngine_parameters.hpp"
+#include "PalSDK/MetasoundEngine_classes.hpp"
+#include "PalSDK/MetasoundEngine_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function MetasoundEngine.MetaSoundAssetSubsystem.RegisterAssetClassesInDirectories

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionTurnToTarget_classes.hpp"
-#include "PalServer/BP_ActionTurnToTarget_parameters.hpp"
+#include "PalSDK/BP_ActionTurnToTarget_classes.hpp"
+#include "PalSDK/BP_ActionTurnToTarget_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionTurnToTarget.BP_ActionTurnToTarget_C.ExecuteUbergraph_BP_ActionTurnToTarget

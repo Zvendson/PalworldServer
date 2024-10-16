@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/NISBlueprint_classes.hpp"
-#include "PalServer/NISBlueprint_parameters.hpp"
+#include "PalSDK/NISBlueprint_classes.hpp"
+#include "PalSDK/NISBlueprint_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function NISBlueprint.NISLibrary.GetDefaultNISMode

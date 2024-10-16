@@ -1,9 +1,9 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AIAction_Work_Wait_classes.hpp"
+#include "PalSDK/BP_AIAction_Work_Wait_classes.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AIAction_Work_Wait.BP_AIAction_Work_Wait_C.ReturnToDefaultPosition

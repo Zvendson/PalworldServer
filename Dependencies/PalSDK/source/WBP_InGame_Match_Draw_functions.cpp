@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_InGame_Match_Draw_classes.hpp"
-#include "PalServer/WBP_InGame_Match_Draw_parameters.hpp"
+#include "PalSDK/WBP_InGame_Match_Draw_classes.hpp"
+#include "PalSDK/WBP_InGame_Match_Draw_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_InGame_Match_Draw.WBP_InGame_Match_Draw_C.ExecuteUbergraph_WBP_InGame_Match_Draw

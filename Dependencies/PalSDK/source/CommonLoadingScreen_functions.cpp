@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/CommonLoadingScreen_classes.hpp"
-#include "PalServer/CommonLoadingScreen_parameters.hpp"
+#include "PalSDK/CommonLoadingScreen_classes.hpp"
+#include "PalSDK/CommonLoadingScreen_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function CommonLoadingScreen.LoadingProcessTask.CreateLoadingScreenProcessTask

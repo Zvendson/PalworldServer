@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_ItemGet_classes.hpp"
-#include "PalServer/WBP_ItemGet_parameters.hpp"
+#include "PalSDK/WBP_ItemGet_classes.hpp"
+#include "PalSDK/WBP_ItemGet_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_ItemGet.WBP_ItemGet_C.AnmEvent_Close

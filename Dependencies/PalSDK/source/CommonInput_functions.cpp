@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/CommonInput_classes.hpp"
-#include "PalServer/CommonInput_parameters.hpp"
+#include "PalSDK/CommonInput_classes.hpp"
+#include "PalSDK/CommonInput_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function CommonInput.CommonInputBaseControllerData.GetRegisteredGamepads

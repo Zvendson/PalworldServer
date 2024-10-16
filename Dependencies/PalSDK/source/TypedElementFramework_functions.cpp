@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/TypedElementFramework_classes.hpp"
-#include "PalServer/TypedElementFramework_parameters.hpp"
+#include "PalSDK/TypedElementFramework_classes.hpp"
+#include "PalSDK/TypedElementFramework_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function TypedElementFramework.TypedElementHandleLibrary.Equal

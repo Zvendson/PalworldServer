@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AIAction_BlowAway_classes.hpp"
-#include "PalServer/BP_AIAction_BlowAway_parameters.hpp"
+#include "PalSDK/BP_AIAction_BlowAway_classes.hpp"
+#include "PalSDK/BP_AIAction_BlowAway_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AIAction_BlowAway.BP_AIAction_BlowAway_C.ActionStart

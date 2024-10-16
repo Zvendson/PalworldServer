@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/TemplateSequence_classes.hpp"
-#include "PalServer/TemplateSequence_parameters.hpp"
+#include "PalSDK/TemplateSequence_classes.hpp"
+#include "PalSDK/TemplateSequence_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function TemplateSequence.TemplateSequenceActor.SetBinding

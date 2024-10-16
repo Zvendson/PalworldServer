@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_Status_CollectItem_classes.hpp"
-#include "PalServer/BP_Status_CollectItem_parameters.hpp"
+#include "PalSDK/BP_Status_CollectItem_classes.hpp"
+#include "PalSDK/BP_Status_CollectItem_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_Status_CollectItem.BP_Status_CollectItem_C.AddItem

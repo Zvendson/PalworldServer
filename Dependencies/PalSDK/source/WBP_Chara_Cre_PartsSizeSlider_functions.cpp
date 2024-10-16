@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_Chara_Cre_PartsSizeSlider_classes.hpp"
-#include "PalServer/WBP_Chara_Cre_PartsSizeSlider_parameters.hpp"
+#include "PalSDK/WBP_Chara_Cre_PartsSizeSlider_classes.hpp"
+#include "PalSDK/WBP_Chara_Cre_PartsSizeSlider_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_Chara_Cre_PartsSizeSlider.WBP_Chara_Cre_PartsSizeSlider_C.BndEvt__WBP_Chara_Cre_PartsSizeSlider_AnalogSlider_Main_K2Node_ComponentBoundEvent_1_OnMouseCaptureBeginEvent__DelegateSignature

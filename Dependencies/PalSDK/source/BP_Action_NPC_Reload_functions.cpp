@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_Action_NPC_Reload_classes.hpp"
-#include "PalServer/BP_Action_NPC_Reload_parameters.hpp"
+#include "PalSDK/BP_Action_NPC_Reload_classes.hpp"
+#include "PalSDK/BP_Action_NPC_Reload_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_Action_NPC_Reload.BP_Action_NPC_Reload_C.ExecuteUbergraph_BP_Action_NPC_Reload

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_MonsterBase_classes.hpp"
-#include "PalServer/BP_MonsterBase_parameters.hpp"
+#include "PalSDK/BP_MonsterBase_classes.hpp"
+#include "PalSDK/BP_MonsterBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_MonsterBase.BP_MonsterBase_C.AddEffectivceAttackLog

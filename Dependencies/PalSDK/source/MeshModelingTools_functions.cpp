@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/MeshModelingTools_classes.hpp"
-#include "PalServer/MeshModelingTools_parameters.hpp"
+#include "PalSDK/MeshModelingTools_classes.hpp"
+#include "PalSDK/MeshModelingTools_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function MeshModelingTools.PolyEditTopologyProperties.RegenerateExtraCorners

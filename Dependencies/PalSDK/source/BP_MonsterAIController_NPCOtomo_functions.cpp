@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_MonsterAIController_NPCOtomo_classes.hpp"
-#include "PalServer/BP_MonsterAIController_NPCOtomo_parameters.hpp"
+#include "PalSDK/BP_MonsterAIController_NPCOtomo_classes.hpp"
+#include "PalSDK/BP_MonsterAIController_NPCOtomo_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_MonsterAIController_NPCOtomo.BP_MonsterAIController_NPCOtomo_C.ExecuteUbergraph_BP_MonsterAIController_NPCOtomo

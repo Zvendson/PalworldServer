@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AIActionFunnel_Default_classes.hpp"
-#include "PalServer/BP_AIActionFunnel_Default_parameters.hpp"
+#include "PalSDK/BP_AIActionFunnel_Default_classes.hpp"
+#include "PalSDK/BP_AIActionFunnel_Default_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AIActionFunnel_Default.BP_AIActionFunnel_Default_C.CreateSkillActionModule

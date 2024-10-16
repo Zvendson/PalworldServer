@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/Landscape_classes.hpp"
-#include "PalServer/Landscape_parameters.hpp"
+#include "PalSDK/Landscape_classes.hpp"
+#include "PalSDK/Landscape_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function Landscape.LandscapeProxy.ChangeComponentScreenSizeToUseSubSections

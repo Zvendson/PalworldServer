@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalCommonItemSlot_classes.hpp"
-#include "PalServer/WBP_PalCommonItemSlot_parameters.hpp"
+#include "PalSDK/WBP_PalCommonItemSlot_classes.hpp"
+#include "PalSDK/WBP_PalCommonItemSlot_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalCommonItemSlot.WBP_PalCommonItemSlot_C.ExecuteUbergraph_WBP_PalCommonItemSlot

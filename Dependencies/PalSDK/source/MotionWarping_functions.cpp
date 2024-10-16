@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/MotionWarping_classes.hpp"
-#include "PalServer/MotionWarping_parameters.hpp"
+#include "PalSDK/MotionWarping_classes.hpp"
+#include "PalSDK/MotionWarping_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function MotionWarping.AnimNotifyState_MotionWarping.AddRootMotionModifier

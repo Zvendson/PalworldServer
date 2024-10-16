@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AnimNotifyState_PlaySound_classes.hpp"
-#include "PalServer/BP_AnimNotifyState_PlaySound_parameters.hpp"
+#include "PalSDK/BP_AnimNotifyState_PlaySound_classes.hpp"
+#include "PalSDK/BP_AnimNotifyState_PlaySound_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AnimNotifyState_PlaySound.BP_AnimNotifyState_PlaySound_C.Get Raycast Location

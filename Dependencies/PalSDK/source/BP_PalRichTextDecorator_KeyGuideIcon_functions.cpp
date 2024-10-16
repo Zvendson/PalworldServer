@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalRichTextDecorator_KeyGuideIcon_classes.hpp"
-#include "PalServer/BP_PalRichTextDecorator_KeyGuideIcon_parameters.hpp"
+#include "PalSDK/BP_PalRichTextDecorator_KeyGuideIcon_classes.hpp"
+#include "PalSDK/BP_PalRichTextDecorator_KeyGuideIcon_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalRichTextDecorator_KeyGuideIcon.BP_PalRichTextDecorator_KeyGuideIcon_C.CreateWidget

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/AudioCapture_classes.hpp"
-#include "PalServer/AudioCapture_parameters.hpp"
+#include "PalSDK/AudioCapture_classes.hpp"
+#include "PalSDK/AudioCapture_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function AudioCapture.AudioCapture.GetAudioCaptureDeviceInfo

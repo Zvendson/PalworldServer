@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalSkillEntry_classes.hpp"
-#include "PalServer/WBP_PalSkillEntry_parameters.hpp"
+#include "PalSDK/WBP_PalSkillEntry_classes.hpp"
+#include "PalSDK/WBP_PalSkillEntry_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalSkillEntry.WBP_PalSkillEntry_C.ActivateEvent

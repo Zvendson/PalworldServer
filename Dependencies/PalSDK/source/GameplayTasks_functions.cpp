@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/GameplayTasks_classes.hpp"
-#include "PalServer/GameplayTasks_parameters.hpp"
+#include "PalSDK/GameplayTasks_classes.hpp"
+#include "PalSDK/GameplayTasks_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function GameplayTasks.GameplayTask.EndTask

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalSphere_ThrowObject_Mega_classes.hpp"
-#include "PalServer/BP_PalSphere_ThrowObject_Mega_parameters.hpp"
+#include "PalSDK/BP_PalSphere_ThrowObject_Mega_classes.hpp"
+#include "PalSDK/BP_PalSphere_ThrowObject_Mega_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalSphere_ThrowObject_Mega.BP_PalSphere_ThrowObject_Mega_C.GetBodyClass

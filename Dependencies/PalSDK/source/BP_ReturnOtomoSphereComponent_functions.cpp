@@ -1,9 +1,9 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ReturnOtomoSphereComponent_classes.hpp"
+#include "PalSDK/BP_ReturnOtomoSphereComponent_classes.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ReturnOtomoSphereComponent.BP_ReturnOtomoSphereComponent_C.DeleteSelf

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PrefabBase_classes.hpp"
-#include "PalServer/BP_PrefabBase_parameters.hpp"
+#include "PalSDK/BP_PrefabBase_classes.hpp"
+#include "PalSDK/BP_PrefabBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PrefabBase.BP_PrefabBase_C.GenerateSplineMesh

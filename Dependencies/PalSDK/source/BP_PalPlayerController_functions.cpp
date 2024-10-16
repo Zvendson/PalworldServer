@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalPlayerController_classes.hpp"
-#include "PalServer/BP_PalPlayerController_parameters.hpp"
+#include "PalSDK/BP_PalPlayerController_classes.hpp"
+#include "PalSDK/BP_PalPlayerController_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalPlayerController.BP_PalPlayerController_C.ActivateCurrentOtomoNearThePlayer

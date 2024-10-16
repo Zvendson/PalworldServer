@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AssaultRifleBase_classes.hpp"
-#include "PalServer/BP_AssaultRifleBase_parameters.hpp"
+#include "PalSDK/BP_AssaultRifleBase_classes.hpp"
+#include "PalSDK/BP_AssaultRifleBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AssaultRifleBase.BP_AssaultRifleBase_C.CalcAccuracy

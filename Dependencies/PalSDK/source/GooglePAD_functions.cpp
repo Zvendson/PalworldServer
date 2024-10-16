@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/GooglePAD_classes.hpp"
-#include "PalServer/GooglePAD_parameters.hpp"
+#include "PalSDK/GooglePAD_classes.hpp"
+#include "PalSDK/GooglePAD_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function GooglePAD.GooglePADFunctionLibrary.CancelDownload

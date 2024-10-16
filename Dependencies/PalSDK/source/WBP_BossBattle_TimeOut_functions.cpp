@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_BossBattle_TimeOut_classes.hpp"
-#include "PalServer/WBP_BossBattle_TimeOut_parameters.hpp"
+#include "PalSDK/WBP_BossBattle_TimeOut_classes.hpp"
+#include "PalSDK/WBP_BossBattle_TimeOut_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_BossBattle_TimeOut.WBP_BossBattle_TimeOut_C.ChangeText

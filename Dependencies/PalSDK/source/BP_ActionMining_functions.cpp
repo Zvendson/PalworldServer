@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionMining_classes.hpp"
-#include "PalServer/BP_ActionMining_parameters.hpp"
+#include "PalSDK/BP_ActionMining_classes.hpp"
+#include "PalSDK/BP_ActionMining_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionMining.BP_ActionMining_C.ExecuteUbergraph_BP_ActionMining

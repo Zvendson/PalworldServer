@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalHungerHud_classes.hpp"
-#include "PalServer/WBP_PalHungerHud_parameters.hpp"
+#include "PalSDK/WBP_PalHungerHud_classes.hpp"
+#include "PalSDK/WBP_PalHungerHud_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalHungerHud.WBP_PalHungerHud_C.CheckGroup

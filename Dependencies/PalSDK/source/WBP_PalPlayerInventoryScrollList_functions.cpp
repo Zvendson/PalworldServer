@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalPlayerInventoryScrollList_classes.hpp"
-#include "PalServer/WBP_PalPlayerInventoryScrollList_parameters.hpp"
+#include "PalSDK/WBP_PalPlayerInventoryScrollList_classes.hpp"
+#include "PalSDK/WBP_PalPlayerInventoryScrollList_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalPlayerInventoryScrollList.WBP_PalPlayerInventoryScrollList_C.Add Player Inventory Block

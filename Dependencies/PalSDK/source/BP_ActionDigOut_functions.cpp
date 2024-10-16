@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionDigOut_classes.hpp"
-#include "PalServer/BP_ActionDigOut_parameters.hpp"
+#include "PalSDK/BP_ActionDigOut_classes.hpp"
+#include "PalSDK/BP_ActionDigOut_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionDigOut.BP_ActionDigOut_C.ExecuteUbergraph_BP_ActionDigOut

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalSkill_KeyGuide_classes.hpp"
-#include "PalServer/WBP_PalSkill_KeyGuide_parameters.hpp"
+#include "PalSDK/WBP_PalSkill_KeyGuide_classes.hpp"
+#include "PalSDK/WBP_PalSkill_KeyGuide_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalSkill_KeyGuide.WBP_PalSkill_KeyGuide_C.Destruct

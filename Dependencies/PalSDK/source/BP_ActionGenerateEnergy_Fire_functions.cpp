@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionGenerateEnergy_Fire_classes.hpp"
-#include "PalServer/BP_ActionGenerateEnergy_Fire_parameters.hpp"
+#include "PalSDK/BP_ActionGenerateEnergy_Fire_classes.hpp"
+#include "PalSDK/BP_ActionGenerateEnergy_Fire_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionGenerateEnergy_Fire.BP_ActionGenerateEnergy_Fire_C.ExecuteUbergraph_BP_ActionGenerateEnergy_Fire

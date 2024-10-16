@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_BossBattleEventBase_classes.hpp"
-#include "PalServer/BP_BossBattleEventBase_parameters.hpp"
+#include "PalSDK/BP_BossBattleEventBase_classes.hpp"
+#include "PalSDK/BP_BossBattleEventBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_BossBattleEventBase.BP_BossBattleEventBase_C.ActivateCharacter

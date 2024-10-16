@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_MonoNPCSpawner_classes.hpp"
-#include "PalServer/BP_MonoNPCSpawner_parameters.hpp"
+#include "PalSDK/BP_MonoNPCSpawner_classes.hpp"
+#include "PalSDK/BP_MonoNPCSpawner_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_MonoNPCSpawner.BP_MonoNPCSpawner_C.AdjustFloor

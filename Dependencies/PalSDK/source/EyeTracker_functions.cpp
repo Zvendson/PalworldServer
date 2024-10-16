@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/EyeTracker_classes.hpp"
-#include "PalServer/EyeTracker_parameters.hpp"
+#include "PalSDK/EyeTracker_classes.hpp"
+#include "PalSDK/EyeTracker_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function EyeTracker.EyeTrackerFunctionLibrary.GetGazeData

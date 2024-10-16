@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BPI_ControllerDebugInterface_classes.hpp"
-#include "PalServer/BPI_ControllerDebugInterface_parameters.hpp"
+#include "PalSDK/BPI_ControllerDebugInterface_classes.hpp"
+#include "PalSDK/BPI_ControllerDebugInterface_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BPI_ControllerDebugInterface.BPI_ControllerDebugInterface_C.DebugBattleStart

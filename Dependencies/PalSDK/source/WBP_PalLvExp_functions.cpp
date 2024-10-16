@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalLvExp_classes.hpp"
-#include "PalServer/WBP_PalLvExp_parameters.hpp"
+#include "PalSDK/WBP_PalLvExp_classes.hpp"
+#include "PalSDK/WBP_PalLvExp_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalLvExp.WBP_PalLvExp_C.AnmEvent_Close_UI

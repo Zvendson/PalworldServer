@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_Ingame_PalHPGauge_classes.hpp"
-#include "PalServer/WBP_Ingame_PalHPGauge_parameters.hpp"
+#include "PalSDK/WBP_Ingame_PalHPGauge_classes.hpp"
+#include "PalSDK/WBP_Ingame_PalHPGauge_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_Ingame_PalHPGauge.WBP_Ingame_PalHPGauge_C.AnmEvent_EnableSummonPalGuide

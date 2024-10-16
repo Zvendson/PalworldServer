@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_Status_FallDamage_classes.hpp"
-#include "PalServer/BP_Status_FallDamage_parameters.hpp"
+#include "PalSDK/BP_Status_FallDamage_classes.hpp"
+#include "PalSDK/BP_Status_FallDamage_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_Status_FallDamage.BP_Status_FallDamage_C.ExecuteUbergraph_BP_Status_FallDamage

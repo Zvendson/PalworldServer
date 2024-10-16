@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_SkillEffect_SandTornadoBullet_classes.hpp"
-#include "PalServer/BP_SkillEffect_SandTornadoBullet_parameters.hpp"
+#include "PalSDK/BP_SkillEffect_SandTornadoBullet_classes.hpp"
+#include "PalSDK/BP_SkillEffect_SandTornadoBullet_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_SkillEffect_SandTornadoBullet.BP_SkillEffect_SandTornadoBullet_C.BndEvt__BP_SkillEffect_SandTornadoBullet_AttackFilter_K2Node_ComponentBoundEvent_0_OnAttackDelegate__DelegateSignature

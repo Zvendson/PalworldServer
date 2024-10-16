@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionAngerLoop_classes.hpp"
-#include "PalServer/BP_ActionAngerLoop_parameters.hpp"
+#include "PalSDK/BP_ActionAngerLoop_classes.hpp"
+#include "PalSDK/BP_ActionAngerLoop_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionAngerLoop.BP_ActionAngerLoop_C.ExecuteUbergraph_BP_ActionAngerLoop

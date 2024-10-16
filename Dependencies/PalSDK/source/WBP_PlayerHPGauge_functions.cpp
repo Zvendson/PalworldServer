@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PlayerHPGauge_classes.hpp"
-#include "PalServer/WBP_PlayerHPGauge_parameters.hpp"
+#include "PalSDK/WBP_PlayerHPGauge_classes.hpp"
+#include "PalSDK/WBP_PlayerHPGauge_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PlayerHPGauge.WBP_PlayerHPGauge_C.BindFromHandle

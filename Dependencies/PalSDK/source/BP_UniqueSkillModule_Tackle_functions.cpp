@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_UniqueSkillModule_Tackle_classes.hpp"
-#include "PalServer/BP_UniqueSkillModule_Tackle_parameters.hpp"
+#include "PalSDK/BP_UniqueSkillModule_Tackle_classes.hpp"
+#include "PalSDK/BP_UniqueSkillModule_Tackle_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_UniqueSkillModule_Tackle.BP_UniqueSkillModule_Tackle_C.ControllInput

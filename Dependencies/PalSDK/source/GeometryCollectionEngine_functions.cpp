@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/GeometryCollectionEngine_classes.hpp"
-#include "PalServer/GeometryCollectionEngine_parameters.hpp"
+#include "PalSDK/GeometryCollectionEngine_classes.hpp"
+#include "PalSDK/GeometryCollectionEngine_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function GeometryCollectionEngine.ChaosDestructionListener.AddChaosSolverActor

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AIADamageReaction_classes.hpp"
-#include "PalServer/BP_AIADamageReaction_parameters.hpp"
+#include "PalSDK/BP_AIADamageReaction_classes.hpp"
+#include "PalSDK/BP_AIADamageReaction_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AIADamageReaction.BP_AIADamageReaction_C.CheckIgnoreAction

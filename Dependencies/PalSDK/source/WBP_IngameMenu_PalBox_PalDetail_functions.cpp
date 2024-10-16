@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_IngameMenu_PalBox_PalDetail_classes.hpp"
-#include "PalServer/WBP_IngameMenu_PalBox_PalDetail_parameters.hpp"
+#include "PalSDK/WBP_IngameMenu_PalBox_PalDetail_classes.hpp"
+#include "PalSDK/WBP_IngameMenu_PalBox_PalDetail_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_IngameMenu_PalBox_PalDetail.WBP_IngameMenu_PalBox_PalDetail_C.BindFromHandle

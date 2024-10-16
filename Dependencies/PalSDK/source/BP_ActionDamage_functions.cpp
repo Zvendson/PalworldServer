@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionDamage_classes.hpp"
-#include "PalServer/BP_ActionDamage_parameters.hpp"
+#include "PalSDK/BP_ActionDamage_classes.hpp"
+#include "PalSDK/BP_ActionDamage_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionDamage.BP_ActionDamage_C.ExecuteUbergraph_BP_ActionDamage

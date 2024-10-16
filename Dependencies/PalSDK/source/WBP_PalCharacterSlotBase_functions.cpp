@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalCharacterSlotBase_classes.hpp"
-#include "PalServer/WBP_PalCharacterSlotBase_parameters.hpp"
+#include "PalSDK/WBP_PalCharacterSlotBase_classes.hpp"
+#include "PalSDK/WBP_PalCharacterSlotBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalCharacterSlotBase.WBP_PalCharacterSlotBase_C.BindActorEvent

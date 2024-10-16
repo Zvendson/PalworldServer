@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_MonsterAIController_MarchantPal_classes.hpp"
-#include "PalServer/BP_MonsterAIController_MarchantPal_parameters.hpp"
+#include "PalSDK/BP_MonsterAIController_MarchantPal_classes.hpp"
+#include "PalSDK/BP_MonsterAIController_MarchantPal_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_MonsterAIController_MarchantPal.BP_MonsterAIController_MarchantPal_C.ExecuteUbergraph_BP_MonsterAIController_MarchantPal

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_WorkerSimpleDetail_classes.hpp"
-#include "PalServer/WBP_WorkerSimpleDetail_parameters.hpp"
+#include "PalSDK/WBP_WorkerSimpleDetail_classes.hpp"
+#include "PalSDK/WBP_WorkerSimpleDetail_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_WorkerSimpleDetail.WBP_WorkerSimpleDetail_C.CloseSetup

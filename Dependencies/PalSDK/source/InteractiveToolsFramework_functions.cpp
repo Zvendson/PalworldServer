@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/InteractiveToolsFramework_classes.hpp"
-#include "PalServer/InteractiveToolsFramework_parameters.hpp"
+#include "PalSDK/InteractiveToolsFramework_classes.hpp"
+#include "PalSDK/InteractiveToolsFramework_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function InteractiveToolsFramework.GizmoClickMultiTarget.UpdateHittableState

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_WorldSecurityLaw_AreaInvasion_classes.hpp"
-#include "PalServer/BP_WorldSecurityLaw_AreaInvasion_parameters.hpp"
+#include "PalSDK/BP_WorldSecurityLaw_AreaInvasion_classes.hpp"
+#include "PalSDK/BP_WorldSecurityLaw_AreaInvasion_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_WorldSecurityLaw_AreaInvasion.BP_WorldSecurityLaw_AreaInvasion_C.Condition

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_GuildMemberGauge_classes.hpp"
-#include "PalServer/WBP_GuildMemberGauge_parameters.hpp"
+#include "PalSDK/WBP_GuildMemberGauge_classes.hpp"
+#include "PalSDK/WBP_GuildMemberGauge_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_GuildMemberGauge.WBP_GuildMemberGauge_C.Construct

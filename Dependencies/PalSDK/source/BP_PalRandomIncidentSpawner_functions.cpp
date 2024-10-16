@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalRandomIncidentSpawner_classes.hpp"
-#include "PalServer/BP_PalRandomIncidentSpawner_parameters.hpp"
+#include "PalSDK/BP_PalRandomIncidentSpawner_classes.hpp"
+#include "PalSDK/BP_PalRandomIncidentSpawner_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalRandomIncidentSpawner.BP_PalRandomIncidentSpawner_C.AddWalkPath

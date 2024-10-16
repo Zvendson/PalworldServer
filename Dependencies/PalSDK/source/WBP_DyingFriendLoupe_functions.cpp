@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_DyingFriendLoupe_classes.hpp"
-#include "PalServer/WBP_DyingFriendLoupe_parameters.hpp"
+#include "PalSDK/WBP_DyingFriendLoupe_classes.hpp"
+#include "PalSDK/WBP_DyingFriendLoupe_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_DyingFriendLoupe.WBP_DyingFriendLoupe_C.CalcScreenPosition

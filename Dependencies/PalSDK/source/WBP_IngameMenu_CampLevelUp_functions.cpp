@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_IngameMenu_CampLevelUp_classes.hpp"
-#include "PalServer/WBP_IngameMenu_CampLevelUp_parameters.hpp"
+#include "PalSDK/WBP_IngameMenu_CampLevelUp_classes.hpp"
+#include "PalSDK/WBP_IngameMenu_CampLevelUp_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_IngameMenu_CampLevelUp.WBP_IngameMenu_CampLevelUp_C.ExecuteUbergraph_WBP_IngameMenu_CampLevelUp

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_RocketBullet_classes.hpp"
-#include "PalServer/BP_RocketBullet_parameters.hpp"
+#include "PalSDK/BP_RocketBullet_classes.hpp"
+#include "PalSDK/BP_RocketBullet_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_RocketBullet.BP_RocketBullet_C.ExecuteUbergraph_BP_RocketBullet
@@ -74,20 +74,6 @@ void ABP_RocketBullet_C::OnDestroy(class UPrimitiveComponent* HitComp, class AAc
 }
 
 
-// Function BP_RocketBullet.BP_RocketBullet_C.ReceiveBeginPlay
-// (Event, Protected, BlueprintEvent)
-
-void ABP_RocketBullet_C::ReceiveBeginPlay()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_RocketBullet_C", "ReceiveBeginPlay");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
 // Function BP_RocketBullet.BP_RocketBullet_C.OnHitToActor
 // (Event, Public, HasOutParams, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -111,6 +97,20 @@ void ABP_RocketBullet_C::OnHitToActor(class UPrimitiveComponent* HitComp, class 
 	Parms.Hit = std::move(Hit);
 
 	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_RocketBullet.BP_RocketBullet_C.ReceiveBeginPlay
+// (Event, Protected, BlueprintEvent)
+
+void ABP_RocketBullet_C::ReceiveBeginPlay()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_RocketBullet_C", "ReceiveBeginPlay");
+
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 

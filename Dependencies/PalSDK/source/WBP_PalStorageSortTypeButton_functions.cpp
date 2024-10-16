@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalStorageSortTypeButton_classes.hpp"
-#include "PalServer/WBP_PalStorageSortTypeButton_parameters.hpp"
+#include "PalSDK/WBP_PalStorageSortTypeButton_classes.hpp"
+#include "PalSDK/WBP_PalStorageSortTypeButton_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalStorageSortTypeButton.WBP_PalStorageSortTypeButton_C.AnmEvent_Focus

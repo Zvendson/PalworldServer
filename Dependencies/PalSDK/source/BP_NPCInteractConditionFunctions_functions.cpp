@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_NPCInteractConditionFunctions_classes.hpp"
-#include "PalServer/BP_NPCInteractConditionFunctions_parameters.hpp"
+#include "PalSDK/BP_NPCInteractConditionFunctions_classes.hpp"
+#include "PalSDK/BP_NPCInteractConditionFunctions_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_NPCInteractConditionFunctions.BP_NPCInteractConditionFunctions_C.HasItem

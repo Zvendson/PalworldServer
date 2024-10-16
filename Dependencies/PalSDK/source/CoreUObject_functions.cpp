@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/CoreUObject_classes.hpp"
-#include "PalServer/CoreUObject_parameters.hpp"
+#include "PalSDK/CoreUObject_classes.hpp"
+#include "PalSDK/CoreUObject_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Predefined Function
@@ -15,10 +15,10 @@ class UObject* UObject::FindObjectFastImpl(const std::string& Name, EClassCastFl
 	for (int i = 0; i < GObjects->Num(); ++i)
 	{
 		UObject* Object = GObjects->GetByIndex(i);
-	
+
 		if (!Object)
 			continue;
-		
+
 		if (Object->HasTypeFlag(RequiredType) && Object->GetName() == Name)
 			return Object;
 	}
@@ -35,10 +35,10 @@ class UObject* UObject::FindObjectImpl(const std::string& FullName, EClassCastFl
 	for (int i = 0; i < GObjects->Num(); ++i)
 	{
 		UObject* Object = GObjects->GetByIndex(i);
-	
+
 		if (!Object)
 			continue;
-		
+
 		if (Object->HasTypeFlag(RequiredType) && Object->GetFullName() == FullName)
 			return Object;
 	}
@@ -165,7 +165,7 @@ class UFunction* UClass::GetFunction(const std::string& ClassName, const std::st
 	{
 		if (Clss->GetName() != ClassName)
 			continue;
-			
+
 		for (UField* Field = Clss->Children; Field; Field = Field->Next)
 		{
 			if(Field->HasTypeFlag(EClassCastFlags::Function) && Field->GetName() == FuncName)

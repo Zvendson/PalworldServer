@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WwiseFileHandler_classes.hpp"
-#include "PalServer/WwiseFileHandler_parameters.hpp"
+#include "PalSDK/WwiseFileHandler_classes.hpp"
+#include "PalSDK/WwiseFileHandler_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WwiseFileHandler.WwiseExternalSourceStatics.SetExternalSourceMediaById

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_CombatHeliRpidWeaponComponent_FrontMG_classes.hpp"
-#include "PalServer/BP_CombatHeliRpidWeaponComponent_FrontMG_parameters.hpp"
+#include "PalSDK/BP_CombatHeliRpidWeaponComponent_FrontMG_classes.hpp"
+#include "PalSDK/BP_CombatHeliRpidWeaponComponent_FrontMG_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_CombatHeliRpidWeaponComponent_FrontMG.BP_CombatHeliRpidWeaponComponent_FrontMG_C.ExecuteUbergraph_BP_CombatHeliRpidWeaponComponent_FrontMG

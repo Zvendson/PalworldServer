@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/OnlineSubsystem_classes.hpp"
-#include "PalServer/OnlineSubsystem_parameters.hpp"
+#include "PalSDK/OnlineSubsystem_classes.hpp"
+#include "PalSDK/OnlineSubsystem_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function OnlineSubsystem.TurnBasedMatchInterface.OnMatchEnded

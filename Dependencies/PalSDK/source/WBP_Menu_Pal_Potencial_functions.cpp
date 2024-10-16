@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_Menu_Pal_Potencial_classes.hpp"
-#include "PalServer/WBP_Menu_Pal_Potencial_parameters.hpp"
+#include "PalSDK/WBP_Menu_Pal_Potencial_classes.hpp"
+#include "PalSDK/WBP_Menu_Pal_Potencial_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_Menu_Pal_Potencial.WBP_Menu_Pal_Potencial_C.GetRankText

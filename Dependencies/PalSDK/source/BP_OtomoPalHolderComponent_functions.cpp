@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_OtomoPalHolderComponent_classes.hpp"
-#include "PalServer/BP_OtomoPalHolderComponent_parameters.hpp"
+#include "PalSDK/BP_OtomoPalHolderComponent_classes.hpp"
+#include "PalSDK/BP_OtomoPalHolderComponent_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_OtomoPalHolderComponent.BP_OtomoPalHolderComponent_C.ActivateCurrentOtomo

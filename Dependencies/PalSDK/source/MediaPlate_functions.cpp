@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/MediaPlate_classes.hpp"
-#include "PalServer/MediaPlate_parameters.hpp"
+#include "PalSDK/MediaPlate_classes.hpp"
+#include "PalSDK/MediaPlate_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function MediaPlate.MediaPlateComponent.Close

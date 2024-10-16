@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_BossBattle_Timer_classes.hpp"
-#include "PalServer/WBP_BossBattle_Timer_parameters.hpp"
+#include "PalSDK/WBP_BossBattle_Timer_classes.hpp"
+#include "PalSDK/WBP_BossBattle_Timer_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_BossBattle_Timer.WBP_BossBattle_Timer_C.ExecuteUbergraph_WBP_BossBattle_Timer

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ABP_ChickenPal_Implemantation_classes.hpp"
-#include "PalServer/ABP_ChickenPal_Implemantation_parameters.hpp"
+#include "PalSDK/ABP_ChickenPal_Implemantation_classes.hpp"
+#include "PalSDK/ABP_ChickenPal_Implemantation_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ABP_ChickenPal_Implemantation.ABP_ChickenPal_Implemantation_C.UpperOverride

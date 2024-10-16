@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_MapObject_DamagableRock0017_classes.hpp"
-#include "PalServer/BP_MapObject_DamagableRock0017_parameters.hpp"
+#include "PalSDK/BP_MapObject_DamagableRock0017_classes.hpp"
+#include "PalSDK/BP_MapObject_DamagableRock0017_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_MapObject_DamagableRock0017.BP_MapObject_DamagableRock0017_C.IsShowOutlineInReticleTargetting

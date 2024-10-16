@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_MonsterAIController_Wild_classes.hpp"
-#include "PalServer/BP_MonsterAIController_Wild_parameters.hpp"
+#include "PalSDK/BP_MonsterAIController_Wild_classes.hpp"
+#include "PalSDK/BP_MonsterAIController_Wild_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_MonsterAIController_Wild.BP_MonsterAIController_Wild_C.BattleStartEvent__DelegateSignature

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AlertByKilledFriendState_QuestionMark_classes.hpp"
-#include "PalServer/BP_AlertByKilledFriendState_QuestionMark_parameters.hpp"
+#include "PalSDK/BP_AlertByKilledFriendState_QuestionMark_classes.hpp"
+#include "PalSDK/BP_AlertByKilledFriendState_QuestionMark_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AlertByKilledFriendState_QuestionMark.BP_AlertByKilledFriendState_QuestionMark_C.ExecuteUbergraph_BP_AlertByKilledFriendState_QuestionMark

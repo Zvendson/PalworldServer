@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_OilRigCannon_LaserTower_classes.hpp"
-#include "PalServer/BP_OilRigCannon_LaserTower_parameters.hpp"
+#include "PalSDK/BP_OilRigCannon_LaserTower_classes.hpp"
+#include "PalSDK/BP_OilRigCannon_LaserTower_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_OilRigCannon_LaserTower.BP_OilRigCannon_LaserTower_C.SetActiveHeadMesh

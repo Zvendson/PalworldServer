@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionEncount_classes.hpp"
-#include "PalServer/BP_ActionEncount_parameters.hpp"
+#include "PalSDK/BP_ActionEncount_classes.hpp"
+#include "PalSDK/BP_ActionEncount_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionEncount.BP_ActionEncount_C.ExecuteUbergraph_BP_ActionEncount

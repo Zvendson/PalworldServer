@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ABP_Player_Head_classes.hpp"
-#include "PalServer/ABP_Player_Head_parameters.hpp"
+#include "PalSDK/ABP_Player_Head_classes.hpp"
+#include "PalSDK/ABP_Player_Head_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ABP_Player_Head.ABP_Player_Head_C.AnimGraph

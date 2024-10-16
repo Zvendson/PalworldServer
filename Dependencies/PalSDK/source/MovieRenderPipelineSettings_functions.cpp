@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/MovieRenderPipelineSettings_classes.hpp"
-#include "PalServer/MovieRenderPipelineSettings_parameters.hpp"
+#include "PalSDK/MovieRenderPipelineSettings_classes.hpp"
+#include "PalSDK/MovieRenderPipelineSettings_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function MovieRenderPipelineSettings.MoviePipelineBurnInWidget.OnOutputFrameStarted

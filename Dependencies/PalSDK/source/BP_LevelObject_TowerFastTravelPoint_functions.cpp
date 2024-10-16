@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_LevelObject_TowerFastTravelPoint_classes.hpp"
-#include "PalServer/BP_LevelObject_TowerFastTravelPoint_parameters.hpp"
+#include "PalSDK/BP_LevelObject_TowerFastTravelPoint_classes.hpp"
+#include "PalSDK/BP_LevelObject_TowerFastTravelPoint_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_LevelObject_TowerFastTravelPoint.BP_LevelObject_TowerFastTravelPoint_C.CheckUnuseFastTravel

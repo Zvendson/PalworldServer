@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_DebugMissWaza_classes.hpp"
-#include "PalServer/BP_DebugMissWaza_parameters.hpp"
+#include "PalSDK/BP_DebugMissWaza_classes.hpp"
+#include "PalSDK/BP_DebugMissWaza_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_DebugMissWaza.BP_DebugMissWaza_C.ExecuteUbergraph_BP_DebugMissWaza

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_SkillEffect_SelfDestruct_classes.hpp"
-#include "PalServer/BP_SkillEffect_SelfDestruct_parameters.hpp"
+#include "PalSDK/BP_SkillEffect_SelfDestruct_classes.hpp"
+#include "PalSDK/BP_SkillEffect_SelfDestruct_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_SkillEffect_SelfDestruct.BP_SkillEffect_SelfDestruct_C.ExecuteUbergraph_BP_SkillEffect_SelfDestruct

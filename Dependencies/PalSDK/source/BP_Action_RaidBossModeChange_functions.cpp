@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_Action_RaidBossModeChange_classes.hpp"
-#include "PalServer/BP_Action_RaidBossModeChange_parameters.hpp"
+#include "PalSDK/BP_Action_RaidBossModeChange_classes.hpp"
+#include "PalSDK/BP_Action_RaidBossModeChange_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_Action_RaidBossModeChange.BP_Action_RaidBossModeChange_C.AddStatusEventDispatcher__DelegateSignature

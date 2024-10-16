@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_Common_LoadingIcon_classes.hpp"
-#include "PalServer/WBP_Common_LoadingIcon_parameters.hpp"
+#include "PalSDK/WBP_Common_LoadingIcon_classes.hpp"
+#include "PalSDK/WBP_Common_LoadingIcon_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_Common_LoadingIcon.WBP_Common_LoadingIcon_C.Construct

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_Action_NPC_SpawnOtomo_classes.hpp"
-#include "PalServer/BP_Action_NPC_SpawnOtomo_parameters.hpp"
+#include "PalSDK/BP_Action_NPC_SpawnOtomo_classes.hpp"
+#include "PalSDK/BP_Action_NPC_SpawnOtomo_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_Action_NPC_SpawnOtomo.BP_Action_NPC_SpawnOtomo_C.ExecuteUbergraph_BP_Action_NPC_SpawnOtomo

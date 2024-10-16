@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionDefenseWait_classes.hpp"
-#include "PalServer/BP_ActionDefenseWait_parameters.hpp"
+#include "PalSDK/BP_ActionDefenseWait_classes.hpp"
+#include "PalSDK/BP_ActionDefenseWait_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionDefenseWait.BP_ActionDefenseWait_C.ExecuteUbergraph_BP_ActionDefenseWait

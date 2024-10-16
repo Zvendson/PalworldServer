@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_MainMenu_Pal_FoodAmountIcon_classes.hpp"
-#include "PalServer/WBP_MainMenu_Pal_FoodAmountIcon_parameters.hpp"
+#include "PalSDK/WBP_MainMenu_Pal_FoodAmountIcon_classes.hpp"
+#include "PalSDK/WBP_MainMenu_Pal_FoodAmountIcon_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_MainMenu_Pal_FoodAmountIcon.WBP_MainMenu_Pal_FoodAmountIcon_C.AnmEvent_Off

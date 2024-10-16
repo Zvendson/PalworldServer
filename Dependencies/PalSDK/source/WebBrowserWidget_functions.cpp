@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WebBrowserWidget_classes.hpp"
-#include "PalServer/WebBrowserWidget_parameters.hpp"
+#include "PalSDK/WebBrowserWidget_classes.hpp"
+#include "PalSDK/WebBrowserWidget_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WebBrowserWidget.WebBrowser.ExecuteJavascript

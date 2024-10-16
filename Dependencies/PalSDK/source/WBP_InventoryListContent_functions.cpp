@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_InventoryListContent_classes.hpp"
-#include "PalServer/WBP_InventoryListContent_parameters.hpp"
+#include "PalSDK/WBP_InventoryListContent_classes.hpp"
+#include "PalSDK/WBP_InventoryListContent_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_InventoryListContent.WBP_InventoryListContent_C.AddWidget

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalBaseCampWorkerEvent_Trantrum_classes.hpp"
-#include "PalServer/BP_PalBaseCampWorkerEvent_Trantrum_parameters.hpp"
+#include "PalSDK/BP_PalBaseCampWorkerEvent_Trantrum_classes.hpp"
+#include "PalSDK/BP_PalBaseCampWorkerEvent_Trantrum_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalBaseCampWorkerEvent_Trantrum.BP_PalBaseCampWorkerEvent_Trantrum_C.CreateNotifyMessageText

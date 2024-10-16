@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_Explosion_Low_classes.hpp"
-#include "PalServer/BP_Explosion_Low_parameters.hpp"
+#include "PalSDK/BP_Explosion_Low_classes.hpp"
+#include "PalSDK/BP_Explosion_Low_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_Explosion_Low.BP_Explosion_Low_C.BndEvt__BP_Explosion_Low_Explosive_K2Node_ComponentBoundEvent_0_OnNiagaraSystemFinished__DelegateSignature

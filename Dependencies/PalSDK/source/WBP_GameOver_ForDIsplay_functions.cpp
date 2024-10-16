@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_GameOver_ForDIsplay_classes.hpp"
-#include "PalServer/WBP_GameOver_ForDIsplay_parameters.hpp"
+#include "PalSDK/WBP_GameOver_ForDIsplay_classes.hpp"
+#include "PalSDK/WBP_GameOver_ForDIsplay_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_GameOver_ForDIsplay.WBP_GameOver_ForDIsplay_C.Construct

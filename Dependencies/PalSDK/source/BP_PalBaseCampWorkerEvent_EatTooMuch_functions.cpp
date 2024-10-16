@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalBaseCampWorkerEvent_EatTooMuch_classes.hpp"
-#include "PalServer/BP_PalBaseCampWorkerEvent_EatTooMuch_parameters.hpp"
+#include "PalSDK/BP_PalBaseCampWorkerEvent_EatTooMuch_classes.hpp"
+#include "PalSDK/BP_PalBaseCampWorkerEvent_EatTooMuch_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalBaseCampWorkerEvent_EatTooMuch.BP_PalBaseCampWorkerEvent_EatTooMuch_C.CreateNotifyMessageText

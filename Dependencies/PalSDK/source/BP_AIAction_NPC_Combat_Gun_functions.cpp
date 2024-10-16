@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AIAction_NPC_Combat_Gun_classes.hpp"
-#include "PalServer/BP_AIAction_NPC_Combat_Gun_parameters.hpp"
+#include "PalSDK/BP_AIAction_NPC_Combat_Gun_classes.hpp"
+#include "PalSDK/BP_AIAction_NPC_Combat_Gun_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AIAction_NPC_Combat_Gun.BP_AIAction_NPC_Combat_Gun_C.ActionFinished
@@ -64,6 +64,48 @@ void UBP_AIAction_NPC_Combat_Gun_C::ActionResume(class APawn* ControlledPawn)
 	Params::BP_AIAction_NPC_Combat_Gun_C_ActionResume Parms{};
 
 	Parms.ControlledPawn = ControlledPawn;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_AIAction_NPC_Combat_Gun.BP_AIAction_NPC_Combat_Gun_C.ActionStart
+// (Event, Public, BlueprintEvent)
+// Parameters:
+// class APawn*                            ControlledPawn                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+
+void UBP_AIAction_NPC_Combat_Gun_C::ActionStart(class APawn* ControlledPawn)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_AIAction_NPC_Combat_Gun_C", "ActionStart");
+
+	Params::BP_AIAction_NPC_Combat_Gun_C_ActionStart Parms{};
+
+	Parms.ControlledPawn = ControlledPawn;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_AIAction_NPC_Combat_Gun.BP_AIAction_NPC_Combat_Gun_C.ActionTick
+// (Event, Public, BlueprintEvent)
+// Parameters:
+// class APawn*                            ControlledPawn                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+// float                                   DeltaSeconds                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_AIAction_NPC_Combat_Gun_C::ActionTick(class APawn* ControlledPawn, float DeltaSeconds)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_AIAction_NPC_Combat_Gun_C", "ActionTick");
+
+	Params::BP_AIAction_NPC_Combat_Gun_C_ActionTick Parms{};
+
+	Parms.ControlledPawn = ControlledPawn;
+	Parms.DeltaSeconds = DeltaSeconds;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
@@ -244,48 +286,6 @@ void UBP_AIAction_NPC_Combat_Gun_C::SwitchTickState()
 		Func = Class->GetFunction("BP_AIAction_NPC_Combat_Gun_C", "SwitchTickState");
 
 	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_AIAction_NPC_Combat_Gun.BP_AIAction_NPC_Combat_Gun_C.ActionStart
-// (Event, Public, BlueprintEvent)
-// Parameters:
-// class APawn*                            ControlledPawn                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-
-void UBP_AIAction_NPC_Combat_Gun_C::ActionStart(class APawn* ControlledPawn)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_AIAction_NPC_Combat_Gun_C", "ActionStart");
-
-	Params::BP_AIAction_NPC_Combat_Gun_C_ActionStart Parms{};
-
-	Parms.ControlledPawn = ControlledPawn;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function BP_AIAction_NPC_Combat_Gun.BP_AIAction_NPC_Combat_Gun_C.ActionTick
-// (Event, Public, BlueprintEvent)
-// Parameters:
-// class APawn*                            ControlledPawn                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-// float                                   DeltaSeconds                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void UBP_AIAction_NPC_Combat_Gun_C::ActionTick(class APawn* ControlledPawn, float DeltaSeconds)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_AIAction_NPC_Combat_Gun_C", "ActionTick");
-
-	Params::BP_AIAction_NPC_Combat_Gun_C_ActionTick Parms{};
-
-	Parms.ControlledPawn = ControlledPawn;
-	Parms.DeltaSeconds = DeltaSeconds;
-
-	UObject::ProcessEvent(Func, &Parms);
 }
 
 }

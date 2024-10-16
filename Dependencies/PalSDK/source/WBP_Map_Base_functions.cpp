@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_Map_Base_classes.hpp"
-#include "PalServer/WBP_Map_Base_parameters.hpp"
+#include "PalSDK/WBP_Map_Base_classes.hpp"
+#include "PalSDK/WBP_Map_Base_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_Map_Base.WBP_Map_Base_C.AddBossIcon

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalLiftItem_classes.hpp"
-#include "PalServer/WBP_PalLiftItem_parameters.hpp"
+#include "PalSDK/WBP_PalLiftItem_classes.hpp"
+#include "PalSDK/WBP_PalLiftItem_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalLiftItem.WBP_PalLiftItem_C.Dispose

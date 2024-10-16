@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_GameOver_Rescue_classes.hpp"
-#include "PalServer/WBP_GameOver_Rescue_parameters.hpp"
+#include "PalSDK/WBP_GameOver_Rescue_classes.hpp"
+#include "PalSDK/WBP_GameOver_Rescue_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_GameOver_Rescue.WBP_GameOver_Rescue_C.ExecuteUbergraph_WBP_GameOver_Rescue

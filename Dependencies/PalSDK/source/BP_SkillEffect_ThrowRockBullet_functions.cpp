@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_SkillEffect_ThrowRockBullet_classes.hpp"
-#include "PalServer/BP_SkillEffect_ThrowRockBullet_parameters.hpp"
+#include "PalSDK/BP_SkillEffect_ThrowRockBullet_classes.hpp"
+#include "PalSDK/BP_SkillEffect_ThrowRockBullet_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_SkillEffect_ThrowRockBullet.BP_SkillEffect_ThrowRockBullet_C.AddShotImpulse

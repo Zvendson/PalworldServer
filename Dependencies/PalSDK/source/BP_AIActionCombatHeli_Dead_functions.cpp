@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AIActionCombatHeli_Dead_classes.hpp"
-#include "PalServer/BP_AIActionCombatHeli_Dead_parameters.hpp"
+#include "PalSDK/BP_AIActionCombatHeli_Dead_classes.hpp"
+#include "PalSDK/BP_AIActionCombatHeli_Dead_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AIActionCombatHeli_Dead.BP_AIActionCombatHeli_Dead_C.ActionStart

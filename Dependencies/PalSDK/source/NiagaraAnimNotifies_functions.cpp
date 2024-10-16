@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/NiagaraAnimNotifies_classes.hpp"
-#include "PalServer/NiagaraAnimNotifies_parameters.hpp"
+#include "PalSDK/NiagaraAnimNotifies_classes.hpp"
+#include "PalSDK/NiagaraAnimNotifies_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function NiagaraAnimNotifies.AnimNotifyState_TimedNiagaraEffect.GetSpawnedEffect

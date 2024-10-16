@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionInteractBase_classes.hpp"
-#include "PalServer/BP_ActionInteractBase_parameters.hpp"
+#include "PalSDK/BP_ActionInteractBase_classes.hpp"
+#include "PalSDK/BP_ActionInteractBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionInteractBase.BP_ActionInteractBase_C.BindDelegates

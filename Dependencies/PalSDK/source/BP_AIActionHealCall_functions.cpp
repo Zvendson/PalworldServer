@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AIActionHealCall_classes.hpp"
-#include "PalServer/BP_AIActionHealCall_parameters.hpp"
+#include "PalSDK/BP_AIActionHealCall_classes.hpp"
+#include "PalSDK/BP_AIActionHealCall_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AIActionHealCall.BP_AIActionHealCall_C.ExecuteUbergraph_BP_AIActionHealCall

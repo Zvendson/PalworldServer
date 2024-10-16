@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/CapsuleTraceRotation_classes.hpp"
-#include "PalServer/CapsuleTraceRotation_parameters.hpp"
+#include "PalSDK/CapsuleTraceRotation_classes.hpp"
+#include "PalSDK/CapsuleTraceRotation_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function CapsuleTraceRotation.TraceUtils.CapsuleTraceMulti

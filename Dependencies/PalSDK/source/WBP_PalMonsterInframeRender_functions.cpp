@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalMonsterInframeRender_classes.hpp"
-#include "PalServer/WBP_PalMonsterInframeRender_parameters.hpp"
+#include "PalSDK/WBP_PalMonsterInframeRender_classes.hpp"
+#include "PalSDK/WBP_PalMonsterInframeRender_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalMonsterInframeRender.WBP_PalMonsterInframeRender_C.AddRotation

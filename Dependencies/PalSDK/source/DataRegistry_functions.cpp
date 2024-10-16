@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/DataRegistry_classes.hpp"
-#include "PalServer/DataRegistry_parameters.hpp"
+#include "PalSDK/DataRegistry_classes.hpp"
+#include "PalSDK/DataRegistry_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function DataRegistry.DataRegistrySubsystem.AcquireItemBP

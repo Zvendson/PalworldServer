@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalItemSlotDragDropIcon_classes.hpp"
-#include "PalServer/WBP_PalItemSlotDragDropIcon_parameters.hpp"
+#include "PalSDK/WBP_PalItemSlotDragDropIcon_classes.hpp"
+#include "PalSDK/WBP_PalItemSlotDragDropIcon_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalItemSlotDragDropIcon.WBP_PalItemSlotDragDropIcon_C.Setup

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_MonsterAIController_Boss_classes.hpp"
-#include "PalServer/BP_MonsterAIController_Boss_parameters.hpp"
+#include "PalSDK/BP_MonsterAIController_Boss_classes.hpp"
+#include "PalSDK/BP_MonsterAIController_Boss_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_MonsterAIController_Boss.BP_MonsterAIController_Boss_C.ExecuteUbergraph_BP_MonsterAIController_Boss

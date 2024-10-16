@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ALI_HumanCloth_classes.hpp"
-#include "PalServer/ALI_HumanCloth_parameters.hpp"
+#include "PalSDK/ALI_HumanCloth_classes.hpp"
+#include "PalSDK/ALI_HumanCloth_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ALI_HumanCloth.ALI_HumanCloth_C.ClothLayer

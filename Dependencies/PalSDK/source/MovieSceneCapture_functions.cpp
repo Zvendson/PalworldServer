@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/MovieSceneCapture_classes.hpp"
-#include "PalServer/MovieSceneCapture_parameters.hpp"
+#include "PalSDK/MovieSceneCapture_classes.hpp"
+#include "PalSDK/MovieSceneCapture_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function MovieSceneCapture.MovieSceneCaptureProtocolBase.GetState

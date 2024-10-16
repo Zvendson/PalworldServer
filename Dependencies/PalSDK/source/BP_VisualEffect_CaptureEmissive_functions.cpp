@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_VisualEffect_CaptureEmissive_classes.hpp"
-#include "PalServer/BP_VisualEffect_CaptureEmissive_parameters.hpp"
+#include "PalSDK/BP_VisualEffect_CaptureEmissive_classes.hpp"
+#include "PalSDK/BP_VisualEffect_CaptureEmissive_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_VisualEffect_CaptureEmissive.BP_VisualEffect_CaptureEmissive_C.ExecuteUbergraph_BP_VisualEffect_CaptureEmissive

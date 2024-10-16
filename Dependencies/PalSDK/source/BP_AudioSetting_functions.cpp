@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AudioSetting_classes.hpp"
-#include "PalServer/BP_AudioSetting_parameters.hpp"
+#include "PalSDK/BP_AudioSetting_classes.hpp"
+#include "PalSDK/BP_AudioSetting_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AudioSetting.BP_AudioSetting_C.ExecuteUbergraph_BP_AudioSetting

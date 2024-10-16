@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ABP_Player_Hair_classes.hpp"
-#include "PalServer/ABP_Player_Hair_parameters.hpp"
+#include "PalSDK/ABP_Player_Hair_classes.hpp"
+#include "PalSDK/ABP_Player_Hair_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ABP_Player_Hair.ABP_Player_Hair_C.AnimGraph

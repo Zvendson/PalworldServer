@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/MobilePatchingUtils_classes.hpp"
-#include "PalServer/MobilePatchingUtils_parameters.hpp"
+#include "PalSDK/MobilePatchingUtils_classes.hpp"
+#include "PalSDK/MobilePatchingUtils_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function MobilePatchingUtils.MobileInstalledContent.GetDiskFreeSpace

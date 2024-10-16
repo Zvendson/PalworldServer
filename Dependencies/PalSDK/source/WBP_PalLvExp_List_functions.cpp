@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalLvExp_List_classes.hpp"
-#include "PalServer/WBP_PalLvExp_List_parameters.hpp"
+#include "PalSDK/WBP_PalLvExp_List_classes.hpp"
+#include "PalSDK/WBP_PalLvExp_List_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalLvExp_List.WBP_PalLvExp_List_C.Anm_Open

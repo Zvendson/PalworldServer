@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/CommonUI_classes.hpp"
-#include "PalServer/CommonUI_parameters.hpp"
+#include "PalSDK/CommonUI_classes.hpp"
+#include "PalSDK/CommonUI_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function CommonUI.CommonUILibrary.FindParentWidgetOfType

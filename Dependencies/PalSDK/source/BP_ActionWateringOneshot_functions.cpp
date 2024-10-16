@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionWateringOneshot_classes.hpp"
-#include "PalServer/BP_ActionWateringOneshot_parameters.hpp"
+#include "PalSDK/BP_ActionWateringOneshot_classes.hpp"
+#include "PalSDK/BP_ActionWateringOneshot_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionWateringOneshot.BP_ActionWateringOneshot_C.ExecuteUbergraph_BP_ActionWateringOneshot

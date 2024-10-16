@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_CommonPopupWindow_classes.hpp"
-#include "PalServer/WBP_CommonPopupWindow_parameters.hpp"
+#include "PalSDK/WBP_CommonPopupWindow_classes.hpp"
+#include "PalSDK/WBP_CommonPopupWindow_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_CommonPopupWindow.WBP_CommonPopupWindow_C.BndEvt__WBP_CommonPopupWindow_WBP_CommonButton_L_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature

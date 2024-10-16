@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalSphere_HomingThrowObjectBase_classes.hpp"
-#include "PalServer/BP_PalSphere_HomingThrowObjectBase_parameters.hpp"
+#include "PalSDK/BP_PalSphere_HomingThrowObjectBase_classes.hpp"
+#include "PalSDK/BP_PalSphere_HomingThrowObjectBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalSphere_HomingThrowObjectBase.BP_PalSphere_HomingThrowObjectBase_C.BndEvt__BP_CaptureDrone_ThrowObject_ProjectileMovement_K2Node_ComponentBoundEvent_0_OnProjectileBounceDelegate__DelegateSignature
@@ -67,6 +67,40 @@ void ABP_PalSphere_HomingThrowObjectBase_C::GetBodyClass(class UClass** bodyClas
 
 	if (bodyClass != nullptr)
 		*bodyClass = Parms.bodyClass;
+}
+
+
+// Function BP_PalSphere_HomingThrowObjectBase.BP_PalSphere_HomingThrowObjectBase_C.ReceiveBeginPlay
+// (Event, Protected, BlueprintEvent)
+
+void ABP_PalSphere_HomingThrowObjectBase_C::ReceiveBeginPlay()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PalSphere_HomingThrowObjectBase_C", "ReceiveBeginPlay");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_PalSphere_HomingThrowObjectBase.BP_PalSphere_HomingThrowObjectBase_C.ReceiveTick
+// (Event, Public, BlueprintEvent)
+// Parameters:
+// float                                   DeltaSeconds                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ABP_PalSphere_HomingThrowObjectBase_C::ReceiveTick(float DeltaSeconds)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PalSphere_HomingThrowObjectBase_C", "ReceiveTick");
+
+	Params::BP_PalSphere_HomingThrowObjectBase_C_ReceiveTick Parms{};
+
+	Parms.DeltaSeconds = DeltaSeconds;
+
+	UObject::ProcessEvent(Func, &Parms);
 }
 
 
@@ -145,40 +179,6 @@ void ABP_PalSphere_HomingThrowObjectBase_C::SetMaterialByType(EPalCaptureSphereL
 	Params::BP_PalSphere_HomingThrowObjectBase_C_SetMaterialByType Parms{};
 
 	Parms.CaptureLevelType_0 = CaptureLevelType_0;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function BP_PalSphere_HomingThrowObjectBase.BP_PalSphere_HomingThrowObjectBase_C.ReceiveBeginPlay
-// (Event, Protected, BlueprintEvent)
-
-void ABP_PalSphere_HomingThrowObjectBase_C::ReceiveBeginPlay()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_PalSphere_HomingThrowObjectBase_C", "ReceiveBeginPlay");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_PalSphere_HomingThrowObjectBase.BP_PalSphere_HomingThrowObjectBase_C.ReceiveTick
-// (Event, Public, BlueprintEvent)
-// Parameters:
-// float                                   DeltaSeconds                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void ABP_PalSphere_HomingThrowObjectBase_C::ReceiveTick(float DeltaSeconds)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_PalSphere_HomingThrowObjectBase_C", "ReceiveTick");
-
-	Params::BP_PalSphere_HomingThrowObjectBase_C_ReceiveTick Parms{};
-
-	Parms.DeltaSeconds = DeltaSeconds;
 
 	UObject::ProcessEvent(Func, &Parms);
 }

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/MRMesh_classes.hpp"
-#include "PalServer/MRMesh_parameters.hpp"
+#include "PalSDK/MRMesh_classes.hpp"
+#include "PalSDK/MRMesh_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function MRMesh.MockDataMeshTrackerComponent.ConnectMRMesh

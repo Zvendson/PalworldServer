@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/MeshModelingToolsExp_classes.hpp"
-#include "PalServer/MeshModelingToolsExp_parameters.hpp"
+#include "PalSDK/MeshModelingToolsExp_classes.hpp"
+#include "PalSDK/MeshModelingToolsExp_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function MeshModelingToolsExp.BakeInputMeshProperties.GetSourceUVLayerNamesFunc

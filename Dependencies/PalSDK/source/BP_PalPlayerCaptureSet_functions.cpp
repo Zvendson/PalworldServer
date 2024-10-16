@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalPlayerCaptureSet_classes.hpp"
-#include "PalServer/BP_PalPlayerCaptureSet_parameters.hpp"
+#include "PalSDK/BP_PalPlayerCaptureSet_classes.hpp"
+#include "PalSDK/BP_PalPlayerCaptureSet_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalPlayerCaptureSet.BP_PalPlayerCaptureSet_C.Add Camera Relative Location

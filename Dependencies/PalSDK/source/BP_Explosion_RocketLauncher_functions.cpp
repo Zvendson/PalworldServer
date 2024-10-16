@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_Explosion_RocketLauncher_classes.hpp"
-#include "PalServer/BP_Explosion_RocketLauncher_parameters.hpp"
+#include "PalSDK/BP_Explosion_RocketLauncher_classes.hpp"
+#include "PalSDK/BP_Explosion_RocketLauncher_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_Explosion_RocketLauncher.BP_Explosion_RocketLauncher_C.BndEvt__BP_Explosion_PenguinLauncher_Explosive_K2Node_ComponentBoundEvent_0_OnNiagaraSystemFinished__DelegateSignature

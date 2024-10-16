@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_VisualEffect_CameraMosaic_classes.hpp"
-#include "PalServer/BP_VisualEffect_CameraMosaic_parameters.hpp"
+#include "PalSDK/BP_VisualEffect_CameraMosaic_classes.hpp"
+#include "PalSDK/BP_VisualEffect_CameraMosaic_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_VisualEffect_CameraMosaic.BP_VisualEffect_CameraMosaic_C.CalcScreenBounds

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalIncidentRandomActionHunterVsPal_classes.hpp"
-#include "PalServer/BP_PalIncidentRandomActionHunterVsPal_parameters.hpp"
+#include "PalSDK/BP_PalIncidentRandomActionHunterVsPal_classes.hpp"
+#include "PalSDK/BP_PalIncidentRandomActionHunterVsPal_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalIncidentRandomActionHunterVsPal.BP_PalIncidentRandomActionHunterVsPal_C.CollectCharactersByGroup

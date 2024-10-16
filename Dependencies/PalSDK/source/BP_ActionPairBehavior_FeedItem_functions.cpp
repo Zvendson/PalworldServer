@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionPairBehavior_FeedItem_classes.hpp"
-#include "PalServer/BP_ActionPairBehavior_FeedItem_parameters.hpp"
+#include "PalSDK/BP_ActionPairBehavior_FeedItem_classes.hpp"
+#include "PalSDK/BP_ActionPairBehavior_FeedItem_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionPairBehavior_FeedItem.BP_ActionPairBehavior_FeedItem_C.ExecuteUbergraph_BP_ActionPairBehavior_FeedItem

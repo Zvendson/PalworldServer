@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/SunPosition_classes.hpp"
-#include "PalServer/SunPosition_parameters.hpp"
+#include "PalSDK/SunPosition_classes.hpp"
+#include "PalSDK/SunPosition_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function SunPosition.SunPositionFunctionLibrary.GetSunPosition

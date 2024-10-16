@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_Action_MimicryEncounter_classes.hpp"
-#include "PalServer/BP_Action_MimicryEncounter_parameters.hpp"
+#include "PalSDK/BP_Action_MimicryEncounter_classes.hpp"
+#include "PalSDK/BP_Action_MimicryEncounter_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_Action_MimicryEncounter.BP_Action_MimicryEncounter_C.ExecuteUbergraph_BP_Action_MimicryEncounter

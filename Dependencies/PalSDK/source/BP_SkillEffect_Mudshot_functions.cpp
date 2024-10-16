@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_SkillEffect_Mudshot_classes.hpp"
-#include "PalServer/BP_SkillEffect_Mudshot_parameters.hpp"
+#include "PalSDK/BP_SkillEffect_Mudshot_classes.hpp"
+#include "PalSDK/BP_SkillEffect_Mudshot_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_SkillEffect_Mudshot.BP_SkillEffect_Mudshot_C.BndEvt__BP_SkillEffect_Mudshot_AttackFilter_K2Node_ComponentBoundEvent_1_OnAttackDelegate__DelegateSignature

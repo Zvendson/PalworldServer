@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalElementIcon_classes.hpp"
-#include "PalServer/WBP_PalElementIcon_parameters.hpp"
+#include "PalSDK/WBP_PalElementIcon_classes.hpp"
+#include "PalSDK/WBP_PalElementIcon_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalElementIcon.WBP_PalElementIcon_C.Clear

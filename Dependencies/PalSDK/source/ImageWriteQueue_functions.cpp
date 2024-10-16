@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ImageWriteQueue_classes.hpp"
-#include "PalServer/ImageWriteQueue_parameters.hpp"
+#include "PalSDK/ImageWriteQueue_classes.hpp"
+#include "PalSDK/ImageWriteQueue_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ImageWriteQueue.ImageWriteBlueprintLibrary.ExportToDisk

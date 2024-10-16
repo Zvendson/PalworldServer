@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/AutomationUtils_classes.hpp"
-#include "PalServer/AutomationUtils_parameters.hpp"
+#include "PalSDK/AutomationUtils_classes.hpp"
+#include "PalSDK/AutomationUtils_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function AutomationUtils.AutomationUtilsBlueprintLibrary.TakeGameplayAutomationScreenshot

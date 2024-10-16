@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionMudShot_classes.hpp"
-#include "PalServer/BP_ActionMudShot_parameters.hpp"
+#include "PalSDK/BP_ActionMudShot_classes.hpp"
+#include "PalSDK/BP_ActionMudShot_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionMudShot.BP_ActionMudShot_C.ExecuteUbergraph_BP_ActionMudShot

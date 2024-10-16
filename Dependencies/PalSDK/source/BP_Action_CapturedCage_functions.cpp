@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_Action_CapturedCage_classes.hpp"
-#include "PalServer/BP_Action_CapturedCage_parameters.hpp"
+#include "PalSDK/BP_Action_CapturedCage_classes.hpp"
+#include "PalSDK/BP_Action_CapturedCage_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_Action_CapturedCage.BP_Action_CapturedCage_C.ExecuteUbergraph_BP_Action_CapturedCage

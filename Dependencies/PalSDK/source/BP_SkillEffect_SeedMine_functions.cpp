@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_SkillEffect_SeedMine_classes.hpp"
-#include "PalServer/BP_SkillEffect_SeedMine_parameters.hpp"
+#include "PalSDK/BP_SkillEffect_SeedMine_classes.hpp"
+#include "PalSDK/BP_SkillEffect_SeedMine_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_SkillEffect_SeedMine.BP_SkillEffect_SeedMine_C.BndEvt__BP_SkillEffect_IcicleThrow_SpawnPos_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature

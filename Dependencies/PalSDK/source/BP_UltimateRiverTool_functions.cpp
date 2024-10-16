@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_UltimateRiverTool_classes.hpp"
-#include "PalServer/BP_UltimateRiverTool_parameters.hpp"
+#include "PalSDK/BP_UltimateRiverTool_classes.hpp"
+#include "PalSDK/BP_UltimateRiverTool_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_UltimateRiverTool.BP_UltimateRiverTool_C.ExecuteUbergraph_BP_UltimateRiverTool

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_MultiTalk_SimpleInOrder_classes.hpp"
-#include "PalServer/BP_MultiTalk_SimpleInOrder_parameters.hpp"
+#include "PalSDK/BP_MultiTalk_SimpleInOrder_classes.hpp"
+#include "PalSDK/BP_MultiTalk_SimpleInOrder_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_MultiTalk_SimpleInOrder.BP_MultiTalk_SimpleInOrder_C.ExecuteUbergraph_BP_MultiTalk_SimpleInOrder

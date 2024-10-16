@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_CoopSkillSearchEffectController_classes.hpp"
-#include "PalServer/BP_CoopSkillSearchEffectController_parameters.hpp"
+#include "PalSDK/BP_CoopSkillSearchEffectController_classes.hpp"
+#include "PalSDK/BP_CoopSkillSearchEffectController_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_CoopSkillSearchEffectController.BP_CoopSkillSearchEffectController_C.End

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_DungeonFixedEntrance_classes.hpp"
-#include "PalServer/BP_DungeonFixedEntrance_parameters.hpp"
+#include "PalSDK/BP_DungeonFixedEntrance_classes.hpp"
+#include "PalSDK/BP_DungeonFixedEntrance_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_DungeonFixedEntrance.BP_DungeonFixedEntrance_C.GetInteractWidget

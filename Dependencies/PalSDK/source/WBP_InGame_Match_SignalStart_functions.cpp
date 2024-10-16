@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_InGame_Match_SignalStart_classes.hpp"
-#include "PalServer/WBP_InGame_Match_SignalStart_parameters.hpp"
+#include "PalSDK/WBP_InGame_Match_SignalStart_classes.hpp"
+#include "PalSDK/WBP_InGame_Match_SignalStart_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_InGame_Match_SignalStart.WBP_InGame_Match_SignalStart_C.ExecuteUbergraph_WBP_InGame_Match_SignalStart

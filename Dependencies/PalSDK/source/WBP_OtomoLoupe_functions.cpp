@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_OtomoLoupe_classes.hpp"
-#include "PalServer/WBP_OtomoLoupe_parameters.hpp"
+#include "PalSDK/WBP_OtomoLoupe_classes.hpp"
+#include "PalSDK/WBP_OtomoLoupe_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_OtomoLoupe.WBP_OtomoLoupe_C.CalcScreenPosition

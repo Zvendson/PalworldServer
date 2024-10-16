@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_CharaCre_PlayerNameEdit_classes.hpp"
-#include "PalServer/WBP_CharaCre_PlayerNameEdit_parameters.hpp"
+#include "PalSDK/WBP_CharaCre_PlayerNameEdit_classes.hpp"
+#include "PalSDK/WBP_CharaCre_PlayerNameEdit_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_CharaCre_PlayerNameEdit.WBP_CharaCre_PlayerNameEdit_C.BndEvt__WBP_CharaCre_PlayerNameEdit_EditableTextBox_Name_K2Node_ComponentBoundEvent_0_OnEditableTextBoxChangedEvent__DelegateSignature

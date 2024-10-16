@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/GLTFExporter_classes.hpp"
-#include "PalServer/GLTFExporter_parameters.hpp"
+#include "PalSDK/GLTFExporter_classes.hpp"
+#include "PalSDK/GLTFExporter_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function GLTFExporter.GLTFExporter.ExportToGLTF

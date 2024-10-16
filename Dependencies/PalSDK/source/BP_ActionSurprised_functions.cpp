@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionSurprised_classes.hpp"
-#include "PalServer/BP_ActionSurprised_parameters.hpp"
+#include "PalSDK/BP_ActionSurprised_classes.hpp"
+#include "PalSDK/BP_ActionSurprised_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionSurprised.BP_ActionSurprised_C.ChangeFace

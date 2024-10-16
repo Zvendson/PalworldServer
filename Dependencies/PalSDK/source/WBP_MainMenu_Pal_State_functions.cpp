@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_MainMenu_Pal_State_classes.hpp"
-#include "PalServer/WBP_MainMenu_Pal_State_parameters.hpp"
+#include "PalSDK/WBP_MainMenu_Pal_State_classes.hpp"
+#include "PalSDK/WBP_MainMenu_Pal_State_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_MainMenu_Pal_State.WBP_MainMenu_Pal_State_C.BndEvt__WBP_MainMenu_Pal_State_WBP_PalInvisibleButton_K2Node_ComponentBoundEvent_0_CommonButtonBaseClicked__DelegateSignature

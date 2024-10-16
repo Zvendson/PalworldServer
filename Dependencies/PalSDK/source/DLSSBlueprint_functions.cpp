@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/DLSSBlueprint_classes.hpp"
-#include "PalServer/DLSSBlueprint_parameters.hpp"
+#include "PalSDK/DLSSBlueprint_classes.hpp"
+#include "PalSDK/DLSSBlueprint_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function DLSSBlueprint.DLSSLibrary.EnableDLAA

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/UMG_classes.hpp"
-#include "PalServer/UMG_parameters.hpp"
+#include "PalSDK/UMG_classes.hpp"
+#include "PalSDK/UMG_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function UMG.Widget.ForceLayoutPrepass

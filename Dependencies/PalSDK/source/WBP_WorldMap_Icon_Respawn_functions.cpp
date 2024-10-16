@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_WorldMap_Icon_Respawn_classes.hpp"
-#include "PalServer/WBP_WorldMap_Icon_Respawn_parameters.hpp"
+#include "PalSDK/WBP_WorldMap_Icon_Respawn_classes.hpp"
+#include "PalSDK/WBP_WorldMap_Icon_Respawn_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_WorldMap_Icon_Respawn.WBP_WorldMap_Icon_Respawn_C.BndEvt__WBP_WorldMap_Icon_Respawn_WBP_PalCommonButton_K2Node_ComponentBoundEvent_0_CommonButtonBaseClicked__DelegateSignature

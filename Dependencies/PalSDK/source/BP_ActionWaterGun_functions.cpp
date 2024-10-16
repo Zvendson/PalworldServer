@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionWaterGun_classes.hpp"
-#include "PalServer/BP_ActionWaterGun_parameters.hpp"
+#include "PalSDK/BP_ActionWaterGun_classes.hpp"
+#include "PalSDK/BP_ActionWaterGun_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionWaterGun.BP_ActionWaterGun_C.ExecuteUbergraph_BP_ActionWaterGun

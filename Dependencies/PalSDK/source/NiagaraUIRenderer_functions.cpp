@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/NiagaraUIRenderer_classes.hpp"
-#include "PalServer/NiagaraUIRenderer_parameters.hpp"
+#include "PalSDK/NiagaraUIRenderer_classes.hpp"
+#include "PalSDK/NiagaraUIRenderer_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function NiagaraUIRenderer.NiagaraSystemWidget.ActivateSystem

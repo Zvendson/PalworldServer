@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_FoliageModelChunk_classes.hpp"
-#include "PalServer/BP_FoliageModelChunk_parameters.hpp"
+#include "PalSDK/BP_FoliageModelChunk_classes.hpp"
+#include "PalSDK/BP_FoliageModelChunk_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_FoliageModelChunk.BP_FoliageModelChunk_C.ExecuteUbergraph_BP_FoliageModelChunk

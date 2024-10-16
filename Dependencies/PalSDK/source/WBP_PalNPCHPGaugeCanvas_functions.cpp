@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalNPCHPGaugeCanvas_classes.hpp"
-#include "PalServer/WBP_PalNPCHPGaugeCanvas_parameters.hpp"
+#include "PalSDK/WBP_PalNPCHPGaugeCanvas_classes.hpp"
+#include "PalSDK/WBP_PalNPCHPGaugeCanvas_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalNPCHPGaugeCanvas.WBP_PalNPCHPGaugeCanvas_C.Add Boss Gauge

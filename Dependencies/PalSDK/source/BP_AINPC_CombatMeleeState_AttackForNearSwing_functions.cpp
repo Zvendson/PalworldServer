@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AINPC_CombatMeleeState_AttackForNearSwing_classes.hpp"
-#include "PalServer/BP_AINPC_CombatMeleeState_AttackForNearSwing_parameters.hpp"
+#include "PalSDK/BP_AINPC_CombatMeleeState_AttackForNearSwing_classes.hpp"
+#include "PalSDK/BP_AINPC_CombatMeleeState_AttackForNearSwing_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AINPC_CombatMeleeState_AttackForNearSwing.BP_AINPC_CombatMeleeState_AttackForNearSwing_C.ExecuteUbergraph_BP_AINPC_CombatMeleeState_AttackForNearSwing

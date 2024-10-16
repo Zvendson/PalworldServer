@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_Prop_Base_classes.hpp"
-#include "PalServer/BP_Prop_Base_parameters.hpp"
+#include "PalSDK/BP_Prop_Base_classes.hpp"
+#include "PalSDK/BP_Prop_Base_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_Prop_Base.BP_Prop_Base_C.ExecuteUbergraph_BP_Prop_Base

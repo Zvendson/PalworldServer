@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/SequencerScripting_classes.hpp"
-#include "PalServer/SequencerScripting_parameters.hpp"
+#include "PalSDK/SequencerScripting_classes.hpp"
+#include "PalSDK/SequencerScripting_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function SequencerScripting.MovieSceneScriptingActorReferenceKey.SetTime

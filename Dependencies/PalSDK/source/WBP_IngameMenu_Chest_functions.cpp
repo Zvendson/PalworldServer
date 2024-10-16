@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_IngameMenu_Chest_classes.hpp"
-#include "PalServer/WBP_IngameMenu_Chest_parameters.hpp"
+#include "PalSDK/WBP_IngameMenu_Chest_classes.hpp"
+#include "PalSDK/WBP_IngameMenu_Chest_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_IngameMenu_Chest.WBP_IngameMenu_Chest_C.BndEvt__WBP_IngameMenu_Chest_WBP_Menu_btn_K2Node_ComponentBoundEvent_7_OnButtonClicked__DelegateSignature

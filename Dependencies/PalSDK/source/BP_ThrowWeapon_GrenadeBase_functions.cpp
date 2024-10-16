@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ThrowWeapon_GrenadeBase_classes.hpp"
-#include "PalServer/BP_ThrowWeapon_GrenadeBase_parameters.hpp"
+#include "PalSDK/BP_ThrowWeapon_GrenadeBase_classes.hpp"
+#include "PalSDK/BP_ThrowWeapon_GrenadeBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ThrowWeapon_GrenadeBase.BP_ThrowWeapon_GrenadeBase_C.ComsumeItem

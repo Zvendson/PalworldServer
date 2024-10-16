@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_NPCAIController_Invader_classes.hpp"
-#include "PalServer/BP_NPCAIController_Invader_parameters.hpp"
+#include "PalSDK/BP_NPCAIController_Invader_classes.hpp"
+#include "PalSDK/BP_NPCAIController_Invader_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_NPCAIController_Invader.BP_NPCAIController_Invader_C.BindOnInvaderArrivedDelegate
@@ -95,20 +95,6 @@ void ABP_NPCAIController_Invader_C::OnInvaderArrivedDelegate__DelegateSignature(
 }
 
 
-// Function BP_NPCAIController_Invader.BP_NPCAIController_Invader_C.ReceiveBeginPlay
-// (Event, Protected, BlueprintEvent)
-
-void ABP_NPCAIController_Invader_C::ReceiveBeginPlay()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_NPCAIController_Invader_C", "ReceiveBeginPlay");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
 // Function BP_NPCAIController_Invader.BP_NPCAIController_Invader_C.ReturnSpawnedPoint
 // (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -146,6 +132,20 @@ void ABP_NPCAIController_Invader_C::StartMarch(const struct FVector& GoalPos)
 	Parms.GoalPos = std::move(GoalPos);
 
 	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_NPCAIController_Invader.BP_NPCAIController_Invader_C.ReceiveBeginPlay
+// (Event, Protected, BlueprintEvent)
+
+void ABP_NPCAIController_Invader_C::ReceiveBeginPlay()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_NPCAIController_Invader_C", "ReceiveBeginPlay");
+
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 

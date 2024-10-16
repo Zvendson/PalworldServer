@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_IngameCompass_dungeonPortal_classes.hpp"
-#include "PalServer/WBP_IngameCompass_dungeonPortal_parameters.hpp"
+#include "PalSDK/WBP_IngameCompass_dungeonPortal_classes.hpp"
+#include "PalSDK/WBP_IngameCompass_dungeonPortal_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_IngameCompass_dungeonPortal.WBP_IngameCompass_dungeonPortal_C.SetDistanceText

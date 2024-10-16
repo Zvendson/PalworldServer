@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_TutorialMessage_Temp_classes.hpp"
-#include "PalServer/WBP_TutorialMessage_Temp_parameters.hpp"
+#include "PalSDK/WBP_TutorialMessage_Temp_classes.hpp"
+#include "PalSDK/WBP_TutorialMessage_Temp_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_TutorialMessage_Temp.WBP_TutorialMessage_Temp_C.CreateGuideText

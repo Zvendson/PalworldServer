@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_LoadingScreen_classes.hpp"
-#include "PalServer/WBP_LoadingScreen_parameters.hpp"
+#include "PalSDK/WBP_LoadingScreen_classes.hpp"
+#include "PalSDK/WBP_LoadingScreen_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_LoadingScreen.WBP_LoadingScreen_C.Construct

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BI_PalInteractHUDInterface_classes.hpp"
-#include "PalServer/BI_PalInteractHUDInterface_parameters.hpp"
+#include "PalSDK/BI_PalInteractHUDInterface_classes.hpp"
+#include "PalSDK/BI_PalInteractHUDInterface_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BI_PalInteractHUDInterface.BI_PalInteractHUDInterface_C.GetInteractWidget

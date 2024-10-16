@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AIAction_WildMimicry_classes.hpp"
-#include "PalServer/BP_AIAction_WildMimicry_parameters.hpp"
+#include "PalSDK/BP_AIAction_WildMimicry_classes.hpp"
+#include "PalSDK/BP_AIAction_WildMimicry_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AIAction_WildMimicry.BP_AIAction_WildMimicry_C.ActionAbort

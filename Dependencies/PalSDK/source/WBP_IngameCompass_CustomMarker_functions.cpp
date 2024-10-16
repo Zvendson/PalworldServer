@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_IngameCompass_CustomMarker_classes.hpp"
-#include "PalServer/WBP_IngameCompass_CustomMarker_parameters.hpp"
+#include "PalSDK/WBP_IngameCompass_CustomMarker_classes.hpp"
+#include "PalSDK/WBP_IngameCompass_CustomMarker_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_IngameCompass_CustomMarker.WBP_IngameCompass_CustomMarker_C.SetCustomMarkerTexture

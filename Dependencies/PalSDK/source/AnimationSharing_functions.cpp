@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/AnimationSharing_classes.hpp"
-#include "PalServer/AnimationSharing_parameters.hpp"
+#include "PalSDK/AnimationSharing_classes.hpp"
+#include "PalSDK/AnimationSharing_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function AnimationSharing.AnimationSharingStateProcessor.GetAnimationStateEnum

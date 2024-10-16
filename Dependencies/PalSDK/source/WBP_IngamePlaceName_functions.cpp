@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_IngamePlaceName_classes.hpp"
-#include "PalServer/WBP_IngamePlaceName_parameters.hpp"
+#include "PalSDK/WBP_IngamePlaceName_classes.hpp"
+#include "PalSDK/WBP_IngamePlaceName_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_IngamePlaceName.WBP_IngamePlaceName_C.AnmEvent_End

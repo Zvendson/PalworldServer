@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_Action_WaitLoadingWorldPartition_classes.hpp"
-#include "PalServer/BP_Action_WaitLoadingWorldPartition_parameters.hpp"
+#include "PalSDK/BP_Action_WaitLoadingWorldPartition_classes.hpp"
+#include "PalSDK/BP_Action_WaitLoadingWorldPartition_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_Action_WaitLoadingWorldPartition.BP_Action_WaitLoadingWorldPartition_C.CanTimeOut

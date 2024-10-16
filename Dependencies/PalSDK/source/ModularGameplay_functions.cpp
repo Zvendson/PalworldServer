@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ModularGameplay_classes.hpp"
-#include "PalServer/ModularGameplay_parameters.hpp"
+#include "PalSDK/ModularGameplay_classes.hpp"
+#include "PalSDK/ModularGameplay_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ModularGameplay.GameFrameworkComponentManager.AddReceiver

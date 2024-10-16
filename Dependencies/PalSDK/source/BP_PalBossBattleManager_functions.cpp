@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalBossBattleManager_classes.hpp"
-#include "PalServer/BP_PalBossBattleManager_parameters.hpp"
+#include "PalSDK/BP_PalBossBattleManager_classes.hpp"
+#include "PalSDK/BP_PalBossBattleManager_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalBossBattleManager.BP_PalBossBattleManager_C.DisableSky

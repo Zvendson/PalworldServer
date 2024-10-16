@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_Map_IconCamp_classes.hpp"
-#include "PalServer/WBP_Map_IconCamp_parameters.hpp"
+#include "PalSDK/WBP_Map_IconCamp_classes.hpp"
+#include "PalSDK/WBP_Map_IconCamp_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_Map_IconCamp.WBP_Map_IconCamp_C.BndEvt__WBP_Map_IconCamp_WBP_PalCommonButton_K2Node_ComponentBoundEvent_0_CommonButtonBaseClicked__DelegateSignature

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalCommonCharacterSlotButton_classes.hpp"
-#include "PalServer/WBP_PalCommonCharacterSlotButton_parameters.hpp"
+#include "PalSDK/WBP_PalCommonCharacterSlotButton_classes.hpp"
+#include "PalSDK/WBP_PalCommonCharacterSlotButton_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalCommonCharacterSlotButton.WBP_PalCommonCharacterSlotButton_C.AnmEvent_BasePal

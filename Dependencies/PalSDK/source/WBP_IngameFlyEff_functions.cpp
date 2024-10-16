@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_IngameFlyEff_classes.hpp"
-#include "PalServer/WBP_IngameFlyEff_parameters.hpp"
+#include "PalSDK/WBP_IngameFlyEff_classes.hpp"
+#include "PalSDK/WBP_IngameFlyEff_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_IngameFlyEff.WBP_IngameFlyEff_C.EnableEff

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AIAction_NPC_Talking_classes.hpp"
-#include "PalServer/BP_AIAction_NPC_Talking_parameters.hpp"
+#include "PalSDK/BP_AIAction_NPC_Talking_classes.hpp"
+#include "PalSDK/BP_AIAction_NPC_Talking_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AIAction_NPC_Talking.BP_AIAction_NPC_Talking_C.ActionAbort

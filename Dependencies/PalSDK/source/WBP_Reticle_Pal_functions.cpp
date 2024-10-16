@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_Reticle_Pal_classes.hpp"
-#include "PalServer/WBP_Reticle_Pal_parameters.hpp"
+#include "PalSDK/WBP_Reticle_Pal_classes.hpp"
+#include "PalSDK/WBP_Reticle_Pal_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_Reticle_Pal.WBP_Reticle_Pal_C.AnmEvent_Close

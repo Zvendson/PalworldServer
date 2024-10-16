@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PlayerSoundEmitterComponent_classes.hpp"
-#include "PalServer/BP_PlayerSoundEmitterComponent_parameters.hpp"
+#include "PalSDK/BP_PlayerSoundEmitterComponent_classes.hpp"
+#include "PalSDK/BP_PlayerSoundEmitterComponent_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PlayerSoundEmitterComponent.BP_PlayerSoundEmitterComponent_C.BPEmitSound

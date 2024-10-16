@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_MapObject_CommonDropItem3D_classes.hpp"
-#include "PalServer/BP_MapObject_CommonDropItem3D_parameters.hpp"
+#include "PalSDK/BP_MapObject_CommonDropItem3D_classes.hpp"
+#include "PalSDK/BP_MapObject_CommonDropItem3D_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_MapObject_CommonDropItem3D.BP_MapObject_CommonDropItem3D_C.BndEvt__BP_MapObject_CommonDropItem3D_StaticMesh_K2Node_ComponentBoundEvent_1_ComponentHitSignature__DelegateSignature

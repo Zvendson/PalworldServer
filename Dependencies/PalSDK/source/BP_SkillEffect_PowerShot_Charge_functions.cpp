@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_SkillEffect_PowerShot_Charge_classes.hpp"
-#include "PalServer/BP_SkillEffect_PowerShot_Charge_parameters.hpp"
+#include "PalSDK/BP_SkillEffect_PowerShot_Charge_classes.hpp"
+#include "PalSDK/BP_SkillEffect_PowerShot_Charge_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_SkillEffect_PowerShot_Charge.BP_SkillEffect_PowerShot_Charge_C.CancelShoot

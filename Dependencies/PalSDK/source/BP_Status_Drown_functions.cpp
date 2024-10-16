@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_Status_Drown_classes.hpp"
-#include "PalServer/BP_Status_Drown_parameters.hpp"
+#include "PalSDK/BP_Status_Drown_classes.hpp"
+#include "PalSDK/BP_Status_Drown_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_Status_Drown.BP_Status_Drown_C.ExecuteUbergraph_BP_Status_Drown

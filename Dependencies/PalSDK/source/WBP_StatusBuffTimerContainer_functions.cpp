@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_StatusBuffTimerContainer_classes.hpp"
-#include "PalServer/WBP_StatusBuffTimerContainer_parameters.hpp"
+#include "PalSDK/WBP_StatusBuffTimerContainer_classes.hpp"
+#include "PalSDK/WBP_StatusBuffTimerContainer_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_StatusBuffTimerContainer.WBP_StatusBuffTimerContainer_C.ExecuteUbergraph_WBP_StatusBuffTimerContainer

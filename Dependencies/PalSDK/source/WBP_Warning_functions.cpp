@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_Warning_classes.hpp"
-#include "PalServer/WBP_Warning_parameters.hpp"
+#include "PalSDK/WBP_Warning_classes.hpp"
+#include "PalSDK/WBP_Warning_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_Warning.WBP_Warning_C.AnmEvent_Close

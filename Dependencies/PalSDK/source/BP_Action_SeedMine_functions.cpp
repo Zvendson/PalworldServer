@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_Action_SeedMine_classes.hpp"
-#include "PalServer/BP_Action_SeedMine_parameters.hpp"
+#include "PalSDK/BP_Action_SeedMine_classes.hpp"
+#include "PalSDK/BP_Action_SeedMine_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_Action_SeedMine.BP_Action_SeedMine_C.OnSpawnEffect

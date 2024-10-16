@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalPlayerDebuffNoticeBox_classes.hpp"
-#include "PalServer/WBP_PalPlayerDebuffNoticeBox_parameters.hpp"
+#include "PalSDK/WBP_PalPlayerDebuffNoticeBox_classes.hpp"
+#include "PalSDK/WBP_PalPlayerDebuffNoticeBox_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalPlayerDebuffNoticeBox.WBP_PalPlayerDebuffNoticeBox_C.AddDebuffNotice

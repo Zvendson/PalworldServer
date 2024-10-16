@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ShooterAnime_ThrowBase_classes.hpp"
-#include "PalServer/BP_ShooterAnime_ThrowBase_parameters.hpp"
+#include "PalSDK/BP_ShooterAnime_ThrowBase_classes.hpp"
+#include "PalSDK/BP_ShooterAnime_ThrowBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ShooterAnime_ThrowBase.BP_ShooterAnime_ThrowBase_C.ChangeRidePullTriggerAnime

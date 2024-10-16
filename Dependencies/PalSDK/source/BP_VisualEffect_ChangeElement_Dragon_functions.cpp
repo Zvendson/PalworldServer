@@ -1,9 +1,9 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_VisualEffect_ChangeElement_Dragon_classes.hpp"
+#include "PalSDK/BP_VisualEffect_ChangeElement_Dragon_classes.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_VisualEffect_ChangeElement_Dragon.BP_VisualEffect_ChangeElement_Dragon_C.新規関数_0

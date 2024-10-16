@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalCheatManager_classes.hpp"
-#include "PalServer/BP_PalCheatManager_parameters.hpp"
+#include "PalSDK/BP_PalCheatManager_classes.hpp"
+#include "PalSDK/BP_PalCheatManager_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalCheatManager.BP_PalCheatManager_C.ExecuteUbergraph_BP_PalCheatManager

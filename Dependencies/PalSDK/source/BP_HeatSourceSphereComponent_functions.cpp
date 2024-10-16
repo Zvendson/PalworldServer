@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_HeatSourceSphereComponent_classes.hpp"
-#include "PalServer/BP_HeatSourceSphereComponent_parameters.hpp"
+#include "PalSDK/BP_HeatSourceSphereComponent_classes.hpp"
+#include "PalSDK/BP_HeatSourceSphereComponent_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_HeatSourceSphereComponent.BP_HeatSourceSphereComponent_C.Begin

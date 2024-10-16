@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/AugmentedReality_classes.hpp"
-#include "PalServer/AugmentedReality_parameters.hpp"
+#include "PalSDK/AugmentedReality_classes.hpp"
+#include "PalSDK/AugmentedReality_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function AugmentedReality.ARActor.AddARComponent

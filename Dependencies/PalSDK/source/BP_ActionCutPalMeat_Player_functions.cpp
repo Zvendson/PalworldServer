@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionCutPalMeat_Player_classes.hpp"
-#include "PalServer/BP_ActionCutPalMeat_Player_parameters.hpp"
+#include "PalSDK/BP_ActionCutPalMeat_Player_classes.hpp"
+#include "PalSDK/BP_ActionCutPalMeat_Player_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionCutPalMeat_Player.BP_ActionCutPalMeat_Player_C.ChangePalFacial

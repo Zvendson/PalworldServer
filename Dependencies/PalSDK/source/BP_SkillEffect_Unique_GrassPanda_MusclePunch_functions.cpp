@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_SkillEffect_Unique_GrassPanda_MusclePunch_classes.hpp"
-#include "PalServer/BP_SkillEffect_Unique_GrassPanda_MusclePunch_parameters.hpp"
+#include "PalSDK/BP_SkillEffect_Unique_GrassPanda_MusclePunch_classes.hpp"
+#include "PalSDK/BP_SkillEffect_Unique_GrassPanda_MusclePunch_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_SkillEffect_Unique_GrassPanda_MusclePunch.BP_SkillEffect_Unique_GrassPanda_MusclePunch_C.ExecuteUbergraph_BP_SkillEffect_Unique_GrassPanda_MusclePunch

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/AndroidFileServer_classes.hpp"
-#include "PalServer/AndroidFileServer_parameters.hpp"
+#include "PalSDK/AndroidFileServer_classes.hpp"
+#include "PalSDK/AndroidFileServer_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function AndroidFileServer.AndroidFileServerBPLibrary.IsFileServerRunning

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PlayerUI_classes.hpp"
-#include "PalServer/WBP_PlayerUI_parameters.hpp"
+#include "PalSDK/WBP_PlayerUI_classes.hpp"
+#include "PalSDK/WBP_PlayerUI_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PlayerUI.WBP_PlayerUI_C.Anm_Hide_Loadout

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_SupplyDropActor_Capsule_classes.hpp"
-#include "PalServer/BP_SupplyDropActor_Capsule_parameters.hpp"
+#include "PalSDK/BP_SupplyDropActor_Capsule_classes.hpp"
+#include "PalSDK/BP_SupplyDropActor_Capsule_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_SupplyDropActor_Capsule.BP_SupplyDropActor_Capsule_C.ExecuteUbergraph_BP_SupplyDropActor_Capsule

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_MainMenu_Pal_Skill_Active_classes.hpp"
-#include "PalServer/WBP_MainMenu_Pal_Skill_Active_parameters.hpp"
+#include "PalSDK/WBP_MainMenu_Pal_Skill_Active_classes.hpp"
+#include "PalSDK/WBP_MainMenu_Pal_Skill_Active_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_MainMenu_Pal_Skill_Active.WBP_MainMenu_Pal_Skill_Active_C.AnmEvent_Selected

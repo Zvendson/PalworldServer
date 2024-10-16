@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalOilrigController_classes.hpp"
-#include "PalServer/BP_PalOilrigController_parameters.hpp"
+#include "PalSDK/BP_PalOilrigController_classes.hpp"
+#include "PalSDK/BP_PalOilrigController_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalOilrigController.BP_PalOilrigController_C.ExecuteUbergraph_BP_PalOilrigController

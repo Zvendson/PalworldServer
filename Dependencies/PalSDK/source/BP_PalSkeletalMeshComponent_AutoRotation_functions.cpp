@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalSkeletalMeshComponent_AutoRotation_classes.hpp"
-#include "PalServer/BP_PalSkeletalMeshComponent_AutoRotation_parameters.hpp"
+#include "PalSDK/BP_PalSkeletalMeshComponent_AutoRotation_classes.hpp"
+#include "PalSDK/BP_PalSkeletalMeshComponent_AutoRotation_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalSkeletalMeshComponent_AutoRotation.BP_PalSkeletalMeshComponent_AutoRotation_C.ExecuteUbergraph_BP_PalSkeletalMeshComponent_AutoRotation

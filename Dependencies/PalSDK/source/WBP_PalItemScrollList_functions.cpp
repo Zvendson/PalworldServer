@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalItemScrollList_classes.hpp"
-#include "PalServer/WBP_PalItemScrollList_parameters.hpp"
+#include "PalSDK/WBP_PalItemScrollList_classes.hpp"
+#include "PalSDK/WBP_PalItemScrollList_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalItemScrollList.WBP_PalItemScrollList_C.AddItemContainer

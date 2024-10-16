@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/LiveLinkComponents_classes.hpp"
-#include "PalServer/LiveLinkComponents_parameters.hpp"
+#include "PalSDK/LiveLinkComponents_classes.hpp"
+#include "PalSDK/LiveLinkComponents_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function LiveLinkComponents.LiveLinkComponentController.SetSubjectRepresentation

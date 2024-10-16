@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_CombatHeliRpidWeaponComponent_Bomber_classes.hpp"
-#include "PalServer/BP_CombatHeliRpidWeaponComponent_Bomber_parameters.hpp"
+#include "PalSDK/BP_CombatHeliRpidWeaponComponent_Bomber_classes.hpp"
+#include "PalSDK/BP_CombatHeliRpidWeaponComponent_Bomber_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_CombatHeliRpidWeaponComponent_Bomber.BP_CombatHeliRpidWeaponComponent_Bomber_C.GetMuzzleTransform

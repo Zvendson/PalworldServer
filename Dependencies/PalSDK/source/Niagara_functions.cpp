@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/Niagara_classes.hpp"
-#include "PalServer/Niagara_parameters.hpp"
+#include "PalSDK/Niagara_classes.hpp"
+#include "PalSDK/Niagara_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function Niagara.NiagaraDataInterfaceUObjectPropertyReader.SetUObjectReaderPropertyRemap

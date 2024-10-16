@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_UniqueRideWeapon_DualGrenadeLauncher_classes.hpp"
-#include "PalServer/BP_UniqueRideWeapon_DualGrenadeLauncher_parameters.hpp"
+#include "PalSDK/BP_UniqueRideWeapon_DualGrenadeLauncher_classes.hpp"
+#include "PalSDK/BP_UniqueRideWeapon_DualGrenadeLauncher_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_UniqueRideWeapon_DualGrenadeLauncher.BP_UniqueRideWeapon_DualGrenadeLauncher_C.ShootBulletBP

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ThrowPal_ThrowObject_classes.hpp"
-#include "PalServer/BP_ThrowPal_ThrowObject_parameters.hpp"
+#include "PalSDK/BP_ThrowPal_ThrowObject_classes.hpp"
+#include "PalSDK/BP_ThrowPal_ThrowObject_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ThrowPal_ThrowObject.BP_ThrowPal_ThrowObject_C.CollectTarget

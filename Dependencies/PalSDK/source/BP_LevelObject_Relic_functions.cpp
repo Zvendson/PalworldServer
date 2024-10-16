@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_LevelObject_Relic_classes.hpp"
-#include "PalServer/BP_LevelObject_Relic_parameters.hpp"
+#include "PalSDK/BP_LevelObject_Relic_classes.hpp"
+#include "PalSDK/BP_LevelObject_Relic_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_LevelObject_Relic.BP_LevelObject_Relic_C.ExecuteUbergraph_BP_LevelObject_Relic

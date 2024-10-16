@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalRaidBossBattle_classes.hpp"
-#include "PalServer/BP_PalRaidBossBattle_parameters.hpp"
+#include "PalSDK/BP_PalRaidBossBattle_classes.hpp"
+#include "PalSDK/BP_PalRaidBossBattle_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalRaidBossBattle.BP_PalRaidBossBattle_C.ExecuteUbergraph_BP_PalRaidBossBattle

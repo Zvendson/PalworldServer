@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_CopyMesh_FunnelEndEmissive_classes.hpp"
-#include "PalServer/BP_CopyMesh_FunnelEndEmissive_parameters.hpp"
+#include "PalSDK/BP_CopyMesh_FunnelEndEmissive_classes.hpp"
+#include "PalSDK/BP_CopyMesh_FunnelEndEmissive_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_CopyMesh_FunnelEndEmissive.BP_CopyMesh_FunnelEndEmissive_C.End

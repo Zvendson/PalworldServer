@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_InventoryArrow_classes.hpp"
-#include "PalServer/WBP_InventoryArrow_parameters.hpp"
+#include "PalSDK/WBP_InventoryArrow_classes.hpp"
+#include "PalSDK/WBP_InventoryArrow_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_InventoryArrow.WBP_InventoryArrow_C.AnmEvent_Cursor

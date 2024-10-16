@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/PalBossBattleSequence_Opening_classes.hpp"
-#include "PalServer/PalBossBattleSequence_Opening_parameters.hpp"
+#include "PalSDK/PalBossBattleSequence_Opening_classes.hpp"
+#include "PalSDK/PalBossBattleSequence_Opening_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function PalBossBattleSequence_Opening.PalBossBattleSequence_Opening_C.ActivateBossAI

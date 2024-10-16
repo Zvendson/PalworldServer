@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/AudioExtensions_classes.hpp"
-#include "PalServer/AudioExtensions_parameters.hpp"
+#include "PalSDK/AudioExtensions_classes.hpp"
+#include "PalSDK/AudioExtensions_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function AudioExtensions.AudioParameterControllerInterface.ResetParameters

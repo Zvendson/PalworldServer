@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/GameplayTags_classes.hpp"
-#include "PalServer/GameplayTags_parameters.hpp"
+#include "PalSDK/GameplayTags_classes.hpp"
+#include "PalSDK/GameplayTags_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function GameplayTags.BlueprintGameplayTagLibrary.AddGameplayTag

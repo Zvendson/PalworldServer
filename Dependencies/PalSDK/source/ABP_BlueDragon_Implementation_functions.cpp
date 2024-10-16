@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ABP_BlueDragon_Implementation_classes.hpp"
-#include "PalServer/ABP_BlueDragon_Implementation_parameters.hpp"
+#include "PalSDK/ABP_BlueDragon_Implementation_classes.hpp"
+#include "PalSDK/ABP_BlueDragon_Implementation_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ABP_BlueDragon_Implementation.ABP_BlueDragon_Implementation_C.UpperOverride

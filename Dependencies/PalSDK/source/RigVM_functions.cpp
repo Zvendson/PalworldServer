@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/RigVM_classes.hpp"
-#include "PalServer/RigVM_parameters.hpp"
+#include "PalSDK/RigVM_classes.hpp"
+#include "PalSDK/RigVM_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function RigVM.RigVMUserWorkflowOptions.ReportError

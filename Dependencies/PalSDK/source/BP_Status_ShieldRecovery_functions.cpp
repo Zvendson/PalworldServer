@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_Status_ShieldRecovery_classes.hpp"
-#include "PalServer/BP_Status_ShieldRecovery_parameters.hpp"
+#include "PalSDK/BP_Status_ShieldRecovery_classes.hpp"
+#include "PalSDK/BP_Status_ShieldRecovery_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_Status_ShieldRecovery.BP_Status_ShieldRecovery_C.ChangeSheildDamageMaterial

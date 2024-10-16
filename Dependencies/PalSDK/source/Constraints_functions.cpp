@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/Constraints_classes.hpp"
-#include "PalServer/Constraints_parameters.hpp"
+#include "PalSDK/Constraints_classes.hpp"
+#include "PalSDK/Constraints_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function Constraints.ConstraintsScriptingLibrary.AddConstraint

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_WorldSecurity_AreaInvasion_Volume_classes.hpp"
-#include "PalServer/BP_WorldSecurity_AreaInvasion_Volume_parameters.hpp"
+#include "PalSDK/BP_WorldSecurity_AreaInvasion_Volume_classes.hpp"
+#include "PalSDK/BP_WorldSecurity_AreaInvasion_Volume_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_WorldSecurity_AreaInvasion_Volume.BP_WorldSecurity_AreaInvasion_Volume_C.ReceiveTick

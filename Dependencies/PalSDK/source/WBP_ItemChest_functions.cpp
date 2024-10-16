@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_ItemChest_classes.hpp"
-#include "PalServer/WBP_ItemChest_parameters.hpp"
+#include "PalSDK/WBP_ItemChest_classes.hpp"
+#include "PalSDK/WBP_ItemChest_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_ItemChest.WBP_ItemChest_C.AllGet

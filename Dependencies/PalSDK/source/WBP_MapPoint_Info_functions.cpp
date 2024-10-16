@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_MapPoint_Info_classes.hpp"
-#include "PalServer/WBP_MapPoint_Info_parameters.hpp"
+#include "PalSDK/WBP_MapPoint_Info_classes.hpp"
+#include "PalSDK/WBP_MapPoint_Info_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_MapPoint_Info.WBP_MapPoint_Info_C.AdjustSide

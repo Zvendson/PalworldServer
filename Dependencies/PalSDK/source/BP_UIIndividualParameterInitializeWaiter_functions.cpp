@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_UIIndividualParameterInitializeWaiter_classes.hpp"
-#include "PalServer/BP_UIIndividualParameterInitializeWaiter_parameters.hpp"
+#include "PalSDK/BP_UIIndividualParameterInitializeWaiter_classes.hpp"
+#include "PalSDK/BP_UIIndividualParameterInitializeWaiter_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_UIIndividualParameterInitializeWaiter.BP_UIIndividualParameterInitializeWaiter_C.CheckIndividual

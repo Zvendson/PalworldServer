@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_NPCAIController_BossBattle_classes.hpp"
-#include "PalServer/BP_NPCAIController_BossBattle_parameters.hpp"
+#include "PalSDK/BP_NPCAIController_BossBattle_classes.hpp"
+#include "PalSDK/BP_NPCAIController_BossBattle_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_NPCAIController_BossBattle.BP_NPCAIController_BossBattle_C.ForceBattleStartToTarget Boss

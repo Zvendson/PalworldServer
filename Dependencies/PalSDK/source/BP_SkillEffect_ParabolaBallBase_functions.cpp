@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_SkillEffect_ParabolaBallBase_classes.hpp"
-#include "PalServer/BP_SkillEffect_ParabolaBallBase_parameters.hpp"
+#include "PalSDK/BP_SkillEffect_ParabolaBallBase_classes.hpp"
+#include "PalSDK/BP_SkillEffect_ParabolaBallBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_SkillEffect_ParabolaBallBase.BP_SkillEffect_ParabolaBallBase_C.BndEvt__BP_SkillEffect_FlareArrow_AttackFilter_K2Node_ComponentBoundEvent_1_OnAttackDelegate__DelegateSignature

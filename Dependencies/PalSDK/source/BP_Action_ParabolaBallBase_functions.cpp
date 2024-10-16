@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_Action_ParabolaBallBase_classes.hpp"
-#include "PalServer/BP_Action_ParabolaBallBase_parameters.hpp"
+#include "PalSDK/BP_Action_ParabolaBallBase_classes.hpp"
+#include "PalSDK/BP_Action_ParabolaBallBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_Action_ParabolaBallBase.BP_Action_ParabolaBallBase_C.ExecuteUbergraph_BP_Action_ParabolaBallBase

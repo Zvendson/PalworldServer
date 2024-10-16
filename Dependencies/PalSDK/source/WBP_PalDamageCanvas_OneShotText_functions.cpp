@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalDamageCanvas_OneShotText_classes.hpp"
-#include "PalServer/WBP_PalDamageCanvas_OneShotText_parameters.hpp"
+#include "PalSDK/WBP_PalDamageCanvas_OneShotText_classes.hpp"
+#include "PalSDK/WBP_PalDamageCanvas_OneShotText_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalDamageCanvas_OneShotText.WBP_PalDamageCanvas_OneShotText_C.AddDamageTextEvent

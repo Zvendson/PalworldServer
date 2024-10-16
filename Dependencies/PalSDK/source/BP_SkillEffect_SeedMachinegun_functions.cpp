@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_SkillEffect_SeedMachinegun_classes.hpp"
-#include "PalServer/BP_SkillEffect_SeedMachinegun_parameters.hpp"
+#include "PalSDK/BP_SkillEffect_SeedMachinegun_classes.hpp"
+#include "PalSDK/BP_SkillEffect_SeedMachinegun_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_SkillEffect_SeedMachinegun.BP_SkillEffect_SeedMachinegun_C.BndEvt__BP_SkillEffect_SeedMachinegun_AttackFilter_K2Node_ComponentBoundEvent_0_OnAttackDelegate__DelegateSignature

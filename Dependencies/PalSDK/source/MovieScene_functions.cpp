@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/MovieScene_classes.hpp"
-#include "PalServer/MovieScene_parameters.hpp"
+#include "PalSDK/MovieScene_classes.hpp"
+#include "PalSDK/MovieScene_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function MovieScene.MovieSceneSequence.FindBindingByTag

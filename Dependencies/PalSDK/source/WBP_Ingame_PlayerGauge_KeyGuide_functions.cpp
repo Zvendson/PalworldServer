@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_Ingame_PlayerGauge_KeyGuide_classes.hpp"
-#include "PalServer/WBP_Ingame_PlayerGauge_KeyGuide_parameters.hpp"
+#include "PalSDK/WBP_Ingame_PlayerGauge_KeyGuide_classes.hpp"
+#include "PalSDK/WBP_Ingame_PlayerGauge_KeyGuide_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_Ingame_PlayerGauge_KeyGuide.WBP_Ingame_PlayerGauge_KeyGuide_C.ExecuteUbergraph_WBP_Ingame_PlayerGauge_KeyGuide

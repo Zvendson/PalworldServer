@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalGetReticle_classes.hpp"
-#include "PalServer/WBP_PalGetReticle_parameters.hpp"
+#include "PalSDK/WBP_PalGetReticle_classes.hpp"
+#include "PalSDK/WBP_PalGetReticle_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalGetReticle.WBP_PalGetReticle_C.AnmEvent_Captured

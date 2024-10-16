@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalSphere_Body_Legend_classes.hpp"
-#include "PalServer/BP_PalSphere_Body_Legend_parameters.hpp"
+#include "PalSDK/BP_PalSphere_Body_Legend_classes.hpp"
+#include "PalSDK/BP_PalSphere_Body_Legend_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalSphere_Body_Legend.BP_PalSphere_Body_Legend_C.ExecuteUbergraph_BP_PalSphere_Body_Legend

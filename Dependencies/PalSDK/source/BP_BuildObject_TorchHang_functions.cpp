@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_BuildObject_TorchHang_classes.hpp"
-#include "PalServer/BP_BuildObject_TorchHang_parameters.hpp"
+#include "PalSDK/BP_BuildObject_TorchHang_classes.hpp"
+#include "PalSDK/BP_BuildObject_TorchHang_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_BuildObject_TorchHang.BP_BuildObject_TorchHang_C.ExecuteUbergraph_BP_BuildObject_TorchHang

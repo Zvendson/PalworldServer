@@ -1,53 +1,11 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AIActionEscape_classes.hpp"
-#include "PalServer/BP_AIActionEscape_parameters.hpp"
+#include "PalSDK/BP_AIActionEscape_classes.hpp"
+#include "PalSDK/BP_AIActionEscape_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
-
-// Function BP_AIActionEscape.BP_AIActionEscape_C.ActionAbort
-// (Event, Public, BlueprintEvent)
-// Parameters:
-// class APawn*                            ControlledPawn                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-
-void UBP_AIActionEscape_C::ActionAbort(class APawn* ControlledPawn)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_AIActionEscape_C", "ActionAbort");
-
-	Params::BP_AIActionEscape_C_ActionAbort Parms{};
-
-	Parms.ControlledPawn = ControlledPawn;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function BP_AIActionEscape.BP_AIActionEscape_C.ActionFinished
-// (Event, Public, BlueprintEvent)
-// Parameters:
-// class APawn*                            ControlledPawn                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-// EPawnActionResult                       WithResult                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void UBP_AIActionEscape_C::ActionFinished(class APawn* ControlledPawn, EPawnActionResult WithResult)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_AIActionEscape_C", "ActionFinished");
-
-	Params::BP_AIActionEscape_C_ActionFinished Parms{};
-
-	Parms.ControlledPawn = ControlledPawn;
-	Parms.WithResult = WithResult;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
 
 // Function BP_AIActionEscape.BP_AIActionEscape_C.ActionTick
 // (Event, Public, BlueprintEvent)
@@ -205,6 +163,48 @@ void UBP_AIActionEscape_C::SetGoalLocation(bool* Success)
 
 	if (Success != nullptr)
 		*Success = Parms.Success;
+}
+
+
+// Function BP_AIActionEscape.BP_AIActionEscape_C.ActionAbort
+// (Event, Public, BlueprintEvent)
+// Parameters:
+// class APawn*                            ControlledPawn                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+
+void UBP_AIActionEscape_C::ActionAbort(class APawn* ControlledPawn)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_AIActionEscape_C", "ActionAbort");
+
+	Params::BP_AIActionEscape_C_ActionAbort Parms{};
+
+	Parms.ControlledPawn = ControlledPawn;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_AIActionEscape.BP_AIActionEscape_C.ActionFinished
+// (Event, Public, BlueprintEvent)
+// Parameters:
+// class APawn*                            ControlledPawn                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+// EPawnActionResult                       WithResult                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UBP_AIActionEscape_C::ActionFinished(class APawn* ControlledPawn, EPawnActionResult WithResult)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_AIActionEscape_C", "ActionFinished");
+
+	Params::BP_AIActionEscape_C_ActionFinished Parms{};
+
+	Parms.ControlledPawn = ControlledPawn;
+	Parms.WithResult = WithResult;
+
+	UObject::ProcessEvent(Func, &Parms);
 }
 
 

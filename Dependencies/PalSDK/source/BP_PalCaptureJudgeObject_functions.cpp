@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalCaptureJudgeObject_classes.hpp"
-#include "PalServer/BP_PalCaptureJudgeObject_parameters.hpp"
+#include "PalSDK/BP_PalCaptureJudgeObject_classes.hpp"
+#include "PalSDK/BP_PalCaptureJudgeObject_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalCaptureJudgeObject.BP_PalCaptureJudgeObject_C.ExecuteUbergraph_BP_PalCaptureJudgeObject

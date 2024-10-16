@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_Action_Trap_LegHold_classes.hpp"
-#include "PalServer/BP_Action_Trap_LegHold_parameters.hpp"
+#include "PalSDK/BP_Action_Trap_LegHold_classes.hpp"
+#include "PalSDK/BP_Action_Trap_LegHold_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_Action_Trap_LegHold.BP_Action_Trap_LegHold_C.ChangeParam

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/PalBossBattleSequence_Combat_classes.hpp"
-#include "PalServer/PalBossBattleSequence_Combat_parameters.hpp"
+#include "PalSDK/PalBossBattleSequence_Combat_classes.hpp"
+#include "PalSDK/PalBossBattleSequence_Combat_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function PalBossBattleSequence_Combat.PalBossBattleSequence_Combat_C.CheckCombatFinish

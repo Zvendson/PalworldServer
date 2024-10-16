@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionIceBlade_classes.hpp"
-#include "PalServer/BP_ActionIceBlade_parameters.hpp"
+#include "PalSDK/BP_ActionIceBlade_classes.hpp"
+#include "PalSDK/BP_ActionIceBlade_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionIceBlade.BP_ActionIceBlade_C.ExecuteUbergraph_BP_ActionIceBlade

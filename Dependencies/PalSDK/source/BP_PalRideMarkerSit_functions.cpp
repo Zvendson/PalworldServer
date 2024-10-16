@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalRideMarkerSit_classes.hpp"
-#include "PalServer/BP_PalRideMarkerSit_parameters.hpp"
+#include "PalSDK/BP_PalRideMarkerSit_classes.hpp"
+#include "PalSDK/BP_PalRideMarkerSit_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalRideMarkerSit.BP_PalRideMarkerSit_C.SetMaterialProgress

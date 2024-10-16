@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionReturnToBaseCamp_classes.hpp"
-#include "PalServer/BP_ActionReturnToBaseCamp_parameters.hpp"
+#include "PalSDK/BP_ActionReturnToBaseCamp_classes.hpp"
+#include "PalSDK/BP_ActionReturnToBaseCamp_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionReturnToBaseCamp.BP_ActionReturnToBaseCamp_C.ExecuteUbergraph_BP_ActionReturnToBaseCamp

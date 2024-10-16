@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_VIsualEffect_Status_Getwet_classes.hpp"
-#include "PalServer/BP_VIsualEffect_Status_Getwet_parameters.hpp"
+#include "PalSDK/BP_VIsualEffect_Status_Getwet_classes.hpp"
+#include "PalSDK/BP_VIsualEffect_Status_Getwet_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_VIsualEffect_Status_Getwet.BP_VIsualEffect_Status_Getwet_C.ExecuteUbergraph_BP_VIsualEffect_Status_Getwet

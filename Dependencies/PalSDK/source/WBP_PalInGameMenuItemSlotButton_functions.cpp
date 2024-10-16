@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalInGameMenuItemSlotButton_classes.hpp"
-#include "PalServer/WBP_PalInGameMenuItemSlotButton_parameters.hpp"
+#include "PalSDK/WBP_PalInGameMenuItemSlotButton_classes.hpp"
+#include "PalSDK/WBP_PalInGameMenuItemSlotButton_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalInGameMenuItemSlotButton.WBP_PalInGameMenuItemSlotButton_C.AnmEvent_Focus

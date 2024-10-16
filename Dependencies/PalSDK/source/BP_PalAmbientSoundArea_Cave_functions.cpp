@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalAmbientSoundArea_Cave_classes.hpp"
-#include "PalServer/BP_PalAmbientSoundArea_Cave_parameters.hpp"
+#include "PalSDK/BP_PalAmbientSoundArea_Cave_classes.hpp"
+#include "PalSDK/BP_PalAmbientSoundArea_Cave_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalAmbientSoundArea_Cave.BP_PalAmbientSoundArea_Cave_C.GetAreaCollision

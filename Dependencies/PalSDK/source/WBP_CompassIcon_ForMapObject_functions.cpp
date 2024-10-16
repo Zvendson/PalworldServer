@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_CompassIcon_ForMapObject_classes.hpp"
-#include "PalServer/WBP_CompassIcon_ForMapObject_parameters.hpp"
+#include "PalSDK/WBP_CompassIcon_ForMapObject_classes.hpp"
+#include "PalSDK/WBP_CompassIcon_ForMapObject_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_CompassIcon_ForMapObject.WBP_CompassIcon_ForMapObject_C.ExecuteUbergraph_WBP_CompassIcon_ForMapObject

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/MediaIOCore_classes.hpp"
-#include "PalServer/MediaIOCore_parameters.hpp"
+#include "PalSDK/MediaIOCore_classes.hpp"
+#include "PalSDK/MediaIOCore_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function MediaIOCore.MediaCapture.CaptureActiveSceneViewport

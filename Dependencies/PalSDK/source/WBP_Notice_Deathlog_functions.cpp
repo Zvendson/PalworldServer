@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_Notice_Deathlog_classes.hpp"
-#include "PalServer/WBP_Notice_Deathlog_parameters.hpp"
+#include "PalSDK/WBP_Notice_Deathlog_classes.hpp"
+#include "PalSDK/WBP_Notice_Deathlog_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_Notice_Deathlog.WBP_Notice_Deathlog_C.CheckDisplay_Long

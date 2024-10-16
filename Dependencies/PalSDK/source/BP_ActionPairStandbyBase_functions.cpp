@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionPairStandbyBase_classes.hpp"
-#include "PalServer/BP_ActionPairStandbyBase_parameters.hpp"
+#include "PalSDK/BP_ActionPairStandbyBase_classes.hpp"
+#include "PalSDK/BP_ActionPairStandbyBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionPairStandbyBase.BP_ActionPairStandbyBase_C.CancelEvent

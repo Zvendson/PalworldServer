@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/TypedElementRuntime_classes.hpp"
-#include "PalServer/TypedElementRuntime_parameters.hpp"
+#include "PalSDK/TypedElementRuntime_classes.hpp"
+#include "PalSDK/TypedElementRuntime_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function TypedElementRuntime.TypedElementSelectionSetLibrary.DeselectElementsFromList

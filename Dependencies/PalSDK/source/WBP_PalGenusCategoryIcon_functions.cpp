@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalGenusCategoryIcon_classes.hpp"
-#include "PalServer/WBP_PalGenusCategoryIcon_parameters.hpp"
+#include "PalSDK/WBP_PalGenusCategoryIcon_classes.hpp"
+#include "PalSDK/WBP_PalGenusCategoryIcon_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalGenusCategoryIcon.WBP_PalGenusCategoryIcon_C.Setup

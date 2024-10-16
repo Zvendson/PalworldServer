@@ -1,9 +1,9 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/Hotfix_classes.hpp"
+#include "PalSDK/Hotfix_classes.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function Hotfix.OnlineHotfixManager.StartHotfixProcess

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionFriendlyLookat_classes.hpp"
-#include "PalServer/BP_ActionFriendlyLookat_parameters.hpp"
+#include "PalSDK/BP_ActionFriendlyLookat_classes.hpp"
+#include "PalSDK/BP_ActionFriendlyLookat_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionFriendlyLookat.BP_ActionFriendlyLookat_C.ChangeFace

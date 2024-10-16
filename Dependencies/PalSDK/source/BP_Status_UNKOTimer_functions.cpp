@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_Status_UNKOTimer_classes.hpp"
-#include "PalServer/BP_Status_UNKOTimer_parameters.hpp"
+#include "PalSDK/BP_Status_UNKOTimer_classes.hpp"
+#include "PalSDK/BP_Status_UNKOTimer_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_Status_UNKOTimer.BP_Status_UNKOTimer_C.ExecuteUbergraph_BP_Status_UNKOTimer

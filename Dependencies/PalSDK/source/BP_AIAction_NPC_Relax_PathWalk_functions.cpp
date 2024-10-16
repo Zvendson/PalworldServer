@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AIAction_NPC_Relax_PathWalk_classes.hpp"
-#include "PalServer/BP_AIAction_NPC_Relax_PathWalk_parameters.hpp"
+#include "PalSDK/BP_AIAction_NPC_Relax_PathWalk_classes.hpp"
+#include "PalSDK/BP_AIAction_NPC_Relax_PathWalk_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AIAction_NPC_Relax_PathWalk.BP_AIAction_NPC_Relax_PathWalk_C.ActionFinished

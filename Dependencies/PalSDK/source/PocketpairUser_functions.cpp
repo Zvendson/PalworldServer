@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/PocketpairUser_classes.hpp"
-#include "PalServer/PocketpairUser_parameters.hpp"
+#include "PalSDK/PocketpairUser_classes.hpp"
+#include "PalSDK/PocketpairUser_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function PocketpairUser.HTTPRequestAsyncFunction.HTTPRequestAsyncFunction

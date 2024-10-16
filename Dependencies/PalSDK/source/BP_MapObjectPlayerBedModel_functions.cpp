@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_MapObjectPlayerBedModel_classes.hpp"
-#include "PalServer/BP_MapObjectPlayerBedModel_parameters.hpp"
+#include "PalSDK/BP_MapObjectPlayerBedModel_classes.hpp"
+#include "PalSDK/BP_MapObjectPlayerBedModel_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_MapObjectPlayerBedModel.BP_MapObjectPlayerBedModel_C.BP_OnTriggerInteract_SleepPlayerBed

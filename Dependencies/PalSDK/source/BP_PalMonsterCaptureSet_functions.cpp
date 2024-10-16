@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalMonsterCaptureSet_classes.hpp"
-#include "PalServer/BP_PalMonsterCaptureSet_parameters.hpp"
+#include "PalSDK/BP_PalMonsterCaptureSet_classes.hpp"
+#include "PalSDK/BP_PalMonsterCaptureSet_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalMonsterCaptureSet.BP_PalMonsterCaptureSet_C.AddRotation

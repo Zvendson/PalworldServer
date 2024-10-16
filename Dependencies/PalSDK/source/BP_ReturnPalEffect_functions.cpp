@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ReturnPalEffect_classes.hpp"
-#include "PalServer/BP_ReturnPalEffect_parameters.hpp"
+#include "PalSDK/BP_ReturnPalEffect_classes.hpp"
+#include "PalSDK/BP_ReturnPalEffect_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ReturnPalEffect.BP_ReturnPalEffect_C.DestroySelf

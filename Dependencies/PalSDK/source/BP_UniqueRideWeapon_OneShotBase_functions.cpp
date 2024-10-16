@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_UniqueRideWeapon_OneShotBase_classes.hpp"
-#include "PalServer/BP_UniqueRideWeapon_OneShotBase_parameters.hpp"
+#include "PalSDK/BP_UniqueRideWeapon_OneShotBase_classes.hpp"
+#include "PalSDK/BP_UniqueRideWeapon_OneShotBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_UniqueRideWeapon_OneShotBase.BP_UniqueRideWeapon_OneShotBase_C.ShootBulletBP

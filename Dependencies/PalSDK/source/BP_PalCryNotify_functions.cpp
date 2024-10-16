@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalCryNotify_classes.hpp"
-#include "PalServer/BP_PalCryNotify_parameters.hpp"
+#include "PalSDK/BP_PalCryNotify_classes.hpp"
+#include "PalSDK/BP_PalCryNotify_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalCryNotify.BP_PalCryNotify_C.Received_Notify

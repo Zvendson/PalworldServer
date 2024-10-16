@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_MonsterAIController_RaidBoss_classes.hpp"
-#include "PalServer/BP_MonsterAIController_RaidBoss_parameters.hpp"
+#include "PalSDK/BP_MonsterAIController_RaidBoss_classes.hpp"
+#include "PalSDK/BP_MonsterAIController_RaidBoss_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_MonsterAIController_RaidBoss.BP_MonsterAIController_RaidBoss_C.DeleteDeadBody

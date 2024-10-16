@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalIncidentCamera_classes.hpp"
-#include "PalServer/BP_PalIncidentCamera_parameters.hpp"
+#include "PalSDK/BP_PalIncidentCamera_classes.hpp"
+#include "PalSDK/BP_PalIncidentCamera_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalIncidentCamera.BP_PalIncidentCamera_C.SetCameraTransform

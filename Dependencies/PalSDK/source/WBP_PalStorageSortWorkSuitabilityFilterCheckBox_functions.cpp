@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalStorageSortWorkSuitabilityFilterCheckBox_classes.hpp"
-#include "PalServer/WBP_PalStorageSortWorkSuitabilityFilterCheckBox_parameters.hpp"
+#include "PalSDK/WBP_PalStorageSortWorkSuitabilityFilterCheckBox_classes.hpp"
+#include "PalSDK/WBP_PalStorageSortWorkSuitabilityFilterCheckBox_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalStorageSortWorkSuitabilityFilterCheckBox.WBP_PalStorageSortWorkSuitabilityFilterCheckBox_C.BndEvt__WBP_PalStorageSortElementFilterCheckBox_WBP_PalInvisibleButton_K2Node_ComponentBoundEvent_1_CommonButtonBaseClicked__DelegateSignature

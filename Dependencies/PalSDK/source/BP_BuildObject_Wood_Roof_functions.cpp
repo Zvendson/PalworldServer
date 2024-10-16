@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_BuildObject_Wood_Roof_classes.hpp"
-#include "PalServer/BP_BuildObject_Wood_Roof_parameters.hpp"
+#include "PalSDK/BP_BuildObject_Wood_Roof_classes.hpp"
+#include "PalSDK/BP_BuildObject_Wood_Roof_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_BuildObject_Wood_Roof.BP_BuildObject_Wood_Roof_C.GetStaticMeshComponents

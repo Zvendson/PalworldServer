@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ClothingSystemRuntimeInterface_classes.hpp"
-#include "PalServer/ClothingSystemRuntimeInterface_parameters.hpp"
+#include "PalSDK/ClothingSystemRuntimeInterface_classes.hpp"
+#include "PalSDK/ClothingSystemRuntimeInterface_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.ClothConfigUpdated

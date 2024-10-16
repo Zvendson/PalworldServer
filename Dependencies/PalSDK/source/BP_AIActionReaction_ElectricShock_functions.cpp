@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AIActionReaction_ElectricShock_classes.hpp"
-#include "PalServer/BP_AIActionReaction_ElectricShock_parameters.hpp"
+#include "PalSDK/BP_AIActionReaction_ElectricShock_classes.hpp"
+#include "PalSDK/BP_AIActionReaction_ElectricShock_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AIActionReaction_ElectricShock.BP_AIActionReaction_ElectricShock_C.ActionStart

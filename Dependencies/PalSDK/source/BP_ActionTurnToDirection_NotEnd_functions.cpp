@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionTurnToDirection_NotEnd_classes.hpp"
-#include "PalServer/BP_ActionTurnToDirection_NotEnd_parameters.hpp"
+#include "PalSDK/BP_ActionTurnToDirection_NotEnd_classes.hpp"
+#include "PalSDK/BP_ActionTurnToDirection_NotEnd_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionTurnToDirection_NotEnd.BP_ActionTurnToDirection_NotEnd_C.ExecuteUbergraph_BP_ActionTurnToDirection_NotEnd

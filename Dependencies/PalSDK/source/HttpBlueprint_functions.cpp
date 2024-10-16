@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/HttpBlueprint_classes.hpp"
-#include "PalServer/HttpBlueprint_parameters.hpp"
+#include "PalSDK/HttpBlueprint_classes.hpp"
+#include "PalSDK/HttpBlueprint_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function HttpBlueprint.HttpBlueprintFunctionLibrary.AddHeader

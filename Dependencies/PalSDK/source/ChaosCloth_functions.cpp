@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ChaosCloth_classes.hpp"
-#include "PalServer/ChaosCloth_parameters.hpp"
+#include "PalSDK/ChaosCloth_classes.hpp"
+#include "PalSDK/ChaosCloth_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ChaosCloth.ChaosClothingInteractor.ResetAndTeleport

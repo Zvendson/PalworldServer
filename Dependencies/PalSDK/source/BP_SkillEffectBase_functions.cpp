@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_SkillEffectBase_classes.hpp"
-#include "PalServer/BP_SkillEffectBase_parameters.hpp"
+#include "PalSDK/BP_SkillEffectBase_classes.hpp"
+#include "PalSDK/BP_SkillEffectBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_SkillEffectBase.BP_SkillEffectBase_C.ApplyDamageCustomHit

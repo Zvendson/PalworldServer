@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_VisualEffect_Proxy_FunnelEndEmissive_classes.hpp"
-#include "PalServer/BP_VisualEffect_Proxy_FunnelEndEmissive_parameters.hpp"
+#include "PalSDK/BP_VisualEffect_Proxy_FunnelEndEmissive_classes.hpp"
+#include "PalSDK/BP_VisualEffect_Proxy_FunnelEndEmissive_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_VisualEffect_Proxy_FunnelEndEmissive.BP_VisualEffect_Proxy_FunnelEndEmissive_C.ExecuteUbergraph_BP_VisualEffect_Proxy_FunnelEndEmissive

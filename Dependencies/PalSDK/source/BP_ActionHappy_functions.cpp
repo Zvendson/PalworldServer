@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionHappy_classes.hpp"
-#include "PalServer/BP_ActionHappy_parameters.hpp"
+#include "PalSDK/BP_ActionHappy_classes.hpp"
+#include "PalSDK/BP_ActionHappy_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionHappy.BP_ActionHappy_C.ChangeFace

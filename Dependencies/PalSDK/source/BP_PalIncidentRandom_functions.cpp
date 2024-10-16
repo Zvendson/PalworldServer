@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalIncidentRandom_classes.hpp"
-#include "PalServer/BP_PalIncidentRandom_parameters.hpp"
+#include "PalSDK/BP_PalIncidentRandom_classes.hpp"
+#include "PalSDK/BP_PalIncidentRandom_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalIncidentRandom.BP_PalIncidentRandom_C.BindDelegate_Action

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_VisualEffect_PalBattleOutline_classes.hpp"
-#include "PalServer/BP_VisualEffect_PalBattleOutline_parameters.hpp"
+#include "PalSDK/BP_VisualEffect_PalBattleOutline_classes.hpp"
+#include "PalSDK/BP_VisualEffect_PalBattleOutline_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_VisualEffect_PalBattleOutline.BP_VisualEffect_PalBattleOutline_C.ExecuteUbergraph_BP_VisualEffect_PalBattleOutline

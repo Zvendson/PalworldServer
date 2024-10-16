@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_EnemyMark_classes.hpp"
-#include "PalServer/WBP_EnemyMark_parameters.hpp"
+#include "PalSDK/WBP_EnemyMark_classes.hpp"
+#include "PalSDK/WBP_EnemyMark_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_EnemyMark.WBP_EnemyMark_C.Construct

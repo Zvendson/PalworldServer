@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_VisualEffect_PalOutlineFadeIn_classes.hpp"
-#include "PalServer/BP_VisualEffect_PalOutlineFadeIn_parameters.hpp"
+#include "PalSDK/BP_VisualEffect_PalOutlineFadeIn_classes.hpp"
+#include "PalSDK/BP_VisualEffect_PalOutlineFadeIn_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_VisualEffect_PalOutlineFadeIn.BP_VisualEffect_PalOutlineFadeIn_C.ExecuteUbergraph_BP_VisualEffect_PalOutlineFadeIn

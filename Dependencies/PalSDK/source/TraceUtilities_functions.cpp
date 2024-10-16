@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/TraceUtilities_classes.hpp"
-#include "PalServer/TraceUtilities_parameters.hpp"
+#include "PalSDK/TraceUtilities_classes.hpp"
+#include "PalSDK/TraceUtilities_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function TraceUtilities.TraceUtilLibrary.GetAllChannels

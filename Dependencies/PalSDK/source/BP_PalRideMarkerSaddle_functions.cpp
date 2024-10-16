@@ -1,29 +1,43 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalRideMarkerSaddle_classes.hpp"
-#include "PalServer/BP_PalRideMarkerSaddle_parameters.hpp"
+#include "PalSDK/BP_PalRideMarkerSaddle_classes.hpp"
+#include "PalSDK/BP_PalRideMarkerSaddle_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
-// Function BP_PalRideMarkerSaddle.BP_PalRideMarkerSaddle_C.ExecuteUbergraph_BP_PalRideMarkerSaddle
-// (Final, UbergraphFunction)
+// Function BP_PalRideMarkerSaddle.BP_PalRideMarkerSaddle_C.ReceiveTick
+// (Event, Public, BlueprintEvent)
 // Parameters:
-// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// float                                   DeltaSeconds                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void UBP_PalRideMarkerSaddle_C::ExecuteUbergraph_BP_PalRideMarkerSaddle(int32 EntryPoint)
+void UBP_PalRideMarkerSaddle_C::ReceiveTick(float DeltaSeconds)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_PalRideMarkerSaddle_C", "ExecuteUbergraph_BP_PalRideMarkerSaddle");
+		Func = Class->GetFunction("BP_PalRideMarkerSaddle_C", "ReceiveTick");
 
-	Params::BP_PalRideMarkerSaddle_C_ExecuteUbergraph_BP_PalRideMarkerSaddle Parms{};
+	Params::BP_PalRideMarkerSaddle_C_ReceiveTick Parms{};
 
-	Parms.EntryPoint = EntryPoint;
+	Parms.DeltaSeconds = DeltaSeconds;
 
 	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_PalRideMarkerSaddle.BP_PalRideMarkerSaddle_C.ReceiveBeginPlay
+// (Event, Public, BlueprintEvent)
+
+void UBP_PalRideMarkerSaddle_C::ReceiveBeginPlay()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PalRideMarkerSaddle_C", "ReceiveBeginPlay");
+
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 
@@ -47,35 +61,21 @@ void UBP_PalRideMarkerSaddle_C::OnChangeRiding______________0(bool IsEnable)
 }
 
 
-// Function BP_PalRideMarkerSaddle.BP_PalRideMarkerSaddle_C.ReceiveBeginPlay
-// (Event, Public, BlueprintEvent)
-
-void UBP_PalRideMarkerSaddle_C::ReceiveBeginPlay()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_PalRideMarkerSaddle_C", "ReceiveBeginPlay");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_PalRideMarkerSaddle.BP_PalRideMarkerSaddle_C.ReceiveTick
-// (Event, Public, BlueprintEvent)
+// Function BP_PalRideMarkerSaddle.BP_PalRideMarkerSaddle_C.ExecuteUbergraph_BP_PalRideMarkerSaddle
+// (Final, UbergraphFunction)
 // Parameters:
-// float                                   DeltaSeconds                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void UBP_PalRideMarkerSaddle_C::ReceiveTick(float DeltaSeconds)
+void UBP_PalRideMarkerSaddle_C::ExecuteUbergraph_BP_PalRideMarkerSaddle(int32 EntryPoint)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("BP_PalRideMarkerSaddle_C", "ReceiveTick");
+		Func = Class->GetFunction("BP_PalRideMarkerSaddle_C", "ExecuteUbergraph_BP_PalRideMarkerSaddle");
 
-	Params::BP_PalRideMarkerSaddle_C_ReceiveTick Parms{};
+	Params::BP_PalRideMarkerSaddle_C_ExecuteUbergraph_BP_PalRideMarkerSaddle Parms{};
 
-	Parms.DeltaSeconds = DeltaSeconds;
+	Parms.EntryPoint = EntryPoint;
 
 	UObject::ProcessEvent(Func, &Parms);
 }

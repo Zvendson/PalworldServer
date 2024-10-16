@@ -1,0 +1,47 @@
+#pragma once
+
+#include "Basic.hpp"
+
+#include "Engine_classes.hpp"
+#include "GooglePAD_structs.hpp"
+
+
+namespace PalSDK
+{
+
+// Class GooglePAD.GooglePADFunctionLibrary
+// 0x0000 (0x0028 - 0x0028)
+class UGooglePADFunctionLibrary final : public UBlueprintFunctionLibrary
+{
+public:
+	static EGooglePADErrorCode CancelDownload(const TArray<class FString>& AssetPacks);
+	static EGooglePADErrorCode GetAssetPackLocation(const class FString& Name_0, int32* Location);
+	static class FString GetAssetsPath(const int32 Location);
+	static int32 GetBytesDownloaded(const int32 State);
+	static EGooglePADErrorCode GetDownloadState(const class FString& Name_0, int32* State);
+	static EGooglePADDownloadStatus GetDownloadStatus(const int32 State);
+	static EGooglePADErrorCode GetShowCellularDataConfirmationStatus(EGooglePADCellularDataConfirmStatus* Status);
+	static EGooglePADStorageMethod GetStorageMethod(const int32 Location);
+	static int32 GetTotalBytesToDownload(const int32 State);
+	static void ReleaseAssetPackLocation(const int32 Location);
+	static void ReleaseDownloadState(const int32 State);
+	static EGooglePADErrorCode RequestDownload(const TArray<class FString>& AssetPacks);
+	static EGooglePADErrorCode RequestInfo(const TArray<class FString>& AssetPacks);
+	static EGooglePADErrorCode RequestRemoval(const class FString& Name_0);
+	static EGooglePADErrorCode ShowCellularDataConfirmation();
+
+public:
+	static class UClass* StaticClass()
+	{
+		return StaticClassImpl<"GooglePADFunctionLibrary">();
+	}
+	static class UGooglePADFunctionLibrary* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<UGooglePADFunctionLibrary>();
+	}
+};
+static_assert(alignof(UGooglePADFunctionLibrary) == 0x000008, "Wrong alignment on UGooglePADFunctionLibrary");
+static_assert(sizeof(UGooglePADFunctionLibrary) == 0x000028, "Wrong size on UGooglePADFunctionLibrary");
+
+}
+

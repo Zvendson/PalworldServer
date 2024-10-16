@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_DummyNavigationInvoker_classes.hpp"
-#include "PalServer/BP_DummyNavigationInvoker_parameters.hpp"
+#include "PalSDK/BP_DummyNavigationInvoker_classes.hpp"
+#include "PalSDK/BP_DummyNavigationInvoker_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_DummyNavigationInvoker.BP_DummyNavigationInvoker_C.ExecuteUbergraph_BP_DummyNavigationInvoker

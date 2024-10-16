@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/SunSky_classes.hpp"
-#include "PalServer/SunSky_parameters.hpp"
+#include "PalSDK/SunSky_classes.hpp"
+#include "PalSDK/SunSky_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function SunSky.SunSky_C.ExecuteUbergraph_SunSky

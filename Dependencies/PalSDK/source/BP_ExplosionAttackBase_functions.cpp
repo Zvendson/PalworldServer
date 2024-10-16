@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ExplosionAttackBase_classes.hpp"
-#include "PalServer/BP_ExplosionAttackBase_parameters.hpp"
+#include "PalSDK/BP_ExplosionAttackBase_classes.hpp"
+#include "PalSDK/BP_ExplosionAttackBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ExplosionAttackBase.BP_ExplosionAttackBase_C.Can Damage by Ray Check

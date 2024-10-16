@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ALI_MonsterPhysics_classes.hpp"
-#include "PalServer/ALI_MonsterPhysics_parameters.hpp"
+#include "PalSDK/ALI_MonsterPhysics_classes.hpp"
+#include "PalSDK/ALI_MonsterPhysics_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ALI_MonsterPhysics.ALI_MonsterPhysics_C.MonsterPhysics

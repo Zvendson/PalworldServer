@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/CommonGame_classes.hpp"
-#include "PalServer/CommonGame_parameters.hpp"
+#include "PalSDK/CommonGame_classes.hpp"
+#include "PalSDK/CommonGame_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function CommonGame.AsyncAction_CreateWidgetAsync.CreateWidgetAsync

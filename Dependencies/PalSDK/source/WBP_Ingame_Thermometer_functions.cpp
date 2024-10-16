@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_Ingame_Thermometer_classes.hpp"
-#include "PalServer/WBP_Ingame_Thermometer_parameters.hpp"
+#include "PalSDK/WBP_Ingame_Thermometer_classes.hpp"
+#include "PalSDK/WBP_Ingame_Thermometer_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_Ingame_Thermometer.WBP_Ingame_Thermometer_C.AnmEvent_ChangeTemperature

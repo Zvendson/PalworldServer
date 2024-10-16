@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/LocationServicesBPLibrary_classes.hpp"
-#include "PalServer/LocationServicesBPLibrary_parameters.hpp"
+#include "PalSDK/LocationServicesBPLibrary_classes.hpp"
+#include "PalSDK/LocationServicesBPLibrary_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function LocationServicesBPLibrary.LocationServices.AreLocationServicesEnabled

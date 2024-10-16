@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalCapturedCage_classes.hpp"
-#include "PalServer/BP_PalCapturedCage_parameters.hpp"
+#include "PalSDK/BP_PalCapturedCage_classes.hpp"
+#include "PalSDK/BP_PalCapturedCage_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalCapturedCage.BP_PalCapturedCage_C.CaptureStartFromServerPlayer

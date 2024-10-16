@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/EngineSettings_classes.hpp"
-#include "PalServer/EngineSettings_parameters.hpp"
+#include "PalSDK/EngineSettings_classes.hpp"
+#include "PalSDK/EngineSettings_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function EngineSettings.GameMapsSettings.GetGameMapsSettings

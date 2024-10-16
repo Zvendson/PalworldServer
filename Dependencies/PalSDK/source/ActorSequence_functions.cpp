@@ -1,9 +1,9 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ActorSequence_classes.hpp"
+#include "PalSDK/ActorSequence_classes.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ActorSequence.ActorSequenceComponent.PauseSequence

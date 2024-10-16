@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AlertByKilledFriendState_AproachDeadPoint_classes.hpp"
-#include "PalServer/BP_AlertByKilledFriendState_AproachDeadPoint_parameters.hpp"
+#include "PalSDK/BP_AlertByKilledFriendState_AproachDeadPoint_classes.hpp"
+#include "PalSDK/BP_AlertByKilledFriendState_AproachDeadPoint_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AlertByKilledFriendState_AproachDeadPoint.BP_AlertByKilledFriendState_AproachDeadPoint_C.ExecuteUbergraph_BP_AlertByKilledFriendState_AproachDeadPoint

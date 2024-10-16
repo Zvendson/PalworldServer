@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionIdleInSpa_classes.hpp"
-#include "PalServer/BP_ActionIdleInSpa_parameters.hpp"
+#include "PalSDK/BP_ActionIdleInSpa_classes.hpp"
+#include "PalSDK/BP_ActionIdleInSpa_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionIdleInSpa.BP_ActionIdleInSpa_C.ExecuteUbergraph_BP_ActionIdleInSpa

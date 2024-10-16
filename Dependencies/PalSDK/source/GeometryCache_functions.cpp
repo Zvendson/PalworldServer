@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/GeometryCache_classes.hpp"
-#include "PalServer/GeometryCache_parameters.hpp"
+#include "PalSDK/GeometryCache_classes.hpp"
+#include "PalSDK/GeometryCache_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function GeometryCache.GeometryCacheActor.GetGeometryCacheComponent

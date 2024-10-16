@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/MovieSceneTracks_classes.hpp"
-#include "PalServer/MovieSceneTracks_parameters.hpp"
+#include "PalSDK/MovieSceneTracks_classes.hpp"
+#include "PalSDK/MovieSceneTracks_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function MovieSceneTracks.MovieSceneParameterSection.AddBoolParameterKey

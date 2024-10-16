@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/FieldSystemEngine_classes.hpp"
-#include "PalServer/FieldSystemEngine_parameters.hpp"
+#include "PalSDK/FieldSystemEngine_classes.hpp"
+#include "PalSDK/FieldSystemEngine_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function FieldSystemEngine.FieldSystemComponent.AddFieldCommand

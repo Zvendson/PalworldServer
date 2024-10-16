@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/StaticMeshDescription_classes.hpp"
-#include "PalServer/StaticMeshDescription_parameters.hpp"
+#include "PalSDK/StaticMeshDescription_classes.hpp"
+#include "PalSDK/StaticMeshDescription_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function StaticMeshDescription.StaticMeshDescription.CreateCube

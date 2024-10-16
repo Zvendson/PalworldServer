@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionStun_classes.hpp"
-#include "PalServer/BP_ActionStun_parameters.hpp"
+#include "PalSDK/BP_ActionStun_classes.hpp"
+#include "PalSDK/BP_ActionStun_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionStun.BP_ActionStun_C.ExecuteUbergraph_BP_ActionStun

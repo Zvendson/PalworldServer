@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/MediaAssets_classes.hpp"
-#include "PalServer/MediaAssets_parameters.hpp"
+#include "PalSDK/MediaAssets_classes.hpp"
+#include "PalSDK/MediaAssets_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function MediaAssets.MediaSource.SetMediaOptionBool

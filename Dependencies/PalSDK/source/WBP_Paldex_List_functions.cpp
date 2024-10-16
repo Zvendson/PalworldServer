@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_Paldex_List_classes.hpp"
-#include "PalServer/WBP_Paldex_List_parameters.hpp"
+#include "PalSDK/WBP_Paldex_List_classes.hpp"
+#include "PalSDK/WBP_Paldex_List_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_Paldex_List.WBP_Paldex_List_C.AnmEvent_Focus

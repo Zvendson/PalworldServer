@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_CutsceneCharacterBase_classes.hpp"
-#include "PalServer/BP_CutsceneCharacterBase_parameters.hpp"
+#include "PalSDK/BP_CutsceneCharacterBase_classes.hpp"
+#include "PalSDK/BP_CutsceneCharacterBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_CutsceneCharacterBase.BP_CutsceneCharacterBase_C.ExecuteUbergraph_BP_CutsceneCharacterBase

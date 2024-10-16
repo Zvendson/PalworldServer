@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_Ingame_PalSkill_Flight_classes.hpp"
-#include "PalServer/WBP_Ingame_PalSkill_Flight_parameters.hpp"
+#include "PalSDK/WBP_Ingame_PalSkill_Flight_classes.hpp"
+#include "PalSDK/WBP_Ingame_PalSkill_Flight_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_Ingame_PalSkill_Flight.WBP_Ingame_PalSkill_Flight_C.AnmEvent_EndInteract

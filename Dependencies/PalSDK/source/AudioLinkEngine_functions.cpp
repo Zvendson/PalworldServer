@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/AudioLinkEngine_classes.hpp"
-#include "PalServer/AudioLinkEngine_parameters.hpp"
+#include "PalSDK/AudioLinkEngine_classes.hpp"
+#include "PalSDK/AudioLinkEngine_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function AudioLinkEngine.AudioLinkBlueprintInterface.PlayLink

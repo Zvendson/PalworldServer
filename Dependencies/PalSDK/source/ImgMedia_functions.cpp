@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ImgMedia_classes.hpp"
-#include "PalServer/ImgMedia_parameters.hpp"
+#include "PalSDK/ImgMedia_classes.hpp"
+#include "PalSDK/ImgMedia_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ImgMedia.ImgMediaSource.AddGlobalCamera

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalActionStepBase_classes.hpp"
-#include "PalServer/BP_PalActionStepBase_parameters.hpp"
+#include "PalSDK/BP_PalActionStepBase_classes.hpp"
+#include "PalSDK/BP_PalActionStepBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalActionStepBase.BP_PalActionStepBase_C.CheckFrontHight

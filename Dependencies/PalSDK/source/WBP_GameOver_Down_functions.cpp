@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_GameOver_Down_classes.hpp"
-#include "PalServer/WBP_GameOver_Down_parameters.hpp"
+#include "PalSDK/WBP_GameOver_Down_classes.hpp"
+#include "PalSDK/WBP_GameOver_Down_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_GameOver_Down.WBP_GameOver_Down_C.CloseWidget

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/CinematicCamera_classes.hpp"
-#include "PalServer/CinematicCamera_parameters.hpp"
+#include "PalSDK/CinematicCamera_classes.hpp"
+#include "PalSDK/CinematicCamera_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function CinematicCamera.CineCameraSettings.GetCineCameraSettings

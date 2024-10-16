@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_CharaCre_ColorSliderWin_classes.hpp"
-#include "PalServer/WBP_CharaCre_ColorSliderWin_parameters.hpp"
+#include "PalSDK/WBP_CharaCre_ColorSliderWin_classes.hpp"
+#include "PalSDK/WBP_CharaCre_ColorSliderWin_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_CharaCre_ColorSliderWin.WBP_CharaCre_ColorSliderWin_C.BndEvt__WBP_CharaCre_ColorSliderWin_WBP_CharaCre_ColorSelect_WithPreset_K2Node_ComponentBoundEvent_0_OnColorChanged__DelegateSignature

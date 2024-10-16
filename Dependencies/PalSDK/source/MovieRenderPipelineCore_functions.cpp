@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/MovieRenderPipelineCore_classes.hpp"
-#include "PalServer/MovieRenderPipelineCore_parameters.hpp"
+#include "PalSDK/MovieRenderPipelineCore_classes.hpp"
+#include "PalSDK/MovieRenderPipelineCore_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function MovieRenderPipelineCore.MoviePipelineSetting.SetIsEnabled

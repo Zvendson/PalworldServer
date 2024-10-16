@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PartnerSkillInfo_classes.hpp"
-#include "PalServer/WBP_PartnerSkillInfo_parameters.hpp"
+#include "PalSDK/WBP_PartnerSkillInfo_classes.hpp"
+#include "PalSDK/WBP_PartnerSkillInfo_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PartnerSkillInfo.WBP_PartnerSkillInfo_C.AnmEvent_HideShow

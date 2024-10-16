@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ABP_Anubis_Implementation_classes.hpp"
-#include "PalServer/ABP_Anubis_Implementation_parameters.hpp"
+#include "PalSDK/ABP_Anubis_Implementation_classes.hpp"
+#include "PalSDK/ABP_Anubis_Implementation_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ABP_Anubis_Implementation.ABP_Anubis_Implementation_C.UpperOverride

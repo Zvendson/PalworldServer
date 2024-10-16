@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalInvaderManager_classes.hpp"
-#include "PalServer/BP_PalInvaderManager_parameters.hpp"
+#include "PalSDK/BP_PalInvaderManager_classes.hpp"
+#include "PalSDK/BP_PalInvaderManager_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalInvaderManager.BP_PalInvaderManager_C.ExecuteUbergraph_BP_PalInvaderManager

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionCommonWork_classes.hpp"
-#include "PalServer/BP_ActionCommonWork_parameters.hpp"
+#include "PalSDK/BP_ActionCommonWork_classes.hpp"
+#include "PalSDK/BP_ActionCommonWork_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionCommonWork.BP_ActionCommonWork_C.ExecuteUbergraph_BP_ActionCommonWork

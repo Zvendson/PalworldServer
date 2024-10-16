@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/VariantManagerContent_classes.hpp"
-#include "PalServer/VariantManagerContent_parameters.hpp"
+#include "PalSDK/VariantManagerContent_classes.hpp"
+#include "PalSDK/VariantManagerContent_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function VariantManagerContent.LevelVariantSets.GetNumVariantSets

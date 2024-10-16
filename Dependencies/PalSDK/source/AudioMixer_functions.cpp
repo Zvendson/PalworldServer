@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/AudioMixer_classes.hpp"
-#include "PalServer/AudioMixer_parameters.hpp"
+#include "PalSDK/AudioMixer_classes.hpp"
+#include "PalSDK/AudioMixer_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function AudioMixer.SynthComponent.SetLowPassFilterEnabled

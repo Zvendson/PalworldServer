@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalSupplyIncident_classes.hpp"
-#include "PalServer/BP_PalSupplyIncident_parameters.hpp"
+#include "PalSDK/BP_PalSupplyIncident_classes.hpp"
+#include "PalSDK/BP_PalSupplyIncident_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalSupplyIncident.BP_PalSupplyIncident_C.BindDelegate_Action

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_GliderComponent_classes.hpp"
-#include "PalServer/BP_GliderComponent_parameters.hpp"
+#include "PalSDK/BP_GliderComponent_classes.hpp"
+#include "PalSDK/BP_GliderComponent_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_GliderComponent.BP_GliderComponent_C.CheckReturnSpawnedOtomo

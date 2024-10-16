@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalHungerIcon_classes.hpp"
-#include "PalServer/WBP_PalHungerIcon_parameters.hpp"
+#include "PalSDK/WBP_PalHungerIcon_classes.hpp"
+#include "PalSDK/WBP_PalHungerIcon_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalHungerIcon.WBP_PalHungerIcon_C.AnmEvent_Close

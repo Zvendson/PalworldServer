@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/GameplayCameras_classes.hpp"
-#include "PalServer/GameplayCameras_parameters.hpp"
+#include "PalSDK/GameplayCameras_classes.hpp"
+#include "PalSDK/GameplayCameras_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function GameplayCameras.GameplayCamerasSubsystem.PlayCameraAnimation

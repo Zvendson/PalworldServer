@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ActorLayerUtilities_classes.hpp"
-#include "PalServer/ActorLayerUtilities_parameters.hpp"
+#include "PalSDK/ActorLayerUtilities_classes.hpp"
+#include "PalSDK/ActorLayerUtilities_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ActorLayerUtilities.LayersBlueprintLibrary.AddActorToLayer

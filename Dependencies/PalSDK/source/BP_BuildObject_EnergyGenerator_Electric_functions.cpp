@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_BuildObject_EnergyGenerator_Electric_classes.hpp"
-#include "PalServer/BP_BuildObject_EnergyGenerator_Electric_parameters.hpp"
+#include "PalSDK/BP_BuildObject_EnergyGenerator_Electric_classes.hpp"
+#include "PalSDK/BP_BuildObject_EnergyGenerator_Electric_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_BuildObject_EnergyGenerator_Electric.BP_BuildObject_EnergyGenerator_Electric_C.OnEndGenerate

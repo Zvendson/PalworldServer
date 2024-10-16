@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalClimbingComponent_classes.hpp"
-#include "PalServer/BP_PalClimbingComponent_parameters.hpp"
+#include "PalSDK/BP_PalClimbingComponent_classes.hpp"
+#include "PalSDK/BP_PalClimbingComponent_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalClimbingComponent.BP_PalClimbingComponent_C.Cancel Ray Check

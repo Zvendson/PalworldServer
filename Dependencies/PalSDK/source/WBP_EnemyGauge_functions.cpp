@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_EnemyGauge_classes.hpp"
-#include "PalServer/WBP_EnemyGauge_parameters.hpp"
+#include "PalSDK/WBP_EnemyGauge_classes.hpp"
+#include "PalSDK/WBP_EnemyGauge_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_EnemyGauge.WBP_EnemyGauge_C.AnmEvent_BgChange_Enemy

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ALI_MonsterBase_classes.hpp"
-#include "PalServer/ALI_MonsterBase_parameters.hpp"
+#include "PalSDK/ALI_MonsterBase_classes.hpp"
+#include "PalSDK/ALI_MonsterBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ALI_MonsterBase.ALI_MonsterBase_C.UpperOverride

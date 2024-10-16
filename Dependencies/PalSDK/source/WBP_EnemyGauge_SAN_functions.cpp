@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_EnemyGauge_SAN_classes.hpp"
-#include "PalServer/WBP_EnemyGauge_SAN_parameters.hpp"
+#include "PalSDK/WBP_EnemyGauge_SAN_classes.hpp"
+#include "PalSDK/WBP_EnemyGauge_SAN_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_EnemyGauge_SAN.WBP_EnemyGauge_SAN_C.ExecuteUbergraph_WBP_EnemyGauge_SAN

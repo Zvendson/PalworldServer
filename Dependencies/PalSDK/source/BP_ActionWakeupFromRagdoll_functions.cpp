@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionWakeupFromRagdoll_classes.hpp"
-#include "PalServer/BP_ActionWakeupFromRagdoll_parameters.hpp"
+#include "PalSDK/BP_ActionWakeupFromRagdoll_classes.hpp"
+#include "PalSDK/BP_ActionWakeupFromRagdoll_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionWakeupFromRagdoll.BP_ActionWakeupFromRagdoll_C.ExecuteUbergraph_BP_ActionWakeupFromRagdoll

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ExplosiveModifierBase_classes.hpp"
-#include "PalServer/BP_ExplosiveModifierBase_parameters.hpp"
+#include "PalSDK/BP_ExplosiveModifierBase_classes.hpp"
+#include "PalSDK/BP_ExplosiveModifierBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ExplosiveModifierBase.BP_ExplosiveModifierBase_C.ExecuteUbergraph_BP_ExplosiveModifierBase

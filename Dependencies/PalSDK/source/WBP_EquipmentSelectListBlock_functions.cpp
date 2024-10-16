@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_EquipmentSelectListBlock_classes.hpp"
-#include "PalServer/WBP_EquipmentSelectListBlock_parameters.hpp"
+#include "PalSDK/WBP_EquipmentSelectListBlock_classes.hpp"
+#include "PalSDK/WBP_EquipmentSelectListBlock_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_EquipmentSelectListBlock.WBP_EquipmentSelectListBlock_C.EditCreatedSlotWidget

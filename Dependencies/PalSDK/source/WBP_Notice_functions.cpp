@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_Notice_classes.hpp"
-#include "PalServer/WBP_Notice_parameters.hpp"
+#include "PalSDK/WBP_Notice_classes.hpp"
+#include "PalSDK/WBP_Notice_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_Notice.WBP_Notice_C.AnmEvent_Close_Negative

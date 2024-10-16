@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/StemSpline_BP_classes.hpp"
-#include "PalServer/StemSpline_BP_parameters.hpp"
+#include "PalSDK/StemSpline_BP_classes.hpp"
+#include "PalSDK/StemSpline_BP_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function StemSpline_BP.StemSpline_BP_C.(Bridge)_TraceTowardsDirection

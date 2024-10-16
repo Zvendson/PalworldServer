@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalHUDLayout_classes.hpp"
-#include "PalServer/WBP_PalHUDLayout_parameters.hpp"
+#include "PalSDK/WBP_PalHUDLayout_classes.hpp"
+#include "PalSDK/WBP_PalHUDLayout_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalHUDLayout.WBP_PalHUDLayout_C.AddHUD

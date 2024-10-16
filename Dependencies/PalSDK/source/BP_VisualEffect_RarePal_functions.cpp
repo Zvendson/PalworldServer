@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_VisualEffect_RarePal_classes.hpp"
-#include "PalServer/BP_VisualEffect_RarePal_parameters.hpp"
+#include "PalSDK/BP_VisualEffect_RarePal_classes.hpp"
+#include "PalSDK/BP_VisualEffect_RarePal_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_VisualEffect_RarePal.BP_VisualEffect_RarePal_C.ExecuteUbergraph_BP_VisualEffect_RarePal

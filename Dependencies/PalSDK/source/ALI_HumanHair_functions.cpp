@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ALI_HumanHair_classes.hpp"
-#include "PalServer/ALI_HumanHair_parameters.hpp"
+#include "PalSDK/ALI_HumanHair_classes.hpp"
+#include "PalSDK/ALI_HumanHair_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ALI_HumanHair.ALI_HumanHair_C.HairLayer

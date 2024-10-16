@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalIncidentInvaderVisitorNPC_classes.hpp"
-#include "PalServer/BP_PalIncidentInvaderVisitorNPC_parameters.hpp"
+#include "PalSDK/BP_PalIncidentInvaderVisitorNPC_classes.hpp"
+#include "PalSDK/BP_PalIncidentInvaderVisitorNPC_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalIncidentInvaderVisitorNPC.BP_PalIncidentInvaderVisitorNPC_C.EndProc

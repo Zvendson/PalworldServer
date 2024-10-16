@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AIController_Interface_Invader_classes.hpp"
-#include "PalServer/BP_AIController_Interface_Invader_parameters.hpp"
+#include "PalSDK/BP_AIController_Interface_Invader_classes.hpp"
+#include "PalSDK/BP_AIController_Interface_Invader_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AIController_Interface_Invader.BP_AIController_Interface_Invader_C.BindOnInvaderArrivedDelegate

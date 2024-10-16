@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_CapturePrism_classes.hpp"
-#include "PalServer/BP_CapturePrism_parameters.hpp"
+#include "PalSDK/BP_CapturePrism_classes.hpp"
+#include "PalSDK/BP_CapturePrism_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_CapturePrism.BP_CapturePrism_C.DecrementBullet

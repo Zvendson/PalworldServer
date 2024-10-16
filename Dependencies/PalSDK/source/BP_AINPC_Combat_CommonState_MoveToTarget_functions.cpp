@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AINPC_Combat_CommonState_MoveToTarget_classes.hpp"
-#include "PalServer/BP_AINPC_Combat_CommonState_MoveToTarget_parameters.hpp"
+#include "PalSDK/BP_AINPC_Combat_CommonState_MoveToTarget_classes.hpp"
+#include "PalSDK/BP_AINPC_Combat_CommonState_MoveToTarget_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AINPC_Combat_CommonState_MoveToTarget.BP_AINPC_Combat_CommonState_MoveToTarget_C.ExecuteUbergraph_BP_AINPC_Combat_CommonState_MoveToTarget

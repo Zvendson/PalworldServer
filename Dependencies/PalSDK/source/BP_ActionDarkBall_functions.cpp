@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionDarkBall_classes.hpp"
-#include "PalServer/BP_ActionDarkBall_parameters.hpp"
+#include "PalSDK/BP_ActionDarkBall_classes.hpp"
+#include "PalSDK/BP_ActionDarkBall_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionDarkBall.BP_ActionDarkBall_C.ExecuteUbergraph_BP_ActionDarkBall

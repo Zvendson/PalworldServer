@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_BlinkedLog_classes.hpp"
-#include "PalServer/WBP_BlinkedLog_parameters.hpp"
+#include "PalSDK/WBP_BlinkedLog_classes.hpp"
+#include "PalSDK/WBP_BlinkedLog_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_BlinkedLog.WBP_BlinkedLog_C.Construct

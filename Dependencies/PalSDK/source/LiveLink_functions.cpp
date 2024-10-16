@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/LiveLink_classes.hpp"
-#include "PalServer/LiveLink_parameters.hpp"
+#include "PalSDK/LiveLink_classes.hpp"
+#include "PalSDK/LiveLink_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function LiveLink.LiveLinkBlueprintLibrary.ChildCount

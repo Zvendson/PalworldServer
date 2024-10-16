@@ -1,9 +1,9 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_VisualEffect_ChangeElement_Fire_classes.hpp"
+#include "PalSDK/BP_VisualEffect_ChangeElement_Fire_classes.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_VisualEffect_ChangeElement_Fire.BP_VisualEffect_ChangeElement_Fire_C.新規関数_0

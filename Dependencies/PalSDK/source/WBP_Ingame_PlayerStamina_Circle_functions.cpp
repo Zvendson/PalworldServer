@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_Ingame_PlayerStamina_Circle_classes.hpp"
-#include "PalServer/WBP_Ingame_PlayerStamina_Circle_parameters.hpp"
+#include "PalSDK/WBP_Ingame_PlayerStamina_Circle_classes.hpp"
+#include "PalSDK/WBP_Ingame_PlayerStamina_Circle_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_Ingame_PlayerStamina_Circle.WBP_Ingame_PlayerStamina_Circle_C.Construct

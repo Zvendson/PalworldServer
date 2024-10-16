@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_Explosion_Penguin_classes.hpp"
-#include "PalServer/BP_Explosion_Penguin_parameters.hpp"
+#include "PalSDK/BP_Explosion_Penguin_classes.hpp"
+#include "PalSDK/BP_Explosion_Penguin_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_Explosion_Penguin.BP_Explosion_Penguin_C.GetWeaponAttackType

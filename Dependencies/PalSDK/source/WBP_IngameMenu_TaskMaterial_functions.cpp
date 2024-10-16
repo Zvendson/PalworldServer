@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_IngameMenu_TaskMaterial_classes.hpp"
-#include "PalServer/WBP_IngameMenu_TaskMaterial_parameters.hpp"
+#include "PalSDK/WBP_IngameMenu_TaskMaterial_classes.hpp"
+#include "PalSDK/WBP_IngameMenu_TaskMaterial_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_IngameMenu_TaskMaterial.WBP_IngameMenu_TaskMaterial_C.SetHIdeWhenZeroFlag

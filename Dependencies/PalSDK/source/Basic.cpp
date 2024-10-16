@@ -1,11 +1,11 @@
 // Basic file containing function-implementations from Basic.hpp
 
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/CoreUObject_classes.hpp"
-#include "PalServer/CoreUObject_structs.hpp"
+#include "PalSDK/CoreUObject_classes.hpp"
+#include "PalSDK/CoreUObject_structs.hpp"
 
-namespace PalServer
+namespace PalSDK
 {
 
 class UClass* BasicFilesImpleUtils::FindClassByName(const std::string& Name)

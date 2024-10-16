@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_CombatHeliRpidWeaponComponent_WingMiso_classes.hpp"
-#include "PalServer/BP_CombatHeliRpidWeaponComponent_WingMiso_parameters.hpp"
+#include "PalSDK/BP_CombatHeliRpidWeaponComponent_WingMiso_classes.hpp"
+#include "PalSDK/BP_CombatHeliRpidWeaponComponent_WingMiso_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_CombatHeliRpidWeaponComponent_WingMiso.BP_CombatHeliRpidWeaponComponent_WingMiso_C.GetMuzzleTransform

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_LoupeBase_classes.hpp"
-#include "PalServer/WBP_LoupeBase_parameters.hpp"
+#include "PalSDK/WBP_LoupeBase_classes.hpp"
+#include "PalSDK/WBP_LoupeBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_LoupeBase.WBP_LoupeBase_C.AdjustAlpha

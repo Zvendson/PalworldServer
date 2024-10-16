@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_VisualEffect_ChangeElementBase_classes.hpp"
-#include "PalServer/BP_VisualEffect_ChangeElementBase_parameters.hpp"
+#include "PalSDK/BP_VisualEffect_ChangeElementBase_classes.hpp"
+#include "PalSDK/BP_VisualEffect_ChangeElementBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_VisualEffect_ChangeElementBase.BP_VisualEffect_ChangeElementBase_C.DeleteEffect

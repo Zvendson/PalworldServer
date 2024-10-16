@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_HomingMissile_MissileLauncher_NPC_classes.hpp"
-#include "PalServer/BP_HomingMissile_MissileLauncher_NPC_parameters.hpp"
+#include "PalSDK/BP_HomingMissile_MissileLauncher_NPC_classes.hpp"
+#include "PalSDK/BP_HomingMissile_MissileLauncher_NPC_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_HomingMissile_MissileLauncher_NPC.BP_HomingMissile_MissileLauncher_NPC_C.Find Target Actor

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/PPSkyCreator_ControllerExample_classes.hpp"
-#include "PalServer/PPSkyCreator_ControllerExample_parameters.hpp"
+#include "PalSDK/PPSkyCreator_ControllerExample_classes.hpp"
+#include "PalSDK/PPSkyCreator_ControllerExample_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function PPSkyCreator_ControllerExample.PPSkyCreator_ControllerExample_C.ExecuteUbergraph_PPSkyCreator_ControllerExample

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalBossTower_classes.hpp"
-#include "PalServer/BP_PalBossTower_parameters.hpp"
+#include "PalSDK/BP_PalBossTower_classes.hpp"
+#include "PalSDK/BP_PalBossTower_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalBossTower.BP_PalBossTower_C.BndEvt__BP_PalBossTower_Box_K2Node_ComponentBoundEvent_10_ComponentEndOverlapSignature__DelegateSignature

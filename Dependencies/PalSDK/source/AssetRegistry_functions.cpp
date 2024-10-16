@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/AssetRegistry_classes.hpp"
-#include "PalServer/AssetRegistry_parameters.hpp"
+#include "PalSDK/AssetRegistry_classes.hpp"
+#include "PalSDK/AssetRegistry_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function AssetRegistry.AssetRegistryHelpers.CreateAssetData

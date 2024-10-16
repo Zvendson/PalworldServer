@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AIAction_NPC_Relax_Wander_classes.hpp"
-#include "PalServer/BP_AIAction_NPC_Relax_Wander_parameters.hpp"
+#include "PalSDK/BP_AIAction_NPC_Relax_Wander_classes.hpp"
+#include "PalSDK/BP_AIAction_NPC_Relax_Wander_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AIAction_NPC_Relax_Wander.BP_AIAction_NPC_Relax_Wander_C.ActionStart

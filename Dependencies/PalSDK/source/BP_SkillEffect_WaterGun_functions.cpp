@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_SkillEffect_WaterGun_classes.hpp"
-#include "PalServer/BP_SkillEffect_WaterGun_parameters.hpp"
+#include "PalSDK/BP_SkillEffect_WaterGun_classes.hpp"
+#include "PalSDK/BP_SkillEffect_WaterGun_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_SkillEffect_WaterGun.BP_SkillEffect_WaterGun_C.BndEvt__BP_SkillEffect_WaterGun_AttackFilter_K2Node_ComponentBoundEvent_0_OnAttackDelegate__DelegateSignature

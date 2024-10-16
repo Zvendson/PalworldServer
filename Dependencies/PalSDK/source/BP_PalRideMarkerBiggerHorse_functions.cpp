@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalRideMarkerBiggerHorse_classes.hpp"
-#include "PalServer/BP_PalRideMarkerBiggerHorse_parameters.hpp"
+#include "PalSDK/BP_PalRideMarkerBiggerHorse_classes.hpp"
+#include "PalSDK/BP_PalRideMarkerBiggerHorse_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalRideMarkerBiggerHorse.BP_PalRideMarkerBiggerHorse_C.ReceiveTick

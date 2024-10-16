@@ -1,0 +1,24 @@
+#pragma once
+
+#include "Basic.hpp"
+
+
+namespace PalSDK::Params
+{
+
+// Function WBP_CharaCre_ListContent.WBP_CharaCre_ListContent_C.ExecuteUbergraph_WBP_CharaCre_ListContent
+// 0x0020 (0x0020 - 0x0000)
+struct WBP_CharaCre_ListContent_C_ExecuteUbergraph_WBP_CharaCre_ListContent final
+{
+public:
+	int32                                         EntryPoint;                                        // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_4[0x4];                                        // 0x0004(0x0004)(Fixing Size After Last Property [ Dumper-7 ])
+	class FText                                   CallFunc_GetLocalizedTextFromHandle_Text;          // 0x0008(0x0018)()
+};
+static_assert(alignof(WBP_CharaCre_ListContent_C_ExecuteUbergraph_WBP_CharaCre_ListContent) == 0x000008, "Wrong alignment on WBP_CharaCre_ListContent_C_ExecuteUbergraph_WBP_CharaCre_ListContent");
+static_assert(sizeof(WBP_CharaCre_ListContent_C_ExecuteUbergraph_WBP_CharaCre_ListContent) == 0x000020, "Wrong size on WBP_CharaCre_ListContent_C_ExecuteUbergraph_WBP_CharaCre_ListContent");
+static_assert(offsetof(WBP_CharaCre_ListContent_C_ExecuteUbergraph_WBP_CharaCre_ListContent, EntryPoint) == 0x000000, "Member 'WBP_CharaCre_ListContent_C_ExecuteUbergraph_WBP_CharaCre_ListContent::EntryPoint' has a wrong offset!");
+static_assert(offsetof(WBP_CharaCre_ListContent_C_ExecuteUbergraph_WBP_CharaCre_ListContent, CallFunc_GetLocalizedTextFromHandle_Text) == 0x000008, "Member 'WBP_CharaCre_ListContent_C_ExecuteUbergraph_WBP_CharaCre_ListContent::CallFunc_GetLocalizedTextFromHandle_Text' has a wrong offset!");
+
+}
+

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_BuildObject_CharacterSkinChange_classes.hpp"
-#include "PalServer/BP_BuildObject_CharacterSkinChange_parameters.hpp"
+#include "PalSDK/BP_BuildObject_CharacterSkinChange_classes.hpp"
+#include "PalSDK/BP_BuildObject_CharacterSkinChange_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_BuildObject_CharacterSkinChange.BP_BuildObject_CharacterSkinChange_C.ExecuteUbergraph_BP_BuildObject_CharacterSkinChange

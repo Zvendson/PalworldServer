@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_CapturePrismBullet_classes.hpp"
-#include "PalServer/BP_CapturePrismBullet_parameters.hpp"
+#include "PalSDK/BP_CapturePrismBullet_classes.hpp"
+#include "PalSDK/BP_CapturePrismBullet_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_CapturePrismBullet.BP_CapturePrismBullet_C.BndEvt__BP_CapturePrismBullet_ProjectileMovement_K2Node_ComponentBoundEvent_0_OnProjectileBounceDelegate__DelegateSignature

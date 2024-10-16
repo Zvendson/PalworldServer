@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/LS_Arena_PreBattle_Cutscene_classes.hpp"
-#include "PalServer/LS_Arena_PreBattle_Cutscene_parameters.hpp"
+#include "PalSDK/LS_Arena_PreBattle_Cutscene_classes.hpp"
+#include "PalSDK/LS_Arena_PreBattle_Cutscene_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function LS_Arena_PreBattle_Cutscene.LS_Arena_PreBattle_Cutscene (Director BP)_C.ExecuteUbergraph_LS_Arena_PreBattle_Cutscene (Director BP)

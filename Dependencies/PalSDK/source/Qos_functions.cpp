@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/Qos_classes.hpp"
-#include "PalServer/Qos_parameters.hpp"
+#include "PalSDK/Qos_classes.hpp"
+#include "PalSDK/Qos_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function Qos.QosBeaconClient.ClientQosResponse

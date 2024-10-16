@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AIAction_BaseCampRecoverHungry_classes.hpp"
-#include "PalServer/BP_AIAction_BaseCampRecoverHungry_parameters.hpp"
+#include "PalSDK/BP_AIAction_BaseCampRecoverHungry_classes.hpp"
+#include "PalSDK/BP_AIAction_BaseCampRecoverHungry_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AIAction_BaseCampRecoverHungry.BP_AIAction_BaseCampRecoverHungry_C.ActionFinished

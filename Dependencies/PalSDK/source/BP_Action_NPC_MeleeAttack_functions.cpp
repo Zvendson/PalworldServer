@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_Action_NPC_MeleeAttack_classes.hpp"
-#include "PalServer/BP_Action_NPC_MeleeAttack_parameters.hpp"
+#include "PalSDK/BP_Action_NPC_MeleeAttack_classes.hpp"
+#include "PalSDK/BP_Action_NPC_MeleeAttack_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_Action_NPC_MeleeAttack.BP_Action_NPC_MeleeAttack_C.ExecuteUbergraph_BP_Action_NPC_MeleeAttack

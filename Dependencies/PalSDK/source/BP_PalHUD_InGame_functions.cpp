@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalHUD_InGame_classes.hpp"
-#include "PalServer/BP_PalHUD_InGame_parameters.hpp"
+#include "PalSDK/BP_PalHUD_InGame_classes.hpp"
+#include "PalSDK/BP_PalHUD_InGame_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalHUD_InGame.BP_PalHUD_InGame_C.AsyncLoadAndCreateWidget

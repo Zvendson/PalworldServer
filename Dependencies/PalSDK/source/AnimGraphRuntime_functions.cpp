@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/AnimGraphRuntime_classes.hpp"
-#include "PalServer/AnimGraphRuntime_parameters.hpp"
+#include "PalSDK/AnimGraphRuntime_classes.hpp"
+#include "PalSDK/AnimGraphRuntime_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function AnimGraphRuntime.BlendSpacePlayerLibrary.ConvertToBlendSpacePlayer

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/CustomMeshComponent_classes.hpp"
-#include "PalServer/CustomMeshComponent_parameters.hpp"
+#include "PalSDK/CustomMeshComponent_classes.hpp"
+#include "PalSDK/CustomMeshComponent_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function CustomMeshComponent.CustomMeshComponent.AddCustomMeshTriangles

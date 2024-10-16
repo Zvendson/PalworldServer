@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_OtomoPalHolderComponentForNPC_classes.hpp"
-#include "PalServer/BP_OtomoPalHolderComponentForNPC_parameters.hpp"
+#include "PalSDK/BP_OtomoPalHolderComponentForNPC_classes.hpp"
+#include "PalSDK/BP_OtomoPalHolderComponentForNPC_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_OtomoPalHolderComponentForNPC.BP_OtomoPalHolderComponentForNPC_C.ExecuteUbergraph_BP_OtomoPalHolderComponentForNPC

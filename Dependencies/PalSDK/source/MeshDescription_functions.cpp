@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/MeshDescription_classes.hpp"
-#include "PalServer/MeshDescription_parameters.hpp"
+#include "PalSDK/MeshDescription_classes.hpp"
+#include "PalSDK/MeshDescription_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function MeshDescription.MeshDescriptionBase.ComputePolygonTriangulation

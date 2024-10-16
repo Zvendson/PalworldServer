@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/CameraCalibrationCore_classes.hpp"
-#include "PalServer/CameraCalibrationCore_parameters.hpp"
+#include "PalSDK/CameraCalibrationCore_classes.hpp"
+#include "PalSDK/CameraCalibrationCore_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function CameraCalibrationCore.CalibrationPointComponent.RebuildVertices

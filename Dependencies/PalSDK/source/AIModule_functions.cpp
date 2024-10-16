@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/AIModule_classes.hpp"
-#include "PalServer/AIModule_parameters.hpp"
+#include "PalSDK/AIModule_classes.hpp"
+#include "PalSDK/AIModule_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function AIModule.AIAsyncTaskBlueprintProxy.OnMoveCompleted

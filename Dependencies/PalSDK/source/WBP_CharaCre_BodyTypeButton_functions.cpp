@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_CharaCre_BodyTypeButton_classes.hpp"
-#include "PalServer/WBP_CharaCre_BodyTypeButton_parameters.hpp"
+#include "PalSDK/WBP_CharaCre_BodyTypeButton_classes.hpp"
+#include "PalSDK/WBP_CharaCre_BodyTypeButton_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_CharaCre_BodyTypeButton.WBP_CharaCre_BodyTypeButton_C.AnmEvent_Hover

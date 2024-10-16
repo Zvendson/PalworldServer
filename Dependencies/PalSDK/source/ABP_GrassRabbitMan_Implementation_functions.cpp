@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ABP_GrassRabbitMan_Implementation_classes.hpp"
-#include "PalServer/ABP_GrassRabbitMan_Implementation_parameters.hpp"
+#include "PalSDK/ABP_GrassRabbitMan_Implementation_classes.hpp"
+#include "PalSDK/ABP_GrassRabbitMan_Implementation_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ABP_GrassRabbitMan_Implementation.ABP_GrassRabbitMan_Implementation_C.UpperOverride

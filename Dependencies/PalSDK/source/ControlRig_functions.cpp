@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ControlRig_classes.hpp"
-#include "PalServer/ControlRig_parameters.hpp"
+#include "PalSDK/ControlRig_classes.hpp"
+#include "PalSDK/ControlRig_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ControlRig.ControlRigShapeActor.OnEnabledChanged

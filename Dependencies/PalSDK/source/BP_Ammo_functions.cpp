@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_Ammo_classes.hpp"
-#include "PalServer/BP_Ammo_parameters.hpp"
+#include "PalSDK/BP_Ammo_classes.hpp"
+#include "PalSDK/BP_Ammo_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_Ammo.BP_Ammo_C.ExecuteUbergraph_BP_Ammo

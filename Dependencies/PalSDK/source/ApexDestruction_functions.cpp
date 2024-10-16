@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ApexDestruction_classes.hpp"
-#include "PalServer/ApexDestruction_parameters.hpp"
+#include "PalSDK/ApexDestruction_classes.hpp"
+#include "PalSDK/ApexDestruction_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ApexDestruction.DestructibleComponent.ApplyDamage

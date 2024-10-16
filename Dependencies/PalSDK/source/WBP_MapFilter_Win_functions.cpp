@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_MapFilter_Win_classes.hpp"
-#include "PalServer/WBP_MapFilter_Win_parameters.hpp"
+#include "PalSDK/WBP_MapFilter_Win_classes.hpp"
+#include "PalSDK/WBP_MapFilter_Win_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_MapFilter_Win.WBP_MapFilter_Win_C.ChangeFilter

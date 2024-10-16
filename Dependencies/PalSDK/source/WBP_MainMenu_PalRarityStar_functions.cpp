@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_MainMenu_PalRarityStar_classes.hpp"
-#include "PalServer/WBP_MainMenu_PalRarityStar_parameters.hpp"
+#include "PalSDK/WBP_MainMenu_PalRarityStar_classes.hpp"
+#include "PalSDK/WBP_MainMenu_PalRarityStar_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_MainMenu_PalRarityStar.WBP_MainMenu_PalRarityStar_C.AnmEvent_ForceOff

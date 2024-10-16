@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_NPC_Base_classes.hpp"
-#include "PalServer/BP_NPC_Base_parameters.hpp"
+#include "PalSDK/BP_NPC_Base_classes.hpp"
+#include "PalSDK/BP_NPC_Base_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_NPC_Base.BP_NPC_Base_C.BndEvt__BP_NPC_Base_CharacterMovement_K2Node_ComponentBoundEvent_0_OnJumpDelegate__DelegateSignature

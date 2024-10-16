@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_MapPoint_Info_RespawnData_classes.hpp"
-#include "PalServer/WBP_MapPoint_Info_RespawnData_parameters.hpp"
+#include "PalSDK/WBP_MapPoint_Info_RespawnData_classes.hpp"
+#include "PalSDK/WBP_MapPoint_Info_RespawnData_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_MapPoint_Info_RespawnData.WBP_MapPoint_Info_RespawnData_C.Construct

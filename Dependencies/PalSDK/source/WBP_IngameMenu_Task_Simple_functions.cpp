@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_IngameMenu_Task_Simple_classes.hpp"
-#include "PalServer/WBP_IngameMenu_Task_Simple_parameters.hpp"
+#include "PalSDK/WBP_IngameMenu_Task_Simple_classes.hpp"
+#include "PalSDK/WBP_IngameMenu_Task_Simple_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_IngameMenu_Task_Simple.WBP_IngameMenu_Task_Simple_C.AddItemInfo

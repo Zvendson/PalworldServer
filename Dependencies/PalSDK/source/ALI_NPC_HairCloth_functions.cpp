@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ALI_NPC_HairCloth_classes.hpp"
-#include "PalServer/ALI_NPC_HairCloth_parameters.hpp"
+#include "PalSDK/ALI_NPC_HairCloth_classes.hpp"
+#include "PalSDK/ALI_NPC_HairCloth_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ALI_NPC_HairCloth.ALI_NPC_HairCloth_C.NPC_HairClothLayer

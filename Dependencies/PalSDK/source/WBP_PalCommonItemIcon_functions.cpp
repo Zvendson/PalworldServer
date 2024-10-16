@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalCommonItemIcon_classes.hpp"
-#include "PalServer/WBP_PalCommonItemIcon_parameters.hpp"
+#include "PalSDK/WBP_PalCommonItemIcon_classes.hpp"
+#include "PalSDK/WBP_PalCommonItemIcon_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalCommonItemIcon.WBP_PalCommonItemIcon_C.ExecuteUbergraph_WBP_PalCommonItemIcon

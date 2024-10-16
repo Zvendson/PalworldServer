@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_GameOver_Defeat_classes.hpp"
-#include "PalServer/WBP_GameOver_Defeat_parameters.hpp"
+#include "PalSDK/WBP_GameOver_Defeat_classes.hpp"
+#include "PalSDK/WBP_GameOver_Defeat_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_GameOver_Defeat.WBP_GameOver_Defeat_C.AnmEvent_Close

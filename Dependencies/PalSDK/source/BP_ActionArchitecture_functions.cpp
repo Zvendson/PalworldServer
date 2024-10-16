@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionArchitecture_classes.hpp"
-#include "PalServer/BP_ActionArchitecture_parameters.hpp"
+#include "PalSDK/BP_ActionArchitecture_classes.hpp"
+#include "PalSDK/BP_ActionArchitecture_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionArchitecture.BP_ActionArchitecture_C.ExecuteUbergraph_BP_ActionArchitecture

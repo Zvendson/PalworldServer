@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_NPCAIController_classes.hpp"
-#include "PalServer/BP_NPCAIController_parameters.hpp"
+#include "PalSDK/BP_NPCAIController_classes.hpp"
+#include "PalSDK/BP_NPCAIController_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_NPCAIController.BP_NPCAIController_C.CreateOtomo

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_EnemyExclamationMarkIcon_classes.hpp"
-#include "PalServer/WBP_EnemyExclamationMarkIcon_parameters.hpp"
+#include "PalSDK/WBP_EnemyExclamationMarkIcon_classes.hpp"
+#include "PalSDK/WBP_EnemyExclamationMarkIcon_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_EnemyExclamationMarkIcon.WBP_EnemyExclamationMarkIcon_C.CheckEnd

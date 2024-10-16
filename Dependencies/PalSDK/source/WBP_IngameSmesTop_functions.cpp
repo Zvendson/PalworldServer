@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_IngameSmesTop_classes.hpp"
-#include "PalServer/WBP_IngameSmesTop_parameters.hpp"
+#include "PalSDK/WBP_IngameSmesTop_classes.hpp"
+#include "PalSDK/WBP_IngameSmesTop_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_IngameSmesTop.WBP_IngameSmesTop_C.AnmEvent_Levelup

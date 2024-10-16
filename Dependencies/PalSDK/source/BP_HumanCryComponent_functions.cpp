@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_HumanCryComponent_classes.hpp"
-#include "PalServer/BP_HumanCryComponent_parameters.hpp"
+#include "PalSDK/BP_HumanCryComponent_classes.hpp"
+#include "PalSDK/BP_HumanCryComponent_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_HumanCryComponent.BP_HumanCryComponent_C.BP_HumanCryComponent_AutoGenFunc

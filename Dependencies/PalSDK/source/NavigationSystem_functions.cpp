@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/NavigationSystem_classes.hpp"
-#include "PalServer/NavigationSystem_parameters.hpp"
+#include "PalSDK/NavigationSystem_classes.hpp"
+#include "PalSDK/NavigationSystem_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function NavigationSystem.RecastNavMesh.K2_ReplaceAreaInTileBounds

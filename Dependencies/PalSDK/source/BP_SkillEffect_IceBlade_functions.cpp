@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_SkillEffect_IceBlade_classes.hpp"
-#include "PalServer/BP_SkillEffect_IceBlade_parameters.hpp"
+#include "PalSDK/BP_SkillEffect_IceBlade_classes.hpp"
+#include "PalSDK/BP_SkillEffect_IceBlade_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_SkillEffect_IceBlade.BP_SkillEffect_IceBlade_C.BndEvt__BP_SkillEffect_WindCutter_MovementSphereRoot_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature

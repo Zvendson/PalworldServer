@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/ChaosCaching_classes.hpp"
-#include "PalServer/ChaosCaching_parameters.hpp"
+#include "PalSDK/ChaosCaching_classes.hpp"
+#include "PalSDK/ChaosCaching_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function ChaosCaching.ChaosCacheManager.ResetAllComponentTransforms

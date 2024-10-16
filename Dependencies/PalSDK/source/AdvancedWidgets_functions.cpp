@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/AdvancedWidgets_classes.hpp"
-#include "PalServer/AdvancedWidgets_parameters.hpp"
+#include "PalSDK/AdvancedWidgets_classes.hpp"
+#include "PalSDK/AdvancedWidgets_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function AdvancedWidgets.RadialSlider.SetAngularOffset

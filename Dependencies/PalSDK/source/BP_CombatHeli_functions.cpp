@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_CombatHeli_classes.hpp"
-#include "PalServer/BP_CombatHeli_parameters.hpp"
+#include "PalSDK/BP_CombatHeli_classes.hpp"
+#include "PalSDK/BP_CombatHeli_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_CombatHeli.BP_CombatHeli_C.ExecuteUbergraph_BP_CombatHeli

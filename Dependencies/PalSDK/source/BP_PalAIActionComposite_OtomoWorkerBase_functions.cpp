@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalAIActionComposite_OtomoWorkerBase_classes.hpp"
-#include "PalServer/BP_PalAIActionComposite_OtomoWorkerBase_parameters.hpp"
+#include "PalSDK/BP_PalAIActionComposite_OtomoWorkerBase_classes.hpp"
+#include "PalSDK/BP_PalAIActionComposite_OtomoWorkerBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalAIActionComposite_OtomoWorkerBase.BP_PalAIActionComposite_OtomoWorkerBase_C.OnTickInWaitAction

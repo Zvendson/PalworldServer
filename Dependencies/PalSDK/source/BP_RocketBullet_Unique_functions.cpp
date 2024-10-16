@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_RocketBullet_Unique_classes.hpp"
-#include "PalServer/BP_RocketBullet_Unique_parameters.hpp"
+#include "PalSDK/BP_RocketBullet_Unique_classes.hpp"
+#include "PalSDK/BP_RocketBullet_Unique_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_RocketBullet_Unique.BP_RocketBullet_Unique_C.GetExplosionClass

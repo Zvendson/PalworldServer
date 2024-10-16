@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/OpenColorIO_classes.hpp"
-#include "PalServer/OpenColorIO_parameters.hpp"
+#include "PalSDK/OpenColorIO_classes.hpp"
+#include "PalSDK/OpenColorIO_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function OpenColorIO.OpenColorIOBlueprintLibrary.ApplyColorSpaceTransform

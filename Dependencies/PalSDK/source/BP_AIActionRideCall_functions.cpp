@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AIActionRideCall_classes.hpp"
-#include "PalServer/BP_AIActionRideCall_parameters.hpp"
+#include "PalSDK/BP_AIActionRideCall_classes.hpp"
+#include "PalSDK/BP_AIActionRideCall_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AIActionRideCall.BP_AIActionRideCall_C.ActionTick

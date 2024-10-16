@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_Player_Female_classes.hpp"
-#include "PalServer/BP_Player_Female_parameters.hpp"
+#include "PalSDK/BP_Player_Female_classes.hpp"
+#include "PalSDK/BP_Player_Female_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_Player_Female.BP_Player_Female_C.BndEvt__BP_Palmi_v2_CharacterMovement_K2Node_ComponentBoundEvent_0_OnChangeSliding__DelegateSignature

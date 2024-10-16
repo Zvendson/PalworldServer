@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/CommonUser_classes.hpp"
-#include "PalServer/CommonUser_parameters.hpp"
+#include "PalSDK/CommonUser_classes.hpp"
+#include "PalSDK/CommonUser_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function CommonUser.AsyncAction_CommonUserInitialize.InitializeForLocalPlay

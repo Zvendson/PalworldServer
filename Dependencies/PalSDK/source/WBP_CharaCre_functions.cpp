@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_CharaCre_classes.hpp"
-#include "PalServer/WBP_CharaCre_parameters.hpp"
+#include "PalSDK/WBP_CharaCre_classes.hpp"
+#include "PalSDK/WBP_CharaCre_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_CharaCre.WBP_CharaCre_C.AnmEvent_NoRotation

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_SimpleLog_classes.hpp"
-#include "PalServer/WBP_SimpleLog_parameters.hpp"
+#include "PalSDK/WBP_SimpleLog_classes.hpp"
+#include "PalSDK/WBP_SimpleLog_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_SimpleLog.WBP_SimpleLog_C.ExecuteUbergraph_WBP_SimpleLog

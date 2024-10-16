@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/LiveLinkAnimationCore_classes.hpp"
-#include "PalServer/LiveLinkAnimationCore_parameters.hpp"
+#include "PalSDK/LiveLinkAnimationCore_classes.hpp"
+#include "PalSDK/LiveLinkAnimationCore_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function LiveLinkAnimationCore.LiveLinkInstance.SetRetargetAsset

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_GrapplingGun_classes.hpp"
-#include "PalServer/BP_GrapplingGun_parameters.hpp"
+#include "PalSDK/BP_GrapplingGun_classes.hpp"
+#include "PalSDK/BP_GrapplingGun_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_GrapplingGun.BP_GrapplingGun_C.CalcCoolTimeRate

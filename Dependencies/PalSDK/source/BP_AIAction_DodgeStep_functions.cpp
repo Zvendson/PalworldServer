@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AIAction_DodgeStep_classes.hpp"
-#include "PalServer/BP_AIAction_DodgeStep_parameters.hpp"
+#include "PalSDK/BP_AIAction_DodgeStep_classes.hpp"
+#include "PalSDK/BP_AIAction_DodgeStep_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AIAction_DodgeStep.BP_AIAction_DodgeStep_C.ActionStart

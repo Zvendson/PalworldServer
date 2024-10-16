@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionStepBase_classes.hpp"
-#include "PalServer/BP_ActionStepBase_parameters.hpp"
+#include "PalSDK/BP_ActionStepBase_classes.hpp"
+#include "PalSDK/BP_ActionStepBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionStepBase.BP_ActionStepBase_C.CanGainSP

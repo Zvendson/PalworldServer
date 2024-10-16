@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/Paper2D_classes.hpp"
-#include "PalServer/Paper2D_parameters.hpp"
+#include "PalSDK/Paper2D_classes.hpp"
+#include "PalSDK/Paper2D_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function Paper2D.PaperFlipbook.GetKeyFrameIndexAtTime

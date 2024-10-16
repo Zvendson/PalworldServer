@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/SkyCreatorPlugin_classes.hpp"
-#include "PalServer/SkyCreatorPlugin_parameters.hpp"
+#include "PalSDK/SkyCreatorPlugin_classes.hpp"
+#include "PalSDK/SkyCreatorPlugin_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function SkyCreatorPlugin.SkyCreator.FindLightningPosition

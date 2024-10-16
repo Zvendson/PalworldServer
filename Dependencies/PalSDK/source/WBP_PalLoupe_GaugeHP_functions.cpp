@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_PalLoupe_GaugeHP_classes.hpp"
-#include "PalServer/WBP_PalLoupe_GaugeHP_parameters.hpp"
+#include "PalSDK/WBP_PalLoupe_GaugeHP_classes.hpp"
+#include "PalSDK/WBP_PalLoupe_GaugeHP_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_PalLoupe_GaugeHP.WBP_PalLoupe_GaugeHP_C.SetPercent

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_AIAction_Invader_ReturnSpawnedPoint_classes.hpp"
-#include "PalServer/BP_AIAction_Invader_ReturnSpawnedPoint_parameters.hpp"
+#include "PalSDK/BP_AIAction_Invader_ReturnSpawnedPoint_classes.hpp"
+#include "PalSDK/BP_AIAction_Invader_ReturnSpawnedPoint_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_AIAction_Invader_ReturnSpawnedPoint.BP_AIAction_Invader_ReturnSpawnedPoint_C.ActionStart

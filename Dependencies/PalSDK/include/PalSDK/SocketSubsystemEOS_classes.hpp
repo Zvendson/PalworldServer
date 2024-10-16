@@ -1,0 +1,56 @@
+#pragma once
+
+#include "Basic.hpp"
+
+#include "OnlineSubsystemUtils_classes.hpp"
+
+
+namespace PalSDK
+{
+
+// Class SocketSubsystemEOS.NetDriverEOSBase
+// 0x0008 (0x0848 - 0x0840)
+class UNetDriverEOSBase : public UIpNetDriver
+{
+public:
+	bool                                          bIsPassthrough;                                    // 0x0840(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                          bIsUsingP2PSockets;                                // 0x0841(0x0001)(ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint8                                         Pad_842[0x6];                                      // 0x0842(0x0006)(Fixing Struct Size After Last Property [ Dumper-7 ])
+
+public:
+	static class UClass* StaticClass()
+	{
+		return StaticClassImpl<"NetDriverEOSBase">();
+	}
+	static class UNetDriverEOSBase* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<UNetDriverEOSBase>();
+	}
+};
+static_assert(alignof(UNetDriverEOSBase) == 0x000008, "Wrong alignment on UNetDriverEOSBase");
+static_assert(sizeof(UNetDriverEOSBase) == 0x000848, "Wrong size on UNetDriverEOSBase");
+static_assert(offsetof(UNetDriverEOSBase, bIsPassthrough) == 0x000840, "Member 'UNetDriverEOSBase::bIsPassthrough' has a wrong offset!");
+static_assert(offsetof(UNetDriverEOSBase, bIsUsingP2PSockets) == 0x000841, "Member 'UNetDriverEOSBase::bIsUsingP2PSockets' has a wrong offset!");
+
+// Class SocketSubsystemEOS.NetConnectionEOS
+// 0x0010 (0x33B0 - 0x33A0)
+class UNetConnectionEOS final : public UIpConnection
+{
+public:
+	uint8                                         Pad_33A0[0x10];                                    // 0x33A0(0x0010)(Fixing Struct Size After Last Property [ Dumper-7 ])
+
+public:
+	static class UClass* StaticClass()
+	{
+		return StaticClassImpl<"NetConnectionEOS">();
+	}
+	static class UNetConnectionEOS* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<UNetConnectionEOS>();
+	}
+};
+static_assert(alignof(UNetConnectionEOS) == 0x000010, "Wrong alignment on UNetConnectionEOS");
+static_assert(sizeof(UNetConnectionEOS) == 0x0033B0, "Wrong size on UNetConnectionEOS");
+
+}
+

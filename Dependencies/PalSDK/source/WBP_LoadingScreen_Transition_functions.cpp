@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_LoadingScreen_Transition_classes.hpp"
-#include "PalServer/WBP_LoadingScreen_Transition_parameters.hpp"
+#include "PalSDK/WBP_LoadingScreen_Transition_classes.hpp"
+#include "PalSDK/WBP_LoadingScreen_Transition_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_LoadingScreen_Transition.WBP_LoadingScreen_Transition_C.Construct

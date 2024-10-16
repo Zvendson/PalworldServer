@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_MainMenu_Pal_Skill_Unique_classes.hpp"
-#include "PalServer/WBP_MainMenu_Pal_Skill_Unique_parameters.hpp"
+#include "PalSDK/WBP_MainMenu_Pal_Skill_Unique_classes.hpp"
+#include "PalSDK/WBP_MainMenu_Pal_Skill_Unique_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_MainMenu_Pal_Skill_Unique.WBP_MainMenu_Pal_Skill_Unique_C.SetupBySaveParameter

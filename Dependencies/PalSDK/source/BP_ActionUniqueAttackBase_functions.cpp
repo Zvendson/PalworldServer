@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_ActionUniqueAttackBase_classes.hpp"
-#include "PalServer/BP_ActionUniqueAttackBase_parameters.hpp"
+#include "PalSDK/BP_ActionUniqueAttackBase_classes.hpp"
+#include "PalSDK/BP_ActionUniqueAttackBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_ActionUniqueAttackBase.BP_ActionUniqueAttackBase_C.AttachToOwner

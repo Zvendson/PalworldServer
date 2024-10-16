@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BPI_SkillEffect_classes.hpp"
-#include "PalServer/BPI_SkillEffect_parameters.hpp"
+#include "PalSDK/BPI_SkillEffect_classes.hpp"
+#include "PalSDK/BPI_SkillEffect_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BPI_SkillEffect.BPI_SkillEffect_C.CancelShoot

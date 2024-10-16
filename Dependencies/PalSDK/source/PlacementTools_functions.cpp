@@ -1,9 +1,9 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/PlacementTools_classes.hpp"
+#include "PalSDK/PlacementTools_classes.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function PlacementTools.PlacementToolBase.Generate

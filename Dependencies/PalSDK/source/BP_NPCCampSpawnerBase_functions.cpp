@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_NPCCampSpawnerBase_classes.hpp"
-#include "PalServer/BP_NPCCampSpawnerBase_parameters.hpp"
+#include "PalSDK/BP_NPCCampSpawnerBase_classes.hpp"
+#include "PalSDK/BP_NPCCampSpawnerBase_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_NPCCampSpawnerBase.BP_NPCCampSpawnerBase_C.CheckWorldLoadComplete

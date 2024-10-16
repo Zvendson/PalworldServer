@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/AudioSynesthesia_classes.hpp"
-#include "PalServer/AudioSynesthesia_parameters.hpp"
+#include "PalSDK/AudioSynesthesia_classes.hpp"
+#include "PalSDK/AudioSynesthesia_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function AudioSynesthesia.ConstantQNRT.GetChannelConstantQAtTime

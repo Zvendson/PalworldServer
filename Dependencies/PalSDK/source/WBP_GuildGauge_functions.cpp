@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_GuildGauge_classes.hpp"
-#include "PalServer/WBP_GuildGauge_parameters.hpp"
+#include "PalSDK/WBP_GuildGauge_classes.hpp"
+#include "PalSDK/WBP_GuildGauge_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_GuildGauge.WBP_GuildGauge_C.ExecuteUbergraph_WBP_GuildGauge

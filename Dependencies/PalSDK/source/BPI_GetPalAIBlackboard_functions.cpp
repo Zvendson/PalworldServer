@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BPI_GetPalAIBlackboard_classes.hpp"
-#include "PalServer/BPI_GetPalAIBlackboard_parameters.hpp"
+#include "PalSDK/BPI_GetPalAIBlackboard_classes.hpp"
+#include "PalSDK/BPI_GetPalAIBlackboard_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BPI_GetPalAIBlackboard.BPI_GetPalAIBlackboard_C.GetLeaderBB

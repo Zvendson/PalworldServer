@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/AndroidPermission_classes.hpp"
-#include "PalServer/AndroidPermission_parameters.hpp"
+#include "PalSDK/AndroidPermission_classes.hpp"
+#include "PalSDK/AndroidPermission_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function AndroidPermission.AndroidPermissionFunctionLibrary.AcquirePermissions

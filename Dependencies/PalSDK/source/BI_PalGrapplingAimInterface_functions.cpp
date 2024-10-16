@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BI_PalGrapplingAimInterface_classes.hpp"
-#include "PalServer/BI_PalGrapplingAimInterface_parameters.hpp"
+#include "PalSDK/BI_PalGrapplingAimInterface_classes.hpp"
+#include "PalSDK/BI_PalGrapplingAimInterface_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BI_PalGrapplingAimInterface.BI_PalGrapplingAimInterface_C.IsShowReticle

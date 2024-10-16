@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/Water_classes.hpp"
-#include "PalServer/Water_parameters.hpp"
+#include "PalSDK/Water_classes.hpp"
+#include "PalSDK/Water_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function Water.GerstnerWaterWaveGeneratorBase.GenerateGerstnerWaves

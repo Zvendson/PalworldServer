@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_WantedPolice_NPCSpawner_classes.hpp"
-#include "PalServer/BP_WantedPolice_NPCSpawner_parameters.hpp"
+#include "PalSDK/BP_WantedPolice_NPCSpawner_classes.hpp"
+#include "PalSDK/BP_WantedPolice_NPCSpawner_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_WantedPolice_NPCSpawner.BP_WantedPolice_NPCSpawner_C.BlueprintTick

@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/BP_PalUIFunctionLibrary_classes.hpp"
-#include "PalServer/BP_PalUIFunctionLibrary_parameters.hpp"
+#include "PalSDK/BP_PalUIFunctionLibrary_classes.hpp"
+#include "PalSDK/BP_PalUIFunctionLibrary_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function BP_PalUIFunctionLibrary.BP_PalUIFunctionLibrary_C.BuildPassiveSkillDescText

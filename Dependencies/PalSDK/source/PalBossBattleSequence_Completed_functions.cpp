@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/PalBossBattleSequence_Completed_classes.hpp"
-#include "PalServer/PalBossBattleSequence_Completed_parameters.hpp"
+#include "PalSDK/PalBossBattleSequence_Completed_classes.hpp"
+#include "PalSDK/PalBossBattleSequence_Completed_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function PalBossBattleSequence_Completed.PalBossBattleSequence_Completed_C.ExecuteUbergraph_PalBossBattleSequence_Completed

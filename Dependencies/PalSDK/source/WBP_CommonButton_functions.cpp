@@ -1,10 +1,10 @@
-#include "PalServer/Basic.hpp"
+#include "PalSDK/Basic.hpp"
 
-#include "PalServer/WBP_CommonButton_classes.hpp"
-#include "PalServer/WBP_CommonButton_parameters.hpp"
+#include "PalSDK/WBP_CommonButton_classes.hpp"
+#include "PalSDK/WBP_CommonButton_parameters.hpp"
 
 
-namespace PalServer
+namespace PalSDK
 {
 
 // Function WBP_CommonButton.WBP_CommonButton_C.AnmEvent_Focus
