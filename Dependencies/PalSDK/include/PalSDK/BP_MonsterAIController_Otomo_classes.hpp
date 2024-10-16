@@ -2,11 +2,11 @@
 
 #include "Basic.hpp"
 
+#include "BP_MonsterAIControllerBase_classes.hpp"
 #include "Engine_structs.hpp"
 #include "Pal_structs.hpp"
 #include "AIModule_structs.hpp"
 #include "CoreUObject_structs.hpp"
-#include "BP_MonsterAIControllerBase_classes.hpp"
 
 
 namespace PalSDK

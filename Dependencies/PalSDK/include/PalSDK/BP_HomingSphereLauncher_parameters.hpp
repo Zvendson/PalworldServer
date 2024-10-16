@@ -159,6 +159,17 @@ static_assert(sizeof(BP_HomingSphereLauncher_C_GetMuzzleTransform) == 0x0000C0, 
 static_assert(offsetof(BP_HomingSphereLauncher_C_GetMuzzleTransform, Transform) == 0x000000, "Member 'BP_HomingSphereLauncher_C_GetMuzzleTransform::Transform' has a wrong offset!");
 static_assert(offsetof(BP_HomingSphereLauncher_C_GetMuzzleTransform, CallFunc_GetSocketTransform_ReturnValue) == 0x000060, "Member 'BP_HomingSphereLauncher_C_GetMuzzleTransform::CallFunc_GetSocketTransform_ReturnValue' has a wrong offset!");
 
+// Function BP_HomingSphereLauncher.BP_HomingSphereLauncher_C.GetShootInterval
+// 0x0008 (0x0008 - 0x0000)
+struct BP_HomingSphereLauncher_C_GetShootInterval final
+{
+public:
+	double                                        Time;                                              // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+static_assert(alignof(BP_HomingSphereLauncher_C_GetShootInterval) == 0x000008, "Wrong alignment on BP_HomingSphereLauncher_C_GetShootInterval");
+static_assert(sizeof(BP_HomingSphereLauncher_C_GetShootInterval) == 0x000008, "Wrong size on BP_HomingSphereLauncher_C_GetShootInterval");
+static_assert(offsetof(BP_HomingSphereLauncher_C_GetShootInterval, Time) == 0x000000, "Member 'BP_HomingSphereLauncher_C_GetShootInterval::Time' has a wrong offset!");
+
 // Function BP_HomingSphereLauncher.BP_HomingSphereLauncher_C.GetShootTransformList
 // 0x03B0 (0x03B0 - 0x0000)
 struct BP_HomingSphereLauncher_C_GetShootTransformList final
@@ -262,17 +273,6 @@ public:
 static_assert(alignof(BP_HomingSphereLauncher_C_OnLaunchPalSphere__DelegateSignature) == 0x000008, "Wrong alignment on BP_HomingSphereLauncher_C_OnLaunchPalSphere__DelegateSignature");
 static_assert(sizeof(BP_HomingSphereLauncher_C_OnLaunchPalSphere__DelegateSignature) == 0x000008, "Wrong size on BP_HomingSphereLauncher_C_OnLaunchPalSphere__DelegateSignature");
 static_assert(offsetof(BP_HomingSphereLauncher_C_OnLaunchPalSphere__DelegateSignature, Bullet) == 0x000000, "Member 'BP_HomingSphereLauncher_C_OnLaunchPalSphere__DelegateSignature::Bullet' has a wrong offset!");
-
-// Function BP_HomingSphereLauncher.BP_HomingSphereLauncher_C.GetShootInterval
-// 0x0008 (0x0008 - 0x0000)
-struct BP_HomingSphereLauncher_C_GetShootInterval final
-{
-public:
-	double                                        Time;                                              // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-static_assert(alignof(BP_HomingSphereLauncher_C_GetShootInterval) == 0x000008, "Wrong alignment on BP_HomingSphereLauncher_C_GetShootInterval");
-static_assert(sizeof(BP_HomingSphereLauncher_C_GetShootInterval) == 0x000008, "Wrong size on BP_HomingSphereLauncher_C_GetShootInterval");
-static_assert(offsetof(BP_HomingSphereLauncher_C_GetShootInterval, Time) == 0x000000, "Member 'BP_HomingSphereLauncher_C_GetShootInterval::Time' has a wrong offset!");
 
 // Function BP_HomingSphereLauncher.BP_HomingSphereLauncher_C.ShootBullet
 // 0x02A0 (0x02A0 - 0x0000)

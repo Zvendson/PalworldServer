@@ -11,6 +11,30 @@
 namespace PalSDK::Params
 {
 
+// Function BP_AIAction_WildLife.BP_AIAction_WildLife_C.ActionAbort
+// 0x0008 (0x0008 - 0x0000)
+struct BP_AIAction_WildLife_C_ActionAbort final
+{
+public:
+	class APawn*                                  ControlledPawn;                                    // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+};
+static_assert(alignof(BP_AIAction_WildLife_C_ActionAbort) == 0x000008, "Wrong alignment on BP_AIAction_WildLife_C_ActionAbort");
+static_assert(sizeof(BP_AIAction_WildLife_C_ActionAbort) == 0x000008, "Wrong size on BP_AIAction_WildLife_C_ActionAbort");
+static_assert(offsetof(BP_AIAction_WildLife_C_ActionAbort, ControlledPawn) == 0x000000, "Member 'BP_AIAction_WildLife_C_ActionAbort::ControlledPawn' has a wrong offset!");
+
+// Function BP_AIAction_WildLife.BP_AIAction_WildLife_C.ActionFinished
+// 0x0010 (0x0010 - 0x0000)
+struct BP_AIAction_WildLife_C_ActionFinished final
+{
+public:
+	class APawn*                                  ControlledPawn;                                    // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	EPawnActionResult                             WithResult;                                        // 0x0008(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+static_assert(alignof(BP_AIAction_WildLife_C_ActionFinished) == 0x000008, "Wrong alignment on BP_AIAction_WildLife_C_ActionFinished");
+static_assert(sizeof(BP_AIAction_WildLife_C_ActionFinished) == 0x000010, "Wrong size on BP_AIAction_WildLife_C_ActionFinished");
+static_assert(offsetof(BP_AIAction_WildLife_C_ActionFinished, ControlledPawn) == 0x000000, "Member 'BP_AIAction_WildLife_C_ActionFinished::ControlledPawn' has a wrong offset!");
+static_assert(offsetof(BP_AIAction_WildLife_C_ActionFinished, WithResult) == 0x000008, "Member 'BP_AIAction_WildLife_C_ActionFinished::WithResult' has a wrong offset!");
+
 // Function BP_AIAction_WildLife.BP_AIAction_WildLife_C.ActionPostTick
 // 0x0010 (0x0010 - 0x0000)
 struct BP_AIAction_WildLife_C_ActionPostTick final
@@ -774,30 +798,6 @@ static_assert(offsetof(BP_AIAction_WildLife_C_StateUpdate, CallFunc_IsNearTwoPoi
 static_assert(offsetof(BP_AIAction_WildLife_C_StateUpdate, CallFunc_IsValid_ReturnValue) == 0x0000B9, "Member 'BP_AIAction_WildLife_C_StateUpdate::CallFunc_IsValid_ReturnValue' has a wrong offset!");
 static_assert(offsetof(BP_AIAction_WildLife_C_StateUpdate, CallFunc_IsNearTwoPoint_distance_ImplicitCast) == 0x0000BC, "Member 'BP_AIAction_WildLife_C_StateUpdate::CallFunc_IsNearTwoPoint_distance_ImplicitCast' has a wrong offset!");
 static_assert(offsetof(BP_AIAction_WildLife_C_StateUpdate, CallFunc_IsNearTwoPoint_distance_ImplicitCast_1) == 0x0000C0, "Member 'BP_AIAction_WildLife_C_StateUpdate::CallFunc_IsNearTwoPoint_distance_ImplicitCast_1' has a wrong offset!");
-
-// Function BP_AIAction_WildLife.BP_AIAction_WildLife_C.ActionAbort
-// 0x0008 (0x0008 - 0x0000)
-struct BP_AIAction_WildLife_C_ActionAbort final
-{
-public:
-	class APawn*                                  ControlledPawn;                                    // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-};
-static_assert(alignof(BP_AIAction_WildLife_C_ActionAbort) == 0x000008, "Wrong alignment on BP_AIAction_WildLife_C_ActionAbort");
-static_assert(sizeof(BP_AIAction_WildLife_C_ActionAbort) == 0x000008, "Wrong size on BP_AIAction_WildLife_C_ActionAbort");
-static_assert(offsetof(BP_AIAction_WildLife_C_ActionAbort, ControlledPawn) == 0x000000, "Member 'BP_AIAction_WildLife_C_ActionAbort::ControlledPawn' has a wrong offset!");
-
-// Function BP_AIAction_WildLife.BP_AIAction_WildLife_C.ActionFinished
-// 0x0010 (0x0010 - 0x0000)
-struct BP_AIAction_WildLife_C_ActionFinished final
-{
-public:
-	class APawn*                                  ControlledPawn;                                    // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-	EPawnActionResult                             WithResult;                                        // 0x0008(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-static_assert(alignof(BP_AIAction_WildLife_C_ActionFinished) == 0x000008, "Wrong alignment on BP_AIAction_WildLife_C_ActionFinished");
-static_assert(sizeof(BP_AIAction_WildLife_C_ActionFinished) == 0x000010, "Wrong size on BP_AIAction_WildLife_C_ActionFinished");
-static_assert(offsetof(BP_AIAction_WildLife_C_ActionFinished, ControlledPawn) == 0x000000, "Member 'BP_AIAction_WildLife_C_ActionFinished::ControlledPawn' has a wrong offset!");
-static_assert(offsetof(BP_AIAction_WildLife_C_ActionFinished, WithResult) == 0x000008, "Member 'BP_AIAction_WildLife_C_ActionFinished::WithResult' has a wrong offset!");
 
 // Function BP_AIAction_WildLife.BP_AIAction_WildLife_C.ActionPause
 // 0x0008 (0x0008 - 0x0000)

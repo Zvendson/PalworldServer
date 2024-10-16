@@ -2,8 +2,8 @@
 
 #include "Basic.hpp"
 
-#include "BP_ActionRandomRest_classes.hpp"
 #include "Pal_structs.hpp"
+#include "BP_ActionRandomRest_classes.hpp"
 
 
 namespace PalSDK

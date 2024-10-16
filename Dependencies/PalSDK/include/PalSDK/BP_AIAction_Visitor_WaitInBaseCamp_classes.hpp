@@ -2,8 +2,8 @@
 
 #include "Basic.hpp"
 
-#include "BP_AIAction_NPC_Relax_Wander_classes.hpp"
 #include "Engine_structs.hpp"
+#include "BP_AIAction_NPC_Relax_Wander_classes.hpp"
 
 
 namespace PalSDK

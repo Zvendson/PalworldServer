@@ -3,10 +3,10 @@
 #include "Basic.hpp"
 
 #include "Pal_structs.hpp"
-#include "EWildPalAIMoveMode_structs.hpp"
 #include "Engine_structs.hpp"
 #include "AIModule_structs.hpp"
 #include "CoreUObject_structs.hpp"
+#include "EWildPalAIMoveMode_structs.hpp"
 #include "EWildPalAIRestType_structs.hpp"
 #include "BP_AIAction_CanCombatBase_classes.hpp"
 
@@ -51,6 +51,8 @@ public:
 	bool                                          IsSleep;                                           // 0x0249(0x0001)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
 public:
+	void ActionAbort(class APawn* ControlledPawn);
+	void ActionFinished(class APawn* ControlledPawn, EPawnActionResult WithResult);
 	void ActionPostTick(class APawn* ControlledPawn, float DeltaSeconds);
 	void ActionTick(class APawn* ControlledPawn, float DeltaSeconds);
 	void ActionTickAnyThread(class APawn* ControlledPawn, float DeltaSeconds);
@@ -76,8 +78,6 @@ public:
 	void SetDrinkWaterFlag();
 	void StateUpdate();
 	void _________________________Stack();
-	void ActionAbort(class APawn* ControlledPawn);
-	void ActionFinished(class APawn* ControlledPawn, EPawnActionResult WithResult);
 	void ActionPause(class APawn* ControlledPawn);
 	void ActionResume(class APawn* ControlledPawn);
 	void ActionStart(class APawn* ControlledPawn);

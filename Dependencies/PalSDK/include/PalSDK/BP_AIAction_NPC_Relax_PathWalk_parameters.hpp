@@ -3,10 +3,10 @@
 #include "Basic.hpp"
 
 #include "F_NPC_PathWalkPoint_structs.hpp"
+#include "F_NPC_PathWalkArray_structs.hpp"
 #include "Engine_structs.hpp"
 #include "AIModule_structs.hpp"
 #include "CoreUObject_structs.hpp"
-#include "F_NPC_PathWalkArray_structs.hpp"
 
 
 namespace PalSDK::Params

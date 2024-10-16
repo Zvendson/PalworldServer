@@ -23,10 +23,10 @@ public:
 	class UPalActionBase*                         SleepAction;                                       // 0x0178(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 
 public:
+	void ActionFinished(class APawn* ControlledPawn, EPawnActionResult WithResult);
 	void ExecuteUbergraph_BP_AIAction_Sleep(int32 EntryPoint);
 	void OnAllActionFinishDelegate______________0(const class UPalActionComponent* ActionComponent);
 	void OnDamageDelegate______________0(const struct FPalDamageResult& DamageResult);
-	void ActionFinished(class APawn* ControlledPawn, EPawnActionResult WithResult);
 	void ActionStart(class APawn* ControlledPawn);
 
 public:

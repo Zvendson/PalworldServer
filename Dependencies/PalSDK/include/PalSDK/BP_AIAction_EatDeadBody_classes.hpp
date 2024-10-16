@@ -22,11 +22,11 @@ public:
 	double                                        RecoverTimer;                                      // 0x0178(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
 public:
+	void ActionFinished(class APawn* ControlledPawn, EPawnActionResult WithResult);
 	void ActionTick(class APawn* ControlledPawn, float DeltaSeconds);
 	void ExecuteUbergraph_BP_AIAction_EatDeadBody(int32 EntryPoint);
 	void RecoverHP();
 	void SelfPawn(class AActor** SelfPawn_0);
-	void ActionFinished(class APawn* ControlledPawn, EPawnActionResult WithResult);
 	void ActionPause(class APawn* ControlledPawn);
 	void ActionStart(class APawn* ControlledPawn);
 

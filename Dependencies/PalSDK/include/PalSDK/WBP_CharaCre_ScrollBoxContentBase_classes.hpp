@@ -21,7 +21,7 @@ public:
 	void GetRestoreFocusTarget(class UWidget** Widget);
 	void GetTopFocusTarget(class UWidget** Widget);
 	void OnClosedSelectColorWindow_Internal(class UPalHUDDispatchParameterBase* Param_0);
-	void OnNotifyCloseSelectColorWIndow__DelegateSignature();
+	void OnNotifyCloseSelectColorWindow__DelegateSignature();
 	void OnNotifyOpenSelectColorWindow__DelegateSignature();
 	void OpenColorSelectWindow(class UBP_CharaCre_ColorSelectWindowDispatchParameter_C* Parameter);
 

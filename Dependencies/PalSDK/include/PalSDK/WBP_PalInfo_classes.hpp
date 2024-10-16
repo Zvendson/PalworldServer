@@ -4,8 +4,8 @@
 
 #include "Engine_structs.hpp"
 #include "FPalUIPalInfoDisplayData_structs.hpp"
-#include "EPalUIPalInfoType_structs.hpp"
 #include "UMG_classes.hpp"
+#include "EPalUIPalInfoType_structs.hpp"
 
 
 namespace PalSDK

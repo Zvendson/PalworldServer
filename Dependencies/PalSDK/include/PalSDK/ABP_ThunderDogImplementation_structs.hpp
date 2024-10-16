@@ -8,14 +8,6 @@
 namespace PalSDK
 {
 
-// ScriptStruct ABP_ThunderDogImplementation.ABP_ThunderDogImplementation_C.AnimBlueprintGeneratedMutableData
-// 0x0000 (0x0001 - 0x0001)
-struct ABP_ThunderDogImplementation::FAnimBlueprintGeneratedMutableData final : public FAnimBlueprintMutableData
-{
-};
-static_assert(alignof(ABP_ThunderDogImplementation::FAnimBlueprintGeneratedMutableData) == 0x000001, "Wrong alignment on ABP_ThunderDogImplementation::FAnimBlueprintGeneratedMutableData");
-static_assert(sizeof(ABP_ThunderDogImplementation::FAnimBlueprintGeneratedMutableData) == 0x000001, "Wrong size on ABP_ThunderDogImplementation::FAnimBlueprintGeneratedMutableData");
-
 // ScriptStruct ABP_ThunderDogImplementation.ABP_ThunderDogImplementation_C.AnimBlueprintGeneratedConstantData
 // 0x00EF (0x00F0 - 0x0001)
 struct ABP_ThunderDogImplementation::FAnimBlueprintGeneratedConstantData final : public FAnimBlueprintConstantData
@@ -44,6 +36,14 @@ static_assert(offsetof(ABP_ThunderDogImplementation::FAnimBlueprintGeneratedCons
 static_assert(offsetof(ABP_ThunderDogImplementation::FAnimBlueprintGeneratedConstantData, __NameProperty_39) == 0x000050, "Member 'ABP_ThunderDogImplementation::FAnimBlueprintGeneratedConstantData::__NameProperty_39' has a wrong offset!");
 static_assert(offsetof(ABP_ThunderDogImplementation::FAnimBlueprintGeneratedConstantData, AnimBlueprintExtension_PropertyAccess) == 0x000058, "Member 'ABP_ThunderDogImplementation::FAnimBlueprintGeneratedConstantData::AnimBlueprintExtension_PropertyAccess' has a wrong offset!");
 static_assert(offsetof(ABP_ThunderDogImplementation::FAnimBlueprintGeneratedConstantData, AnimBlueprintExtension_Base) == 0x0000D8, "Member 'ABP_ThunderDogImplementation::FAnimBlueprintGeneratedConstantData::AnimBlueprintExtension_Base' has a wrong offset!");
+
+// ScriptStruct ABP_ThunderDogImplementation.ABP_ThunderDogImplementation_C.AnimBlueprintGeneratedMutableData
+// 0x0000 (0x0001 - 0x0001)
+struct ABP_ThunderDogImplementation::FAnimBlueprintGeneratedMutableData final : public FAnimBlueprintMutableData
+{
+};
+static_assert(alignof(ABP_ThunderDogImplementation::FAnimBlueprintGeneratedMutableData) == 0x000001, "Wrong alignment on ABP_ThunderDogImplementation::FAnimBlueprintGeneratedMutableData");
+static_assert(sizeof(ABP_ThunderDogImplementation::FAnimBlueprintGeneratedMutableData) == 0x000001, "Wrong size on ABP_ThunderDogImplementation::FAnimBlueprintGeneratedMutableData");
 
 }
 

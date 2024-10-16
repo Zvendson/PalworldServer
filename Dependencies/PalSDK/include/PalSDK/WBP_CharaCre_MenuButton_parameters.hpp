@@ -2,8 +2,8 @@
 
 #include "Basic.hpp"
 
-#include "E_UICharacterMakeCategory_structs.hpp"
 #include "Engine_structs.hpp"
+#include "E_UICharacterMakeCategory_structs.hpp"
 
 
 namespace PalSDK::Params

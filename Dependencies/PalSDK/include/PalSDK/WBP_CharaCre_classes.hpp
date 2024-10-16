@@ -2,11 +2,11 @@
 
 #include "Basic.hpp"
 
+#include "E_UICharacterMakeCategory_structs.hpp"
 #include "Engine_structs.hpp"
 #include "UMG_structs.hpp"
 #include "UMG_classes.hpp"
 #include "SlateCore_structs.hpp"
-#include "E_UICharacterMakeCategory_structs.hpp"
 
 
 namespace PalSDK
@@ -111,7 +111,7 @@ public:
 	void OnInitialized();
 	void OnLeftRotationButtonClicked__DelegateSignature();
 	void OnNotifyClosenSelectColorWindow_Internal();
-	void OnNotifyCloseSelectColorWIndow__DelegateSignature();
+	void OnNotifyCloseSelectColorWindow__DelegateSignature();
 	void OnNotifyOpenSelectColorWindow__DelegateSignature();
 	void OnNotifyOpenSelectColorWindow_Internal();
 	void OnRightRotationButtonClicked__DelegateSignature();

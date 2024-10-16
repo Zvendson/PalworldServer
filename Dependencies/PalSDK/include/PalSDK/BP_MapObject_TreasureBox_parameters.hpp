@@ -2,10 +2,10 @@
 
 #include "Basic.hpp"
 
+#include "Engine_structs.hpp"
 #include "Pal_structs.hpp"
 #include "EPalTreasureBoxVisualType_structs.hpp"
 #include "CoreUObject_structs.hpp"
-#include "Engine_structs.hpp"
 
 
 namespace PalSDK::Params

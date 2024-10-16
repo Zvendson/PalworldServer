@@ -8,6 +8,19 @@
 namespace PalSDK::Params
 {
 
+// Function BP_AIAction_FriendlyLookat.BP_AIAction_FriendlyLookat_C.ActionFinished
+// 0x0010 (0x0010 - 0x0000)
+struct BP_AIAction_FriendlyLookat_C_ActionFinished final
+{
+public:
+	class APawn*                                  ControlledPawn;                                    // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	EPawnActionResult                             WithResult;                                        // 0x0008(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+static_assert(alignof(BP_AIAction_FriendlyLookat_C_ActionFinished) == 0x000008, "Wrong alignment on BP_AIAction_FriendlyLookat_C_ActionFinished");
+static_assert(sizeof(BP_AIAction_FriendlyLookat_C_ActionFinished) == 0x000010, "Wrong size on BP_AIAction_FriendlyLookat_C_ActionFinished");
+static_assert(offsetof(BP_AIAction_FriendlyLookat_C_ActionFinished, ControlledPawn) == 0x000000, "Member 'BP_AIAction_FriendlyLookat_C_ActionFinished::ControlledPawn' has a wrong offset!");
+static_assert(offsetof(BP_AIAction_FriendlyLookat_C_ActionFinished, WithResult) == 0x000008, "Member 'BP_AIAction_FriendlyLookat_C_ActionFinished::WithResult' has a wrong offset!");
+
 // Function BP_AIAction_FriendlyLookat.BP_AIAction_FriendlyLookat_C.ActionTick
 // 0x0010 (0x0010 - 0x0000)
 struct BP_AIAction_FriendlyLookat_C_ActionTick final
@@ -90,19 +103,6 @@ static_assert(offsetof(BP_AIAction_FriendlyLookat_C_ExecuteUbergraph_BP_AIAction
 static_assert(offsetof(BP_AIAction_FriendlyLookat_C_ExecuteUbergraph_BP_AIAction_FriendlyLookat, CallFunc_K2_GetPawn_ReturnValue_4) == 0x0000C8, "Member 'BP_AIAction_FriendlyLookat_C_ExecuteUbergraph_BP_AIAction_FriendlyLookat::CallFunc_K2_GetPawn_ReturnValue_4' has a wrong offset!");
 static_assert(offsetof(BP_AIAction_FriendlyLookat_C_ExecuteUbergraph_BP_AIAction_FriendlyLookat, CallFunc_GetComponentByClass_ReturnValue_5) == 0x0000D0, "Member 'BP_AIAction_FriendlyLookat_C_ExecuteUbergraph_BP_AIAction_FriendlyLookat::CallFunc_GetComponentByClass_ReturnValue_5' has a wrong offset!");
 static_assert(offsetof(BP_AIAction_FriendlyLookat_C_ExecuteUbergraph_BP_AIAction_FriendlyLookat, K2Node_Event_ControlledPawn) == 0x0000D8, "Member 'BP_AIAction_FriendlyLookat_C_ExecuteUbergraph_BP_AIAction_FriendlyLookat::K2Node_Event_ControlledPawn' has a wrong offset!");
-
-// Function BP_AIAction_FriendlyLookat.BP_AIAction_FriendlyLookat_C.ActionFinished
-// 0x0010 (0x0010 - 0x0000)
-struct BP_AIAction_FriendlyLookat_C_ActionFinished final
-{
-public:
-	class APawn*                                  ControlledPawn;                                    // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-	EPawnActionResult                             WithResult;                                        // 0x0008(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-static_assert(alignof(BP_AIAction_FriendlyLookat_C_ActionFinished) == 0x000008, "Wrong alignment on BP_AIAction_FriendlyLookat_C_ActionFinished");
-static_assert(sizeof(BP_AIAction_FriendlyLookat_C_ActionFinished) == 0x000010, "Wrong size on BP_AIAction_FriendlyLookat_C_ActionFinished");
-static_assert(offsetof(BP_AIAction_FriendlyLookat_C_ActionFinished, ControlledPawn) == 0x000000, "Member 'BP_AIAction_FriendlyLookat_C_ActionFinished::ControlledPawn' has a wrong offset!");
-static_assert(offsetof(BP_AIAction_FriendlyLookat_C_ActionFinished, WithResult) == 0x000008, "Member 'BP_AIAction_FriendlyLookat_C_ActionFinished::WithResult' has a wrong offset!");
 
 // Function BP_AIAction_FriendlyLookat.BP_AIAction_FriendlyLookat_C.ActionStart
 // 0x0008 (0x0008 - 0x0000)

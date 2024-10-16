@@ -2,8 +2,8 @@
 
 #include "Basic.hpp"
 
-#include "BP_BuildObject_Torch_Base_classes.hpp"
 #include "Engine_structs.hpp"
+#include "BP_BuildObject_Torch_Base_classes.hpp"
 
 
 namespace PalSDK

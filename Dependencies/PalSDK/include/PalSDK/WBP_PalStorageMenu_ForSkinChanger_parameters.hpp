@@ -191,48 +191,6 @@ static_assert(alignof(WBP_PalStorageMenu_ForSkinChanger_C_OnClickedAnySlot__Dele
 static_assert(sizeof(WBP_PalStorageMenu_ForSkinChanger_C_OnClickedAnySlot__DelegateSignature) == 0x000008, "Wrong size on WBP_PalStorageMenu_ForSkinChanger_C_OnClickedAnySlot__DelegateSignature");
 static_assert(offsetof(WBP_PalStorageMenu_ForSkinChanger_C_OnClickedAnySlot__DelegateSignature, Slot_0) == 0x000000, "Member 'WBP_PalStorageMenu_ForSkinChanger_C_OnClickedAnySlot__DelegateSignature::Slot_0' has a wrong offset!");
 
-// Function WBP_PalStorageMenu_ForSkinChanger.WBP_PalStorageMenu_ForSkinChanger_C.OnUpdatePagePalBoxList
-// 0x0018 (0x0018 - 0x0000)
-struct WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePagePalBoxList final
-{
-public:
-	int32                                         NowPage;                                           // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                         Pad_4[0x4];                                        // 0x0004(0x0004)(Fixing Size After Last Property [ Dumper-7 ])
-	TArray<class UPalIndividualCharacterSlot*>    SlotList;                                          // 0x0008(0x0010)(ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm)
-};
-static_assert(alignof(WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePagePalBoxList) == 0x000008, "Wrong alignment on WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePagePalBoxList");
-static_assert(sizeof(WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePagePalBoxList) == 0x000018, "Wrong size on WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePagePalBoxList");
-static_assert(offsetof(WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePagePalBoxList, NowPage) == 0x000000, "Member 'WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePagePalBoxList::NowPage' has a wrong offset!");
-static_assert(offsetof(WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePagePalBoxList, SlotList) == 0x000008, "Member 'WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePagePalBoxList::SlotList' has a wrong offset!");
-
-// Function WBP_PalStorageMenu_ForSkinChanger.WBP_PalStorageMenu_ForSkinChanger_C.OnUpdatePageWorkerList
-// 0x0010 (0x0010 - 0x0000)
-struct WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePageWorkerList final
-{
-public:
-	TArray<class UPalIndividualCharacterSlot*>    SlotList;                                          // 0x0000(0x0010)(ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm)
-};
-static_assert(alignof(WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePageWorkerList) == 0x000008, "Wrong alignment on WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePageWorkerList");
-static_assert(sizeof(WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePageWorkerList) == 0x000010, "Wrong size on WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePageWorkerList");
-static_assert(offsetof(WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePageWorkerList, SlotList) == 0x000000, "Member 'WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePageWorkerList::SlotList' has a wrong offset!");
-
-// Function WBP_PalStorageMenu_ForSkinChanger.WBP_PalStorageMenu_ForSkinChanger_C.SelectSlot
-// 0x0010 (0x0010 - 0x0000)
-struct WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot final
-{
-public:
-	class UPalIndividualCharacterSlot*            Slot_0;                                            // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-	EPalItemSlotPressType                         PressType;                                         // 0x0008(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                          CallFunc_IsMatchCharacterID_bIsMatch;              // 0x0009(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                          CallFunc_IsValid_ReturnValue;                      // 0x000A(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-static_assert(alignof(WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot) == 0x000008, "Wrong alignment on WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot");
-static_assert(sizeof(WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot) == 0x000010, "Wrong size on WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot");
-static_assert(offsetof(WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot, Slot_0) == 0x000000, "Member 'WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot::Slot_0' has a wrong offset!");
-static_assert(offsetof(WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot, PressType) == 0x000008, "Member 'WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot::PressType' has a wrong offset!");
-static_assert(offsetof(WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot, CallFunc_IsMatchCharacterID_bIsMatch) == 0x000009, "Member 'WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot::CallFunc_IsMatchCharacterID_bIsMatch' has a wrong offset!");
-static_assert(offsetof(WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot, CallFunc_IsValid_ReturnValue) == 0x00000A, "Member 'WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot::CallFunc_IsValid_ReturnValue' has a wrong offset!");
-
 // Function WBP_PalStorageMenu_ForSkinChanger.WBP_PalStorageMenu_ForSkinChanger_C.SetTargetCharacterID
 // 0x0008 (0x0008 - 0x0000)
 struct WBP_PalStorageMenu_ForSkinChanger_C_SetTargetCharacterID final
@@ -331,6 +289,48 @@ static_assert(offsetof(WBP_PalStorageMenu_ForSkinChanger_C_UpdateButtonEnable, C
 static_assert(offsetof(WBP_PalStorageMenu_ForSkinChanger_C_UpdateButtonEnable, CallFunc_IsMatchCharacterID_bIsMatch_2) == 0x0000C0, "Member 'WBP_PalStorageMenu_ForSkinChanger_C_UpdateButtonEnable::CallFunc_IsMatchCharacterID_bIsMatch_2' has a wrong offset!");
 static_assert(offsetof(WBP_PalStorageMenu_ForSkinChanger_C_UpdateButtonEnable, CallFunc_IsValid_ReturnValue_2) == 0x0000C1, "Member 'WBP_PalStorageMenu_ForSkinChanger_C_UpdateButtonEnable::CallFunc_IsValid_ReturnValue_2' has a wrong offset!");
 static_assert(offsetof(WBP_PalStorageMenu_ForSkinChanger_C_UpdateButtonEnable, CallFunc_SetRenderOpacity_InOpacity_ImplicitCast) == 0x0000C4, "Member 'WBP_PalStorageMenu_ForSkinChanger_C_UpdateButtonEnable::CallFunc_SetRenderOpacity_InOpacity_ImplicitCast' has a wrong offset!");
+
+// Function WBP_PalStorageMenu_ForSkinChanger.WBP_PalStorageMenu_ForSkinChanger_C.OnUpdatePagePalBoxList
+// 0x0018 (0x0018 - 0x0000)
+struct WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePagePalBoxList final
+{
+public:
+	int32                                         NowPage;                                           // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                         Pad_4[0x4];                                        // 0x0004(0x0004)(Fixing Size After Last Property [ Dumper-7 ])
+	TArray<class UPalIndividualCharacterSlot*>    SlotList;                                          // 0x0008(0x0010)(ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm)
+};
+static_assert(alignof(WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePagePalBoxList) == 0x000008, "Wrong alignment on WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePagePalBoxList");
+static_assert(sizeof(WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePagePalBoxList) == 0x000018, "Wrong size on WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePagePalBoxList");
+static_assert(offsetof(WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePagePalBoxList, NowPage) == 0x000000, "Member 'WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePagePalBoxList::NowPage' has a wrong offset!");
+static_assert(offsetof(WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePagePalBoxList, SlotList) == 0x000008, "Member 'WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePagePalBoxList::SlotList' has a wrong offset!");
+
+// Function WBP_PalStorageMenu_ForSkinChanger.WBP_PalStorageMenu_ForSkinChanger_C.OnUpdatePageWorkerList
+// 0x0010 (0x0010 - 0x0000)
+struct WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePageWorkerList final
+{
+public:
+	TArray<class UPalIndividualCharacterSlot*>    SlotList;                                          // 0x0000(0x0010)(ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm)
+};
+static_assert(alignof(WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePageWorkerList) == 0x000008, "Wrong alignment on WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePageWorkerList");
+static_assert(sizeof(WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePageWorkerList) == 0x000010, "Wrong size on WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePageWorkerList");
+static_assert(offsetof(WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePageWorkerList, SlotList) == 0x000000, "Member 'WBP_PalStorageMenu_ForSkinChanger_C_OnUpdatePageWorkerList::SlotList' has a wrong offset!");
+
+// Function WBP_PalStorageMenu_ForSkinChanger.WBP_PalStorageMenu_ForSkinChanger_C.SelectSlot
+// 0x0010 (0x0010 - 0x0000)
+struct WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot final
+{
+public:
+	class UPalIndividualCharacterSlot*            Slot_0;                                            // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	EPalItemSlotPressType                         PressType;                                         // 0x0008(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                          CallFunc_IsMatchCharacterID_bIsMatch;              // 0x0009(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                          CallFunc_IsValid_ReturnValue;                      // 0x000A(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+static_assert(alignof(WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot) == 0x000008, "Wrong alignment on WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot");
+static_assert(sizeof(WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot) == 0x000010, "Wrong size on WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot");
+static_assert(offsetof(WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot, Slot_0) == 0x000000, "Member 'WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot::Slot_0' has a wrong offset!");
+static_assert(offsetof(WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot, PressType) == 0x000008, "Member 'WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot::PressType' has a wrong offset!");
+static_assert(offsetof(WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot, CallFunc_IsMatchCharacterID_bIsMatch) == 0x000009, "Member 'WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot::CallFunc_IsMatchCharacterID_bIsMatch' has a wrong offset!");
+static_assert(offsetof(WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot, CallFunc_IsValid_ReturnValue) == 0x00000A, "Member 'WBP_PalStorageMenu_ForSkinChanger_C_SelectSlot::CallFunc_IsValid_ReturnValue' has a wrong offset!");
 
 }
 

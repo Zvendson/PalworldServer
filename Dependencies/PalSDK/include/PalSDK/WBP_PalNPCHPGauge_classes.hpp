@@ -4,9 +4,9 @@
 
 #include "Engine_structs.hpp"
 #include "UMG_structs.hpp"
+#include "WBP_IndividualParameterBindWidget_classes.hpp"
 #include "CoreUObject_structs.hpp"
 #include "Pal_structs.hpp"
-#include "WBP_IndividualParameterBindWidget_classes.hpp"
 
 
 namespace PalSDK

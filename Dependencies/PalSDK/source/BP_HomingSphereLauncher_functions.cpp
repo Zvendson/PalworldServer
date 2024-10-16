@@ -252,6 +252,27 @@ void ABP_HomingSphereLauncher_C::GetMuzzleTransform(struct FTransform* Transform
 }
 
 
+// Function BP_HomingSphereLauncher.BP_HomingSphereLauncher_C.GetShootInterval
+// (Public, HasOutParams, BlueprintCallable, BlueprintEvent, BlueprintPure)
+// Parameters:
+// double                                  Time                                                   (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ABP_HomingSphereLauncher_C::GetShootInterval(double* Time)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_HomingSphereLauncher_C", "GetShootInterval");
+
+	Params::BP_HomingSphereLauncher_C_GetShootInterval Parms{};
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	if (Time != nullptr)
+		*Time = Parms.Time;
+}
+
+
 // Function BP_HomingSphereLauncher.BP_HomingSphereLauncher_C.GetShootTransformList
 // (Public, HasOutParams, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -314,41 +335,6 @@ void ABP_HomingSphereLauncher_C::OnReleaseTrigger()
 }
 
 
-// Function BP_HomingSphereLauncher.BP_HomingSphereLauncher_C.ReceiveBeginPlay
-// (Event, Protected, BlueprintEvent)
-
-void ABP_HomingSphereLauncher_C::ReceiveBeginPlay()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_HomingSphereLauncher_C", "ReceiveBeginPlay");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_HomingSphereLauncher.BP_HomingSphereLauncher_C.GetShootInterval
-// (Public, HasOutParams, BlueprintCallable, BlueprintEvent, BlueprintPure)
-// Parameters:
-// double                                  Time                                                   (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void ABP_HomingSphereLauncher_C::GetShootInterval(double* Time)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_HomingSphereLauncher_C", "GetShootInterval");
-
-	Params::BP_HomingSphereLauncher_C_GetShootInterval Parms{};
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	if (Time != nullptr)
-		*Time = Parms.Time;
-}
-
-
 // Function BP_HomingSphereLauncher.BP_HomingSphereLauncher_C.OnShoot
 // (Public, BlueprintCallable, BlueprintEvent)
 
@@ -358,6 +344,20 @@ void ABP_HomingSphereLauncher_C::OnShoot()
 
 	if (Func == nullptr)
 		Func = Class->GetFunction("BP_HomingSphereLauncher_C", "OnShoot");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_HomingSphereLauncher.BP_HomingSphereLauncher_C.ReceiveBeginPlay
+// (Event, Protected, BlueprintEvent)
+
+void ABP_HomingSphereLauncher_C::ReceiveBeginPlay()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_HomingSphereLauncher_C", "ReceiveBeginPlay");
 
 	UObject::ProcessEvent(Func, nullptr);
 }

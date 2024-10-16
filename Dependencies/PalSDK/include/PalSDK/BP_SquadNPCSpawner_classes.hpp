@@ -2,8 +2,8 @@
 
 #include "Basic.hpp"
 
-#include "F_NPCOnePointSpawnInfo_structs.hpp"
 #include "Engine_structs.hpp"
+#include "F_NPCOnePointSpawnInfo_structs.hpp"
 #include "BP_MonoNPCSpawner_classes.hpp"
 #include "Pal_structs.hpp"
 

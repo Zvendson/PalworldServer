@@ -5,8 +5,8 @@
 #include "UMG_structs.hpp"
 #include "Engine_structs.hpp"
 #include "Pal_structs.hpp"
-#include "E_PalUIGuildHPGaugeDisplayType_structs.hpp"
 #include "SlateCore_structs.hpp"
+#include "E_PalUIGuildHPGaugeDisplayType_structs.hpp"
 
 
 namespace PalSDK::Params

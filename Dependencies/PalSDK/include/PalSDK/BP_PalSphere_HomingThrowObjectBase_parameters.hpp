@@ -89,17 +89,6 @@ static_assert(offsetof(BP_PalSphere_HomingThrowObjectBase_C_GetBodyClass, bodyCl
 static_assert(offsetof(BP_PalSphere_HomingThrowObjectBase_C_GetBodyClass, CallFunc_Map_Find_Value) == 0x000008, "Member 'BP_PalSphere_HomingThrowObjectBase_C_GetBodyClass::CallFunc_Map_Find_Value' has a wrong offset!");
 static_assert(offsetof(BP_PalSphere_HomingThrowObjectBase_C_GetBodyClass, CallFunc_Map_Find_ReturnValue) == 0x000010, "Member 'BP_PalSphere_HomingThrowObjectBase_C_GetBodyClass::CallFunc_Map_Find_ReturnValue' has a wrong offset!");
 
-// Function BP_PalSphere_HomingThrowObjectBase.BP_PalSphere_HomingThrowObjectBase_C.ReceiveTick
-// 0x0004 (0x0004 - 0x0000)
-struct BP_PalSphere_HomingThrowObjectBase_C_ReceiveTick final
-{
-public:
-	float                                         DeltaSeconds;                                      // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-static_assert(alignof(BP_PalSphere_HomingThrowObjectBase_C_ReceiveTick) == 0x000004, "Wrong alignment on BP_PalSphere_HomingThrowObjectBase_C_ReceiveTick");
-static_assert(sizeof(BP_PalSphere_HomingThrowObjectBase_C_ReceiveTick) == 0x000004, "Wrong size on BP_PalSphere_HomingThrowObjectBase_C_ReceiveTick");
-static_assert(offsetof(BP_PalSphere_HomingThrowObjectBase_C_ReceiveTick, DeltaSeconds) == 0x000000, "Member 'BP_PalSphere_HomingThrowObjectBase_C_ReceiveTick::DeltaSeconds' has a wrong offset!");
-
 // Function BP_PalSphere_HomingThrowObjectBase.BP_PalSphere_HomingThrowObjectBase_C.Rotate Self
 // 0x0128 (0x0128 - 0x0000)
 struct BP_PalSphere_HomingThrowObjectBase_C_Rotate_Self final
@@ -165,6 +154,17 @@ static_assert(sizeof(BP_PalSphere_HomingThrowObjectBase_C_SetMaterialByType) == 
 static_assert(offsetof(BP_PalSphere_HomingThrowObjectBase_C_SetMaterialByType, CaptureLevelType_0) == 0x000000, "Member 'BP_PalSphere_HomingThrowObjectBase_C_SetMaterialByType::CaptureLevelType_0' has a wrong offset!");
 static_assert(offsetof(BP_PalSphere_HomingThrowObjectBase_C_SetMaterialByType, CallFunc_Map_Find_Value) == 0x000008, "Member 'BP_PalSphere_HomingThrowObjectBase_C_SetMaterialByType::CallFunc_Map_Find_Value' has a wrong offset!");
 static_assert(offsetof(BP_PalSphere_HomingThrowObjectBase_C_SetMaterialByType, CallFunc_Map_Find_ReturnValue) == 0x000010, "Member 'BP_PalSphere_HomingThrowObjectBase_C_SetMaterialByType::CallFunc_Map_Find_ReturnValue' has a wrong offset!");
+
+// Function BP_PalSphere_HomingThrowObjectBase.BP_PalSphere_HomingThrowObjectBase_C.ReceiveTick
+// 0x0004 (0x0004 - 0x0000)
+struct BP_PalSphere_HomingThrowObjectBase_C_ReceiveTick final
+{
+public:
+	float                                         DeltaSeconds;                                      // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+static_assert(alignof(BP_PalSphere_HomingThrowObjectBase_C_ReceiveTick) == 0x000004, "Wrong alignment on BP_PalSphere_HomingThrowObjectBase_C_ReceiveTick");
+static_assert(sizeof(BP_PalSphere_HomingThrowObjectBase_C_ReceiveTick) == 0x000004, "Wrong size on BP_PalSphere_HomingThrowObjectBase_C_ReceiveTick");
+static_assert(offsetof(BP_PalSphere_HomingThrowObjectBase_C_ReceiveTick, DeltaSeconds) == 0x000000, "Member 'BP_PalSphere_HomingThrowObjectBase_C_ReceiveTick::DeltaSeconds' has a wrong offset!");
 
 }
 

@@ -123,6 +123,54 @@ void UWBP_PalStorageMenu_ForSkinChanger_C::OnClickedCloseButton__DelegateSignatu
 }
 
 
+// Function WBP_PalStorageMenu_ForSkinChanger.WBP_PalStorageMenu_ForSkinChanger_C.SetTargetCharacterID
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class FName                             CharacterID                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void UWBP_PalStorageMenu_ForSkinChanger_C::SetTargetCharacterID(class FName CharacterID)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_PalStorageMenu_ForSkinChanger_C", "SetTargetCharacterID");
+
+	Params::WBP_PalStorageMenu_ForSkinChanger_C_SetTargetCharacterID Parms{};
+
+	Parms.CharacterID = CharacterID;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function WBP_PalStorageMenu_ForSkinChanger.WBP_PalStorageMenu_ForSkinChanger_C.UpdateButtonEnable
+// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+
+void UWBP_PalStorageMenu_ForSkinChanger_C::UpdateButtonEnable()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_PalStorageMenu_ForSkinChanger_C", "UpdateButtonEnable");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function WBP_PalStorageMenu_ForSkinChanger.WBP_PalStorageMenu_ForSkinChanger_C.カスタムイベント
+// (BlueprintCallable, BlueprintEvent)
+
+void UWBP_PalStorageMenu_ForSkinChanger_C::________________________()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_PalStorageMenu_ForSkinChanger_C", "カスタムイベント");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
 // Function WBP_PalStorageMenu_ForSkinChanger.WBP_PalStorageMenu_ForSkinChanger_C.OnSetup
 // (Event, Protected, BlueprintCallable, BlueprintEvent)
 
@@ -198,54 +246,6 @@ void UWBP_PalStorageMenu_ForSkinChanger_C::SelectSlot(class UPalIndividualCharac
 	Parms.PressType = PressType;
 
 	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function WBP_PalStorageMenu_ForSkinChanger.WBP_PalStorageMenu_ForSkinChanger_C.SetTargetCharacterID
-// (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// class FName                             CharacterID                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void UWBP_PalStorageMenu_ForSkinChanger_C::SetTargetCharacterID(class FName CharacterID)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("WBP_PalStorageMenu_ForSkinChanger_C", "SetTargetCharacterID");
-
-	Params::WBP_PalStorageMenu_ForSkinChanger_C_SetTargetCharacterID Parms{};
-
-	Parms.CharacterID = CharacterID;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function WBP_PalStorageMenu_ForSkinChanger.WBP_PalStorageMenu_ForSkinChanger_C.UpdateButtonEnable
-// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
-
-void UWBP_PalStorageMenu_ForSkinChanger_C::UpdateButtonEnable()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("WBP_PalStorageMenu_ForSkinChanger_C", "UpdateButtonEnable");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function WBP_PalStorageMenu_ForSkinChanger.WBP_PalStorageMenu_ForSkinChanger_C.カスタムイベント
-// (BlueprintCallable, BlueprintEvent)
-
-void UWBP_PalStorageMenu_ForSkinChanger_C::________________________()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("WBP_PalStorageMenu_ForSkinChanger_C", "カスタムイベント");
-
-	UObject::ProcessEvent(Func, nullptr);
 }
 
 }

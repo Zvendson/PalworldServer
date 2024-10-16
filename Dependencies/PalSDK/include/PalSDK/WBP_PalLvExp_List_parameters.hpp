@@ -26,7 +26,7 @@ public:
 	int32                                         Temp_int_Array_Index_Variable;                     // 0x0004(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	int32                                         Temp_int_Loop_Counter_Variable;                    // 0x0008(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	int32                                         CallFunc_Add_IntInt_ReturnValue;                   // 0x000C(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	int32                                         K2Node_CustomEvent_Index;                          // 0x0010(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                         K2Node_CustomEvent_index;                          // 0x0010(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	int32                                         CallFunc_Array_Length_ReturnValue;                 // 0x0014(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                          CallFunc_Less_IntInt_ReturnValue;                  // 0x0018(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	uint8                                         Pad_19[0x3];                                       // 0x0019(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
@@ -43,7 +43,7 @@ static_assert(offsetof(WBP_PalLvExp_List_C_ExecuteUbergraph_WBP_PalLvExp_List, E
 static_assert(offsetof(WBP_PalLvExp_List_C_ExecuteUbergraph_WBP_PalLvExp_List, Temp_int_Array_Index_Variable) == 0x000004, "Member 'WBP_PalLvExp_List_C_ExecuteUbergraph_WBP_PalLvExp_List::Temp_int_Array_Index_Variable' has a wrong offset!");
 static_assert(offsetof(WBP_PalLvExp_List_C_ExecuteUbergraph_WBP_PalLvExp_List, Temp_int_Loop_Counter_Variable) == 0x000008, "Member 'WBP_PalLvExp_List_C_ExecuteUbergraph_WBP_PalLvExp_List::Temp_int_Loop_Counter_Variable' has a wrong offset!");
 static_assert(offsetof(WBP_PalLvExp_List_C_ExecuteUbergraph_WBP_PalLvExp_List, CallFunc_Add_IntInt_ReturnValue) == 0x00000C, "Member 'WBP_PalLvExp_List_C_ExecuteUbergraph_WBP_PalLvExp_List::CallFunc_Add_IntInt_ReturnValue' has a wrong offset!");
-static_assert(offsetof(WBP_PalLvExp_List_C_ExecuteUbergraph_WBP_PalLvExp_List, K2Node_CustomEvent_Index) == 0x000010, "Member 'WBP_PalLvExp_List_C_ExecuteUbergraph_WBP_PalLvExp_List::K2Node_CustomEvent_Index' has a wrong offset!");
+static_assert(offsetof(WBP_PalLvExp_List_C_ExecuteUbergraph_WBP_PalLvExp_List, K2Node_CustomEvent_index) == 0x000010, "Member 'WBP_PalLvExp_List_C_ExecuteUbergraph_WBP_PalLvExp_List::K2Node_CustomEvent_index' has a wrong offset!");
 static_assert(offsetof(WBP_PalLvExp_List_C_ExecuteUbergraph_WBP_PalLvExp_List, CallFunc_Array_Length_ReturnValue) == 0x000014, "Member 'WBP_PalLvExp_List_C_ExecuteUbergraph_WBP_PalLvExp_List::CallFunc_Array_Length_ReturnValue' has a wrong offset!");
 static_assert(offsetof(WBP_PalLvExp_List_C_ExecuteUbergraph_WBP_PalLvExp_List, CallFunc_Less_IntInt_ReturnValue) == 0x000018, "Member 'WBP_PalLvExp_List_C_ExecuteUbergraph_WBP_PalLvExp_List::CallFunc_Less_IntInt_ReturnValue' has a wrong offset!");
 static_assert(offsetof(WBP_PalLvExp_List_C_ExecuteUbergraph_WBP_PalLvExp_List, CallFunc_Array_Length_ReturnValue_1) == 0x00001C, "Member 'WBP_PalLvExp_List_C_ExecuteUbergraph_WBP_PalLvExp_List::CallFunc_Array_Length_ReturnValue_1' has a wrong offset!");

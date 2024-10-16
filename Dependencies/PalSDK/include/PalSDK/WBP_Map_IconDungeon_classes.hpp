@@ -2,8 +2,8 @@
 
 #include "Basic.hpp"
 
-#include "WBP_WorldMap_IconBase_NoDesign_classes.hpp"
 #include "CoreUObject_structs.hpp"
+#include "WBP_WorldMap_IconBase_NoDesign_classes.hpp"
 
 
 namespace PalSDK

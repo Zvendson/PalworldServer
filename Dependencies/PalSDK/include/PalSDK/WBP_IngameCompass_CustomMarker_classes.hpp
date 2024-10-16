@@ -2,8 +2,8 @@
 
 #include "Basic.hpp"
 
-#include "WBP_CompassIconBase_classes.hpp"
 #include "UMG_structs.hpp"
+#include "WBP_CompassIconBase_classes.hpp"
 
 
 namespace PalSDK

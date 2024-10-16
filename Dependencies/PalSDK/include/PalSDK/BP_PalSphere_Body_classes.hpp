@@ -6,8 +6,8 @@
 #include "E_PalCaptureSphereBouncedReason_structs.hpp"
 #include "CoreUObject_structs.hpp"
 #include "EPalCaptureSphereState_structs.hpp"
-#include "Pal_structs.hpp"
 #include "BP_PalCaptureBodyBase_classes.hpp"
+#include "Pal_structs.hpp"
 
 
 namespace PalSDK

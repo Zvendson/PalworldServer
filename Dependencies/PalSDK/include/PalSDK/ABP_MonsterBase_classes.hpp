@@ -3,8 +3,8 @@
 #include "Basic.hpp"
 
 #include "Engine_structs.hpp"
-#include "ABP_MonsterBase_structs.hpp"
 #include "CoreUObject_structs.hpp"
+#include "ABP_MonsterBase_structs.hpp"
 #include "AnimGraphRuntime_structs.hpp"
 #include "PhysicsCore_structs.hpp"
 #include "Pal_structs.hpp"

@@ -3,8 +3,8 @@
 #include "Basic.hpp"
 
 #include "Pal_structs.hpp"
-#include "CoreUObject_structs.hpp"
 #include "E_PalCaptureSphereBouncedReason_structs.hpp"
+#include "CoreUObject_structs.hpp"
 #include "Engine_structs.hpp"
 #include "EPalCaptureSphereState_structs.hpp"
 
@@ -151,7 +151,7 @@ public:
 	bool                                          CallFunc_IsValid_ReturnValue;                      // 0x00E9(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	uint8                                         Pad_EA[0x6];                                       // 0x00EA(0x0006)(Fixing Size After Last Property [ Dumper-7 ])
 	class UPalCharacterParameterComponent*        CallFunc_GetCharacterParameterComponent_ReturnValue; // 0x00F0(0x0008)(ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-	double                                        K2Node_CustomEvent_delay;                          // 0x00F8(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	double                                        K2Node_CustomEvent_Delay;                          // 0x00F8(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                          CallFunc_HasAuthority_ReturnValue_1;               // 0x0100(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	uint8                                         Pad_101[0x7];                                      // 0x0101(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
 	class APalCharacter*                          CallFunc_GetTargetActor_TargetActor_2;             // 0x0108(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
@@ -264,7 +264,7 @@ static_assert(offsetof(BP_PalSphere_Body_C_ExecuteUbergraph_BP_PalSphere_Body, C
 static_assert(offsetof(BP_PalSphere_Body_C_ExecuteUbergraph_BP_PalSphere_Body, CallFunc_HasAuthority_ReturnValue) == 0x0000E8, "Member 'BP_PalSphere_Body_C_ExecuteUbergraph_BP_PalSphere_Body::CallFunc_HasAuthority_ReturnValue' has a wrong offset!");
 static_assert(offsetof(BP_PalSphere_Body_C_ExecuteUbergraph_BP_PalSphere_Body, CallFunc_IsValid_ReturnValue) == 0x0000E9, "Member 'BP_PalSphere_Body_C_ExecuteUbergraph_BP_PalSphere_Body::CallFunc_IsValid_ReturnValue' has a wrong offset!");
 static_assert(offsetof(BP_PalSphere_Body_C_ExecuteUbergraph_BP_PalSphere_Body, CallFunc_GetCharacterParameterComponent_ReturnValue) == 0x0000F0, "Member 'BP_PalSphere_Body_C_ExecuteUbergraph_BP_PalSphere_Body::CallFunc_GetCharacterParameterComponent_ReturnValue' has a wrong offset!");
-static_assert(offsetof(BP_PalSphere_Body_C_ExecuteUbergraph_BP_PalSphere_Body, K2Node_CustomEvent_delay) == 0x0000F8, "Member 'BP_PalSphere_Body_C_ExecuteUbergraph_BP_PalSphere_Body::K2Node_CustomEvent_delay' has a wrong offset!");
+static_assert(offsetof(BP_PalSphere_Body_C_ExecuteUbergraph_BP_PalSphere_Body, K2Node_CustomEvent_Delay) == 0x0000F8, "Member 'BP_PalSphere_Body_C_ExecuteUbergraph_BP_PalSphere_Body::K2Node_CustomEvent_Delay' has a wrong offset!");
 static_assert(offsetof(BP_PalSphere_Body_C_ExecuteUbergraph_BP_PalSphere_Body, CallFunc_HasAuthority_ReturnValue_1) == 0x000100, "Member 'BP_PalSphere_Body_C_ExecuteUbergraph_BP_PalSphere_Body::CallFunc_HasAuthority_ReturnValue_1' has a wrong offset!");
 static_assert(offsetof(BP_PalSphere_Body_C_ExecuteUbergraph_BP_PalSphere_Body, CallFunc_GetTargetActor_TargetActor_2) == 0x000108, "Member 'BP_PalSphere_Body_C_ExecuteUbergraph_BP_PalSphere_Body::CallFunc_GetTargetActor_TargetActor_2' has a wrong offset!");
 static_assert(offsetof(BP_PalSphere_Body_C_ExecuteUbergraph_BP_PalSphere_Body, CallFunc_HasAuthority_ReturnValue_2) == 0x000110, "Member 'BP_PalSphere_Body_C_ExecuteUbergraph_BP_PalSphere_Body::CallFunc_HasAuthority_ReturnValue_2' has a wrong offset!");

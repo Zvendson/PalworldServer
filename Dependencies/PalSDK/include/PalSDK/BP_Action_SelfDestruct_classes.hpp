@@ -35,14 +35,14 @@ public:
 	class AActor*                                 TargetActor;                                       // 0x01C0(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void UpdateYaw();
-	void UpdateVelocity();
-	void TickAction(float DeltaTime);
-	void OnEndAction();
-	void OnBeginAction();
-	void MakeVisualEffectParameter(struct FPalVisualEffectDynamicParameter* PalVisualEffectDynamicParameter);
-	void ExecuteUbergraph_BP_Action_SelfDestruct(int32 EntryPoint);
 	void BlowAndKillSelf();
+	void ExecuteUbergraph_BP_Action_SelfDestruct(int32 EntryPoint);
+	void MakeVisualEffectParameter(struct FPalVisualEffectDynamicParameter* PalVisualEffectDynamicParameter);
+	void OnBeginAction();
+	void OnEndAction();
+	void TickAction(float DeltaTime);
+	void UpdateVelocity();
+	void UpdateYaw();
 
 public:
 	static class UClass* StaticClass()

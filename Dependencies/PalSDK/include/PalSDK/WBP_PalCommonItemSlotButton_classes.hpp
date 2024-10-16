@@ -3,8 +3,8 @@
 #include "Basic.hpp"
 
 #include "Engine_structs.hpp"
-#include "WBP_PalItemSlotButtonBase_classes.hpp"
 #include "Pal_structs.hpp"
+#include "WBP_PalItemSlotButtonBase_classes.hpp"
 
 
 namespace PalSDK

@@ -2,9 +2,9 @@
 
 #include "Basic.hpp"
 
-#include "BP_RocketLauncher_classes.hpp"
 #include "Engine_structs.hpp"
 #include "Pal_structs.hpp"
+#include "BP_RocketLauncher_classes.hpp"
 
 
 namespace PalSDK
@@ -33,12 +33,12 @@ public:
 	void GetMuzzleLocation(struct FVector* MuzzleLocation);
 	void GetMuzzleRotator(struct FRotator* Rotator);
 	void GetMuzzleTransform(struct FTransform* Transform);
+	void GetShootInterval(double* Time);
 	void GetShootTransformList(double BaseAnglePitch, double BaseAngleYaw, double BlurAngle, TArray<struct FTransform>* ShootTransformList);
 	void OnLaunchPalSphere__DelegateSignature(class AActor* Bullet);
 	void OnReleaseTrigger();
-	void ReceiveBeginPlay();
-	void GetShootInterval(double* Time);
 	void OnShoot();
+	void ReceiveBeginPlay();
 	void ShootBullet();
 
 public:

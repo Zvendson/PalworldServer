@@ -8,14 +8,6 @@
 namespace PalSDK
 {
 
-// ScriptStruct ABP_WhiteMoth_Implementation.ABP_WhiteMoth_Implementation_C.AnimBlueprintGeneratedMutableData
-// 0x0000 (0x0001 - 0x0001)
-struct ABP_WhiteMoth_Implementation::FAnimBlueprintGeneratedMutableData final : public FAnimBlueprintMutableData
-{
-};
-static_assert(alignof(ABP_WhiteMoth_Implementation::FAnimBlueprintGeneratedMutableData) == 0x000001, "Wrong alignment on ABP_WhiteMoth_Implementation::FAnimBlueprintGeneratedMutableData");
-static_assert(sizeof(ABP_WhiteMoth_Implementation::FAnimBlueprintGeneratedMutableData) == 0x000001, "Wrong size on ABP_WhiteMoth_Implementation::FAnimBlueprintGeneratedMutableData");
-
 // ScriptStruct ABP_WhiteMoth_Implementation.ABP_WhiteMoth_Implementation_C.AnimBlueprintGeneratedConstantData
 // 0x00EF (0x00F0 - 0x0001)
 struct ABP_WhiteMoth_Implementation::FAnimBlueprintGeneratedConstantData final : public FAnimBlueprintConstantData
@@ -44,6 +36,14 @@ static_assert(offsetof(ABP_WhiteMoth_Implementation::FAnimBlueprintGeneratedCons
 static_assert(offsetof(ABP_WhiteMoth_Implementation::FAnimBlueprintGeneratedConstantData, __NameProperty_39) == 0x000050, "Member 'ABP_WhiteMoth_Implementation::FAnimBlueprintGeneratedConstantData::__NameProperty_39' has a wrong offset!");
 static_assert(offsetof(ABP_WhiteMoth_Implementation::FAnimBlueprintGeneratedConstantData, AnimBlueprintExtension_PropertyAccess) == 0x000058, "Member 'ABP_WhiteMoth_Implementation::FAnimBlueprintGeneratedConstantData::AnimBlueprintExtension_PropertyAccess' has a wrong offset!");
 static_assert(offsetof(ABP_WhiteMoth_Implementation::FAnimBlueprintGeneratedConstantData, AnimBlueprintExtension_Base) == 0x0000D8, "Member 'ABP_WhiteMoth_Implementation::FAnimBlueprintGeneratedConstantData::AnimBlueprintExtension_Base' has a wrong offset!");
+
+// ScriptStruct ABP_WhiteMoth_Implementation.ABP_WhiteMoth_Implementation_C.AnimBlueprintGeneratedMutableData
+// 0x0000 (0x0001 - 0x0001)
+struct ABP_WhiteMoth_Implementation::FAnimBlueprintGeneratedMutableData final : public FAnimBlueprintMutableData
+{
+};
+static_assert(alignof(ABP_WhiteMoth_Implementation::FAnimBlueprintGeneratedMutableData) == 0x000001, "Wrong alignment on ABP_WhiteMoth_Implementation::FAnimBlueprintGeneratedMutableData");
+static_assert(sizeof(ABP_WhiteMoth_Implementation::FAnimBlueprintGeneratedMutableData) == 0x000001, "Wrong size on ABP_WhiteMoth_Implementation::FAnimBlueprintGeneratedMutableData");
 
 }
 

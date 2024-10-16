@@ -33,12 +33,12 @@ public:
 	void BndEvt__BP_CaptureDrone_ThrowObject_ProjectileMovement_K2Node_ComponentBoundEvent_0_OnProjectileBounceDelegate__DelegateSignature(const struct FHitResult& ImpactResult, const struct FVector& ImpactVelocity);
 	void ExecuteUbergraph_BP_PalSphere_HomingThrowObjectBase(int32 EntryPoint);
 	void GetBodyClass(class UClass** bodyClass);
-	void ReceiveBeginPlay();
-	void ReceiveTick(float DeltaSeconds);
 	void Rotate_Self(double DeltaTime);
 	void SetAttackTarget(class APalCharacter* Target);
 	void SetCaptureLevelType(EPalCaptureSphereLevelType LevelType);
 	void SetMaterialByType(EPalCaptureSphereLevelType CaptureLevelType_0);
+	void ReceiveBeginPlay();
+	void ReceiveTick(float DeltaSeconds);
 
 public:
 	static class UClass* StaticClass()

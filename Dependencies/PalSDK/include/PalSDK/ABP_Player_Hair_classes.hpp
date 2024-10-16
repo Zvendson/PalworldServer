@@ -4,8 +4,8 @@
 
 #include "Engine_structs.hpp"
 #include "Engine_classes.hpp"
-#include "ABP_Player_Hair_structs.hpp"
 #include "AnimGraphRuntime_structs.hpp"
+#include "ABP_Player_Hair_structs.hpp"
 
 
 namespace PalSDK

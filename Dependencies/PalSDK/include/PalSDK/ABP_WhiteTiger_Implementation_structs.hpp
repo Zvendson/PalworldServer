@@ -8,14 +8,6 @@
 namespace PalSDK
 {
 
-// ScriptStruct ABP_WhiteTiger_Implementation.ABP_WhiteTiger_Implementation_C.AnimBlueprintGeneratedMutableData
-// 0x0000 (0x0001 - 0x0001)
-struct ABP_WhiteTiger_Implementation::FAnimBlueprintGeneratedMutableData final : public FAnimBlueprintMutableData
-{
-};
-static_assert(alignof(ABP_WhiteTiger_Implementation::FAnimBlueprintGeneratedMutableData) == 0x000001, "Wrong alignment on ABP_WhiteTiger_Implementation::FAnimBlueprintGeneratedMutableData");
-static_assert(sizeof(ABP_WhiteTiger_Implementation::FAnimBlueprintGeneratedMutableData) == 0x000001, "Wrong size on ABP_WhiteTiger_Implementation::FAnimBlueprintGeneratedMutableData");
-
 // ScriptStruct ABP_WhiteTiger_Implementation.ABP_WhiteTiger_Implementation_C.AnimBlueprintGeneratedConstantData
 // 0x00EF (0x00F0 - 0x0001)
 struct ABP_WhiteTiger_Implementation::FAnimBlueprintGeneratedConstantData final : public FAnimBlueprintConstantData
@@ -44,6 +36,14 @@ static_assert(offsetof(ABP_WhiteTiger_Implementation::FAnimBlueprintGeneratedCon
 static_assert(offsetof(ABP_WhiteTiger_Implementation::FAnimBlueprintGeneratedConstantData, __NameProperty_45) == 0x000050, "Member 'ABP_WhiteTiger_Implementation::FAnimBlueprintGeneratedConstantData::__NameProperty_45' has a wrong offset!");
 static_assert(offsetof(ABP_WhiteTiger_Implementation::FAnimBlueprintGeneratedConstantData, AnimBlueprintExtension_PropertyAccess) == 0x000058, "Member 'ABP_WhiteTiger_Implementation::FAnimBlueprintGeneratedConstantData::AnimBlueprintExtension_PropertyAccess' has a wrong offset!");
 static_assert(offsetof(ABP_WhiteTiger_Implementation::FAnimBlueprintGeneratedConstantData, AnimBlueprintExtension_Base) == 0x0000D8, "Member 'ABP_WhiteTiger_Implementation::FAnimBlueprintGeneratedConstantData::AnimBlueprintExtension_Base' has a wrong offset!");
+
+// ScriptStruct ABP_WhiteTiger_Implementation.ABP_WhiteTiger_Implementation_C.AnimBlueprintGeneratedMutableData
+// 0x0000 (0x0001 - 0x0001)
+struct ABP_WhiteTiger_Implementation::FAnimBlueprintGeneratedMutableData final : public FAnimBlueprintMutableData
+{
+};
+static_assert(alignof(ABP_WhiteTiger_Implementation::FAnimBlueprintGeneratedMutableData) == 0x000001, "Wrong alignment on ABP_WhiteTiger_Implementation::FAnimBlueprintGeneratedMutableData");
+static_assert(sizeof(ABP_WhiteTiger_Implementation::FAnimBlueprintGeneratedMutableData) == 0x000001, "Wrong size on ABP_WhiteTiger_Implementation::FAnimBlueprintGeneratedMutableData");
 
 }
 

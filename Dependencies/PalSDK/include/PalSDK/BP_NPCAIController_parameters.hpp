@@ -4,8 +4,8 @@
 
 #include "Pal_structs.hpp"
 #include "CoreUObject_structs.hpp"
-#include "F_NPC_PathWalkArray_structs.hpp"
 #include "Engine_structs.hpp"
+#include "F_NPC_PathWalkArray_structs.hpp"
 
 
 namespace PalSDK::Params
@@ -26,7 +26,7 @@ public:
 	struct FGuid                                  K2Node_MakeStruct_Guid;                            // 0x0034(0x0010)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	uint8                                         Pad_44[0x4];                                       // 0x0044(0x0004)(Fixing Size After Last Property [ Dumper-7 ])
 	class UPalCharacterManager*                   CallFunc_GetCharacterManager_ReturnValue;          // 0x0048(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-	struct FPalInstanceID                         K2Node_CustomEvent_id;                             // 0x0050(0x0030)(HasGetValueTypeHash)
+	struct FPalInstanceID                         K2Node_CustomEvent_ID;                             // 0x0050(0x0030)(HasGetValueTypeHash)
 	class UPalCharacterManager*                   CallFunc_GetCharacterManager_ReturnValue_1;        // 0x0080(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 	class UPalIndividualCharacterHandle*          CallFunc_GetIndividualHandle_ReturnValue;          // 0x0088(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 	class APawn*                                  CallFunc_K2_GetPawn_ReturnValue;                   // 0x0090(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
@@ -123,7 +123,7 @@ static_assert(offsetof(BP_NPCAIController_C_ExecuteUbergraph_BP_NPCAIController,
 static_assert(offsetof(BP_NPCAIController_C_ExecuteUbergraph_BP_NPCAIController, K2Node_CreateDelegate_OutputDelegate_1) == 0x000024, "Member 'BP_NPCAIController_C_ExecuteUbergraph_BP_NPCAIController::K2Node_CreateDelegate_OutputDelegate_1' has a wrong offset!");
 static_assert(offsetof(BP_NPCAIController_C_ExecuteUbergraph_BP_NPCAIController, K2Node_MakeStruct_Guid) == 0x000034, "Member 'BP_NPCAIController_C_ExecuteUbergraph_BP_NPCAIController::K2Node_MakeStruct_Guid' has a wrong offset!");
 static_assert(offsetof(BP_NPCAIController_C_ExecuteUbergraph_BP_NPCAIController, CallFunc_GetCharacterManager_ReturnValue) == 0x000048, "Member 'BP_NPCAIController_C_ExecuteUbergraph_BP_NPCAIController::CallFunc_GetCharacterManager_ReturnValue' has a wrong offset!");
-static_assert(offsetof(BP_NPCAIController_C_ExecuteUbergraph_BP_NPCAIController, K2Node_CustomEvent_id) == 0x000050, "Member 'BP_NPCAIController_C_ExecuteUbergraph_BP_NPCAIController::K2Node_CustomEvent_id' has a wrong offset!");
+static_assert(offsetof(BP_NPCAIController_C_ExecuteUbergraph_BP_NPCAIController, K2Node_CustomEvent_ID) == 0x000050, "Member 'BP_NPCAIController_C_ExecuteUbergraph_BP_NPCAIController::K2Node_CustomEvent_ID' has a wrong offset!");
 static_assert(offsetof(BP_NPCAIController_C_ExecuteUbergraph_BP_NPCAIController, CallFunc_GetCharacterManager_ReturnValue_1) == 0x000080, "Member 'BP_NPCAIController_C_ExecuteUbergraph_BP_NPCAIController::CallFunc_GetCharacterManager_ReturnValue_1' has a wrong offset!");
 static_assert(offsetof(BP_NPCAIController_C_ExecuteUbergraph_BP_NPCAIController, CallFunc_GetIndividualHandle_ReturnValue) == 0x000088, "Member 'BP_NPCAIController_C_ExecuteUbergraph_BP_NPCAIController::CallFunc_GetIndividualHandle_ReturnValue' has a wrong offset!");
 static_assert(offsetof(BP_NPCAIController_C_ExecuteUbergraph_BP_NPCAIController, CallFunc_K2_GetPawn_ReturnValue) == 0x000090, "Member 'BP_NPCAIController_C_ExecuteUbergraph_BP_NPCAIController::CallFunc_K2_GetPawn_ReturnValue' has a wrong offset!");

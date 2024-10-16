@@ -4,8 +4,8 @@
 
 #include "Pal_structs.hpp"
 #include "CoreUObject_structs.hpp"
-#include "F_NPC_PathWalkArray_structs.hpp"
 #include "Engine_structs.hpp"
+#include "F_NPC_PathWalkArray_structs.hpp"
 
 
 namespace PalSDK::Params
@@ -71,7 +71,7 @@ public:
 	struct FPalRandomIncidentSpawnNPCData         K2Node_Event_SpawnData;                            // 0x0078(0x0068)(ConstParm)
 	int32                                         K2Node_Event_SpawnPointIndex;                      // 0x00E0(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	int32                                         K2Node_Event_SpawnPointCount;                      // 0x00E4(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	struct FPalInstanceID                         K2Node_CustomEvent_id;                             // 0x00E8(0x0030)(HasGetValueTypeHash)
+	struct FPalInstanceID                         K2Node_CustomEvent_ID;                             // 0x00E8(0x0030)(HasGetValueTypeHash)
 	class APalCharacter*                          CallFunc_Get_Character_Character;                  // 0x0118(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 	class APalCharacter*                          K2Node_CustomEvent_InCharacter;                    // 0x0120(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 	class UPalCharacterOnCompleteInitializeParameterWrapper* CallFunc_GetOnCompleteInitializeParameterDelegate_ReturnValue; // 0x0128(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
@@ -90,7 +90,7 @@ static_assert(offsetof(BP_PalRandomIncidentNPCSpawner_C_ExecuteUbergraph_BP_PalR
 static_assert(offsetof(BP_PalRandomIncidentNPCSpawner_C_ExecuteUbergraph_BP_PalRandomIncidentNPCSpawner, K2Node_Event_SpawnData) == 0x000078, "Member 'BP_PalRandomIncidentNPCSpawner_C_ExecuteUbergraph_BP_PalRandomIncidentNPCSpawner::K2Node_Event_SpawnData' has a wrong offset!");
 static_assert(offsetof(BP_PalRandomIncidentNPCSpawner_C_ExecuteUbergraph_BP_PalRandomIncidentNPCSpawner, K2Node_Event_SpawnPointIndex) == 0x0000E0, "Member 'BP_PalRandomIncidentNPCSpawner_C_ExecuteUbergraph_BP_PalRandomIncidentNPCSpawner::K2Node_Event_SpawnPointIndex' has a wrong offset!");
 static_assert(offsetof(BP_PalRandomIncidentNPCSpawner_C_ExecuteUbergraph_BP_PalRandomIncidentNPCSpawner, K2Node_Event_SpawnPointCount) == 0x0000E4, "Member 'BP_PalRandomIncidentNPCSpawner_C_ExecuteUbergraph_BP_PalRandomIncidentNPCSpawner::K2Node_Event_SpawnPointCount' has a wrong offset!");
-static_assert(offsetof(BP_PalRandomIncidentNPCSpawner_C_ExecuteUbergraph_BP_PalRandomIncidentNPCSpawner, K2Node_CustomEvent_id) == 0x0000E8, "Member 'BP_PalRandomIncidentNPCSpawner_C_ExecuteUbergraph_BP_PalRandomIncidentNPCSpawner::K2Node_CustomEvent_id' has a wrong offset!");
+static_assert(offsetof(BP_PalRandomIncidentNPCSpawner_C_ExecuteUbergraph_BP_PalRandomIncidentNPCSpawner, K2Node_CustomEvent_ID) == 0x0000E8, "Member 'BP_PalRandomIncidentNPCSpawner_C_ExecuteUbergraph_BP_PalRandomIncidentNPCSpawner::K2Node_CustomEvent_ID' has a wrong offset!");
 static_assert(offsetof(BP_PalRandomIncidentNPCSpawner_C_ExecuteUbergraph_BP_PalRandomIncidentNPCSpawner, CallFunc_Get_Character_Character) == 0x000118, "Member 'BP_PalRandomIncidentNPCSpawner_C_ExecuteUbergraph_BP_PalRandomIncidentNPCSpawner::CallFunc_Get_Character_Character' has a wrong offset!");
 static_assert(offsetof(BP_PalRandomIncidentNPCSpawner_C_ExecuteUbergraph_BP_PalRandomIncidentNPCSpawner, K2Node_CustomEvent_InCharacter) == 0x000120, "Member 'BP_PalRandomIncidentNPCSpawner_C_ExecuteUbergraph_BP_PalRandomIncidentNPCSpawner::K2Node_CustomEvent_InCharacter' has a wrong offset!");
 static_assert(offsetof(BP_PalRandomIncidentNPCSpawner_C_ExecuteUbergraph_BP_PalRandomIncidentNPCSpawner, CallFunc_GetOnCompleteInitializeParameterDelegate_ReturnValue) == 0x000128, "Member 'BP_PalRandomIncidentNPCSpawner_C_ExecuteUbergraph_BP_PalRandomIncidentNPCSpawner::CallFunc_GetOnCompleteInitializeParameterDelegate_ReturnValue' has a wrong offset!");

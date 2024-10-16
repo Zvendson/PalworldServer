@@ -8,6 +8,14 @@
 namespace PalSDK
 {
 
+// ScriptStruct ABP_GrassPanda_Implementation.ABP_GrassPanda_Implementation_C.AnimBlueprintGeneratedMutableData
+// 0x0000 (0x0001 - 0x0001)
+struct ABP_GrassPanda_Implementation::FAnimBlueprintGeneratedMutableData final : public FAnimBlueprintMutableData
+{
+};
+static_assert(alignof(ABP_GrassPanda_Implementation::FAnimBlueprintGeneratedMutableData) == 0x000001, "Wrong alignment on ABP_GrassPanda_Implementation::FAnimBlueprintGeneratedMutableData");
+static_assert(sizeof(ABP_GrassPanda_Implementation::FAnimBlueprintGeneratedMutableData) == 0x000001, "Wrong size on ABP_GrassPanda_Implementation::FAnimBlueprintGeneratedMutableData");
+
 // ScriptStruct ABP_GrassPanda_Implementation.ABP_GrassPanda_Implementation_C.AnimBlueprintGeneratedConstantData
 // 0x00EF (0x00F0 - 0x0001)
 struct ABP_GrassPanda_Implementation::FAnimBlueprintGeneratedConstantData final : public FAnimBlueprintConstantData
@@ -36,14 +44,6 @@ static_assert(offsetof(ABP_GrassPanda_Implementation::FAnimBlueprintGeneratedCon
 static_assert(offsetof(ABP_GrassPanda_Implementation::FAnimBlueprintGeneratedConstantData, __NameProperty_54) == 0x000050, "Member 'ABP_GrassPanda_Implementation::FAnimBlueprintGeneratedConstantData::__NameProperty_54' has a wrong offset!");
 static_assert(offsetof(ABP_GrassPanda_Implementation::FAnimBlueprintGeneratedConstantData, AnimBlueprintExtension_PropertyAccess) == 0x000058, "Member 'ABP_GrassPanda_Implementation::FAnimBlueprintGeneratedConstantData::AnimBlueprintExtension_PropertyAccess' has a wrong offset!");
 static_assert(offsetof(ABP_GrassPanda_Implementation::FAnimBlueprintGeneratedConstantData, AnimBlueprintExtension_Base) == 0x0000D8, "Member 'ABP_GrassPanda_Implementation::FAnimBlueprintGeneratedConstantData::AnimBlueprintExtension_Base' has a wrong offset!");
-
-// ScriptStruct ABP_GrassPanda_Implementation.ABP_GrassPanda_Implementation_C.AnimBlueprintGeneratedMutableData
-// 0x0000 (0x0001 - 0x0001)
-struct ABP_GrassPanda_Implementation::FAnimBlueprintGeneratedMutableData final : public FAnimBlueprintMutableData
-{
-};
-static_assert(alignof(ABP_GrassPanda_Implementation::FAnimBlueprintGeneratedMutableData) == 0x000001, "Wrong alignment on ABP_GrassPanda_Implementation::FAnimBlueprintGeneratedMutableData");
-static_assert(sizeof(ABP_GrassPanda_Implementation::FAnimBlueprintGeneratedMutableData) == 0x000001, "Wrong size on ABP_GrassPanda_Implementation::FAnimBlueprintGeneratedMutableData");
 
 }
 

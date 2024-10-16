@@ -2,8 +2,8 @@
 
 #include "Basic.hpp"
 
-#include "WBP_LoupeBase_classes.hpp"
 #include "Engine_structs.hpp"
+#include "WBP_LoupeBase_classes.hpp"
 
 
 namespace PalSDK

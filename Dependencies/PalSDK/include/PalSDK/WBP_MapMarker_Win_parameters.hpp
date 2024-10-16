@@ -85,7 +85,7 @@ public:
 	int32                                         Temp_int_Loop_Counter_Variable_1;                  // 0x00B0(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	TDelegate<void(int32 Index)>                  K2Node_CreateDelegate_OutputDelegate_1;            // 0x00B4(0x0010)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 	int32                                         CallFunc_Add_IntInt_ReturnValue_1;                 // 0x00C4(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	int32                                         K2Node_CustomEvent_Index;                          // 0x00C8(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                         K2Node_CustomEvent_index;                          // 0x00C8(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	uint8                                         Pad_CC[0x4];                                       // 0x00CC(0x0004)(Fixing Size After Last Property [ Dumper-7 ])
 	class UWBP_Map_IconCustom_C*                  K2Node_CustomEvent_CustomIcon;                     // 0x00D0(0x0008)(ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
 	class UTexture2D*                             CallFunc_Array_Get_Item;                           // 0x00D8(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
@@ -155,7 +155,7 @@ static_assert(offsetof(WBP_MapMarker_Win_C_ExecuteUbergraph_WBP_MapMarker_Win, K
 static_assert(offsetof(WBP_MapMarker_Win_C_ExecuteUbergraph_WBP_MapMarker_Win, Temp_int_Loop_Counter_Variable_1) == 0x0000B0, "Member 'WBP_MapMarker_Win_C_ExecuteUbergraph_WBP_MapMarker_Win::Temp_int_Loop_Counter_Variable_1' has a wrong offset!");
 static_assert(offsetof(WBP_MapMarker_Win_C_ExecuteUbergraph_WBP_MapMarker_Win, K2Node_CreateDelegate_OutputDelegate_1) == 0x0000B4, "Member 'WBP_MapMarker_Win_C_ExecuteUbergraph_WBP_MapMarker_Win::K2Node_CreateDelegate_OutputDelegate_1' has a wrong offset!");
 static_assert(offsetof(WBP_MapMarker_Win_C_ExecuteUbergraph_WBP_MapMarker_Win, CallFunc_Add_IntInt_ReturnValue_1) == 0x0000C4, "Member 'WBP_MapMarker_Win_C_ExecuteUbergraph_WBP_MapMarker_Win::CallFunc_Add_IntInt_ReturnValue_1' has a wrong offset!");
-static_assert(offsetof(WBP_MapMarker_Win_C_ExecuteUbergraph_WBP_MapMarker_Win, K2Node_CustomEvent_Index) == 0x0000C8, "Member 'WBP_MapMarker_Win_C_ExecuteUbergraph_WBP_MapMarker_Win::K2Node_CustomEvent_Index' has a wrong offset!");
+static_assert(offsetof(WBP_MapMarker_Win_C_ExecuteUbergraph_WBP_MapMarker_Win, K2Node_CustomEvent_index) == 0x0000C8, "Member 'WBP_MapMarker_Win_C_ExecuteUbergraph_WBP_MapMarker_Win::K2Node_CustomEvent_index' has a wrong offset!");
 static_assert(offsetof(WBP_MapMarker_Win_C_ExecuteUbergraph_WBP_MapMarker_Win, K2Node_CustomEvent_CustomIcon) == 0x0000D0, "Member 'WBP_MapMarker_Win_C_ExecuteUbergraph_WBP_MapMarker_Win::K2Node_CustomEvent_CustomIcon' has a wrong offset!");
 static_assert(offsetof(WBP_MapMarker_Win_C_ExecuteUbergraph_WBP_MapMarker_Win, CallFunc_Array_Get_Item) == 0x0000D8, "Member 'WBP_MapMarker_Win_C_ExecuteUbergraph_WBP_MapMarker_Win::CallFunc_Array_Get_Item' has a wrong offset!");
 static_assert(offsetof(WBP_MapMarker_Win_C_ExecuteUbergraph_WBP_MapMarker_Win, CallFunc_Array_Get_Item_1) == 0x0000E0, "Member 'WBP_MapMarker_Win_C_ExecuteUbergraph_WBP_MapMarker_Win::CallFunc_Array_Get_Item_1' has a wrong offset!");

@@ -28,13 +28,13 @@ public:
 	void IsSkinApplied(class UPalIndividualCharacterSlot* Slot_0, bool* bSkinApplied);
 	void OnClickedAnySlot__DelegateSignature(class UPalIndividualCharacterSlot* Slot_0);
 	void OnClickedCloseButton__DelegateSignature();
+	void SetTargetCharacterID(class FName CharacterID);
+	void UpdateButtonEnable();
+	void ________________________();
 	void OnSetup();
 	void OnUpdatePagePalBoxList(int32 NowPage, const TArray<class UPalIndividualCharacterSlot*>& SlotList);
 	void OnUpdatePageWorkerList(const TArray<class UPalIndividualCharacterSlot*>& SlotList);
 	void SelectSlot(class UPalIndividualCharacterSlot* Slot_0, EPalItemSlotPressType PressType);
-	void SetTargetCharacterID(class FName CharacterID);
-	void UpdateButtonEnable();
-	void ________________________();
 
 public:
 	static class UClass* StaticClass()

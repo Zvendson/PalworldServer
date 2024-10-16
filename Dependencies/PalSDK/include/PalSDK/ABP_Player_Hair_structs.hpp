@@ -9,6 +9,17 @@
 namespace PalSDK
 {
 
+// ScriptStruct ABP_Player_Hair.ABP_Player_Hair_C.AnimBlueprintGeneratedMutableData
+// 0x0001 (0x0002 - 0x0001)
+struct ABP_Player_Hair::FAnimBlueprintGeneratedMutableData final : public FAnimBlueprintMutableData
+{
+public:
+	bool                                          __BoolProperty;                                    // 0x0001(0x0001)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+static_assert(alignof(ABP_Player_Hair::FAnimBlueprintGeneratedMutableData) == 0x000001, "Wrong alignment on ABP_Player_Hair::FAnimBlueprintGeneratedMutableData");
+static_assert(sizeof(ABP_Player_Hair::FAnimBlueprintGeneratedMutableData) == 0x000002, "Wrong size on ABP_Player_Hair::FAnimBlueprintGeneratedMutableData");
+static_assert(offsetof(ABP_Player_Hair::FAnimBlueprintGeneratedMutableData, __BoolProperty) == 0x000001, "Member 'ABP_Player_Hair::FAnimBlueprintGeneratedMutableData::__BoolProperty' has a wrong offset!");
+
 // ScriptStruct ABP_Player_Hair.ABP_Player_Hair_C.AnimBlueprintGeneratedConstantData
 // 0x00FF (0x0100 - 0x0001)
 struct ABP_Player_Hair::FAnimBlueprintGeneratedConstantData final : public FAnimBlueprintConstantData
@@ -44,17 +55,6 @@ static_assert(offsetof(ABP_Player_Hair::FAnimBlueprintGeneratedConstantData, __A
 static_assert(offsetof(ABP_Player_Hair::FAnimBlueprintGeneratedConstantData, __StructProperty_29) == 0x000048, "Member 'ABP_Player_Hair::FAnimBlueprintGeneratedConstantData::__StructProperty_29' has a wrong offset!");
 static_assert(offsetof(ABP_Player_Hair::FAnimBlueprintGeneratedConstantData, AnimBlueprintExtension_PropertyAccess) == 0x000068, "Member 'ABP_Player_Hair::FAnimBlueprintGeneratedConstantData::AnimBlueprintExtension_PropertyAccess' has a wrong offset!");
 static_assert(offsetof(ABP_Player_Hair::FAnimBlueprintGeneratedConstantData, AnimBlueprintExtension_Base) == 0x0000E8, "Member 'ABP_Player_Hair::FAnimBlueprintGeneratedConstantData::AnimBlueprintExtension_Base' has a wrong offset!");
-
-// ScriptStruct ABP_Player_Hair.ABP_Player_Hair_C.AnimBlueprintGeneratedMutableData
-// 0x0001 (0x0002 - 0x0001)
-struct ABP_Player_Hair::FAnimBlueprintGeneratedMutableData final : public FAnimBlueprintMutableData
-{
-public:
-	bool                                          __BoolProperty;                                    // 0x0001(0x0001)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-static_assert(alignof(ABP_Player_Hair::FAnimBlueprintGeneratedMutableData) == 0x000001, "Wrong alignment on ABP_Player_Hair::FAnimBlueprintGeneratedMutableData");
-static_assert(sizeof(ABP_Player_Hair::FAnimBlueprintGeneratedMutableData) == 0x000002, "Wrong size on ABP_Player_Hair::FAnimBlueprintGeneratedMutableData");
-static_assert(offsetof(ABP_Player_Hair::FAnimBlueprintGeneratedMutableData, __BoolProperty) == 0x000001, "Member 'ABP_Player_Hair::FAnimBlueprintGeneratedMutableData::__BoolProperty' has a wrong offset!");
 
 }
 

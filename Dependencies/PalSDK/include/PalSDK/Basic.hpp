@@ -28,10 +28,12 @@ namespace Offsets
 	constexpr int32 GObjects          = 0x081FFE60;
 	constexpr int32 AppendString      = 0x02D29FA0;
 	constexpr int32 GNames            = 0x08160740;
-	constexpr int32 GWorld            = 0x08359860;
+	constexpr int32 GWorld            = 0x0835C4A8;
 	constexpr int32 ProcessEvent      = 0x02EAC150;
 	constexpr int32 ProcessEventIdx   = 0x0000004C;
 }
+
+inline static class UWorld* g_GWorld = nullptr;
 
 namespace InSDKUtils
 {
@@ -308,34 +310,34 @@ public:
 	{
 		return ComparisonIndex;
 	}
-
+	
 	std::string GetRawString() const
 	{
 		thread_local FAllocatedString TempString(1024);
-
+	
 		if (!AppendString)
 			InitInternal();
-
+	
 		InSDKUtils::CallGameFunction(reinterpret_cast<void(*)(const FName*, FString&)>(AppendString), this, TempString);
-
+	
 		std::string OutputString = TempString.ToString();
 		TempString.Clear();
-
+	
 		return OutputString;
 	}
-
+	
 	std::string ToString() const
 	{
 		std::string OutputString = GetRawString();
-
+	
 		size_t pos = OutputString.rfind('/');
-
+	
 		if (pos == std::string::npos)
 			return OutputString;
-
+	
 		return OutputString.substr(pos + 1);
 	}
-
+	
 	bool operator==(const FName& Other) const
 	{
 		return ComparisonIndex == Other.ComparisonIndex && Number == Other.Number;
@@ -612,12 +614,12 @@ public:
 	{
 		return ObjectPointer;
 	}
-
+	
 	void* GetInterfaceRef() const
 	{
 		return InterfacePointer;
 	}
-
+	
 };
 static_assert(alignof(FScriptInterface) == 0x000008, "Wrong alignment on FScriptInterface");
 static_assert(sizeof(FScriptInterface) == 0x000010, "Wrong size on FScriptInterface");
