@@ -1,16 +1,15 @@
 #pragma once
 
-#include <cstdint>
 #include <functional>
-#include <wtypes.h>
+#include "Types.hpp"
 
 
 
 namespace Pal
 {
-    using ScanCallback = std::function<uint8_t*(uint8_t* address)>;
+    using ScanCallback = std::function<uint8*(uint8* address)>;
 
-    enum ScanSection : uint16_t
+    enum ScanSection : uint16
     {
         TEXT,  // Contains the executable code of the program or library.
         RDATA, // Stores read-only data, such as constants or string literals.
@@ -35,12 +34,12 @@ namespace Pal
         /*
         Dereferences E8 and E9 instructions and retrieves the address. It checks for nested JMP instructions.
         */
-        uint8_t* DereferenceCall(uint8_t* call_addr);
+        uint8* DereferenceCall(uint8* call_addr);
 
         /*
         Dereferences an pointer address from target address.
         */
-        uint8_t* DereferencePointer(uint8_t* address);
+        uint8* DereferencePointer(uint8* address);
 
         /*
         !!Spaces are required that the combo-pattern will work!!
@@ -58,8 +57,8 @@ namespace Pal
         template<class T>
         T Find(const char* combo, ScanSection section, ScanCallback scan_cb)
         {
-            uint8_t* address = IFind(combo, m_Sections[section].Start, m_Sections[section].End);
-            return (T)(scan_cb ? scan_cb(address) : address);
+            uint8* address = IFind(combo, m_Sections[section].Start, m_Sections[section].End);
+            return reinterpret_cast<T>(scan_cb ? scan_cb(address) : address);
         }
 
         /*
@@ -67,20 +66,20 @@ namespace Pal
         it will scan backwards.
         */
         template<class T>
-        T Find(const char* combo, uint8_t* start, uint8_t* end, ScanCallback scan_cb)
+        T Find(const char* combo, uint8* start, uint8* end, ScanCallback scan_cb)
         {
-            uint8_t* address = IFind(combo, start, end);
-            return (T)(scan_cb ? scan_cb(address) : address);
+            uint8* address = IFind(combo, start, end);
+            return reinterpret_cast<T>(scan_cb ? scan_cb(address) : address);
         }
 
         /*
         Find a specicifc pattern in the desired module's section.
         */
         template<class T>
-        T Find(const uint8_t* pattern, const char* mask, ScanSection section, ScanCallback scan_cb)
+        T Find(const uint8* pattern, const char* mask, ScanSection section, ScanCallback scan_cb)
         {
-            uint8_t* address = IFind(pattern, mask, m_Sections[section].Start, m_Sections[section].End);
-            return (T)(scan_cb ? scan_cb(address) : address);
+            uint8* address = IFind(pattern, mask, m_Sections[section].Start, m_Sections[section].End);
+            return reinterpret_cast<T>(scan_cb ? scan_cb(address) : address);
         }
 
         /*
@@ -88,24 +87,24 @@ namespace Pal
         it will scan backwards.
         */
         template<class T>
-        T Find(const uint8_t* pattern, const char* mask, uint8_t* start, uint8_t* end, ScanCallback scan_cb)
+        T Find(const uint8* pattern, const char* mask, uint8* start, uint8* end, ScanCallback scan_cb)
         {
-            uint8_t* address = IFind(pattern, mask, start, end);
-            return (T)(scan_cb ? scan_cb(address) : address);
+            uint8* address = IFind(pattern, mask, start, end);
+            return reinterpret_cast<T>(scan_cb ? scan_cb(address) : address);
         }
 
     protected: /* (I)nternal functions */
-        uint8_t* IFind(const char* combo, uint8_t* start, uint8_t* end);
-        uint8_t* IFind(const uint8_t* pattern, const char* mask, uint8_t* start, uint8_t* end);
+        uint8* IFind(const char* combo, uint8* start, uint8* end);
+        uint8* IFind(const uint8* pattern, const char* mask, uint8* start, uint8* end);
 
 
     protected: /* Variables */
         struct SectionData
         {
-            /* 0x0000 */ uint8_t* Start = nullptr;
-            /* 0x0004 */ uint8_t* End   = nullptr;
-        }       m_Sections[ScanSection::_MAX] = {};
-        HMODULE m_Module                      = nullptr;
+            /* 0x0000 */ uint8* Start = nullptr;
+            /* 0x0004 */ uint8* End   = nullptr;
+        }         m_Sections[ScanSection::_MAX] = {};
+        DllModule m_Module                      = nullptr;
     };
 
 }

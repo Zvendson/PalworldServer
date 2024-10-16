@@ -1,6 +1,7 @@
 #pragma once
 
 #include "PalManager/Macros.hpp"
+#include "PalManager/Types.hpp"
 
 namespace Pal
 {

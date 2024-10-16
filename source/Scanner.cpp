@@ -5,12 +5,12 @@
 
 
 
-namespace
+namespace Pal
 {
-    size_t ToPattern(const char* combo, uint8_t* out_bytes, char* out_mask)
+    uint64 ToPattern(const char* combo, uint8* out_bytes, char* out_mask)
     {
         char lastChar = ' ';
-        uint32_t bytesLength = 0;
+        uint32 bytesLength = 0;
 
         for (unsigned int i = 0; i < strlen(combo); i++)
         {
@@ -24,7 +24,7 @@ namespace
 
             else if (isspace(lastChar))
             {
-                char repr = static_cast<uint8_t>(strtol(&combo[i], 0, 16));
+                char repr = static_cast<uint8>(strtol(&combo[i], 0, 16));
 
                 out_bytes[bytesLength] = repr;
                 out_mask[bytesLength] = 'x';
@@ -40,25 +40,20 @@ namespace
 
         return bytesLength;
     }
-}
-
-
-namespace Pal
-{
 
     Scanner::Scanner(const char* modulename)
     {
-        m_Module = GetModuleHandleA(modulename);
-        auto module_base = (uint64_t)m_Module;
+        m_Module = static_cast<DllModule>(GetModuleHandleA(modulename));
+        auto module_base = reinterpret_cast<uint64>(m_Module);
 
         IMAGE_NT_HEADERS*     nt_header      = ImageNtHeader(m_Module);
-        IMAGE_SECTION_HEADER* section_header = (IMAGE_SECTION_HEADER*)(nt_header + 1);
+        IMAGE_SECTION_HEADER* section_header = reinterpret_cast<IMAGE_SECTION_HEADER*>(nt_header + 1);
 
-        for (size_t i = 0; i < nt_header->FileHeader.NumberOfSections; i++)
+        for (uint64 i = 0; i < nt_header->FileHeader.NumberOfSections; i++)
         {
-            auto name = (char*)section_header->Name;
+            auto name = reinterpret_cast<char*>(section_header->Name);
 
-            uint8_t section = 0xFF;
+            uint8 section = 0xFF;
             if (memcmp(name, ".text", 5) == 0)
                 section = ScanSection::TEXT;
 
@@ -94,8 +89,8 @@ namespace Pal
 
             if (section != 0xFF)
             {
-                uint8_t* start = (uint8_t*)(module_base + section_header->VirtualAddress);
-                uint8_t* end   = start + section_header->Misc.VirtualSize;
+                uint8* start = reinterpret_cast<uint8*>(module_base + section_header->VirtualAddress);
+                uint8* end   = start + section_header->Misc.VirtualSize;
 
                 m_Sections[section].Start = start;
                 m_Sections[section].End   = end;
@@ -107,9 +102,9 @@ namespace Pal
 
 
 
-    uint8_t* Scanner::IFind(const char* combo, uint8_t* start, uint8_t* end)
+    uint8* Scanner::IFind(const char* combo, uint8* start, uint8* end)
     {
-        uint8_t pattern[256];
+        uint8 pattern[256];
         char    mask[256];
         ToPattern(combo, pattern, mask);
 
@@ -118,22 +113,22 @@ namespace Pal
 
 
 
-    uint8_t* Scanner::IFind(const uint8_t* pattern, const char* mask, uint8_t* start, uint8_t* end)
+    uint8* Scanner::IFind(const uint8* pattern, const char* mask, uint8* start, uint8* end)
     {
-        size_t len = strlen(mask);
+        uint64 len = strlen(mask);
         end -= len;
 
-        auto check_pattern = [&](uint8_t* addr) -> bool
+        auto check_pattern = [&](uint8* addr) -> bool
         {
-            if (*(uint8_t*)addr != pattern[0])
+            if (*reinterpret_cast<uint8*>(addr) != pattern[0])
                 return false;
 
-            for (size_t index = 1; index < len; index++)
+            for (uint64 index = 1; index < len; index++)
             {
                 if (mask && mask[index] != 'x')
                     continue;
 
-                uint8_t byte = *(uint8_t*)(addr + index);
+                uint8 byte = *reinterpret_cast<uint8*>(addr + index);
                 if (byte != pattern[index])
                     return false;
             }
@@ -143,13 +138,13 @@ namespace Pal
 
         if (start > end) // Scan backwards
         {
-            for (uint8_t* address = start; address >= end; address--)
+            for (uint8* address = start; address >= end; address--)
                 if (check_pattern(address))
                     return address;
         }
         else             // Scan forwards
         {
-            for (uint8_t* address = start; address < end; address++)
+            for (uint8* address = start; address < end; address++)
                 if (check_pattern(address))
                     return address;
         }
@@ -159,31 +154,31 @@ namespace Pal
 
 
 
-    uint8_t* Scanner::DereferenceCall(uint8_t* call_addr)
+    uint8* Scanner::DereferenceCall(uint8* call_addr)
     {
-        constexpr uint8_t CALL = 0xE8;
-        constexpr uint8_t JMPL = 0xE9; // long jump
-        constexpr uint8_t JMPS = 0xEB; // short jump
+        constexpr uint8 CALL = 0xE8;
+        constexpr uint8 JMPL = 0xE9; // long jump
+        constexpr uint8 JMPS = 0xEB; // short jump
 
         if (!call_addr)
             return nullptr;
 
-        uint8_t* address = nullptr;
-        uint8_t  opcode  = *(uint8_t*)call_addr;
+        uint8* address = nullptr;
+        uint8  opcode = *reinterpret_cast<uint8*>(call_addr);
 
         switch (opcode)
         {
             case CALL:
             case JMPL:
                 {
-                    const auto offset = *(int*)(call_addr + 0x0001);
+                    const auto offset = *reinterpret_cast<int32*>(call_addr + 0x0001);
                     address = call_addr + 0x0005 + offset;
                 }
                 break;
 
             case JMPS:
                 {
-                    const auto offset = *(uint8_t*)(call_addr + 0x0001);
+                    const auto offset = *reinterpret_cast<uint8*>(call_addr + 0x0001);
                     address = call_addr + 0x0002 + offset;
                 }
                 break;
@@ -201,9 +196,9 @@ namespace Pal
 
 
 
-    uint8_t* Scanner::DereferencePointer(uint8_t* address)
+    uint8* Scanner::DereferencePointer(uint8* address)
     {
-        int32_t rva = *(int32_t*)(address);
+        int32 rva = *reinterpret_cast<uint32*>(address);
         return address + rva + 0x0004;
     }
 
