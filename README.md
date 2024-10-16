@@ -3,6 +3,9 @@ A framework that allows users to generate plugins for Palworld dedicated Servers
 
 Currently only supported on Windows. If you have knowledge how to treat it for Linux, please reach out to me.
 
+
+**if you like this framwork, please consider supporting me on [Ko-Fi](https://ko-fi.com/zvend).<br>The more support I get, the more I can develop on it!**
+
 ## Credits
 * [Epic Games](https://github.com/EpicGames)
 * [MinHook](https://github.com/TsudaKageyu/minhook)
