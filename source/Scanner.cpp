@@ -203,7 +203,7 @@ namespace Pal
 
     uint8_t* Scanner::DereferencePointer(uint8_t* address)
     {
-        int rva = *(int*)(address);
+        int32_t rva = *(int32_t*)(address);
         return address + rva + 0x0004;
     }
 
