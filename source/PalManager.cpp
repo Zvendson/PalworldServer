@@ -5,6 +5,8 @@
 #include "Core.hpp"
 #include <PalSDK/Basic.hpp>
 #include <PalSDK/Engine_classes.hpp>
+#include <chrono>
+#include <thread>
 
 
 void(*PalPrint)(const wchar_t* fmt, const wchar_t* text, uint64_t, uint64_t) = nullptr;
@@ -16,6 +18,19 @@ void hook_PalPrint(const wchar_t* fmt, const wchar_t* text, uint64_t, uint64_t)
 
     logger.Info(message);
 }
+
+
+// Temp
+void PalManagerMain()
+{
+    do
+    {
+        using namespace std::chrono_literals;
+        std::this_thread::sleep_for(2000ms);
+    } while (!PalSDK::UWorld::GetWorld());
+
+    PAL_INFO("PalServer Started.");
+};
 
 namespace Pal
 {
@@ -67,6 +82,10 @@ namespace Pal
             PAL_ERROR("PalPrint-Hook enabling failed with {}.", (int)mh_status);
             return false;
         }
+
+        auto thread = CreateThread(0, 0, (LPTHREAD_START_ROUTINE)PalManagerMain, 0, 0, 0);
+        if (thread)
+            CloseHandle(thread);
 
         return true;
     }
