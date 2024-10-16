@@ -7,8 +7,9 @@ BOOL APIENTRY DllMain(HINSTANCE hinstDLL, DWORD  fdwReason, LPVOID)
 {
     if (fdwReason == DLL_PROCESS_ATTACH)
     {
-        printf("PID = %d\n", GetCurrentProcessId());
         setupWrappers();
+
+        LoadLibrary(TEXT("PalManager.dll"));
     }
 
     return TRUE;

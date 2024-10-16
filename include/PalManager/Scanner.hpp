@@ -6,7 +6,7 @@
 
 
 
-namespace PalServer
+namespace Pal
 {
     using ScanCallback = std::function<uint8_t*(uint8_t* address)>;
 
@@ -32,7 +32,7 @@ namespace PalServer
     public:
         Scanner(const char* modulename);
 
-        /* 
+        /*
         Dereferences E8 and E9 instructions and retrieves the address. It checks for nested JMP instructions.
         */
         uint8_t* DereferenceCall(uint8_t* call_addr);
@@ -46,7 +46,7 @@ namespace PalServer
         !!Spaces are required that the combo-pattern will work!!
 
         Find a specicifc combo-pattern in the desired module's section. Combo-pattern allow spaces and wildcards.
-        Examples: 
+        Examples:
           1. "55 48 89 E5 48 C7 05 ? ? ? ? 69 00 00 00 48 89 EC C3"
           2. "55 48 89 E5 48 C7 05 * * * * 69 00 00 00 48 89 EC C3"
           3. "55 48 89 E5 48 C7 05 _ _ _ _ 69 00 00 00 48 89 EC C3"
@@ -62,8 +62,8 @@ namespace PalServer
             return (T)(scan_cb ? scan_cb(address) : address);
         }
 
-        /* 
-        Find a specific pattern between a start and end address. If start address is bigger than its end address, 
+        /*
+        Find a specific pattern between a start and end address. If start address is bigger than its end address,
         it will scan backwards.
         */
         template<class T>
@@ -83,8 +83,8 @@ namespace PalServer
             return (T)(scan_cb ? scan_cb(address) : address);
         }
 
-        /* 
-        Find a specific pattern between a start and end address. If start address is bigger than its end address, 
+        /*
+        Find a specific pattern between a start and end address. If start address is bigger than its end address,
         it will scan backwards.
         */
         template<class T>

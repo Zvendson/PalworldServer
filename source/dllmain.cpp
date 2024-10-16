@@ -1,6 +1,4 @@
-#include <Scanner.hpp>
-#include <PalServer.hpp>
-
+#include <PalManager.hpp>
 
 
 
@@ -8,10 +6,12 @@ BOOL APIENTRY DllMain(HINSTANCE hinstDLL, DWORD  fdwReason, LPVOID)
 {
     if (fdwReason == DLL_PROCESS_ATTACH)
     {
-        printf("PID = %d\n", GetCurrentProcessId());
-        PalServer::StartUp(hinstDLL);
+        Pal::StartUp(hinstDLL);
+    }
+    else if (fdwReason == DLL_PROCESS_DETACH)
+    {
+        Pal::Shutdown();
     }
 
     return TRUE;
 }
-

@@ -1,4 +1,4 @@
-#include "Scanner.hpp"
+#include "PalManager/Scanner.hpp"
 
 #include <Psapi.h>
 #include <DbgHelp.h>
@@ -43,7 +43,7 @@ namespace
 }
 
 
-namespace PalServer
+namespace Pal
 {
 
     Scanner::Scanner(const char* modulename)
@@ -92,7 +92,7 @@ namespace PalServer
             else if (memcmp(name, ".debug", 6) == 0)
                 section = ScanSection::DEBUG;
 
-            if (section != 0xFF) 
+            if (section != 0xFF)
             {
                 uint8_t* start = (uint8_t*)(module_base + section_header->VirtualAddress);
                 uint8_t* end   = start + section_header->Misc.VirtualSize;
@@ -143,14 +143,14 @@ namespace PalServer
 
         if (start > end) // Scan backwards
         {
-            for (uint8_t* address = start; address >= end; address--)            
+            for (uint8_t* address = start; address >= end; address--)
                 if (check_pattern(address))
                     return address;
         }
         else             // Scan forwards
         {
-            for (uint8_t* address = start; address < end; address++)            
-                if (check_pattern(address))                
+            for (uint8_t* address = start; address < end; address++)
+                if (check_pattern(address))
                     return address;
         }
 
@@ -171,31 +171,31 @@ namespace PalServer
         uint8_t* address = nullptr;
         uint8_t  opcode  = *(uint8_t*)call_addr;
 
-        switch (opcode) 
+        switch (opcode)
         {
             case CALL:
-            case JMPL: 
+            case JMPL:
                 {
                     const auto offset = *(int*)(call_addr + 0x0001);
                     address = call_addr + 0x0005 + offset;
-                } 
+                }
                 break;
 
-            case JMPS: 
+            case JMPS:
                 {
                     const auto offset = *(uint8_t*)(call_addr + 0x0001);
                     address = call_addr + 0x0002 + offset;
-                } 
+                }
                 break;
 
             default: // Invalid opcode
-                return nullptr; 
+                return nullptr;
         }
 
         // Check for nested JMPs or CALLs
-        if (const auto nested_call = DereferenceCall(address)) 
+        if (const auto nested_call = DereferenceCall(address))
             return nested_call;
-        
+
         return address;
     }
 
