@@ -49,6 +49,11 @@ include(json)
 add_subdirectory(Dependencies/versiondll)
 add_subdirectory(Dependencies/PalSDK)
 
+# Set them all to the "Dependencies" folder
+set_target_properties(spdlog PROPERTIES FOLDER "Dependencies")
+set_target_properties(minhook PROPERTIES FOLDER "Dependencies")
+set_target_properties(versiondll PROPERTIES FOLDER "Dependencies")
+set_target_properties(PalSDK PROPERTIES FOLDER "Dependencies")
 
 ##############
 # PalManager #
