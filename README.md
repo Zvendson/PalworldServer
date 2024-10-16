@@ -1,13 +1,26 @@
-# PalServer
+# PalManager
 A framework that allows users to generate plugins for Palworld dedicated Servers.
 
-Currently only supported on Windows. If you have knowledge ho to treat it for Linux, please reach out to me.
+Currently only supported on Windows. If you have knowledge how to treat it for Linux, please reach out to me.
 
-## Dependencies
+## Credits
+* [Epic Games](https://github.com/EpicGames)
+* [MinHook](https://github.com/TsudaKageyu/minhook)
+* [spdlog](https://github.com/gabime/spdlog)
+* [nlohmann json](https://github.com/nlohmann/json)
+* [version.dll Wrapper](https://github.com/SubstituteR/DllWrapper)
+* [SDK Generator Dumper-7](https://github.com/Encryqed/Dumper-7)
+* [Ultimeit](https://github.com/Ultimeit)
+
+
+
+## Developing & Contributing
+
+### Dependencies
 * [cmake v3.16 or higher](https://cmake.org/download/)
 * An IDE supported by cmake, preferable [Visual Studio](https://visualstudio.microsoft.com)
 
-## Building the .dll
+### Building the .dll
 1. Clone the repo
    ```cmd
    git clone https://github.com/Zvendson/PalworldServer.git
@@ -34,10 +47,9 @@ Currently only supported on Windows. If you have knowledge ho to treat it for Li
    cmake --build build --config Release
    ```
 
-## Credits
-* [MinHook](https://github.com/TsudaKageyu/minhook)
-* [version.dll Wrapper](https://github.com/SubstituteR/DllWrapper)
-* [spdlog](https://github.com/gabime/spdlog)
-* [nlohmann json](https://github.com/nlohmann/json)
-* [Epic Games](https://github.com/EpicGames)
-* [Ultimeit](https://github.com/Ultimeit)
+   ### Contributing
+   \<Under Construction\>
+
+   **I dont want to go into detail at this state of the API yet.**<br>
+   If you want to contribute something, open a pull request without caring any special "rules".<br>
+   Its in complete Alpha state so everything can change at this stage. Also means I am very open for special code designs.
